@@ -1,0 +1,106 @@
+topics:
+  - name: operator-algebras
+    search_keywords:
+      - "C*-algebra"
+      - "von Neumann algebra"
+      - "operator algebra"
+      - "W*-algebra"
+      - "spectral theory"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Analysis.CStarAlgebra"
+        - "Mathlib.Analysis.VonNeumannAlgebra"
+        - "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus"
+        - "Mathlib.Analysis.NormedSpace.Star."
+        - "Mathlib.Analysis.InnerProductSpace.Spectrum"
+      type_mentions:
+        - "CStarAlgebra"
+        - "VonNeumannAlgebra"
+        - "StarAlgebra"
+        - "StarRing"
+        - "Spectrum"
+        - "ContinuousFunctionalCalculus"
+        - "NNSpectrumClass"
+      name_patterns:
+        - ".*[Cc]Star.*"
+        - ".*[Vv]on[Nn]eumann.*"
+        - ".*[Ss]pectrum.*"
+        - ".*[Ss]tarAlg.*"
+
+  - name: functional-analysis
+    search_keywords:
+      - "Hilbert space"
+      - "Banach space"
+      - "bounded operator"
+      - "compact operator"
+      - "self-adjoint operator"
+      - "trace class"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Analysis.InnerProductSpace."
+        - "Mathlib.Analysis.NormedSpace."
+        - "Mathlib.Analysis.Normed."
+        - "Mathlib.Topology.Algebra.Module.LinearMap"
+        - "Mathlib.Analysis.LocallyConvex."
+      type_mentions:
+        - "InnerProductSpace"
+        - "NormedSpace"
+        - "NormedAddCommGroup"
+        - "ContinuousLinearMap"
+        - "ContinuousLinearEquiv"
+        - "IsBoundedLinearMap"
+        - "IsCompact"
+        - "Hilbert"
+      name_patterns:
+        - ".*[Hh]ilbert.*"
+        - ".*[Bb]anach.*"
+        - ".*[Bb]ounded[Ll]inear.*"
+        - ".*[Cc]ompact[Oo]p.*"
+
+  - name: measure-theory
+    search_keywords:
+      - "measure theory"
+      - "Lebesgue measure"
+      - "probability measure"
+      - "Gaussian measure"
+      - "Borel measure"
+    matchers:
+      module_prefixes:
+        - "Mathlib.MeasureTheory."
+        - "Mathlib.Probability."
+      type_mentions:
+        - "MeasureSpace"
+        - "MeasurableSpace"
+        - "Measure"
+        - "ProbabilityMeasure"
+        - "GaussianMeasure"
+        - "Integrable"
+        - "MeasureTheory.Integral"
+      name_patterns:
+        - ".*[Mm]easur.*"
+        - ".*[Ii]ntegral.*"
+        - ".*[Bb]orel.*"
+
+  - name: distributions-schwartz
+    search_keywords:
+      - "distribution"
+      - "Schwartz space"
+      - "tempered distribution"
+      - "Fourier transform"
+      - "Sobolev space"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Analysis.Distribution."
+        - "Mathlib.Analysis.SchwartzSpace"
+        - "Mathlib.Analysis.Fourier."
+        - "Mathlib.Analysis.SpecialFunctions.Integrals"
+      type_mentions:
+        - "SchwartzMap"
+        - "Distribution"
+        - "FourierTransform"
+        - "SobolevSpace"
+      name_patterns:
+        - ".*[Ss]chwartz.*"
+        - ".*[Ff]ourier.*"
+        - ".*[Ss]obolev.*"
+        - ".*[Dd]istribution.*"
