@@ -1,3 +1,63 @@
 repos:
   - url: https://github.com/leanprover-community/mathlib4
     description: "The math library for Lean 4 (indexed via cache, not cloned)"
+
+  # Operator algebras & quantum
+  - url: https://github.com/themathqueen/monlib4
+    description: "Von Neumann algebras, quantum information theory"
+  - url: https://github.com/kkytola/VirasoroProject
+    description: "Virasoro algebra, Verma modules, conformal field theory"
+  - url: https://github.com/Timeroot/Lean-QuantumInfo
+    description: "Quantum information theory, quantum channels"
+  - url: https://github.com/alexjgreig/QHL-Lean
+    description: "Quantum Hoare logic"
+  - url: https://github.com/mrdouglasny/OSforGFF
+    description: "Osterwalder-Schrader axioms for Gaussian free field"
+
+  # Spectral theory
+  - url: https://github.com/oliver-butterley/SpectralThm
+    description: "Spectral theorem formalization"
+
+  # Probability & stochastic processes
+  - url: https://github.com/cameronfreer/exchangeability
+    description: "Exchangeability, de Finetti's theorem"
+  - url: https://github.com/formalproofs/probability
+    description: "Probability theory fundamentals"
+  - url: https://github.com/leanprover/SampCert
+    description: "Certified differential privacy sampling"
+  - url: https://github.com/or4nge19/MCMC
+    description: "Markov chain Monte Carlo"
+  - url: https://github.com/RemyDegenne/lean-bandits
+    description: "Bandit algorithms, probability bounds"
+  - url: https://github.com/FredRaj3/SemicircleLaw
+    description: "Wigner semicircle law, random matrix theory"
+  - url: https://github.com/YellPika/quasi-borel-spaces
+    description: "Quasi-Borel spaces, categorical probability"
+  - url: https://github.com/vbeffara/RMT4
+    description: "Random matrix theory, complex analysis"
+
+  # Analysis & ergodic theory
+  - url: https://github.com/teorth/analysis
+    description: "Tao's analysis formalization"
+  - url: https://github.com/lua-vr/pointwise-birkhoff
+    description: "Birkhoff ergodic theorem"
+  - url: https://github.com/kkytola/ExtremeValueProject
+    description: "Extreme value theory"
+  - url: https://github.com/verified-optimization/CvxLean
+    description: "Convex optimization, functional analysis"
+  - url: https://github.com/AxiomMath/partial-regularity
+    description: "Partial regularity theory"
+  - url: https://github.com/girving/ray
+    description: "Analytic number theory, special functions"
+  - url: https://github.com/girving/interval
+    description: "Interval arithmetic, rigorous numerics"
+  - url: https://github.com/girving/series
+    description: "Power series, analytic functions"
+
+  # Group theory & representations
+  - url: https://github.com/ImperialCollegeLondon/FLT
+    description: "Fermat's Last Theorem (uses representation theory)"
+  - url: https://github.com/sunoru/finite-groups
+    description: "Finite group theory"
+  - url: https://github.com/DynamicalSystems/BET
+    description: "Birkhoff ergodic theorem, dynamical systems"

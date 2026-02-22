@@ -5,27 +5,50 @@ topics:
       - "von Neumann algebra"
       - "operator algebra"
       - "W*-algebra"
-      - "spectral theory"
     matchers:
       module_prefixes:
         - "Mathlib.Analysis.CStarAlgebra"
         - "Mathlib.Analysis.VonNeumannAlgebra"
         - "Mathlib.Analysis.SpecialFunctions.ContinuousFunctionalCalculus"
         - "Mathlib.Analysis.NormedSpace.Star."
-        - "Mathlib.Analysis.InnerProductSpace.Spectrum"
       type_mentions:
         - "CStarAlgebra"
         - "VonNeumannAlgebra"
         - "StarAlgebra"
         - "StarRing"
-        - "Spectrum"
         - "ContinuousFunctionalCalculus"
         - "NNSpectrumClass"
       name_patterns:
         - ".*[Cc]Star.*"
         - ".*[Vv]on[Nn]eumann.*"
-        - ".*[Ss]pectrum.*"
         - ".*[Ss]tarAlg.*"
+
+  - name: spectral-theory
+    search_keywords:
+      - "spectral theory"
+      - "spectrum"
+      - "eigenvalue"
+      - "resolvent"
+      - "spectral measure"
+      - "self-adjoint operator"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Analysis.InnerProductSpace.Spectrum"
+        - "Mathlib.Analysis.NormedSpace.Spectrum"
+        - "Mathlib.Analysis.CStarAlgebra.Spectrum"
+        - "Mathlib.FieldTheory.IsAlgClosed.Spectrum"
+        - "Mathlib.LinearAlgebra.Eigenspace."
+      type_mentions:
+        - "Spectrum"
+        - "IsEigenvalue"
+        - "eigenspace"
+        - "HasEigenvalue"
+        - "resolvent"
+      name_patterns:
+        - ".*[Ss]pectrum.*"
+        - ".*[Ss]pectral.*"
+        - ".*[Ee]igen.*"
+        - ".*[Rr]esolvent.*"
 
   - name: functional-analysis
     search_keywords:
@@ -35,13 +58,15 @@ topics:
       - "compact operator"
       - "self-adjoint operator"
       - "trace class"
+      - "Frechet derivative"
     matchers:
       module_prefixes:
         - "Mathlib.Analysis.InnerProductSpace."
         - "Mathlib.Analysis.NormedSpace."
         - "Mathlib.Analysis.Normed."
-        - "Mathlib.Topology.Algebra.Module.LinearMap"
         - "Mathlib.Analysis.LocallyConvex."
+        - "Mathlib.Topology.Algebra.Module."
+        - "Mathlib.Analysis.Calculus."
       type_mentions:
         - "InnerProductSpace"
         - "NormedSpace"
@@ -49,37 +74,97 @@ topics:
         - "ContinuousLinearMap"
         - "ContinuousLinearEquiv"
         - "IsBoundedLinearMap"
-        - "IsCompact"
-        - "Hilbert"
+        - "UniformSpace"
       name_patterns:
         - ".*[Hh]ilbert.*"
         - ".*[Bb]anach.*"
         - ".*[Bb]ounded[Ll]inear.*"
         - ".*[Cc]ompact[Oo]p.*"
+        - ".*[Ff]rechet.*"
 
   - name: measure-theory
     search_keywords:
       - "measure theory"
       - "Lebesgue measure"
-      - "probability measure"
-      - "Gaussian measure"
       - "Borel measure"
+      - "sigma algebra"
+      - "measurable function"
+      - "Radon-Nikodym"
     matchers:
       module_prefixes:
         - "Mathlib.MeasureTheory."
-        - "Mathlib.Probability."
       type_mentions:
         - "MeasureSpace"
         - "MeasurableSpace"
         - "Measure"
-        - "ProbabilityMeasure"
-        - "GaussianMeasure"
         - "Integrable"
         - "MeasureTheory.Integral"
+        - "SignedMeasure"
       name_patterns:
         - ".*[Mm]easur.*"
         - ".*[Ii]ntegral.*"
         - ".*[Bb]orel.*"
+        - ".*[Rr]adon[Nn]ikodym.*"
+
+  - name: probability-theory
+    search_keywords:
+      - "probability measure"
+      - "random variable"
+      - "martingale"
+      - "Brownian motion"
+      - "stochastic process"
+      - "conditional expectation"
+      - "Gaussian"
+      - "exchangeability"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Probability."
+      type_mentions:
+        - "ProbabilityMeasure"
+        - "IsProbabilityMeasure"
+        - "Martingale"
+        - "Submartingale"
+        - "Supermartingale"
+        - "ConditionalExpectation"
+        - "IndepFun"
+      name_patterns:
+        - ".*[Mm]artingale.*"
+        - ".*[Bb]rownian.*"
+        - ".*[Gg]aussian.*"
+        - ".*[Ss]tochastic.*"
+        - ".*[Pp]robability.*"
+        - ".*[Ee]xchangeab.*"
+
+  - name: topological-groups
+    search_keywords:
+      - "topological group"
+      - "compact group"
+      - "locally compact group"
+      - "Haar measure"
+      - "unitary group"
+      - "Pontryagin duality"
+      - "representation"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Topology.Algebra.Group."
+        - "Mathlib.Topology.Algebra.ContinuousMonoidHom"
+        - "Mathlib.MeasureTheory.Measure.Haar."
+        - "Mathlib.Analysis.SpecificLimits.Normed"
+        - "Mathlib.Topology.Algebra.UniformGroup"
+        - "Mathlib.RepresentationTheory."
+      type_mentions:
+        - "TopologicalGroup"
+        - "ContinuousMul"
+        - "LocallyCompactSpace"
+        - "IsHaarMeasure"
+        - "UnitaryGroup"
+        - "Representation"
+        - "GroupAlgebra"
+      name_patterns:
+        - ".*[Hh]aar.*"
+        - ".*[Uu]nitary.*"
+        - ".*[Pp]ontryagin.*"
+        - ".*[Rr]epresentation.*"
 
   - name: distributions-schwartz
     search_keywords:
