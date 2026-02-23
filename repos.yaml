@@ -56,6 +56,7 @@ repos:
 
   # Physics formalization
   - url: https://github.com/lean-phys-community/PhysLean
+    branch: master
     description: "Digitalized physics results in Lean (492 stars)"
 
   # Group theory & representations
