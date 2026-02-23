@@ -13,6 +13,12 @@ repos:
     description: "Quantum Hoare logic"
   - url: https://github.com/mrdouglasny/OSforGFF
     description: "Osterwalder-Schrader axioms for Gaussian free field"
+  - url: https://github.com/mrdouglasny/gaussian-field
+    description: "Gaussian free field formalization"
+  - url: https://github.com/mrdouglasny/GFF
+    description: "Gaussian free field"
+  - url: https://github.com/mrdouglasny/QFTFramework
+    description: "QFT framework formalization"
 
   # Spectral theory
   - url: https://github.com/oliver-butterley/SpectralThm
