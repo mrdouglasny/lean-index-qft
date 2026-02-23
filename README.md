@@ -2,16 +2,16 @@
 
 Topic index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**95,444 topic-matched declarations** across **31 repositories** (scanned 42 repos, 247K declarations).
+**67,382 topic-matched declarations** across **30 repositories** (scanned 41 repos, 71K declarations).
 
 Tracks Lean declarations related to:
-- **Functional analysis** (36,755 matches): Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
-- **Measure theory** (33,313 matches): measure spaces, integration, Lebesgue/Borel measures, Radon-Nikodym
-- **Probability theory** (8,088 matches): martingales, conditional expectation, Brownian motion, exchangeability
-- **Topological groups** (6,991 matches): Haar measure, unitary groups, representations, locally compact groups
-- **Operator algebras** (4,467 matches): C*-algebras, von Neumann algebras, star algebras
-- **Spectral theory** (3,703 matches): spectrum, eigenvalues, resolvent, spectral measures
-- **Distributions & Schwartz** (2,127 matches): Schwartz space, Fourier transforms, Sobolev spaces
+- **Functional analysis** (27,028 matches): Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
+- **Measure theory** (22,216 matches): measure spaces, integration, Lebesgue/Borel measures, Radon-Nikodym
+- **Probability theory** (5,634 matches): martingales, conditional expectation, Brownian motion, exchangeability
+- **Topological groups** (5,224 matches): Haar measure, unitary groups, representations, locally compact groups
+- **Operator algebras** (3,060 matches): C*-algebras, von Neumann algebras, star algebras
+- **Spectral theory** (2,568 matches): spectrum, eigenvalues, resolvent, spectral measures
+- **Distributions & Schwartz** (1,652 matches): Schwartz space, Fourier transforms, Sobolev spaces
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
 
