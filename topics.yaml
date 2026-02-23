@@ -166,6 +166,49 @@ topics:
         - ".*[Pp]ontryagin.*"
         - ".*[Rr]epresentation.*"
 
+  - name: quantum-field-theory
+    search_keywords:
+      - "quantum field theory"
+      - "Wick theorem"
+      - "perturbation theory"
+      - "Feynman diagram"
+      - "anomaly cancellation"
+      - "Standard Model"
+      - "Lorentz group"
+      - "gauge theory"
+    matchers:
+      module_prefixes:
+        - "PhysLean.QFT."
+        - "PhysLean.Particles."
+        - "PhysLean.QuantumMechanics."
+        - "PhysLean.Relativity."
+        - "PhysLean.Electromagnetism."
+        - "PhysLean.ClassicalMechanics."
+        - "PhysLean.Cosmology."
+        - "PhysLean.CondensedMatter."
+        - "PhysLean.SpaceAndTime."
+        - "PhysLean.Mathematics."
+      type_mentions:
+        - "WickContraction"
+        - "FieldSpecification"
+        - "LorentzGroup"
+        - "LorentzAlgebra"
+        - "CliffordAlgebra"
+        - "AnomalyCancellation"
+        - "StandardModel"
+        - "HiggsBoson"
+        - "WickAlgebra"
+      name_patterns:
+        - ".*[Ww]ick.*"
+        - ".*[Ff]eynman.*"
+        - ".*[Ll]orentz.*"
+        - ".*[Gg]auge.*"
+        - ".*[Qq]uantum.*"
+        - ".*[Aa]nomal.*"
+        - ".*[Hh]iggs.*"
+        - ".*[Bb]oson.*"
+        - ".*[Ff]ermion.*"
+
   - name: distributions-schwartz
     search_keywords:
       - "distribution"
