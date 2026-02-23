@@ -5,10 +5,12 @@ Repositories with declarations matching the configured topics.
 | Repository | Topic Matches | Total Decls | Source | Last Indexed |
 |-----------|:---:|:---:|--------|-------------|
 | [mathlib4](https://github.com/leanprover-community/mathlib4) | 49,798 | 49,798 | curated | 2026-02-23 |
+| [PhysLean](https://github.com/lean-phys-community/PhysLean) | 6,461 | 7,206 | curated | 2026-02-23 |
 | [Measure](https://github.com/SStarrySSky/Measure) | 1,814 | 1,933 | github_search | 2026-02-23 |
 | [exchangeability](https://github.com/cameronfreer/exchangeability) | 818 | 875 | curated | 2026-02-23 |
 | [monlib4](https://github.com/themathqueen/monlib4) | 647 | 2,416 | curated | 2026-02-23 |
 | [analysis](https://github.com/teorth/analysis) | 626 | 3,668 | curated | 2026-02-23 |
+| [BrownianMotion](https://github.com/RemyDegenne/brownian-motion) | 609 | 787 | reservoir | 2026-02-23 |
 | [quasi-borel-spaces](https://github.com/YellPika/quasi-borel-spaces) | 551 | 630 | curated | 2026-02-23 |
 | [FLT](https://github.com/ImperialCollegeLondon/FLT) | 334 | 1,760 | curated | 2026-02-23 |
 | [OSforGFF](https://github.com/mrdouglasny/OSforGFF) | 318 | 808 | curated | 2026-02-23 |
@@ -35,6 +37,6 @@ Repositories with declarations matching the configured topics.
 | [series](https://github.com/girving/series) | 4 | 182 | curated | 2026-02-23 |
 | [lean-qkd](https://github.com/Axiomatic-AI/lean-qkd) | 2 | 8 | github_search | 2026-02-23 |
 
-**56,404 topic-matched declarations across 30 repositories**
+**63,474 topic-matched declarations across 32 repositories**
 
-*Scanned 42 repositories (71,892 total declarations) from Mathlib, Lean Reservoir, GitHub search, and curated lists.*
+*Scanned 42 repositories (79,885 total declarations) from Mathlib, Lean Reservoir, GitHub search, and curated lists.*

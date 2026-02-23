@@ -1,6 +1,60 @@
 # Changelog (since 2026-02-16)
 
-## New Declarations (71892)
+## New Declarations (79885)
+
+### BrownianMotion (+787)
+
+- `extraHead` (def) in verso.Manual
+- `config` (def) in verso.Manual
+- `main` (def) in verso.Manual
+- `MeasureTheory.debut` (def) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_eq_ite` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_eq_hittingAfter_indicator` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.hittingAfter_eq_debut` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_empty` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_univ` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_prod` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_prod_univ` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_univ_prod` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_anti` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.notMem_of_lt_debut` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_eq_top_iff` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.le_debut` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_mem_set` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_mem_set_of_ne_top` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_le_of_mem` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_le_iff` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_lt_iff` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.debut_mono` (lemma) in BrownianMotion.Debut.Basic
+- `MeasureTheory.isStoppingTime_debut` (theorem) in BrownianMotion.Debut.Basic
+- `MeasureTheory.isStoppingTime_hittingAfter'` (theorem) in BrownianMotion.Debut.Basic
+- `MeasureTheory.𝓚₀` (def) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.empty_mem_𝓚₀` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.subset_Iic_of_mem_𝓚₀` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.measurableSet_snd_of_mem_𝓚₀` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.inter_mem_𝓚₀` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓚` (inductive) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓚₀_subset_𝓚` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.mem_𝓚_iff` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.empty_mem_𝓚` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.subset_Iic_of_mem_𝓚` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.union_mem_𝓚` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.measurableSet_snd_of_mem_𝓚` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.inter_mem_𝓚` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓚δ` (def) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.subset_Iic_of_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓚_subset_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.empty_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.union_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.inter_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.iInter_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.iInf_snd_eq_snd_iInf_of_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.measurableSet_snd_of_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓛₀` (def) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓛₁` (inductive) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓛` (def) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.𝓛σ` (def) in BrownianMotion.Debut.Approximation
+- ... and 737 more
 
 ### CvxLean (+1211)
 
@@ -437,6 +491,60 @@
 - `gaussian_regulator_integrable'` (lemma) in OSforGFF.CovarianceMomentum
 - `freeCovariance_regulated_uniformly_bounded` (lemma) in OSforGFF.CovarianceMomentum
 - ... and 758 more
+
+### PhysLean (+7206)
+
+- `lintStyleCli` (def) in scripts.mathlib_textLint_on_hepLean
+- `heplean_lint_style` (def) in scripts.mathlib_textLint_on_hepLean
+- `main` (def) in scripts.MetaPrograms.module_doc_lint
+- `PhysLeanTODOItem` (def) in scripts.find_TODOs
+- `TODOFinder` (def) in scripts.find_TODOs
+- `TODOContext` (structure) in scripts.find_TODOs
+- `printTODO` (def) in scripts.find_TODOs
+- `filePathToGitPath` (def) in scripts.find_TODOs
+- `docTODO` (def) in scripts.find_TODOs
+- `hepLeanLintFile` (def) in scripts.MetaPrograms.regex_lint
+- `todoFileHeader` (def) in scripts.find_TODOs
+- `getStats` (def) in scripts.MetaPrograms.local_stats
+- `Stats.toHtml` (def) in scripts.stats
+- `IsUpperCamal` (def) in scripts.type_former_lint
+- `getDocString` (def) in scripts.openAI_doc_check
+- `header` (def) in scripts.openAI_doc_check
+- `DocGen4.Output.baseHtmlGenerator` (def) in scripts.Template
+- `DocGen4.Output.baseHtml` (def) in scripts.Template
+- `addModulesIn` (def) in scripts.check_file_imports
+- `expectedPhysLeanImports` (def) in scripts.check_file_imports
+- `listDif` (def) in scripts.check_file_imports
+- `arrayImportSorted` (def) in scripts.check_file_imports
+- `checkMissingImports` (def) in scripts.check_file_imports
+- `ClassicalMechanics.eulerLagrangeOp` (def) in PhysLean.ClassicalMechanics.EulerLagrange
+- `ClassicalMechanics.eulerLagrangeOp_eq` (lemma) in PhysLean.ClassicalMechanics.EulerLagrange
+- `ClassicalMechanics.eulerLagrangeOp_zero` (lemma) in PhysLean.ClassicalMechanics.EulerLagrange
+- `ClassicalMechanics.euler_lagrange_varGradient` (theorem) in PhysLean.ClassicalMechanics.EulerLagrange
+- `ClassicalMechanics.hamiltonEqOp` (def) in PhysLean.ClassicalMechanics.HamiltonsEquations
+- `ClassicalMechanics.hamiltonEqOp_eq` (lemma) in PhysLean.ClassicalMechanics.HamiltonsEquations
+- `ClassicalMechanics.hamiltonEqOp_eq_zero_iff_hamiltons_equations` (lemma) in PhysLean.ClassicalMechanics.HamiltonsEquations
+- `ClassicalMechanics.hamiltons_equations_varGradient` (theorem) in PhysLean.ClassicalMechanics.HamiltonsEquations
+- `Constants.ℏ` (def) in PhysLean.QuantumMechanics.PlanckConstant
+- `Constants.ℏ_pos` (lemma) in PhysLean.QuantumMechanics.PlanckConstant
+- `Constants.ℏ_nonneg` (lemma) in PhysLean.QuantumMechanics.PlanckConstant
+- `Constants.ℏ_ne_zero` (lemma) in PhysLean.QuantumMechanics.PlanckConstant
+- `Constants.kBAx` (def) in PhysLean.StatisticalMechanics.BoltzmannConstant
+- `Constants.kB` (def) in PhysLean.StatisticalMechanics.BoltzmannConstant
+- `Constants.kB_pos` (lemma) in PhysLean.StatisticalMechanics.BoltzmannConstant
+- `Constants.kB_nonneg` (lemma) in PhysLean.StatisticalMechanics.BoltzmannConstant
+- `Constants.kB_ne_zero` (lemma) in PhysLean.StatisticalMechanics.BoltzmannConstant
+- `PhysLean.PiTensorProduct.induction_tmul` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.induction_assoc` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.induction_assoc'` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.induction_tmul_mod` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.induction_mod_tmul` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.pureInl` (def) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.pureInr` (def) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.pureInl_update_left` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.pureInr_update_left` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- `PhysLean.PiTensorProduct.pureInr_update_right` (lemma) in PhysLean.Mathematics.PiTensorProduct
+- ... and 7156 more
 
 ### QHL-Lean (+76)
 
@@ -1730,4 +1838,4 @@
 
 ## Update History (1 runs)
 
-- **2026-02-23T02:51:26.310322+00:00**: Checked 42 repos, updated 43, +22094 -0 declarations
+- **2026-02-23T03:29:01.046431+00:00**: Checked 42 repos, updated 43, +30087 -0 declarations
