@@ -1,8 +1,8 @@
 # Changelog (since 2026-02-16)
 
-## New Declarations (79885)
+## New Declarations (83903)
 
-### BrownianMotion (+787)
+### BrownianMotion (+759)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -26,8 +26,6 @@
 - `MeasureTheory.debut_le_iff` (lemma) in BrownianMotion.Debut.Basic
 - `MeasureTheory.debut_lt_iff` (lemma) in BrownianMotion.Debut.Basic
 - `MeasureTheory.debut_mono` (lemma) in BrownianMotion.Debut.Basic
-- `MeasureTheory.isStoppingTime_debut` (theorem) in BrownianMotion.Debut.Basic
-- `MeasureTheory.isStoppingTime_hittingAfter'` (theorem) in BrownianMotion.Debut.Basic
 - `MeasureTheory.𝓚₀` (def) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.empty_mem_𝓚₀` (lemma) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.subset_Iic_of_mem_𝓚₀` (lemma) in BrownianMotion.Debut.Approximation
@@ -46,17 +44,19 @@
 - `MeasureTheory.𝓚_subset_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.empty_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.union_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
-- `MeasureTheory.inter_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
-- `MeasureTheory.iInter_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
-- `MeasureTheory.iInf_snd_eq_snd_iInf_of_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.measurableSet_snd_of_mem_𝓚δ` (lemma) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.𝓛₀` (def) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.𝓛₁` (inductive) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.𝓛` (def) in BrownianMotion.Debut.Approximation
 - `MeasureTheory.𝓛σ` (def) in BrownianMotion.Debut.Approximation
-- ... and 737 more
+- `MeasureTheory.𝓛σδ` (def) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.inside` (theorem) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.Approximation` (structure) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.Approximation.of_mem_𝓚δ` (def) in BrownianMotion.Debut.Approximation
+- `MeasureTheory.Approximation.B'` (def) in BrownianMotion.Debut.Approximation
+- ... and 709 more
 
-### CvxLean (+1211)
+### CvxLean (+1181)
 
 - `compileCargo` (def) in lakefile
 - `buildCargo` (def) in lakefile
@@ -108,7 +108,7 @@
 - `Minimization.Equivalence.rewrite_constraint_8_last` (def) in CvxLean.Lib.Equivalence
 - `Minimization.Equivalence.rewrite_constraint_9` (def) in CvxLean.Lib.Equivalence
 - `Minimization.Equivalence.rewrite_constraint_9_last` (def) in CvxLean.Lib.Equivalence
-- ... and 1161 more
+- ... and 1131 more
 
 ### DeltaSpectrum (+1)
 
@@ -168,11 +168,8 @@
 - `UAc_subset_UTA` (lemma) in src.theorem10
 - ... and 10 more
 
-### ExtremeValueProject (+358)
+### ExtremeValueProject (+285)
 
-- `ExtremeValueProject.ode_of_order_two_for_Q` (lemma) in ExtremeValueProject.ClassificationCalculation
-- `ExtremeValueProject.solve_Q` (lemma) in ExtremeValueProject.ClassificationCalculation
-- `ExtremeValueProject.solve_E` (lemma) in ExtremeValueProject.ClassificationCalculation
 - `eq_iUnion_connectedComponentIn` (lemma) in ExtremeValueProject.OneParameterAffine
 - `eq_sUnion_connectedComponentIn` (lemma) in ExtremeValueProject.OneParameterAffine
 - `connectedComponentIn_disjoint` (lemma) in ExtremeValueProject.OneParameterAffine
@@ -185,21 +182,10 @@
 - `TopologicalSpace.SeparableSpace.countable_connectedComponents` (lemma) in ExtremeValueProject.OneParameterAffine
 - `IsOpen.separableSpace` (lemma) in ExtremeValueProject.OneParameterAffine
 - `IsOpen.countable_setOf_connectedComponentIn` (lemma) in ExtremeValueProject.OneParameterAffine
-- `Real.eq_Ioo_or_Iio_or_Ioi_or_univ_of_isOpen_of_isConnected` (lemma) in ExtremeValueProject.OneParameterAffine
-- `exists_interval_measure_inter_gt_mul_measure` (lemma) in ExtremeValueProject.OneParameterAffine
-- `isPreconnected_of_Ioo_subset_of_subset_Icc` (lemma) in ExtremeValueProject.OneParameterAffine
 - `isConnected_of_Ioo_subset_of_subset_Icc` (lemma) in ExtremeValueProject.OneParameterAffine
 - `union_add_self_subset_Icc_of_subset_Icc` (lemma) in ExtremeValueProject.OneParameterAffine
-- `Ioo_subset_union_add_self_of_Ioo_subset` (lemma) in ExtremeValueProject.OneParameterAffine
-- `volume_union_add_self_ge_of_Ioo_subset` (lemma) in ExtremeValueProject.OneParameterAffine
-- `volume_union_add_self_le_of_subset_Icc` (lemma) in ExtremeValueProject.OneParameterAffine
-- `exists_Ioo_subset_diff_self_of_measure_pos` (lemma) in ExtremeValueProject.OneParameterAffine
-- `exists_Ioo_subset_diff_of_measure_pos` (lemma) in ExtremeValueProject.OneParameterAffine
 - `exists_Ioo_subset_add_of_measure_pos` (lemma) in ExtremeValueProject.OneParameterAffine
-- `eq_top_of_subgroup_of_measure_pos` (lemma) in ExtremeValueProject.OneParameterAffine
-- `exists_forall_abs_le_of_additive_of_le_on_measure_pos` (lemma) in ExtremeValueProject.OneParameterAffine
 - `exists_nhd_abs_le_of_additive_of_le_on_measure_pos` (lemma) in ExtremeValueProject.OneParameterAffine
-- `linear_of_additive_of_le_on_measure_pos` (lemma) in ExtremeValueProject.OneParameterAffine
 - `linear_of_additive_of_measurable` (lemma) in ExtremeValueProject.OneParameterAffine
 - `eq_const_mul_of_additive_of_measurable` (lemma) in ExtremeValueProject.OneParameterAffine
 - `eq_exp_const_mul_of_multiplicative_of_measurable` (lemma) in ExtremeValueProject.OneParameterAffine
@@ -209,20 +195,34 @@
 - `AffineIncrEquiv.homOfIndex₀_zero_apply` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homOfIndex₀_add` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homOfIndex₀_eq_homOfIndex₀_one_mul` (lemma) in ExtremeValueProject.OneParameterAffine
-- `AffineIncrEquiv.conjugate_homOfIndex₀` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homOfIndex_zero_apply'` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homOfIndex_zero_apply` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homOfIndex_add` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homOfIndex_eq_homOfIndex_one_mul` (lemma) in ExtremeValueProject.OneParameterAffine
-- `AffineIncrEquiv.conjugate_homOfIndex` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.subGroupOfIndex₀'` (def) in ExtremeValueProject.OneParameterAffine
-- `AffineIncrEquiv.subGroupOfIndex₀` (def) in ExtremeValueProject.OneParameterAffine
-- `AffineIncrEquiv.subGroupOfIndex` (def) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homomorphism_coef_eqn_fst` (lemma) in ExtremeValueProject.OneParameterAffine
 - `AffineIncrEquiv.homomorphism_coef_eqn_snd` (lemma) in ExtremeValueProject.OneParameterAffine
-- ... and 308 more
+- `AffineIncrEquiv.measurable_coefs_fst` (lemma) in ExtremeValueProject.OneParameterAffine
+- `AffineIncrEquiv.measurable_coefs_snd` (lemma) in ExtremeValueProject.OneParameterAffine
+- `AffineIncrEquiv.continuous_mkOfCoefs` (lemma) in ExtremeValueProject.OneParameterAffine
+- `AffineIncrEquiv.measurable_mkOfCoefs` (lemma) in ExtremeValueProject.OneParameterAffine
+- `AffineIncrEquiv.continuous_of_continuous_coefs` (lemma) in ExtremeValueProject.OneParameterAffine
+- `AffineIncrEquiv.measurable_of_measurable_coefs` (lemma) in ExtremeValueProject.OneParameterAffine
+- `measurable_toAdd` (lemma) in ExtremeValueProject.OneParameterAffine
+- `measurable_toMultiplicative` (lemma) in ExtremeValueProject.OneParameterAffine
+- `AffineIncrEquiv.homomorphism_from_Real_characterization_of_nontrivial` (theorem) in ExtremeValueProject.OneParameterAffine
+- `Real.rightOrdContinuous_indicator_Ici_rpow` (lemma) in ExtremeValueProject.SelfSimilarCDF
+- `CumulativeDistributionFunction.pow` (def) in ExtremeValueProject.SelfSimilarCDF
+- `CumulativeDistributionFunction.pow_apply_eq` (lemma) in ExtremeValueProject.SelfSimilarCDF
+- `CumulativeDistributionFunction.npow_apply_eq` (lemma) in ExtremeValueProject.SelfSimilarCDF
+- `CumulativeDistributionFunction.conjugate_smul_self_eq` (lemma) in ExtremeValueProject.SelfSimilarCDF
+- `CumulativeDistributionFunction.selfSimilar_index_zero_transform` (lemma) in ExtremeValueProject.SelfSimilarCDF
+- `gumbel_type_of_selfSimilar_index_zero` (theorem) in ExtremeValueProject.SelfSimilarCDF
+- `apply_eq_zero_of_lt_of_selfSimilar_index_pos'` (lemma) in ExtremeValueProject.SelfSimilarCDF
+- `frechet_type_of_selfSimilar_index_pos` (theorem) in ExtremeValueProject.SelfSimilarCDF
+- ... and 235 more
 
-### FLT (+1760)
+### FLT (+1726)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `eventuallyProd` (def) in FLT.Patching.Ultraproduct
@@ -274,9 +274,18 @@
 - `eventually_vanishingFilter_not_isUnit` (lemma) in FLT.Patching.VanishingFilter
 - `vanishingFilter_le` (lemma) in FLT.Patching.VanishingFilter
 - `vanishingFilter_eventuallyProd` (lemma) in FLT.Patching.VanishingFilter
-- ... and 1710 more
+- ... and 1676 more
 
-### Lean-QuantumInfo (+1670)
+### GFF (+6)
+
+- `CylinderTestFun` (abbrev) in GFF.SpacetimeInstances
+- `TorusTestFun` (abbrev) in GFF.SpacetimeInstances
+- `cylinderGFF_T` (def) in GFF.GFFConstruction
+- `torusEigenvalue` (def) in GFF.GFFConstruction
+- `torusSingularValue` (def) in GFF.GFFConstruction
+- `torusGFF_T` (def) in GFF.GFFConstruction
+
+### Lean-QuantumInfo (+1603)
 
 - `IdealGas` (def) in StatMech.IdealGas
 - `IdealGas.PartitionZ_eq` (theorem) in StatMech.IdealGas
@@ -291,10 +300,7 @@
 - `MicroHamiltonian.EntropySβ` (def) in StatMech.ThermoQuantities
 - `MicroHamiltonian.ZIntegrable` (def) in StatMech.ThermoQuantities
 - `MicroHamiltonian.PositiveβIntegrable` (def) in StatMech.ThermoQuantities
-- `MicroHamiltonian.isn't` (theorem) in StatMech.ThermoQuantities
-- `MicroHamiltonian.DifferentiableAt_Z_if_ZIntegrable` (theorem) in StatMech.ThermoQuantities
 - `MicroHamiltonian.entropy_A_eq_entropy_Z` (theorem) in StatMech.ThermoQuantities
-- `MicroHamiltonian.β_eq_deriv_S_U` (theorem) in StatMech.ThermoQuantities
 - `NVEHamiltonian.Pressure` (def) in StatMech.ThermoQuantities
 - `MicroHamiltonian` (structure) in StatMech.Hamiltonian
 - `microHamiltonianFintype` (instance) in StatMech.Hamiltonian
@@ -303,18 +309,7 @@
 - `NVEHamiltonian.V` (def) in StatMech.Hamiltonian
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
-- `InfRegularized.lb` (theorem) in QuantumInfo.Regularized
-- `InfRegularized.ub` (theorem) in QuantumInfo.Regularized
-- `InfRegularized.anti_inf` (theorem) in QuantumInfo.Regularized
-- `InfRegularized.anti_ub` (theorem) in QuantumInfo.Regularized
-- `SupRegularized.lb` (theorem) in QuantumInfo.Regularized
-- `SupRegularized.ub` (theorem) in QuantumInfo.Regularized
-- `SupRegularized.mono_sup` (theorem) in QuantumInfo.Regularized
-- `SupRegularized.mono_lb` (theorem) in QuantumInfo.Regularized
-- `InfRegularized.to_SupRegularized` (theorem) in QuantumInfo.Regularized
-- `SupRegularized.to_InfRegularized` (theorem) in QuantumInfo.Regularized
 - `InfRegularized.anti_tendsto` (theorem) in QuantumInfo.Regularized
-- `InfRegularized.of_Subadditive` (theorem) in QuantumInfo.Regularized
 - `Prob` (def) in ClassicalInfo.Prob
 - `Prob.canLift` (instance) in ClassicalInfo.Prob
 - `Prob.instZero` (instance) in ClassicalInfo.Prob
@@ -328,9 +323,77 @@
 - `Prob.instCommMonoidWithZero` (instance) in ClassicalInfo.Prob
 - `Prob.instDenselyOrdered` (instance) in ClassicalInfo.Prob
 - `Prob.instCompleteLinearOrder` (instance) in ClassicalInfo.Prob
-- ... and 1620 more
+- `Prob.instInhabited` (instance) in ClassicalInfo.Prob
+- `Prob.zero_le_coe` (theorem) in ClassicalInfo.Prob
+- `Prob.coe_le_one` (theorem) in ClassicalInfo.Prob
+- `Prob.zero_le` (theorem) in ClassicalInfo.Prob
+- `Prob.le_one` (theorem) in ClassicalInfo.Prob
+- `Prob.ne_iff` (theorem) in ClassicalInfo.Prob
+- `Prob.toReal_mul` (theorem) in ClassicalInfo.Prob
+- `Prob.toNNReal_mk` (theorem) in ClassicalInfo.Prob
+- `Prob.canLiftNN` (instance) in ClassicalInfo.Prob
+- `Prob.eq_iff_nnreal` (theorem) in ClassicalInfo.Prob
+- `Prob.toNNReal_zero` (theorem) in ClassicalInfo.Prob
+- `Prob.toNNReal_one` (theorem) in ClassicalInfo.Prob
+- `Prob.ofNNReal_toNNReal` (theorem) in ClassicalInfo.Prob
+- `Prob.NNReal.asProb` (def) in ClassicalInfo.Prob
+- ... and 1553 more
 
-### MCMC (+536)
+### LeanLevy (+181)
+
+- `main` (def) in Main
+- `hello` (def) in LeanLevy.Basic
+- `MeasureTheory.FiniteMeasure.fourierTransform` (def) in LeanLevy.Fourier.MeasureFourier
+- `MeasureTheory.FiniteMeasure.norm_fourierTransform_le` (theorem) in LeanLevy.Fourier.MeasureFourier
+- `MeasureTheory.FiniteMeasure.continuous_fourierTransform` (theorem) in LeanLevy.Fourier.MeasureFourier
+- `ProbabilityTheory.poissonPMF_toReal` (lemma) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.summable_poissonPMFReal` (lemma) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.expectation_shift` (lemma) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.poissonExpectation_hasSum` (theorem) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.factorial_moment_shift` (lemma) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.poissonFactorialMoment2_hasSum` (theorem) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.poissonSecondMoment_hasSum` (theorem) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.poissonVariance` (theorem) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.poissonCharFun` (def) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.summable_poissonCharFun` (lemma) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.charFun_term_eq` (lemma) in LeanLevy.Probability.Poisson
+- `ProbabilityTheory.poissonCharFun_eq` (theorem) in LeanLevy.Probability.Poisson
+- `MeasureTheory.FiniteMeasure.fourierTransform_eq_charFun` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.FiniteMeasure.fourierTransform_conv` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.characteristicFun` (def) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.characteristicFun_def` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.characteristicFun_zero` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.norm_characteristicFun_le_one` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.characteristicFun_neg` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.characteristicFun_eq_fourierTransform` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.continuous_characteristicFun` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.characteristicFun_positiveSemiDefinite` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.characteristicFun_conv` (theorem) in LeanLevy.Probability.Characteristic
+- `MeasureTheory.ProbabilityMeasure.CharFunTendsto` (def) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.charFunTendsto_iff` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.expBCF` (def) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.integral_expBCF_eq_characteristicFun` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.charFunTendsto_of_tendsto` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.tendsto_intervalIntegral_one_sub_charFun` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.tendsto_tail_bound_of_charFun` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.exists_radius_and_threshold_of_charFunTendsto` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.isTight_of_charFunTendsto` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.tendsto_of_charFunTendsto` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.tendsto_iff_charFunTendsto` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.CharFunTendsto.tendsto` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.CharFunTendsto.comp` (theorem) in LeanLevy.Probability.WeakConvergence
+- `MeasureTheory.ProbabilityMeasure.tendsto_map_of_charFunTendsto` (theorem) in LeanLevy.Probability.WeakConvergence
+- `ProbabilityTheory.IsLevyProcess` (structure) in LeanLevy.Processes.LevyProcess
+- `ProbabilityTheory.IsLevyProcess.indepFun_increment` (theorem) in LeanLevy.Processes.LevyProcess
+- `ProbabilityTheory.IsLevyProcess.identDistrib_increment` (theorem) in LeanLevy.Processes.LevyProcess
+- `ProbabilityTheory.IsLevyProcess.charExponent` (def) in LeanLevy.Processes.LevyProcess
+- `ProbabilityTheory.IsLevyProcess.incr_zero_eq` (theorem) in LeanLevy.Processes.LevyProcess
+- `ProbabilityTheory.IsLevyProcess.lk_charFun_mul` (theorem) in LeanLevy.Processes.LevyProcess
+- `ProbabilityTheory.IsLevyProcess.lk_charFun_zero` (theorem) in LeanLevy.Processes.LevyProcess
+- `ProbabilityTheory.IsLevyProcess.lk_charFun_rat_pow` (theorem) in LeanLevy.Processes.LevyProcess
+- ... and 131 more
+
+### MCMC (+526)
 
 - `stdSimplex` (def) in MCMC.PF.aux
 - `UpperSemicontinuousOn` (def) in MCMC.PF.aux
@@ -382,9 +445,9 @@
 - `div_le_iff` (lemma) in MCMC.PF.aux
 - `le_div_iff` (lemma) in MCMC.PF.aux
 - `ratio_nonneg` (lemma) in MCMC.PF.aux
-- ... and 486 more
+- ... and 476 more
 
-### Measure (+1933)
+### Measure (+1924)
 
 - `TestProperties.testDims` (def) in test.TestProperties
 - `TestProperties.testQExps` (def) in test.TestProperties
@@ -399,10 +462,8 @@
 - `TestPhysics.test_dim_voltage` (theorem) in test.TestPhysics
 - `TestPhysics.test_dim_charge` (theorem) in test.TestPhysics
 - `TestPhysics.test_dim_pressure` (theorem) in test.TestPhysics
-- `TestPhysics.test_dim_resistance` (theorem) in test.TestPhysics
 - `version` (def) in measure.src.Main
 - `leanVersion` (def) in measure.src.Main
-- `helpText` (def) in measure.src.Main
 - `ConstantEntry` (structure) in measure.src.Main
 - `constantsTable` (def) in measure.src.Main
 - `printConstants` (def) in measure.src.Main
@@ -416,19 +477,14 @@
 - `CommentState` (structure) in measure.src.Main
 - `updateCommentState` (def) in measure.src.Main
 - `lineStartsWith` (def) in measure.src.Main
-- `lineHasSorry` (def) in measure.src.Main
 - `FileStats` (structure) in measure.src.Main
-- `analyzeFile` (def) in measure.src.Main
 - `isDirectory` (def) in measure.src.Main
 - `collectLeanFiles` (def) in measure.src.Main
 - `resolveTarget` (def) in measure.src.Main
 - `mergeStats` (def) in measure.src.Main
 - `jsonEscape` (def) in measure.src.Main
-- `fileStatsToJson` (def) in measure.src.Main
 - `checkResultToJson` (def) in measure.src.Main
-- `printVerboseDetails` (def) in measure.src.Main
 - `runLakeBuild` (def) in measure.src.Main
-- `runCheck` (def) in measure.src.Main
 - `scanTheoryStats` (def) in measure.src.Main
 - `printTheoriesWithCounts` (def) in measure.src.Main
 - `theoryEntryToJson` (def) in measure.src.Main
@@ -436,9 +492,16 @@
 - `printTheoriesJson` (def) in measure.src.Main
 - `parseCheckArgs` (def) in measure.src.Main
 - `main` (def) in measure.src.Main
-- ... and 1883 more
+- `Measure.Constants.c` (def) in measure.src.Measure.Constants
+- `Measure.Constants.h` (def) in measure.src.Measure.Constants
+- `Measure.Constants.k_B` (def) in measure.src.Measure.Constants
+- `Measure.Constants.N_A` (def) in measure.src.Measure.Constants
+- `Measure.Constants.e` (def) in measure.src.Measure.Constants
+- `Measure.Constants.ℏ` (def) in measure.src.Measure.Constants
+- `Measure.Constants.dimG` (def) in measure.src.Measure.Constants
+- ... and 1874 more
 
-### OSforGFF (+808)
+### OSforGFF (+807)
 
 - `minlos_uniqueness` (theorem) in OSforGFF.Minlos
 - `gaussian_characteristic_functional` (def) in OSforGFF.Minlos
@@ -490,9 +553,63 @@
 - `freeCovariance_regulated_le_const_mul_freeCovariance` (lemma) in OSforGFF.CovarianceMomentum
 - `gaussian_regulator_integrable'` (lemma) in OSforGFF.CovarianceMomentum
 - `freeCovariance_regulated_uniformly_bounded` (lemma) in OSforGFF.CovarianceMomentum
-- ... and 758 more
+- ... and 757 more
 
-### PhysLean (+7206)
+### OSreconstruction (+1634)
+
+- `DifferentiableOn.analyticOnNhd_of_finiteDimensional` (theorem) in OSReconstruction.SCV.IdentityTheorem
+- `identity_theorem_SCV` (theorem) in OSReconstruction.SCV.IdentityTheorem
+- `SCV.TubeDomain'` (def) in OSReconstruction.SCV.IdentityTheorem
+- `SCV.tubeDomain'_isOpen` (theorem) in OSReconstruction.SCV.IdentityTheorem
+- `SCV.tubeDomain'_isConnected` (theorem) in OSReconstruction.SCV.IdentityTheorem
+- `identity_theorem_tubeDomain` (theorem) in OSReconstruction.SCV.IdentityTheorem
+- `SCV.flattenCLE` (def) in OSReconstruction.SCV.IdentityTheorem
+- `analyticAt_of_differentiableOn_product` (theorem) in OSReconstruction.SCV.IdentityTheorem
+- `identity_theorem_product` (theorem) in OSReconstruction.SCV.IdentityTheorem
+- `SCV.continuousAt_deriv_of_continuousOn` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.cauchyPowerSeries_one_eq_smul_deriv` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.tsum_geometric_tail_le` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.cauchyPowerSeries_coeff_bound` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.taylor_remainder_eq_tsum` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.taylor_tail_summable` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.taylor_tail_norm_le` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.taylor_remainder_single` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.uniform_bound_near_point` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.taylor_remainder_bound` (lemma) in OSReconstruction.SCV.Osgood
+- `SCV.osgood_lemma_prod` (theorem) in OSReconstruction.SCV.Osgood
+- `SCV.osgood_lemma` (theorem) in OSReconstruction.SCV.Osgood
+- `SCV.Polydisc` (def) in OSReconstruction.SCV.Polydisc
+- `SCV.closedPolydisc` (def) in OSReconstruction.SCV.Polydisc
+- `SCV.distinguishedBoundary` (def) in OSReconstruction.SCV.Polydisc
+- `SCV.uniformPolydisc` (def) in OSReconstruction.SCV.Polydisc
+- `SCV.mem_polydisc_iff` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.mem_closedPolydisc_iff` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.mem_distinguishedBoundary_iff` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.center_mem_polydisc` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.center_mem_closedPolydisc` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_subset_closedPolydisc` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.distinguishedBoundary_subset_closedPolydisc` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_mono` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.closedPolydisc_mono` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_eq_pi` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.closedPolydisc_eq_pi` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.distinguishedBoundary_eq_pi` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_isOpen` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.isCompact_closedPolydisc` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.isCompact_distinguishedBoundary` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_nonempty` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.closedPolydisc_nonempty` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_convex` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.closedPolydisc_convex` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_isPreconnected` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_isConnected` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.closedPolydisc_isPreconnected` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.polydisc_isPathConnected` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.mem_polydisc_update` (theorem) in OSReconstruction.SCV.Polydisc
+- `SCV.mem_closedPolydisc_update` (theorem) in OSReconstruction.SCV.Polydisc
+- ... and 1584 more
+
+### PhysLean (+7194)
 
 - `lintStyleCli` (def) in scripts.mathlib_textLint_on_hepLean
 - `heplean_lint_style` (def) in scripts.mathlib_textLint_on_hepLean
@@ -544,9 +661,116 @@
 - `PhysLean.PiTensorProduct.pureInl_update_left` (lemma) in PhysLean.Mathematics.PiTensorProduct
 - `PhysLean.PiTensorProduct.pureInr_update_left` (lemma) in PhysLean.Mathematics.PiTensorProduct
 - `PhysLean.PiTensorProduct.pureInr_update_right` (lemma) in PhysLean.Mathematics.PiTensorProduct
-- ... and 7156 more
+- ... and 7144 more
 
-### QHL-Lean (+76)
+### ProjectVD (+83)
+
+- `ValueDistribution.σ₁` (lemma) in VD.CartanExperimentation
+- `ValueDistribution.σ₂` (lemma) in VD.CartanExperimentation
+- `ValueDistribution.ρ₀` (lemma) in VD.CartanExperimentation
+- `ValueDistribution.ρ₁` (lemma) in VD.CartanExperimentation
+- `ValueDistribution.ρ₂` (lemma) in VD.CartanExperimentation
+- `ValueDistribution.ρ₃'` (lemma) in VD.CartanExperimentation
+- `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
+- `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
+- `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
+- `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
+- `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
+- `mem_ball_of_scaled_norm_le_one` (lemma) in VD.Poisson.PoissonIntegral
+- `mem_unitDisc_of_scaled_exp_ofReal_mul_I` (lemma) in VD.Poisson.PoissonIntegral
+- `neq_in_unitDisc_of_exp_ofReal_mul_I` (lemma) in VD.Poisson.PoissonIntegral
+- `star_exp_ofReal_mul_I_eq_inv` (lemma) in VD.Poisson.PoissonIntegral
+- `one_sub_star_mul_neq_zero` (lemma) in VD.Poisson.PoissonIntegral
+- `differentiableAt_of_differentiableOn_unitDisc_of_mul` (lemma) in VD.Poisson.PoissonIntegral
+- `cauchy_circleIntegral_formula_on_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `cauchy_integral_formula_on_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `diffferentiableAt_goursat_integrand_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `vanishing_goursat_circleIntegral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `goursat_integrand_eq_aux` (lemma) in VD.Poisson.PoissonIntegral
+- `vanishing_goursat_integral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `cauchy_goursat_integral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `poisson_formula_of_differentiableOn_scaled_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
+- `poisson_formula_of_harmonicOn_scaled_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
+- `bounds_of_continuousOn_unitCircle_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `tendsto_integral_prod_of_continuousOn_unitCircle_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `poisson_kernel_continousOn_circle` (theorem) in VD.Poisson.PoissonIntegral
+- `seq_tendsto_to_one_in_unit_interval_aux` (lemma) in VD.Poisson.PoissonIntegral
+- `tendsto_of_radius_tendsto_one_of_continuousOn_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
+- `poisson_integral_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
+- `poisson_integral_of_diffContOnCl_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
+- `realPart_herglotz_kernel_eq_poisson_kernel` (theorem) in VD.Poisson.PoissonIntegral
+- `poisson_integral_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
+- `poisson_integral_of_diffContOnCl_unitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
+- `circleAverage_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
+- `circleAverage_of_diffContOnCl_unitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
+- `continuousOn_herglotz_riesz` (lemma) in VD.MathlibPending.HarmonicPoisson
+- `HarmonicOnNhd.circleAverage_re_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
+- `HarmonicContOnCl.circleAverage_re_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
+- `HarmonicOnNhd.circleAverage_div_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
+- `HarmonicContOnCl.circleAverage_div_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
+- `ContinuousOn.circleAverage` (theorem) in VD.MathlibPending.HarmonicMeanvalue
+- `ContinuousOn.eq_of_eqOn_Ioo` (lemma) in VD.MathlibPending.HarmonicMeanvalue
+- `HarmonicContOnCl.circleAverage_eq` (theorem) in VD.MathlibPending.HarmonicMeanvalue
+- `Function.locallyFinsuppWithin.one_isLittleO_logCounting_single` (lemma) in VD.MathlibPending.BoundednessLogCounting
+- `Function.locallyFinsuppWithin.zero_iff_logCounting_bounded` (lemma) in VD.MathlibPending.BoundednessLogCounting
+- `ValueDistribution.logCounting_isBigO_one_iff_analyticOnNhd` (theorem) in VD.MathlibPending.BoundednessLogCounting
+- `Complex.IsConservativeOn.isExactOn_univ` (theorem) in VD.MathlibSubmitted.HarmonicLiouville
+- ... and 33 more
+
+### QFTFramework (+50)
+
+- `main` (def) in Main
+- `hello` (def) in QFTFramework.Basic
+- `QFTData` (structure) in QFTFramework.QFTData
+- `QFTData.hasRealAction` (def) in QFTFramework.QFTData
+- `QFTData.genFunR` (def) in QFTFramework.QFTData
+- `SpacetimeData` (structure) in QFTFramework.SpacetimeData
+- `SpacetimeData.PositiveTimeFun` (abbrev) in QFTFramework.SpacetimeData
+- `SpacetimeData.translateTestFun` (def) in QFTFramework.SpacetimeData
+- `SpacetimeData.translateTestFunℂ` (def) in QFTFramework.SpacetimeData
+- `TheoryData` (structure) in QFTFramework.TheoryData
+- `QFTActionData` (structure) in QFTFramework.TheoryData
+- `CFTData` (structure) in QFTFramework.TheoryData
+- `freeScalar` (def) in QFTFramework.TheoryData
+- `phi4Theory` (def) in QFTFramework.TheoryData
+- `oNModel` (def) in QFTFramework.TheoryData
+- `SpaceTime` (abbrev) in QFTFramework.Spacetime.Euclidean
+- `TestFunction` (abbrev) in QFTFramework.Spacetime.Euclidean
+- `TestFunctionℂ` (abbrev) in QFTFramework.Spacetime.Euclidean
+- `FieldConfiguration` (abbrev) in QFTFramework.Spacetime.Euclidean
+- `spaceTimeVolume` (abbrev) in QFTFramework.Spacetime.Euclidean
+- `getTimeComponent` (def) in QFTFramework.Spacetime.Euclidean
+- `OrthogonalGroup` (abbrev) in QFTFramework.Spacetime.Euclidean
+- `EuclideanGroup` (structure) in QFTFramework.Spacetime.Euclidean
+- `EuclideanGroup.act` (def) in QFTFramework.Spacetime.Euclidean
+- `SpaceTimeTorus` (abbrev) in QFTFramework.Spacetime.Torus
+- `getTimeComponentTorus` (def) in QFTFramework.Spacetime.Torus
+- `SpaceTimeLattice` (abbrev) in QFTFramework.Spacetime.Lattice
+- `TestFunctionLattice` (abbrev) in QFTFramework.Spacetime.Lattice
+- `TestFunctionLatticeℂ` (abbrev) in QFTFramework.Spacetime.Lattice
+- `FieldConfigurationLattice` (abbrev) in QFTFramework.Spacetime.Lattice
+- `latticeDistributionPairing` (def) in QFTFramework.Spacetime.Lattice
+- `latticeDistributionPairingℂ` (def) in QFTFramework.Spacetime.Lattice
+- `latticeTimeReflection` (def) in QFTFramework.Spacetime.Lattice
+- `latticeTimeReflectionCLM` (def) in QFTFramework.Spacetime.Lattice
+- `latticePositiveTimeSubmodule` (def) in QFTFramework.Spacetime.Lattice
+- `latticeTimeTranslation` (def) in QFTFramework.Spacetime.Lattice
+- `latticeTranslateTestFun` (def) in QFTFramework.Spacetime.Lattice
+- `HypercubicElement` (structure) in QFTFramework.Spacetime.Lattice
+- `LatticeSymmetryGroup` (structure) in QFTFramework.Spacetime.Lattice
+- `latticeSymmetryActionℂ` (def) in QFTFramework.Spacetime.Lattice
+- `OS0_Analyticity` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `OS1_Regularity` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `schwingerFunction` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `OS1'_SchwingerGrowth` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `OS2_Invariance` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `OS3_ReflectionPositivity` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `OS4_Clustering` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `OS4_Ergodicity` (def) in QFTFramework.Axioms.OsterwalderSchrader
+- `OSTheory` (structure) in QFTFramework.Axioms.OsterwalderSchrader
+- `OSReconstructible` (structure) in QFTFramework.Axioms.OsterwalderSchrader
+
+### QHL-Lean (+63)
 
 - `qwhilep.ArithUnOpt` (inductive) in Quave.Basic
 - `qwhilep.ArithBinOpt` (inductive) in Quave.Basic
@@ -581,16 +805,10 @@
 - `partialdensityop.PartialDensityOp` (structure) in Quave.partialdensityop
 - `partialdensityop.Hermitian` (theorem) in Quave.partialdensityop
 - `partialdensityop.prob` (def) in Quave.partialdensityop
-- `partialdensityop.normalize` (def) in Quave.partialdensityop
-- `partialdensityop.prod` (def) in Quave.partialdensityop
 - `unitary.is_unitary` (def) in Quave.unitary
-- `unitary.tensor_product` (def) in Quave.unitary
-- `unitary.tensor_product_op` (def) in Quave.unitary
-- `unitary.controlled` (def) in Quave.unitary
 - `unitary.adjoint` (def) in Quave.unitary
 - `unitary.compose` (def) in Quave.unitary
 - `unitary.apply_unitary` (def) in Quave.unitary
-- `unitary.U_conj` (def) in Quave.unitary
 - `qtype.conj` (def) in Quave.qtype
 - `qtype.inner_product` (def) in Quave.qtype
 - `qtype.HilbertSpace` (structure) in Quave.qtype
@@ -598,7 +816,13 @@
 - `qtype.Hq` (def) in Quave.qtype
 - `qtype.QuantumVar` (structure) in Quave.qtype
 - `qtype.init_q` (def) in Quave.qtype
-- ... and 26 more
+- `qtype.q_zero` (def) in Quave.qtype
+- `qtype.QuantumRegister` (structure) in Quave.qtype
+- `qtype.createQuantumRegisterVec` (def) in Quave.qtype
+- `Env` (def) in Quave.env
+- `Env.set` (def) in Quave.env
+- `Env.get` (def) in Quave.env
+- ... and 13 more
 
 ### RMT4 (+151)
 
@@ -708,7 +932,7 @@
 - `PMF_mul_mul_inv_eq_mul_cancel` (lemma) in SampCert.DifferentialPrivacy.RenyiDivergence
 - ... and 556 more
 
-### SemicircleLaw (+195)
+### SemicircleLaw (+175)
 
 - `isWignerMatrix` (structure) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `is_measurable_Wigner` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
@@ -716,33 +940,25 @@
 - `off_diagonal_law` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `diagonal_law` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `symmetric` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `indep_entries` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `has_law_diag` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `has_law_off_diag` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `symmetric_entries` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `ident_distrib_diag` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `ident_distrib_off_diag` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
+- `indep_entries` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `indep_entries_pair` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `WignerSpace` (abbrev) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMeasureDist` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `WignerMeasure` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `instIsProbabilityMeasure` (instance) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixEntryFunction` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `wignerMatrixEntryFunctionSymmetric` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixMap'` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixMap` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixMapScaled` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `wignerMatrixMapMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `wignerMatrixMapScaledMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixMapAEMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixMapScaledAEMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixMeasure` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `diagonalEntryMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `offDiagonalEntryMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `wignerMatrixSymmetric` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `diagonalHasLaw` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `offDiagonalHasLaw'` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `offDiagonalHasLaw` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixPowMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixScaledPowMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixTracePower` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
@@ -751,30 +967,34 @@
 - `wignerMatrixScaledTracePowerMeasurable` (lemma) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixTracePowerSequence` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixScaledTracePowerSequence` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `wignerMatrixMomentOddExpectation` (theorem) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `wignerMatrixMomentEvenExpectationLimit` (theorem) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `wignerMatrixScaledTracePowerSeqVar` (def) in SemicircleLaw.RandomMatrix.WignerMatrix
-- `wignerMatrixMomentsVarianceLimit` (theorem) in SemicircleLaw.RandomMatrix.WignerMatrix
 - `ProbabilityTheory.measurable_matrix_map` (lemma) in SemicircleLaw.RandomMatrix.RandomMatrix
 - `ProbabilityTheory.measurable_entry` (lemma) in SemicircleLaw.RandomMatrix.RandomMatrix
-- `ProbabilityTheory.matrix_measurable_pow` (lemma) in SemicircleLaw.RandomMatrix.RandomMatrix
 - `ProbabilityTheory.measurable_trace` (lemma) in SemicircleLaw.RandomMatrix.RandomMatrix
 - `ProbabilityTheory.RandomMatrixEnsemble` (def) in SemicircleLaw.RandomMatrix.RandomMatrix
-- ... and 145 more
+- `ProbabilityTheory.X_5_10` (def) in SemicircleLaw.RandomMatrix.RandomMatrix
+- `ProbabilityTheory.RandomMatrix` (structure) in SemicircleLaw.RandomMatrix.RandomMatrix
+- `ProbabilityTheory.RandomMatrixEnsemble'` (def) in SemicircleLaw.RandomMatrix.RandomMatrix
+- `ProbabilityTheory.semicirclePDFReal` (def) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.semicirclePDFReal_def` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.semicirclePDFReal_zero_var` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.semicirclePDFReal_nonneg` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.Cont_semicirclePDFReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.measurable_semicirclePDFReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.stronglyMeasurable_semicirclePDFReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.support_semicirclePDF_inc` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- `ProbabilityTheory.integrable_semicirclePDFReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
+- ... and 125 more
 
-### SpectralThm (+135)
+### SpectralThm (+115)
 
 - `A` (lemma) in SpectralThm.Projections
-- `B` (lemma) in SpectralThm.Projections
 - `IsOrthogonalProjection` (def) in SpectralThm.Resolutions
-- `IsStarProjection_iff` (lemma) in SpectralThm.Resolutions
 - `toSubmodule` (def) in SpectralThm.Resolutions
 - `toOrthogonalProjection` (def) in SpectralThm.Resolutions
 - `ResolutionOfIdentity` (structure) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.instFunLike` (instance) in SpectralThm.Resolutions
 - `toComplexMeasure` (def) in SpectralThm.Resolutions
-- `toOuterMeasure` (def) in SpectralThm.Resolutions
-- `toMeasure` (def) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.apply` (lemma) in SpectralThm.Resolutions
 - `toMeasure_apply` (lemma) in SpectralThm.Resolutions
 - `toOuterMeasure_apply` (lemma) in SpectralThm.Resolutions
@@ -793,82 +1013,86 @@
 - `cfc_toLinearFunctional_apply` (lemma) in SpectralThm.SpectralTheorem
 - `cfc_toLinearFunctional_bound` (lemma) in SpectralThm.SpectralTheorem
 - `cfc_toComplexMeasure` (def) in SpectralThm.SpectralTheorem
-- `cfc_toComplexMeasure_bounded` (lemma) in SpectralThm.SpectralTheorem
-- `cfc_variation_toComplexMeasure_bounded` (lemma) in SpectralThm.SpectralTheorem
-- `bfc_bounded` (lemma) in SpectralThm.SpectralTheorem
-- `toBoundedBilin` (def) in SpectralThm.SpectralTheorem
-- `toResolutionOfIdentity` (def) in SpectralThm.SpectralTheorem
-- `SpectralDecomposition` (theorem) in SpectralThm.SpectralTheorem
-- `ComplexRMK.eq_zero_of_integral_eq_zero` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.rieszMeasure_unique` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
-- `ComplexRMK.absOfFunc₀` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- `ComplexRMK.absOfFunc_c` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.toZeroAtInftyContinuousMap` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.toZeroAtInftyContinuousMap'` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.identity` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- `ComplexRMK.toComplex` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- `ComplexRMK.exists_pos_lin_func` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
-- `ComplexRMK.rieszMeasure` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- `ComplexRMK.integral_rieszMeasure` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
-- `ComplexRMK.norm_eq_variation` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
 - `ZeroAtInftyContinuousMap.ContinuousMap.liftZeroAtInftyNAGH` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ZeroAtInftyContinuousMap.liftZeroAtInftyNAGH_apply` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
 - `ZeroAtInftyContinuousMap.ContinuousMap.liftZeroAtInftyCLE` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- ... and 85 more
+- `integral` (def) in SpectralThm.ComplexMeasure.Integral
+- `MeasureTheory.ComplexMeasure.var` (def) in SpectralThm.ComplexMeasure.Integral
+- `MeasureTheory.ComplexMeasure.var_neg` (lemma) in SpectralThm.ComplexMeasure.Integral
+- `MeasureTheory.ComplexMeasure.ang` (def) in SpectralThm.ComplexMeasure.Integral
+- `MeasureTheory.ComplexMeasure.integral` (def) in SpectralThm.ComplexMeasure.Integral
+- `MeasureTheory.ComplexMeasure.integral_neg` (lemma) in SpectralThm.ComplexMeasure.Integral
+- `MeasureTheory.ComplexMeasure.integral_sub` (lemma) in SpectralThm.ComplexMeasure.Integral
+- `MeasureTheory.weightedVectorSMul` (def) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.weightedVectorSMul_apply` (theorem) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.weightedVectorSMul_union` (theorem) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.norm_weightedVectorSMul_le` (theorem) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.dominatedFinMeasAdditive_weightedVectorSMul` (theorem) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.VectorMeasureWithPairing` (structure) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.VectorMeasureWithPairing.integral` (def) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.VectorMeasureWithPairing.integral_add` (theorem) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.VectorMeasureWithPairing.integral_neg` (theorem) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.VectorMeasureWithPairing.integral_sub` (theorem) in SpectralThm.VectorMeasure.Integral
+- `MeasureTheory.VectorMeasureWithPairing.integral_smul` (theorem) in SpectralThm.VectorMeasure.Integral
+- ... and 65 more
 
-### VD (+92)
+### StochasticPDE (+1802)
 
-- `ValueDistribution.logCounting_circleIntegrable` (lemma) in VD.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_add_const` (theorem) in VD.Cartan
-- `ValueDistribution.intervalIntegrable_iff_intervalIntegrable_smul` (theorem) in VD.CartanExperimentation
-- `ValueDistribution.σ₁` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.σ₂` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₀` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₁` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₂` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₃` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₃'` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₃''` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₄` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρx` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.cartan` (theorem) in VD.CartanExperimentation
-- `ValueDistribution.proximity_bounded_iff_constant` (theorem) in VD.BoundednessProximity
-- `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
-- `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
-- `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
-- `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
-- `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
-- `mem_ball_of_scaled_norm_le_one` (lemma) in VD.Poisson.PoissonIntegral
-- `mem_unitDisc_of_scaled_exp_ofReal_mul_I` (lemma) in VD.Poisson.PoissonIntegral
-- `neq_in_unitDisc_of_exp_ofReal_mul_I` (lemma) in VD.Poisson.PoissonIntegral
-- `star_exp_ofReal_mul_I_eq_inv` (lemma) in VD.Poisson.PoissonIntegral
-- `one_sub_star_mul_neq_zero` (lemma) in VD.Poisson.PoissonIntegral
-- `differentiableAt_of_differentiableOn_unitDisc_of_mul` (lemma) in VD.Poisson.PoissonIntegral
-- `cauchy_circleIntegral_formula_on_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `cauchy_integral_formula_on_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `diffferentiableAt_goursat_integrand_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `vanishing_goursat_circleIntegral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `goursat_integrand_eq_aux` (lemma) in VD.Poisson.PoissonIntegral
-- `vanishing_goursat_integral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `cauchy_goursat_integral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `poisson_formula_of_differentiableOn_scaled_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_formula_of_harmonicOn_scaled_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `bounds_of_continuousOn_unitCircle_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `tendsto_integral_prod_of_continuousOn_unitCircle_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `poisson_kernel_continousOn_circle` (theorem) in VD.Poisson.PoissonIntegral
-- `seq_tendsto_to_one_in_unit_interval_aux` (lemma) in VD.Poisson.PoissonIntegral
-- `tendsto_of_radius_tendsto_one_of_continuousOn_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_diffContOnCl_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `realPart_herglotz_kernel_eq_poisson_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_diffContOnCl_unitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `circleAverage_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `circleAverage_of_diffContOnCl_unitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `continuousOn_herglotz_riesz` (lemma) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicOnNhd.circleAverage_re_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicContOnCl.circleAverage_re_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- ... and 42 more
+- `SPDE.UnboundedOperatorReal` (structure) in StochasticPDE.SPDE
+- `SPDE.UnboundedOperatorReal.IsDenselyDefined` (def) in StochasticPDE.SPDE
+- `SPDE.UnboundedOperatorReal.IsClosedOperator` (def) in StochasticPDE.SPDE
+- `SPDE.UnboundedOperatorReal.IsSelfAdjoint` (def) in StochasticPDE.SPDE
+- `SPDE.UnboundedOperatorReal.IsNegativeDefinite` (def) in StochasticPDE.SPDE
+- `SPDE.C0Semigroup` (structure) in StochasticPDE.SPDE
+- `SPDE.C0Semigroup.generator` (def) in StochasticPDE.SPDE
+- `SPDE.C0Semigroup.IsContraction` (def) in StochasticPDE.SPDE
+- `SPDE.C0Semigroup.generator_negative_of_contraction` (theorem) in StochasticPDE.SPDE
+- `SPDE.AbstractSPDE` (structure) in StochasticPDE.SPDE
+- `SPDE.AbstractSPDE.generator` (def) in StochasticPDE.SPDE
+- `SPDE.AbstractSPDE.domain_A` (def) in StochasticPDE.SPDE
+- `SPDE.AbstractSPDE.S` (def) in StochasticPDE.SPDE
+- `SPDE.AbstractSPDE.MildSolution` (structure) in StochasticPDE.SPDE
+- `SPDE.AbstractSPDE.StrongSolution` (structure) in StochasticPDE.SPDE
+- `SPDE.SemilinearParabolicSPDE` (structure) in StochasticPDE.SPDE
+- `SPDE.PolynomialNonlinearity` (structure) in StochasticPDE.SPDE
+- `SPDE.PolynomialNonlinearity.nontrivial` (theorem) in StochasticPDE.SPDE
+- `SPDE.PolynomialNonlinearity.eval` (def) in StochasticPDE.SPDE
+- `SPDE.PolynomialNonlinearity.phi4` (def) in StochasticPDE.SPDE
+- `SPDE.PolynomialNonlinearity.kpz` (def) in StochasticPDE.SPDE
+- `SPDE.SingularSPDE` (structure) in StochasticPDE.SPDE
+- `SPDE.RegularityStructureSolution` (structure) in StochasticPDE.SPDE
+- `SPDE.LocalWellPosedness` (structure) in StochasticPDE.SPDE
+- `SPDE.GlobalWellPosedness` (structure) in StochasticPDE.SPDE
+- `SPDE.modelledDistributionMeasurableSpace` (instance) in StochasticPDE.SPDE
+- `SPDE.SolutionSemigroup` (structure) in StochasticPDE.SPDE
+- `SPDE.InvariantMeasure` (structure) in StochasticPDE.SPDE
+- `SPDE.Ergodicity` (structure) in StochasticPDE.SPDE
+- `SPDE.RenormalizationConstants` (structure) in StochasticPDE.SPDE
+- `SPDE.renormalized_spde` (def) in StochasticPDE.SPDE
+- `SPDE.regularity_classical_agree` (theorem) in StochasticPDE.SPDE
+- `SPDE.TruncatedTensorAlgebra` (structure) in StochasticPDE.RegularityStructures
+- `SPDE.TruncatedTensorAlgebra.one` (def) in StochasticPDE.RegularityStructures
+- `SPDE.TruncatedTensorAlgebra.tensorProduct` (def) in StochasticPDE.RegularityStructures
+- `SPDE.TruncatedTensorAlgebra.mul` (def) in StochasticPDE.RegularityStructures
+- `SPDE.TruncatedTensorAlgebra.inv` (def) in StochasticPDE.RegularityStructures
+- `SPDE.RoughPath` (structure) in StochasticPDE.RegularityStructures
+- `SPDE.RoughPath.path` (def) in StochasticPDE.RegularityStructures
+- `SPDE.RoughPath.area` (def) in StochasticPDE.RegularityStructures
+- `SPDE.RoughPath.level1_additive` (theorem) in StochasticPDE.RegularityStructures
+- `SPDE.RoughPath.level2_chen` (theorem) in StochasticPDE.RegularityStructures
+- `SPDE.IsGeometric` (def) in StochasticPDE.RegularityStructures
+- `SPDE.SmoothPathSignatureData` (structure) in StochasticPDE.RegularityStructures
+- `SPDE.smoothPathSignatureApprox` (def) in StochasticPDE.RegularityStructures
+- `SPDE.Examples.GaugeGroup` (structure) in StochasticPDE.Examples.YangMills2D
+- `SPDE.Examples.GaugeGroup.LieAlg` (abbrev) in StochasticPDE.Examples.YangMills2D
+- `SPDE.Examples.GaugeGroup.U1` (def) in StochasticPDE.Examples.YangMills2D
+- `SPDE.Examples.GaugeGroup.SO3` (def) in StochasticPDE.Examples.YangMills2D
+- `SPDE.Examples.Torus2` (structure) in StochasticPDE.Examples.YangMills2D
+- ... and 1752 more
 
 ### VirasoroProject (+387)
 
@@ -924,7 +1148,7 @@
 - `VirasoroProject.LieTwoCocycle.apply_add` (lemma) in VirasoroProject.LieCohomologySmallDegree
 - ... and 337 more
 
-### analysis (+3668)
+### analysis (+2248)
 
 - `theme` (def) in book.AnalysisBook
 - `demoSite` (def) in book.AnalysisBook
@@ -947,36 +1171,90 @@
 - `Chapter9.StrictMono.iff` (theorem) in analysis.Analysis.Section_9_8
 - `Chapter9.AntitoneOn.iff` (theorem) in analysis.Analysis.Section_9_8
 - `Chapter9.StrictAntitone.iff` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.MonotoneOn.exist_inverse` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.IsMaxOn.of_monotone_on_compact` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.IsMaxOn.of_strictmono_on_compact` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.IsMaxOn.of_antitone_on_compact` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.IsMaxOn.of_strictantitone_on_compact` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.BddOn.of_monotone` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.BddOn.of_antitone` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.no_strictmono_intermediate_value` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.no_monotone_intermediate_value` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.no_strictanti_intermediate_value` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.no_antitone_intermediate_value` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.mono_of_continuous_inj` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.MonotoneOn.exist_inverse_without_continuity` (def) in analysis.Analysis.Section_9_8
-- `Chapter9.MonotoneOn.exist_inverse_without_strictmono` (def) in analysis.Analysis.Section_9_8
 - `Chapter9.q_9_8_5` (abbrev) in analysis.Analysis.Section_9_8
 - `Chapter9.g_9_8_5` (abbrev) in analysis.Analysis.Section_9_8
 - `Chapter9.f_9_8_5` (abbrev) in analysis.Analysis.Section_9_8
-- `Chapter9.StrictMonoOn.of_f_9_8_5` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.ContinuousAt.of_f_9_8_5'` (theorem) in analysis.Analysis.Section_9_8
-- `Chapter9.ContinuousAt.of_f_9_8_5` (theorem) in analysis.Analysis.Section_9_8
 - `Chapter11.integ_of_monotone` (theorem) in analysis.Analysis.Section_11_6
 - `Chapter11.integ_of_antitone` (theorem) in analysis.Analysis.Section_11_6
-- `Chapter11.integ_of_bdd_monotone` (theorem) in analysis.Analysis.Section_11_6
-- `Chapter11.integ_of_bdd_antitone` (theorem) in analysis.Analysis.Section_11_6
-- `Chapter11.summable_iff_integ_of_antitone` (theorem) in analysis.Analysis.Section_11_6
 - `Chapter3.SetTheory` (class) in analysis.Analysis.Section_3_1
 - `Chapter3.SetTheory.objects_mem_sets` (instance) in analysis.Analysis.Section_3_1
 - `Chapter3.SetTheory.sets_are_objects` (instance) in analysis.Analysis.Section_3_1
 - `Chapter3.SetTheory.Set.coe_eq` (theorem) in analysis.Analysis.Section_3_1
-- ... and 3618 more
+- `Chapter3.SetTheory.Set.coe_eq_iff` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.ext` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.instEmpty` (instance) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.not_mem_empty` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.nonempty_def` (lemma) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.nonempty_of_inhabited` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.instSingleton` (instance) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.mem_singleton` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.instUnion` (instance) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.mem_union` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.instInsert` (instance) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.mem_insert` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.pair_eq` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.mem_pair` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.mem_triple` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.empty` (abbrev) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.singleton_empty` (abbrev) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.pair_empty` (abbrev) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.triple_eq` (theorem) in analysis.Analysis.Section_3_1
+- `Chapter3.SetTheory.Set.pair_union_pair` (theorem) in analysis.Analysis.Section_3_1
+- ... and 2198 more
+
+### debate (+297)
+
+- `Prob.cond_eq_cexp` (lemma) in Prob.Cond
+- `Prob.cexp_mono` (lemma) in Prob.Cond
+- `Prob.cond_mono` (lemma) in Prob.Cond
+- `Prob.cond_nonneg` (lemma) in Prob.Cond
+- `Prob.cond_le_one` (lemma) in Prob.Cond
+- `Prob.cond_mem_Icc` (lemma) in Prob.Cond
+- `Prob.cexp_nonneg` (lemma) in Prob.Cond
+- `Prob.cexp_eq_exp` (lemma) in Prob.Cond
+- `Prob.cond_eq_pr` (lemma) in Prob.Cond
+- `Prob.cexp_eq_zero` (lemma) in Prob.Cond
+- `Prob.cond_eq_zero` (lemma) in Prob.Cond
+- `Prob.cexp_on_zero` (lemma) in Prob.Cond
+- `Prob.cond_on_zero` (lemma) in Prob.Cond
+- `Prob.cexp_congr` (lemma) in Prob.Cond
+- `Prob.cond_bind_le_of_forall_le` (lemma) in Prob.Cond
+- `Prob.exp_eq_cexp_add_cexp` (lemma) in Prob.Cond
+- `Prob.exp_eq_exp_cexp` (lemma) in Prob.Cond
+- `Prob.cexp_eq_cexp_cexp` (lemma) in Prob.Cond
+- `Prob.pr_eq_cond_add_cond` (lemma) in Prob.Cond
+- `Prob.bayes'` (lemma) in Prob.Cond
+- `Prob.bayes` (theorem) in Prob.Cond
+- `Prob.cexp_pure` (lemma) in Prob.Cond
+- `Prob.cond_pure` (lemma) in Prob.Cond
+- `Prob.cexp_zero` (lemma) in Prob.Cond
+- `Prob.cexp_add` (lemma) in Prob.Cond
+- `Prob.cexp_sum` (lemma) in Prob.Cond
+- `Prob.cexp_const_mul` (lemma) in Prob.Cond
+- `Prob.cond_congr` (lemma) in Prob.Cond
+- `Prob.cond_neg` (lemma) in Prob.Cond
+- `Prob.cexp_if` (lemma) in Prob.Cond
+- `Prob.cexp_eq_cexp_add_cexp` (lemma) in Prob.Cond
+- `Prob.average_le_max` (lemma) in Prob.Cond
+- `Prob.cexp_bind_le_of_cut` (lemma) in Prob.Cond
+- `Prob.cond_bind_le_of_cut` (lemma) in Prob.Cond
+- `Prob.pr_enrich_le_pr` (lemma) in Prob.Cond
+- `Prob.pr_le_pr_enrich` (lemma) in Prob.Cond
+- `Prob.cond_bind_le_first` (lemma) in Prob.Cond
+- `Prob.cond_bind_le_second` (lemma) in Prob.Cond
+- `Prob.cexp_le_of_forall` (lemma) in Prob.Cond
+- `Prob` (structure) in Prob.Defs
+- `Prob.supp` (def) in Prob.Defs
+- `Prob.exp` (def) in Prob.Defs
+- `Prob.mean` (def) in Prob.Defs
+- `Prob.pr` (def) in Prob.Defs
+- `Prob.cond` (def) in Prob.Defs
+- `Prob.cexp` (def) in Prob.Defs
+- `Prob.zero_iff` (lemma) in Prob.Defs
+- `Prob.zero` (lemma) in Prob.Defs
+- `Prob.mem_iff` (lemma) in Prob.Defs
+- `Prob.mem_iff_pos` (lemma) in Prob.Defs
+- ... and 247 more
 
 ### distribution_factors (+27)
 
@@ -1008,7 +1286,7 @@
 - `Grid.nodal_susceptance_matrix_full` (def) in DistributionFactors.Grid
 - `Grid.nodal_susceptance_matrix_eq_B` (theorem) in DistributionFactors.Grid
 
-### exchangeability (+875)
+### exchangeability (+871)
 
 - `main` (def) in Main
 - `Exchangeability.Exchangeable` (def) in Exchangeability.Contractability
@@ -1060,7 +1338,7 @@
 - `Exchangeability.measurable_of_mem_prefixCylinders` (lemma) in Exchangeability.Core
 - `Exchangeability.takePrefix` (def) in Exchangeability.Core
 - `Exchangeability.takePrefix_apply` (lemma) in Exchangeability.Core
-- ... and 825 more
+- ... and 821 more
 
 ### fin-dep (+1069)
 
@@ -1116,15 +1394,12 @@
 - `FiniteDependence.WeakTwo.misFactor4` (def) in FiniteDependence.WeakTwo.Threshold
 - ... and 1019 more
 
-### finite-groups (+54)
+### finite-groups (+48)
 
-- `FG.schur_lemma.projection_annihilates_vanish` (lemma) in src.schur_lemma
-- `FG.schur_lemma.schur_lemma₁` (lemma) in src.schur_lemma
 - `FG.schur_lemma.schur_lemma₂` (lemma) in src.schur_lemma
 - `FG.matrix_representation` (structure) in src.matrix_representation
 - `FG.matrix_representation.is_equivalent_symm` (lemma) in src.matrix_representation
 - `FG.matrix_representation.is_equivalent_iff` (lemma) in src.matrix_representation
-- `FG.matrix_representation.is_block_diagonal` (def) in src.matrix_representation
 - `FG.matrix_representation.irreducible_representation` (def) in src.matrix_representation
 - `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
 - `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
@@ -1144,13 +1419,11 @@
 - `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
 - `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
 - `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
-- `FG.block_diagonal.reduce` (def) in src.linear_space.block_diagonal
 - `FG.vec` (def) in src.linear_space.vector
 - `FG.vec.smul` (def) in src.linear_space.vector
 - `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
 - `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
 - `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_det_eq_zero_iff` (lemma) in src.linear_space.miscs
 - `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
 - `FG.vec3` (structure) in src.linear_space3.data
 - `FG.vec3.vector3` (def) in src.linear_space3.data
@@ -1168,7 +1441,9 @@
 - `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
 - `FG.mat3_representation` (class) in src.linear_space3.mat3_representation
 - `FG.example_Z₃.Z₃` (inductive) in src.linear_space3.examples.Z3
-- ... and 4 more
+- `FG.example_Z₃.Z₃.rep1` (def) in src.linear_space3.examples.Z3
+- `FG.example_Z₃.Z₃.rep2` (def) in src.linear_space3.examples.Z3
+- `FG.example_Z₃.Z₃.rep2.is_reducible` (lemma) in src.linear_space3.examples.Z3
 
 ### formal-distribution (+240)
 
@@ -1277,6 +1552,60 @@
 - `MyComputable.logb` (abbrev) in FormalQKD.RuscaEqnApprox
 - `MyComputable.log₂` (abbrev) in FormalQKD.RuscaEqnApprox
 - ... and 56 more
+
+### gaussian-field (+566)
+
+- `Cylinder` (abbrev) in Test
+- `Torus` (abbrev) in Test
+- `SchwartzProduct` (abbrev) in Test
+- `qftCovarianceCLM` (def) in Test
+- `qftMeasure` (def) in Test
+- `qftCovariance` (def) in Test
+- `qftCovariance_eq_inner` (theorem) in Test
+- `heatCovarianceCLM` (def) in Test
+- `heatMeasure` (def) in Test
+- `heatCovarianceCLM_coord` (theorem) in Test
+- `qftCovarianceCLM_coord` (theorem) in Test
+- `GaussianField.SmoothMap_Circle` (structure) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instFunLike` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.ext` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.periodic` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.smooth` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.continuous` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.contDiffAt_of_smooth` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instZero` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.periodic_add` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instAdd` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.periodic_neg` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instNeg` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.periodic_sub` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instSub` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.periodic_smul` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instSMul` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instAddCommGroup` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instModule` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.continuous_iteratedDeriv` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.periodic_iteratedDeriv` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.bddAbove_norm_iteratedDeriv_image` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.Icc_nonempty` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.sobolevSeminorm` (def) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.sobolevSeminorm_nonneg` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.norm_iteratedDeriv_le_sobolevSeminorm` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.norm_iteratedDeriv_le_sobolevSeminorm'` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instTopologicalSpace` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.smoothCircle_withSeminorms` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instIsTopologicalAddGroup` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.instContinuousSMul` (instance) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierFreq` (def) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierBasisFun` (def) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierBasisFun_smooth` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierBasisFun_periodic` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierBasis` (def) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierBasisFun_abs_le` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierCoeffReal` (def) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierCoeffReal_add` (theorem) in SmoothCircle.Basic
+- `GaussianField.SmoothMap_Circle.fourierCoeffReal_smul` (theorem) in SmoothCircle.Basic
+- ... and 516 more
 
 ### interval (+844)
 
@@ -1409,6 +1738,114 @@
 - `eigenvalue_bound_eigenbasis` (lemma) in QKD
 - `high_fidelity_implies_low_entropy_equivalent` (theorem) in QKD
 
+### lean-stat-learning-theory (+1205)
+
+- `linter` (abbrev) in lakefile
+- `options` (abbrev) in lakefile
+- `IsENet` (def) in SLT.CoveringNumber
+- `coveringNumber` (def) in SLT.CoveringNumber
+- `IsPacking` (def) in SLT.CoveringNumber
+- `packingNumber` (def) in SLT.CoveringNumber
+- `coveringNumber_le_card` (lemma) in SLT.CoveringNumber
+- `coveringNumber_empty` (lemma) in SLT.CoveringNumber
+- `IsENet.mono_eps` (lemma) in SLT.CoveringNumber
+- `coveringNumber_anti_eps` (lemma) in SLT.CoveringNumber
+- `coveringNumber_mono_set` (lemma) in SLT.CoveringNumber
+- `coveringNumber_singleton` (lemma) in SLT.CoveringNumber
+- `isENet_of_maximal` (lemma) in SLT.CoveringNumber
+- `coveringNumber_lt_top_of_totallyBounded` (lemma) in SLT.CoveringNumber
+- `WithTop.untop_of_lt_top` (lemma) in SLT.CoveringNumber
+- `exists_finset_isENet_subset_of_totallyBounded` (lemma) in SLT.CoveringNumber
+- `exists_finset_isENet_of_totallyBounded` (lemma) in SLT.CoveringNumber
+- `exists_optimal_enet` (lemma) in SLT.CoveringNumber
+- `exists_optimal_enet_nat` (lemma) in SLT.CoveringNumber
+- `exists_enet_subset_from_half` (lemma) in SLT.CoveringNumber
+- `coveringNumber_pos_of_nonempty_totallyBounded` (lemma) in SLT.CoveringNumber
+- `euclideanBall` (abbrev) in SLT.CoveringNumber
+- `euclideanBall_totallyBounded` (lemma) in SLT.CoveringNumber
+- `euclideanBall_nonempty` (lemma) in SLT.CoveringNumber
+- `closedBall_half_disjoint` (lemma) in SLT.CoveringNumber
+- `packing_halfBalls_pairwiseDisjoint` (lemma) in SLT.CoveringNumber
+- `halfBall_subset_enlargedBall` (lemma) in SLT.CoveringNumber
+- `packing_halfBalls_subset` (lemma) in SLT.CoveringNumber
+- `volume_disjoint_union_closedBalls` (lemma) in SLT.CoveringNumber
+- `volume_closedBall_euclidean` (lemma) in SLT.CoveringNumber
+- `euclideanBallVolumeConst` (def) in SLT.CoveringNumber
+- `euclideanBallVolumeConst_pos` (lemma) in SLT.CoveringNumber
+- `volume_closedBall_eq_rpow` (lemma) in SLT.CoveringNumber
+- `packing_card_bound_aux` (lemma) in SLT.CoveringNumber
+- `packing_card_bound` (lemma) in SLT.CoveringNumber
+- `maximal_packing_isENet` (lemma) in SLT.CoveringNumber
+- `separated_finite_of_totallyBounded` (lemma) in SLT.CoveringNumber
+- `exists_maximal_packing` (lemma) in SLT.CoveringNumber
+- `coveringNumber_euclideanBall_le` (theorem) in SLT.CoveringNumber
+- `instMeasurableSpaceOptionFin` (instance) in SLT.CoveringNumber
+- `instMeasurableSingletonClassOptionFin` (instance) in SLT.CoveringNumber
+- `l1norm` (def) in SLT.CoveringNumber
+- `l1Ball` (def) in SLT.CoveringNumber
+- `sgn` (def) in SLT.CoveringNumber
+- `abs_mul_sgn` (lemma) in SLT.CoveringNumber
+- `sgn_sq` (lemma) in SLT.CoveringNumber
+- `vecθ` (def) in SLT.CoveringNumber
+- `sgnBool` (def) in SLT.CoveringNumber
+- `vec` (def) in SLT.CoveringNumber
+- `embed` (def) in SLT.CoveringNumber
+- ... and 1155 more
+
+### lean4_information_theory (+86)
+
+- `InformationTheory.FDivFunction` (class) in InformationTheory.FDivergence
+- `InformationTheory.fdiv` (def) in InformationTheory.FDivergence
+- `InformationTheory.jensens_invocation` (lemma) in InformationTheory.FDivergence
+- `InformationTheory.sum_cancel` (lemma) in InformationTheory.FDivergence
+- `InformationTheory.fdiv_nonneg` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.kldivF` (def) in InformationTheory.FDivergence
+- `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.kldiv_nonneg` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.kldiv_self` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvF` (def) in InformationTheory.FDivergence
+- `InformationTheory.tvd` (def) in InformationTheory.FDivergence
+- `InformationTheory.tvd_is_fdivergence` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvd_nonneg` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvd_leq_one` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvd_self` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvd_comm` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvd_triangle` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvd_zero_iff_eq` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.scheffes_theorem` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSqF` (def) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSq` (def) in InformationTheory.FDivergence
+- `InformationTheory.tsybakov_hellingerSq` (def) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSq_is_fdivergence` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSq_self` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSq_comm` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSq_zero_iff_eq` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tsybakov_hellingerSq_multiplicative_form` (lemma) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSq_multiplicative_form` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.chiSqF` (def) in InformationTheory.FDivergence
+- `InformationTheory.chiSq` (def) in InformationTheory.FDivergence
+- `InformationTheory.chiSq_is_fdivergence` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.chiSq_self` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.chiSq_zero_iff_eq` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.max_min_eq_two` (lemma) in InformationTheory.FDivergence
+- `InformationTheory.max_eq_two_min` (lemma) in InformationTheory.FDivergence
+- `InformationTheory.sum_sqrt_mul_sq_le_sum_mul_sum` (lemma) in InformationTheory.FDivergence
+- `InformationTheory.lecam_inequality` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.lecam_connector_lemma` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.lecam_hellingerSq` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.lecam_hellingerSq_le_tvd` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.hellingerSq_le_kld` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.tvd_supp` (lemma) in InformationTheory.FDivergence
+- `InformationTheory.pinsker_tvd_kl` (theorem) in InformationTheory.FDivergence
+- `InformationTheory.pmf` (structure) in InformationTheory.InformationTheory
+- `InformationTheory.pmfCoe` (instance) in InformationTheory.InformationTheory
+- `InformationTheory.hasSum_coe_one` (theorem) in InformationTheory.InformationTheory
+- `InformationTheory.ext` (theorem) in InformationTheory.InformationTheory
+- `InformationTheory.coe_le_one` (theorem) in InformationTheory.InformationTheory
+- `InformationTheory.pmf.sum_one'` (theorem) in InformationTheory.InformationTheory
+- `InformationTheory.pmf.support` (def) in InformationTheory.InformationTheory
+- ... and 36 more
+
 ### mathlib4 (+49798)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
@@ -1463,7 +1900,7 @@
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
 - ... and 49748 more
 
-### monlib4 (+2416)
+### monlib4 (+2413)
 
 - `schurProjection.innerOne_map_one_nonneg` (theorem) in Monlib.QuantumGraph.Degree
 - `QuantumGraph.toSubset_iff` (theorem) in Monlib.QuantumGraph.Degree
@@ -1515,7 +1952,7 @@
 - `QuantumGraph.apply_mul_of_isReal` (theorem) in Monlib.QuantumGraph.Grad
 - `symmMap_apply_schurMul` (theorem) in Monlib.QuantumGraph.Basic
 - `Psi_apply_linearMap_comp_linearMap_of_commute_modAut` (theorem) in Monlib.QuantumGraph.Basic
-- ... and 2366 more
+- ... and 2363 more
 
 ### partial-regularity (+263)
 
@@ -1620,7 +2057,7 @@
 - `Filter.EventuallyEq.add_right` (lemma) in BirkhoffErgodicThm.FilterPR
 - `Filter.EventuallyEq.add_left` (lemma) in BirkhoffErgodicThm.FilterPR
 
-### probability (+339)
+### probability (+290)
 
 - `main` (def) in Main
 - `Findist` (structure) in Probability.Probability.Defs
@@ -1651,30 +2088,30 @@
 - `Finprob.instRVadd` (instance) in Probability.Finprob
 - `Finprob.instRVmul` (instance) in Probability.Finprob
 - `Finprob.dirac_ofsingleton` (def) in Probability.Finprob
-- `Finprob.dirac_dist` (def) in Probability.Finprob
-- `Finprob.ind_and_eq_prod_ind` (lemma) in Probability.Finprob
 - `Finprob.exp_zero_cond` (theorem) in Probability.Finprob
 - `Finprob.prob_zero_cond` (theorem) in Probability.Finprob
-- `Finprob.prob_joint_le_prob` (theorem) in Probability.Finprob
-- `Finprob.prob_eq_prob_cond_prod` (theorem) in Probability.Finprob
-- `Finprob.prob_ge_measure` (theorem) in Probability.Finprob
 - `Finprob.list_filter_zero_sum_eq_sum` (lemma) in Probability.Finprob
 - `Finprob.exp_omit_zero` (theorem) in Probability.Finprob
-- `Finprob.exp_add_rv` (theorem) in Probability.Finprob
-- `Finprob.exp_const` (theorem) in Probability.Finprob
 - `Finprob.exp_add_const` (theorem) in Probability.Finprob
-- `Finprob.exp_cnd_rv_add_const` (theorem) in Probability.Finprob
-- `Finprob.exp_monotone` (theorem) in Probability.Finprob
-- `Finprob.exp_congr` (theorem) in Probability.Finprob
-- `Finprob.exp_sum_val` (theorem) in Probability.Finprob
-- `Finprob.exp_sum_val_cnd` (theorem) in Probability.Finprob
-- `Finprob.exp_sum_val_cnd_rv` (theorem) in Probability.Finprob
-- `Finprob.total_probability` (theorem) in Probability.Finprob
-- `Finprob.total_expectation` (theorem) in Probability.Finprob
 - `Finprob.prob_prod_prob` (theorem) in Probability.Finprob
-- ... and 289 more
+- `Finset.argmax'` (def) in Probability.Expected
+- `MDPs.ObjectiveFH` (structure) in Probability.Expected
+- `MDPs.objective_fh` (def) in Probability.Expected
+- `MDPs.Optimal_fh` (def) in Probability.Expected
+- `MDPs.ValuesH` (def) in Probability.Expected
+- `MDPs.hvalue_π` (def) in Probability.Expected
+- `MDPs.OptimalVF_fh` (def) in Probability.Expected
+- `MDPs.reward_eq_reward_from_0` (lemma) in Probability.Expected
+- `MDPs.DPhπ` (def) in Probability.Expected
+- `MDPs.DPhopt` (def) in Probability.Expected
+- `MDPs.PolicyMD` (def) in Probability.Expected
+- `MDPs.Values` (def) in Probability.Expected
+- `MDPs.q_of_v` (def) in Probability.Expected
+- `MDPs.ValuesM` (def) in Probability.Expected
+- `MDPs.markov_u_quot` (theorem) in Probability.Expected
+- ... and 240 more
 
-### quasi-borel-spaces (+630)
+### quasi-borel-spaces (+629)
 
 - `QuasiBorelSpace.Nat.isHom_rec` (lemma) in QuasiBorelSpaces.Nat
 - `QuasiBorelSpace.Nat.isHom_lt` (lemma) in QuasiBorelSpaces.Nat
@@ -1726,7 +2163,7 @@
 - `OmegaQuasiBorelHom.copy` (def) in QuasiBorelSpaces.OmegaHom
 - `OmegaQuasiBorelHom.coe_mk` (lemma) in QuasiBorelSpaces.OmegaHom
 - `OmegaQuasiBorelHom.eta` (lemma) in QuasiBorelSpaces.OmegaHom
-- ... and 580 more
+- ... and 579 more
 
 ### ray (+851)
 
@@ -1838,4 +2275,4 @@
 
 ## Update History (1 runs)
 
-- **2026-02-23T03:29:01.046431+00:00**: Checked 42 repos, updated 43, +30087 -0 declarations
+- **2026-02-23T05:08:35.456268+00:00**: Checked 51 repos, updated 52, +34105 -0 declarations
