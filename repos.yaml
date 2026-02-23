@@ -54,6 +54,10 @@ repos:
   - url: https://github.com/girving/series
     description: "Power series, analytic functions"
 
+  # Physics formalization
+  - url: https://github.com/lean-phys-community/PhysLean
+    description: "Digitalized physics results in Lean (492 stars)"
+
   # Group theory & representations
   - url: https://github.com/ImperialCollegeLondon/FLT
     description: "Fermat's Last Theorem (uses representation theory)"
