@@ -12,6 +12,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
 
       - uses: actions/setup-python@v5
         with:
@@ -47,4 +49,4 @@ jobs:
             --title "Index $(date +%Y-%m-%d)" \
             --notes "$(lean-index stats)"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT }}
