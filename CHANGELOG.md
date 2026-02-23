@@ -1,6 +1,6 @@
 # Changelog (since 2026-02-16)
 
-## New Declarations (71409)
+## New Declarations (71892)
 
 ### CvxLean (+1211)
 
@@ -1301,7 +1301,7 @@
 - `eigenvalue_bound_eigenbasis` (lemma) in QKD
 - `high_fidelity_implies_low_entropy_equivalent` (theorem) in QKD
 
-### mathlib4 (+49315)
+### mathlib4 (+49798)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -1353,7 +1353,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 49265 more
+- ... and 49748 more
 
 ### monlib4 (+2416)
 
@@ -1730,4 +1730,4 @@
 
 ## Update History (1 runs)
 
-- **2026-02-23T02:05:50.958104+00:00**: Checked 42 repos, updated 43, +22094 -0 declarations
+- **2026-02-23T02:51:26.310322+00:00**: Checked 42 repos, updated 43, +22094 -0 declarations

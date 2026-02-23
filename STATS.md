@@ -1,7 +1,7 @@
 # Lean Index Statistics
 
-**67,382 topic-matched declarations** across **30 repositories**
-(71,409 total declarations scanned from 42 repos)
+**68,284 topic-matched declarations** across **30 repositories**
+(71,892 total declarations scanned from 42 repos)
 
 ## By Topic
 
@@ -14,37 +14,38 @@
 | operator-algebras              |      3,060 |
 | spectral-theory                |      2,568 |
 | distributions-schwartz         |      1,652 |
+| quantum-field-theory           |        902 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     41,615 |
-| def             |      6,257 |
-| instance        |      3,981 |
-| lemma           |      2,349 |
-| ctor            |        475 |
-| structure       |        435 |
-| class           |        279 |
-| abbrev          |        183 |
-| inductive       |         69 |
+| theorem         |     42,126 |
+| def             |      6,363 |
+| instance        |      4,012 |
+| lemma           |      2,378 |
+| ctor            |        477 |
+| structure       |        438 |
+| class           |        285 |
+| abbrev          |        187 |
+| inductive       |         70 |
 | opaque          |         68 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     49,315 |     49,315 |
-| Measure                             |      1,812 |      1,933 |
+| mathlib4                            |     49,798 |     49,798 |
+| Measure                             |      1,814 |      1,933 |
 | exchangeability                     |        818 |        875 |
+| monlib4                             |        647 |      2,416 |
 | analysis                            |        626 |      3,668 |
 | quasi-borel-spaces                  |        551 |        630 |
-| monlib4                             |        458 |      2,416 |
 | FLT                                 |        334 |      1,760 |
 | OSforGFF                            |        318 |        808 |
 | fin-dep                             |        284 |      1,069 |
+| Lean-QuantumInfo                    |        201 |      1,670 |
 | lean-bandits                        |        197 |        488 |
-| Lean-QuantumInfo                    |        196 |      1,670 |
 | ExtremeValueProject                 |        130 |        358 |
 | formal-distribution                 |        105 |        240 |
 | SpectralThm                         |        103 |        135 |
@@ -54,9 +55,9 @@
 | SampCert                            |         49 |        606 |
 | ray                                 |         47 |        851 |
 | RMT4                                |         33 |        151 |
-| VirasoroProject                     |         27 |        387 |
+| QHL-Lean                            |         30 |         76 |
+| VirasoroProject                     |         29 |        387 |
 | pointwise-birkhoff                  |         19 |         46 |
-| QHL-Lean                            |         18 |         76 |
 | CvxLean                             |         16 |      1,211 |
 | interval                            |         10 |        844 |
 | finite-groups                       |          9 |         54 |
@@ -67,7 +68,7 @@
 
 ## Last Update
 
-- **When**: 2026-02-23T02:05:50.958104+00:00
+- **When**: 2026-02-23T02:51:26.310322+00:00
 - **Repos checked**: 42
 - **Repos updated**: 43
 - **New declarations**: 22094
