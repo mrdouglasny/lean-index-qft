@@ -1,7 +1,7 @@
 # Lean Index Statistics
 
-**78,942 topic-matched declarations** across **40 repositories**
-(83,903 total declarations scanned from 51 repos)
+**78,953 topic-matched declarations** across **40 repositories**
+(83,949 total declarations scanned from 51 repos)
 
 ## By Topic
 
@@ -9,7 +9,7 @@
 |--------------------------------|------------|
 | functional-analysis            |     27,296 |
 | measure-theory                 |     23,205 |
-| quantum-field-theory           |      7,501 |
+| quantum-field-theory           |      7,512 |
 | probability-theory             |      7,254 |
 | topological-groups             |      5,305 |
 | operator-algebras              |      3,165 |
@@ -21,8 +21,8 @@
 | Kind            |      Count |
 |-----------------|------------|
 | theorem         |     43,150 |
-| def             |      8,198 |
-| lemma           |      8,093 |
+| def             |      8,200 |
+| lemma           |      8,102 |
 | instance        |      4,140 |
 | structure       |        631 |
 | ctor            |        477 |
@@ -39,7 +39,7 @@
 | PhysLean                            |      6,449 |      7,194 |
 | Measure                             |      1,812 |      1,924 |
 | exchangeability                     |        815 |        871 |
-| OSreconstruction                    |        747 |      1,634 |
+| OSreconstruction                    |        758 |      1,669 |
 | monlib4                             |        646 |      2,413 |
 | BrownianMotion                      |        582 |        759 |
 | lean-stat-learning-theory           |        553 |      1,205 |
@@ -60,7 +60,7 @@
 | MCMC                                |         78 |        526 |
 | SampCert                            |         49 |        606 |
 | ray                                 |         47 |        851 |
-| ProjectVD                           |         41 |         83 |
+| ProjectVD                           |         41 |         94 |
 | RMT4                                |         33 |        151 |
 | VirasoroProject                     |         29 |        387 |
 | QHL-Lean                            |         24 |         63 |
@@ -69,9 +69,9 @@
 
 ## Last Update
 
-- **When**: 2026-02-23T05:08:35.456268+00:00
+- **When**: 2026-02-23T07:53:00.657081+00:00
 - **Repos checked**: 51
 - **Repos updated**: 52
-- **New declarations**: 34105
+- **New declarations**: 34151
 - **Removed declarations**: 0
-- **Summary**: Checked 51 repos, updated 52, +34105 -0 declarations
+- **Summary**: Checked 51 repos, updated 52, +34151 -0 declarations

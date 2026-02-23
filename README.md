@@ -2,7 +2,7 @@
 
 Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**65,441 topic-matched declarations** across **40 repositories** (scanned 51 repos, 83,903 declarations).
+**65,452 topic-matched declarations** across **40 repositories** (scanned 51 repos, 83,949 declarations).
 
 Tracks Lean declarations related to:
 - **Functional analysis**: Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
@@ -24,7 +24,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 6,449 | Digitalized physics results in Lean (492 stars) |
 | [SStarrySSky/Measure](https://github.com/SStarrySSky/Measure) | 1,812 | 📏 A dependently-typed language on Lean 4 for formalizing physics. Dimensions,... |
 | [cameronfreer/exchangeability](https://github.com/cameronfreer/exchangeability) | 815 | Exchangeability, de Finetti's theorem |
-| [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 747 | Osterwalder-Schrader reconstruction theorem |
+| [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 758 | Osterwalder-Schrader reconstruction theorem |
 | [themathqueen/monlib4](https://github.com/themathqueen/monlib4) | 646 | Von Neumann algebras, quantum information theory |
 | [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 582 | Construction of a Brownian Motion in Lean |
 | [YuanheZ/lean-stat-learning-theory](https://github.com/YuanheZ/lean-stat-learning-theory) | 553 | Statistical learning theory, Gaussian concentration, Dudley's entropy |

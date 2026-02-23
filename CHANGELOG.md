@@ -1,6 +1,6 @@
 # Changelog (since 2026-02-16)
 
-## New Declarations (83903)
+## New Declarations (83949)
 
 ### BrownianMotion (+759)
 
@@ -555,7 +555,7 @@
 - `freeCovariance_regulated_uniformly_bounded` (lemma) in OSforGFF.CovarianceMomentum
 - ... and 757 more
 
-### OSreconstruction (+1634)
+### OSreconstruction (+1669)
 
 - `DifferentiableOn.analyticOnNhd_of_finiteDimensional` (theorem) in OSReconstruction.SCV.IdentityTheorem
 - `identity_theorem_SCV` (theorem) in OSReconstruction.SCV.IdentityTheorem
@@ -607,7 +607,7 @@
 - `SCV.polydisc_isPathConnected` (theorem) in OSReconstruction.SCV.Polydisc
 - `SCV.mem_polydisc_update` (theorem) in OSReconstruction.SCV.Polydisc
 - `SCV.mem_closedPolydisc_update` (theorem) in OSReconstruction.SCV.Polydisc
-- ... and 1584 more
+- ... and 1619 more
 
 ### PhysLean (+7194)
 
@@ -663,7 +663,7 @@
 - `PhysLean.PiTensorProduct.pureInr_update_right` (lemma) in PhysLean.Mathematics.PiTensorProduct
 - ... and 7144 more
 
-### ProjectVD (+83)
+### ProjectVD (+94)
 
 - `ValueDistribution.σ₁` (lemma) in VD.CartanExperimentation
 - `ValueDistribution.σ₂` (lemma) in VD.CartanExperimentation
@@ -673,6 +673,17 @@
 - `ValueDistribution.ρ₃'` (lemma) in VD.CartanExperimentation
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
 - `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
+- `Blaschke` (def) in VD.Blaschke
+- `meromorphicOn_blaschke` (lemma) in VD.Blaschke
+- `analyticOnNhd_blaschke` (lemma) in VD.Blaschke
+- `nonzero_blaschke` (lemma) in VD.Blaschke
+- `meromorphicOrderAt_fun_mul` (theorem) in VD.Blaschke
+- `meromorphicOrderAt_fun_inv` (theorem) in VD.Blaschke
+- `order_blaschke` (lemma) in VD.Blaschke
+- `meromorphicNFOn_blaschke` (lemma) in VD.Blaschke
+- `blaschke_eval_center` (lemma) in VD.Blaschke
+- `blaschke_eval_circle_ne` (lemma) in VD.Blaschke
+- `log_blaschke_eval_circle` (lemma) in VD.Blaschke
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
@@ -704,18 +715,7 @@
 - `circleAverage_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
 - `circleAverage_of_diffContOnCl_unitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
 - `continuousOn_herglotz_riesz` (lemma) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicOnNhd.circleAverage_re_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicContOnCl.circleAverage_re_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicOnNhd.circleAverage_div_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicContOnCl.circleAverage_div_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- `ContinuousOn.circleAverage` (theorem) in VD.MathlibPending.HarmonicMeanvalue
-- `ContinuousOn.eq_of_eqOn_Ioo` (lemma) in VD.MathlibPending.HarmonicMeanvalue
-- `HarmonicContOnCl.circleAverage_eq` (theorem) in VD.MathlibPending.HarmonicMeanvalue
-- `Function.locallyFinsuppWithin.one_isLittleO_logCounting_single` (lemma) in VD.MathlibPending.BoundednessLogCounting
-- `Function.locallyFinsuppWithin.zero_iff_logCounting_bounded` (lemma) in VD.MathlibPending.BoundednessLogCounting
-- `ValueDistribution.logCounting_isBigO_one_iff_analyticOnNhd` (theorem) in VD.MathlibPending.BoundednessLogCounting
-- `Complex.IsConservativeOn.isExactOn_univ` (theorem) in VD.MathlibSubmitted.HarmonicLiouville
-- ... and 33 more
+- ... and 44 more
 
 ### QFTFramework (+50)
 
@@ -2275,4 +2275,4 @@
 
 ## Update History (1 runs)
 
-- **2026-02-23T05:08:35.456268+00:00**: Checked 51 repos, updated 52, +34105 -0 declarations
+- **2026-02-23T07:53:00.657081+00:00**: Checked 51 repos, updated 52, +34151 -0 declarations
