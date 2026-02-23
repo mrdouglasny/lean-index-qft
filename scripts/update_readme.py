@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Copyright 2026 Michael R. Douglas. MIT License.
 """Update README.md with current stats from index.db."""
 
 import re

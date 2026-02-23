@@ -91,3 +91,7 @@ The database is rebuilt weekly and published as a GitHub release. Download the l
 ```bash
 lean-index fetch-db mrdouglasny/lean-index-qft
 ```
+
+## License
+
+Copyright 2026 Michael R. Douglas. MIT License.
