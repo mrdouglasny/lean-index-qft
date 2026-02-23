@@ -1,6 +1,6 @@
 # lean-index-qft
 
-Topic index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
+Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 **62,172 topic-matched declarations** across **31 repositories** (scanned 42 repos, 78,615 declarations).
 
