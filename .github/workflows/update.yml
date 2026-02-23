@@ -34,11 +34,14 @@ jobs:
           lean-index stats > STATS.md
           lean-index changelog --since $(date -d '7 days ago' +%Y-%m-%d) > CHANGELOG.md
 
+      - name: Update README stats
+        run: python3 scripts/update_readme.py
+
       - name: Commit updated reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add REPOS.md STATS.md CHANGELOG.md
+          git add REPOS.md STATS.md CHANGELOG.md README.md
           git diff --cached --quiet || git commit -m "Update index reports $(date +%Y-%m-%d)"
           git push
 
