@@ -11,6 +11,8 @@ repos:
     description: "Quantum information theory, quantum channels"
   - url: https://github.com/alexjgreig/QHL-Lean
     description: "Quantum Hoare logic"
+  - url: https://github.com/xiyin137/OSreconstruction
+    description: "Osterwalder-Schrader reconstruction theorem"
   - url: https://github.com/mrdouglasny/OSforGFF
     description: "Osterwalder-Schrader axioms for Gaussian free field"
   - url: https://github.com/mrdouglasny/gaussian-field
@@ -37,10 +39,23 @@ repos:
     description: "Bandit algorithms, probability bounds"
   - url: https://github.com/FredRaj3/SemicircleLaw
     description: "Wigner semicircle law, random matrix theory"
+  - url: https://github.com/YuanheZ/lean-stat-learning-theory
+    description: "Statistical learning theory, Gaussian concentration, Dudley's entropy"
   - url: https://github.com/YellPika/quasi-borel-spaces
     description: "Quasi-Borel spaces, categorical probability"
   - url: https://github.com/vbeffara/RMT4
     description: "Random matrix theory, complex analysis"
+  - url: https://github.com/google-deepmind/debate
+    description: "Stochastic doubly-efficient debate"
+  - url: https://github.com/wellecks/lean4_information_theory
+    branch: master
+    description: "Discrete probability and information theory"
+  - url: https://github.com/xiyin137/StochasticPDE
+    description: "Stochastic PDEs"
+  - url: https://github.com/slink/LeanLevy
+    description: "Levy processes on Mathlib"
+  - url: https://github.com/kebekus/ProjectVD
+    description: "Value distribution theory"
 
   # Analysis & ergodic theory
   - url: https://github.com/teorth/analysis
