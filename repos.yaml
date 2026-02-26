@@ -35,6 +35,8 @@ repos:
     description: "Certified differential privacy sampling"
   - url: https://github.com/or4nge19/MCMC
     description: "Markov chain Monte Carlo"
+  - url: https://github.com/or4nge19/SpinGlass
+    description: "Spin glass models, statistical mechanics"
   - url: https://github.com/RemyDegenne/lean-bandits
     description: "Bandit algorithms, probability bounds"
   - url: https://github.com/FredRaj3/SemicircleLaw
