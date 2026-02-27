@@ -21,6 +21,9 @@ repos:
     description: "Gaussian free field"
   - url: https://github.com/mrdouglasny/QFTFramework
     description: "QFT framework formalization"
+  - url: https://github.com/yoh-tanimoto/mathlib4
+    branch: b9e2ab38d1cc60834cf9a1107f6beec7903607b8
+    description: "Wightman axioms, distributions, strong operator topology, RPHS (Yoh Tanimoto)"
 
   # Spectral theory
   - url: https://github.com/oliver-butterley/SpectralThm

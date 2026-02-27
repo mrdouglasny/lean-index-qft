@@ -2,7 +2,7 @@
 
 Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**67,221 topic-matched declarations** across **41 repositories** (scanned 52 repos, 88,499 declarations).
+**67,493 topic-matched declarations** across **42 repositories** (scanned 53 repos, 89,772 declarations).
 
 Tracks Lean declarations related to:
 - **Functional analysis**: Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
@@ -36,6 +36,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [ImperialCollegeLondon/FLT](https://github.com/ImperialCollegeLondon/FLT) | 321 | Fermat's Last Theorem (uses representation theory) |
 | [mrdouglasny/OSforGFF](https://github.com/mrdouglasny/OSforGFF) | 317 | Osterwalder-Schrader axioms for Gaussian free field |
 | [suomela/fin-dep](https://github.com/suomela/fin-dep) | 284 | Finitely dependent distributions |
+| [yoh-tanimoto/mathlib4.git](https://github.com/yoh-tanimoto/mathlib4.git) | 272 | Wightman axioms, distributions, strong operator topology, RPHS (Yoh Tanimoto) |
 | [Timeroot/Lean-QuantumInfo](https://github.com/Timeroot/Lean-QuantumInfo) | 200 | Quantum information theory, quantum channels |
 | [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 197 | Bandit algorithms, probability bounds |
 | [slink/LeanLevy](https://github.com/slink/LeanLevy) | 178 | Levy processes on Mathlib |

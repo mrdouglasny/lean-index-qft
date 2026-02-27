@@ -1,0 +1,5 @@
+repos:
+- name: yoh-tanimoto
+  path: /Users/mrd/Documents/Github/yoh/Mathlib/Yoh
+  description: Wightman axioms, distributions, strong operator topology, RPHS (Yoh
+    Tanimoto)
