@@ -36,7 +36,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [ImperialCollegeLondon/FLT](https://github.com/ImperialCollegeLondon/FLT) | 321 | Fermat's Last Theorem (uses representation theory) |
 | [mrdouglasny/OSforGFF](https://github.com/mrdouglasny/OSforGFF) | 317 | Osterwalder-Schrader axioms for Gaussian free field |
 | [suomela/fin-dep](https://github.com/suomela/fin-dep) | 284 | Finitely dependent distributions |
-| [yoh-tanimoto/mathlib4.git](https://github.com/yoh-tanimoto/mathlib4.git) | 272 | Wightman axioms, distributions, strong operator topology, RPHS (Yoh Tanimoto) |
+| [Mathlib/Yoh](https://github.com/yoh-tanimoto/mathlib4/tree/b9e2ab38d1cc60834cf9a1107f6beec7903607b8/Mathlib/Yoh) | 272 | Wightman axioms, distributions, strong operator topology, RPHS (Yoh Tanimoto) |
 | [Timeroot/Lean-QuantumInfo](https://github.com/Timeroot/Lean-QuantumInfo) | 200 | Quantum information theory, quantum channels |
 | [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 197 | Bandit algorithms, probability bounds |
 | [slink/LeanLevy](https://github.com/slink/LeanLevy) | 178 | Levy processes on Mathlib |
