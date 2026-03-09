@@ -1,8 +1,8 @@
-# Changelog (since 2026-02-23)
+# Changelog (since 2026-03-02)
 
-## New Declarations (89493)
+## New Declarations (90792)
 
-### BrownianMotion (+849)
+### BrownianMotion (+853)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,7 +54,7 @@
 - `MeasureTheory.discreteApproxSequence_of_le` (lemma) in BrownianMotion.StochasticIntegral.ApproxSeq
 - `MeasureTheory.DiscreteApproxSequence.inf` (def) in BrownianMotion.StochasticIntegral.ApproxSeq
 - `MeasureTheory.DiscreteApproxSequence.inf'` (def) in BrownianMotion.StochasticIntegral.ApproxSeq
-- ... and 799 more
+- ... and 803 more
 
 ### CvxLean (+1181)
 
@@ -285,7 +285,7 @@
 - `torusSingularValue` (def) in GFF.GFFConstruction
 - `torusGFF_T` (def) in GFF.GFFConstruction
 
-### Lean-QuantumInfo (+1626)
+### Lean-QuantumInfo (+1766)
 
 - `IdealGas` (def) in StatMech.IdealGas
 - `IdealGas.PartitionZ_eq` (theorem) in StatMech.IdealGas
@@ -309,6 +309,15 @@
 - `NVEHamiltonian.Pressure` (def) in StatMech.ThermoQuantities
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
+- `InfRegularized.lb` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.ub` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.anti_inf` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.anti_ub` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.lb` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.ub` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.mono_sup` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.mono_lb` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.to_InfRegularized` (theorem) in QuantumInfo.Regularized
 - `InfRegularized.anti_tendsto` (theorem) in QuantumInfo.Regularized
 - `Channel` (structure) in ClassicalInfo.Channel
 - `Channel.id` (def) in ClassicalInfo.Channel
@@ -328,16 +337,7 @@
 - `Prob.coe_sup` (theorem) in ClassicalInfo.Prob
 - `Prob.instCommMonoidWithZero` (instance) in ClassicalInfo.Prob
 - `Prob.instDenselyOrdered` (instance) in ClassicalInfo.Prob
-- `Prob.instCompleteLinearOrder` (instance) in ClassicalInfo.Prob
-- `Prob.instInhabited` (instance) in ClassicalInfo.Prob
-- `Prob.zero_le_coe` (theorem) in ClassicalInfo.Prob
-- `Prob.coe_le_one` (theorem) in ClassicalInfo.Prob
-- `Prob.zero_le` (theorem) in ClassicalInfo.Prob
-- `Prob.le_one` (theorem) in ClassicalInfo.Prob
-- `Prob.ne_iff` (theorem) in ClassicalInfo.Prob
-- `Prob.toReal_mul` (theorem) in ClassicalInfo.Prob
-- `Prob.toNNReal_mk` (theorem) in ClassicalInfo.Prob
-- ... and 1576 more
+- ... and 1716 more
 
 ### LeanLevy (+236)
 
@@ -555,8 +555,10 @@
 - `CovarianceEuclideanInvariantℂ` (def) in OSforGFF.GaussianFreeField
 - ... and 756 more
 
-### OSreconstruction (+2531)
+### OSreconstruction (+2734)
 
+- `might` (structure) in Proofideas.distributional_uniqueness_strategy
+- `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
 - `SOComplex` (structure) in OSReconstruction.ComplexLieGroups.SOConnected
 - `SOComplex.ext` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
 - `SOComplex.one` (def) in OSReconstruction.ComplexLieGroups.SOConnected
@@ -605,11 +607,9 @@
 - `SOComplex.mul_colMatrix_col0_eq_mulVec` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
 - `SOComplex.firstColSqSum_colMatrix` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
 - `SOComplex.rotMatrix_mulVec_i` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
-- `SOComplex.rotMatrix_mulVec_j` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
-- `SOComplex.rotMatrix_mulVec_other` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
-- ... and 2481 more
+- ... and 2684 more
 
-### PhysLean (+7254)
+### PhysLean (+7282)
 
 - `main` (def) in scripts.MetaPrograms.sorry_lint
 - `DocGen4.Output.baseHtmlGenerator` (def) in scripts.Template
@@ -661,9 +661,9 @@
 - `Array.flatFilterSizeM` (def) in PhysLean.Meta.Basic
 - `PhysLean.allImports` (def) in PhysLean.Meta.Basic
 - `PhysLean.noImports` (def) in PhysLean.Meta.Basic
-- ... and 7204 more
+- ... and 7232 more
 
-### ProjectVD (+66)
+### ProjectVD (+79)
 
 - `ValueDistribution.σ₁` (lemma) in VD.CartanExperimentation
 - `ValueDistribution.σ₂` (lemma) in VD.CartanExperimentation
@@ -673,18 +673,27 @@
 - `ValueDistribution.ρ₃'` (lemma) in VD.CartanExperimentation
 - `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
+- `meromorphicAt_prod'` (theorem) in VD.BlaschkeDecomp
+- `meromorphicAt_sum'` (theorem) in VD.BlaschkeDecomp
+- `meromorphicOrderAt_prod` (theorem) in VD.BlaschkeDecomp
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
-- `Blaschke` (def) in VD.Blaschke
-- `meromorphicOn_blaschke` (lemma) in VD.Blaschke
-- `analyticOnNhd_blaschke` (lemma) in VD.Blaschke
-- `nonzero_blaschke` (lemma) in VD.Blaschke
-- `order_blaschke` (lemma) in VD.Blaschke
-- `meromorphicNFOn_blaschke` (lemma) in VD.Blaschke
-- `blaschke_eval_center` (lemma) in VD.Blaschke
-- `blaschke_eval_circle_ne` (lemma) in VD.Blaschke
-- `log_blaschke_eval_circle` (lemma) in VD.Blaschke
+- `lieDerivative` (def) in VD.LinearDiffOp.Regularity
+- `lieDerivative_apply` (lemma) in VD.LinearDiffOp.Regularity
+- `lieBracket` (def) in VD.LinearDiffOp.Regularity
+- `lieBracket_anticomm` (lemma) in VD.LinearDiffOp.Regularity
+- `del_by_del_z` (def) in VD.LinearDiffOp.Regularity
+- `del_by_del_z_apply` (lemma) in VD.LinearDiffOp.Regularity
+- `del_by_del_z_bar` (def) in VD.LinearDiffOp.Regularity
+- `del_by_del_z_bar_apply` (lemma) in VD.LinearDiffOp.Regularity
+- `LinearDiffOp` (structure) in VD.LinearDiffOp.Basic
+- `linearDiffOp_apply` (theorem) in VD.LinearDiffOp.Basic
+- `linearDiffOp_coe_apply` (theorem) in VD.LinearDiffOp.Basic
+- `LinearDiffOp.applyWithin` (def) in VD.LinearDiffOp.Basic
+- `linearDiffOp_applyWithin` (theorem) in VD.LinearDiffOp.Basic
+- `Filter.EventuallyEq.linearDiffOp_apply` (lemma) in VD.LinearDiffOp.Basic
+- `Filter.EventuallyEqWithin.linearDiffOp_applyWithin` (lemma) in VD.LinearDiffOp.Basic
 - `mem_ball_of_scaled_norm_le_one` (lemma) in VD.Poisson.PoissonIntegral
 - `mem_unitDisc_of_scaled_exp_ofReal_mul_I` (lemma) in VD.Poisson.PoissonIntegral
 - `neq_in_unitDisc_of_exp_ofReal_mul_I` (lemma) in VD.Poisson.PoissonIntegral
@@ -706,16 +715,7 @@
 - `seq_tendsto_to_one_in_unit_interval_aux` (lemma) in VD.Poisson.PoissonIntegral
 - `tendsto_of_radius_tendsto_one_of_continuousOn_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
 - `poisson_integral_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_diffContOnCl_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `realPart_herglotz_kernel_eq_poisson_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_diffContOnCl_unitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `circleAverage_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `circleAverage_of_diffContOnCl_unitDisc_re_kernel` (theorem) in VD.Poisson.PoissonIntegral
-- `continuousOn_herglotz_riesz` (lemma) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicOnNhd.circleAverage_re_herglotzRieszKernel_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- `HarmonicContOnCl.circleAverage_re_herglotzRieszKernel_smul` (theorem) in VD.MathlibPending.HarmonicPoisson
-- ... and 16 more
+- ... and 29 more
 
 ### QFTFramework (+50)
 
@@ -1094,7 +1094,7 @@
 - `Specification.isGibbsMeasure_isssd_productMeasure` (lemma) in GibbsMeasure.Specification
 - ... and 1594 more
 
-### StochasticPDE (+1889)
+### StochasticPDE (+1087)
 
 - `SPDE.UnboundedOperatorReal` (structure) in StochasticPDE.SPDE
 - `SPDE.UnboundedOperatorReal.IsDenselyDefined` (def) in StochasticPDE.SPDE
@@ -1146,7 +1146,7 @@
 - `SPDE.Examples.BurgersEquation.reynoldsNumber` (def) in StochasticPDE.Examples.Burgers
 - `SPDE.Examples.BurgersEquation.reynoldsNumber_pos` (theorem) in StochasticPDE.Examples.Burgers
 - `SPDE.Examples.BurgersEquation.diffusionTimeScale` (def) in StochasticPDE.Examples.Burgers
-- ... and 1839 more
+- ... and 1037 more
 
 ### VirasoroProject (+387)
 
@@ -1202,7 +1202,7 @@
 - `VirasoroProject.LieTwoCocycle.skew` (lemma) in VirasoroProject.LieCohomologySmallDegree
 - ... and 337 more
 
-### analysis (+2248)
+### analysis (+2267)
 
 - `helpText` (def) in analysis.LiterateExtract
 - `allCode` (def) in analysis.LiterateExtract
@@ -1254,7 +1254,7 @@
 - `Chapter8.Sum'` (abbrev) in analysis.Analysis.Section_8_2
 - `Chapter8.Sum'.of_finsupp` (theorem) in analysis.Analysis.Section_8_2
 - `Chapter8.Sum'.of_countable_supp` (theorem) in analysis.Analysis.Section_8_2
-- ... and 2198 more
+- ... and 2217 more
 
 ### debate (+297)
 
@@ -1553,7 +1553,7 @@
 - `Sifting.State.bijective_tostate_toFin` (lemma) in FormalQKD.Sifting
 - ... and 56 more
 
-### gaussian-field (+862)
+### gaussian-field (+1175)
 
 - `Cylinder` (abbrev) in Test
 - `Torus` (abbrev) in Test
@@ -1566,6 +1566,31 @@
 - `heatMeasure` (def) in Test
 - `heatCovarianceCLM_coord` (theorem) in Test
 - `qftCovarianceCLM_coord` (theorem) in Test
+- `GaussianField.circleHasLaplacianEigenvalues` (instance) in SmoothCircle.Eigenvalues
+- `GaussianField.circleSpacing` (def) in SmoothCircle.Restriction
+- `GaussianField.circleSpacing_pos` (theorem) in SmoothCircle.Restriction
+- `GaussianField.circlePoint` (def) in SmoothCircle.Restriction
+- `GaussianField.continuous_eval_at` (theorem) in SmoothCircle.Restriction
+- `GaussianField.circleRestrictionLM` (def) in SmoothCircle.Restriction
+- `GaussianField.circleRestriction` (def) in SmoothCircle.Restriction
+- `GaussianField.circleRestriction_eq` (theorem) in SmoothCircle.Restriction
+- `GaussianField.circleRestriction_sq_sum` (theorem) in SmoothCircle.Restriction
+- `GaussianField.fourierBasisFun_even_cos` (lemma) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierBasisFun_odd_sin` (lemma) in SmoothCircle.FourierTranslation
+- `GaussianField.integral_Icc_comp_neg_of_periodic` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.integral_Icc_comp_sub_of_periodic` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierBasisFun_cos_eq` (lemma) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierBasisFun_sin_eq` (lemma) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierBasisFun_cos_add` (lemma) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierBasisFun_sin_add` (lemma) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierCoeffReal_circleTranslation_zero` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierCoeffReal_circleTranslation_cos` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierCoeffReal_circleTranslation_sin` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierCoeffReal_circleReflection_zero` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierCoeffReal_circleReflection_cos` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.fourierCoeffReal_circleReflection_sin` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.paired_coeff_product_circleTranslation` (theorem) in SmoothCircle.FourierTranslation
+- `GaussianField.paired_coeff_product_circleReflection` (theorem) in SmoothCircle.FourierTranslation
 - `GaussianField.SmoothMap_Circle.derivSC` (def) in SmoothCircle.Nuclear
 - `GaussianField.SmoothMap_Circle.derivSC_apply` (theorem) in SmoothCircle.Nuclear
 - `GaussianField.SmoothMap_Circle.sobolevSeminorm_derivSC` (theorem) in SmoothCircle.Nuclear
@@ -1580,32 +1605,7 @@
 - `GaussianField.SmoothMap_Circle.toRapidDecayCLM` (def) in SmoothCircle.Nuclear
 - `GaussianField.SmoothMap_Circle.summable_fourierBasis_smul` (theorem) in SmoothCircle.Nuclear
 - `GaussianField.SmoothMap_Circle.norm_iteratedFDeriv_fourierTerm` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.contDiff_fourierSeries` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.periodic_fourierSeries` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.fromRapidDecay` (def) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.fromRapidDecayLM` (def) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.summable_fourierTerm_bound` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.fromRapidDecay_continuous` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.fromRapidDecayCLM` (def) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.toRapidDecay_fromRapidDecay` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.eq_zero_of_fourierCoeff_zero` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.hasSum_fourierBasis` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.fromRapidDecay_toRapidDecay` (theorem) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle.smoothCircleRapidDecayEquiv` (def) in SmoothCircle.Nuclear
-- `GaussianField.smoothCircle_dyninMityaginSpace` (instance) in SmoothCircle.Nuclear
-- `GaussianField.SmoothMap_Circle` (structure) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.instFunLike` (instance) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.ext` (theorem) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.periodic` (theorem) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.smooth` (theorem) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.continuous` (theorem) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.contDiffAt_of_smooth` (theorem) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.instZero` (instance) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.periodic_add` (theorem) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.instAdd` (instance) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.periodic_neg` (theorem) in SmoothCircle.Basic
-- `GaussianField.SmoothMap_Circle.instNeg` (instance) in SmoothCircle.Basic
-- ... and 812 more
+- ... and 1125 more
 
 ### interval (+844)
 
@@ -1846,7 +1846,7 @@
 - `InformationTheory.pmf.support` (def) in InformationTheory.InformationTheory
 - ... and 36 more
 
-### mathlib4 (+50231)
+### mathlib4 (+51141)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -1898,7 +1898,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 50181 more
+- ... and 51091 more
 
 ### monlib4 (+2413)
 
@@ -2056,6 +2056,60 @@
 - `partialSups_add_one'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 - `birkhoffSum_ae_eq_of_ae_eq` (theorem) in BirkhoffErgodicThm.QuasiMeasurePreservingPR
 - `birkhoffAverage_ae_eq_of_ae_eq` (theorem) in BirkhoffErgodicThm.QuasiMeasurePreservingPR
+
+### pphi2 (+471)
+
+- `Pphi2.pphi2_main` (theorem) in Pphi2.Main
+- `Pphi2.pphi2_existence` (theorem) in Pphi2.Main
+- `Pphi2.pphi2_nontrivial` (theorem) in Pphi2.Main
+- `Pphi2.pphi2_nonGaussianity` (theorem) in Pphi2.Main
+- `Pphi2.pphi2_nonGaussian` (theorem) in Pphi2.Main
+- `Pphi2.pphi2_mass_gap` (theorem) in Pphi2.Main
+- `Pphi2.os_reconstruction` (theorem) in Pphi2.Main
+- `Pphi2.pphi2_wightman` (theorem) in Pphi2.Main
+- `Pphi2.mass_reparametrization_invariance` (theorem) in Pphi2.Main
+- `Pphi2.mass_reparametrization_exists` (theorem) in Pphi2.Main
+- `InteractionPolynomial` (structure) in Pphi2.Polynomial
+- `InteractionPolynomial.eval` (def) in Pphi2.Polynomial
+- `InteractionPolynomial.eval_neg` (theorem) in Pphi2.Polynomial
+- `InteractionPolynomial.shiftQuadratic` (def) in Pphi2.Polynomial
+- `InteractionPolynomial.evalWick` (def) in Pphi2.Polynomial
+- `InteractionPolynomial.evalWick'` (def) in Pphi2.Polynomial
+- `Pphi2.Bridge.FieldConfig` (abbrev) in Pphi2.Bridge
+- `Pphi2.Bridge.TestFun` (abbrev) in Pphi2.Bridge
+- `Pphi2.Bridge.isPhi4` (def) in Pphi2.Bridge
+- `Pphi2.Bridge.IsPphi2ContinuumLimit` (def) in Pphi2.Bridge
+- `Pphi2.Bridge.IsPhi4ContinuumLimit` (def) in Pphi2.Bridge
+- `Pphi2.Bridge.IsWeakCoupling` (def) in Pphi2.Bridge
+- `Pphi2.Bridge.IsPphi2ContinuumLimit.toIsPphi2Limit` (theorem) in Pphi2.Bridge
+- `Pphi2.Bridge.os2_for_pphi2_via_phi4` (theorem) in Pphi2.Bridge
+- `Pphi2.Bridge.os3_from_pphi2` (theorem) in Pphi2.Bridge
+- `Pphi2.Bridge.os3_for_phi4_via_pphi2` (theorem) in Pphi2.Bridge
+- `Pphi2.Bridge.full_os_via_bridge` (theorem) in Pphi2.Bridge
+- `Pphi2.Bridge.phi4_full_os_via_bridge` (theorem) in Pphi2.Bridge
+- `Pphi2.SpaceTime2` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.TestFunction2` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.TestFunction2ℂ` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.FieldConfig2` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.distribPairing` (def) in Pphi2.OSAxioms
+- `Pphi2.generatingFunctional` (def) in Pphi2.OSAxioms
+- `Pphi2.schwartzRe` (def) in Pphi2.OSAxioms
+- `Pphi2.schwartzIm` (def) in Pphi2.OSAxioms
+- `Pphi2.generatingFunctionalℂ` (def) in Pphi2.OSAxioms
+- `Pphi2.O2` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.E2` (structure) in Pphi2.OSAxioms
+- `Pphi2.E2.act` (def) in Pphi2.OSAxioms
+- `Pphi2.euclideanInverse` (def) in Pphi2.OSAxioms
+- `Pphi2.euclideanInverse_hasTemperateGrowth` (lemma) in Pphi2.OSAxioms
+- `Pphi2.euclideanInverse_antilipschitz` (lemma) in Pphi2.OSAxioms
+- `Pphi2.euclideanAction2` (def) in Pphi2.OSAxioms
+- `Pphi2.euclideanAction2ℂ` (def) in Pphi2.OSAxioms
+- `Pphi2.timeReflection2` (def) in Pphi2.OSAxioms
+- `Pphi2.timeReflection2_involution` (theorem) in Pphi2.OSAxioms
+- `Pphi2.timeReflectionLinear` (def) in Pphi2.OSAxioms
+- `Pphi2.timeReflectionCLE` (def) in Pphi2.OSAxioms
+- `Pphi2.compTimeReflection2` (def) in Pphi2.OSAxioms
+- ... and 421 more
 
 ### probability (+290)
 
@@ -2329,4 +2383,4 @@
 
 ## Update History (1 runs)
 
-- **2026-03-02T07:53:53.209809+00:00**: Checked 53 repos, updated 54, +39262 -0 declarations, 1 errors
+- **2026-03-09T07:54:54.142156+00:00**: Checked 54 repos, updated 55, +39651 -0 declarations, 1 errors
