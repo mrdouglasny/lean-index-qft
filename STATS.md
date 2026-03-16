@@ -1,33 +1,33 @@
 # Lean Index Statistics
 
-**82,727 topic-matched declarations** across **42 repositories**
-(90,792 total declarations scanned from 54 repos)
+**84,087 topic-matched declarations** across **42 repositories**
+(93,032 total declarations scanned from 54 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| functional-analysis            |     27,873 |
-| measure-theory                 |     24,045 |
-| probability-theory             |      8,244 |
-| quantum-field-theory           |      7,758 |
-| topological-groups             |      5,506 |
-| spectral-theory                |      3,803 |
-| operator-algebras              |      3,194 |
-| distributions-schwartz         |      2,304 |
+| functional-analysis            |     28,237 |
+| measure-theory                 |     24,357 |
+| probability-theory             |      8,313 |
+| quantum-field-theory           |      7,828 |
+| topological-groups             |      5,621 |
+| spectral-theory                |      3,942 |
+| operator-algebras              |      3,226 |
+| distributions-schwartz         |      2,563 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     45,056 |
-| lemma           |      8,772 |
-| def             |      8,664 |
-| instance        |      4,283 |
-| structure       |        647 |
-| ctor            |        494 |
-| abbrev          |        315 |
-| class           |        308 |
+| theorem         |     45,857 |
+| lemma           |      8,824 |
+| def             |      8,812 |
+| instance        |      4,321 |
+| structure       |        651 |
+| ctor            |        501 |
+| abbrev          |        327 |
+| class           |        312 |
 | inductive       |         91 |
 | opaque          |         68 |
 
@@ -35,27 +35,27 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     51,141 |     51,141 |
-| PhysLean                            |      6,537 |      7,282 |
+| mathlib4                            |     51,564 |     51,564 |
+| PhysLean                            |      6,552 |      7,278 |
 | Measure                             |      1,812 |      1,924 |
-| gaussian-field                      |      1,072 |      1,175 |
-| OSreconstruction                    |      1,028 |      2,734 |
+| OSreconstruction                    |      1,535 |      4,044 |
+| gaussian-field                      |      1,079 |      1,183 |
 | exchangeability                     |        815 |        871 |
 | BrownianMotion                      |        677 |        853 |
 | SpinGlass                           |        670 |      1,644 |
 | monlib4                             |        646 |      2,413 |
 | lean-stat-learning-theory           |        553 |      1,205 |
 | quasi-borel-spaces                  |        550 |        629 |
-| analysis                            |        340 |      2,267 |
+| analysis                            |        344 |      2,279 |
 | StochasticPDE                       |        335 |      1,087 |
-| FLT                                 |        321 |      1,712 |
+| FLT                                 |        321 |      1,696 |
 | OSforGFF                            |        317 |        806 |
-| fin-dep                             |        284 |      1,069 |
-| LeanLevy                            |        218 |        236 |
-| Lean-QuantumInfo                    |        213 |      1,766 |
+| fin-dep                             |        290 |      1,154 |
+| LeanLevy                            |        249 |        267 |
+| Lean-QuantumInfo                    |        226 |      1,959 |
+| pphi2                               |        221 |        643 |
 | lean-bandits                        |        197 |        488 |
 | spectrum-topos                      |        184 |      2,277 |
-| pphi2                               |        161 |        471 |
 | SpectralThm                         |         93 |        115 |
 | ExtremeValueProject                 |         91 |        285 |
 | SemicircleLaw                       |         81 |        175 |
@@ -64,14 +64,14 @@
 | ray                                 |         47 |        851 |
 | RMT4                                |         33 |        151 |
 | VirasoroProject                     |         29 |        387 |
-| ProjectVD                           |         24 |         79 |
+| ProjectVD                           |         24 |        105 |
 | ... and 12 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-03-09T07:54:54.142156+00:00
+- **When**: 2026-03-16T08:04:05.624189+00:00
 - **Repos checked**: 54
 - **Repos updated**: 55
-- **New declarations**: 39651
+- **New declarations**: 41468
 - **Removed declarations**: 0
-- **Summary**: Checked 54 repos, updated 55, +39651 -0 declarations, 1 errors
+- **Summary**: Checked 54 repos, updated 55, +41468 -0 declarations, 1 errors

@@ -1,6 +1,6 @@
-# Changelog (since 2026-03-02)
+# Changelog (since 2026-03-09)
 
-## New Declarations (90792)
+## New Declarations (93032)
 
 ### BrownianMotion (+853)
 
@@ -222,7 +222,7 @@
 - `comp_rcInv` (lemma) in ExtremeValueProject.PseudoInverses
 - ... and 235 more
 
-### FLT (+1712)
+### FLT (+1696)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `WeierstrassCurve.n_torsion` (abbrev) in FLT.EllipticCurve.Torsion
@@ -274,7 +274,7 @@
 - `Hurwitz.preserves_unaryCast` (lemma) in FLT.Data.Hurwitz
 - `Hurwitz.toQuaternion_natCast` (lemma) in FLT.Data.Hurwitz
 - `Hurwitz.Int.castDef_ofNat` (lemma) in FLT.Data.Hurwitz
-- ... and 1662 more
+- ... and 1646 more
 
 ### GFF (+6)
 
@@ -285,7 +285,7 @@
 - `torusSingularValue` (def) in GFF.GFFConstruction
 - `torusGFF_T` (def) in GFF.GFFConstruction
 
-### Lean-QuantumInfo (+1766)
+### Lean-QuantumInfo (+1959)
 
 - `IdealGas` (def) in StatMech.IdealGas
 - `IdealGas.PartitionZ_eq` (theorem) in StatMech.IdealGas
@@ -337,9 +337,9 @@
 - `Prob.coe_sup` (theorem) in ClassicalInfo.Prob
 - `Prob.instCommMonoidWithZero` (instance) in ClassicalInfo.Prob
 - `Prob.instDenselyOrdered` (instance) in ClassicalInfo.Prob
-- ... and 1716 more
+- ... and 1909 more
 
-### LeanLevy (+236)
+### LeanLevy (+267)
 
 - `main` (def) in Main
 - `hello` (def) in LeanLevy.Basic
@@ -391,7 +391,7 @@
 - `ProbabilityTheory.poissonProcessReindex` (def) in LeanLevy.Processes.PoissonProcess
 - `ProbabilityTheory.poissonProcessIncrToVal` (def) in LeanLevy.Processes.PoissonProcess
 - `ProbabilityTheory.poissonProcessFDD` (def) in LeanLevy.Processes.PoissonProcess
-- ... and 186 more
+- ... and 217 more
 
 ### MCMC (+526)
 
@@ -555,9 +555,10 @@
 - `CovarianceEuclideanInvariantℂ` (def) in OSforGFF.GaussianFreeField
 - ... and 756 more
 
-### OSreconstruction (+2734)
+### OSreconstruction (+4044)
 
-- `might` (structure) in Proofideas.distributional_uniqueness_strategy
+- ``schwinger_continuation_base_step_full`;` (theorem) in Proofideas.osto_wightman_retired_full_holomorphic_helpers
+- `distributional_uniqueness_tube_of_zero_bv` (theorem) in Proofideas.distributional_uniqueness_strategy
 - `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
 - `SOComplex` (structure) in OSReconstruction.ComplexLieGroups.SOConnected
 - `SOComplex.ext` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
@@ -606,10 +607,9 @@
 - `SOComplex.colMatrix` (def) in OSReconstruction.ComplexLieGroups.SOConnected
 - `SOComplex.mul_colMatrix_col0_eq_mulVec` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
 - `SOComplex.firstColSqSum_colMatrix` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
-- `SOComplex.rotMatrix_mulVec_i` (theorem) in OSReconstruction.ComplexLieGroups.SOConnected
-- ... and 2684 more
+- ... and 3994 more
 
-### PhysLean (+7282)
+### PhysLean (+7278)
 
 - `main` (def) in scripts.MetaPrograms.sorry_lint
 - `DocGen4.Output.baseHtmlGenerator` (def) in scripts.Template
@@ -661,9 +661,9 @@
 - `Array.flatFilterSizeM` (def) in PhysLean.Meta.Basic
 - `PhysLean.allImports` (def) in PhysLean.Meta.Basic
 - `PhysLean.noImports` (def) in PhysLean.Meta.Basic
-- ... and 7232 more
+- ... and 7228 more
 
-### ProjectVD (+79)
+### ProjectVD (+105)
 
 - `ValueDistribution.σ₁` (lemma) in VD.CartanExperimentation
 - `ValueDistribution.σ₂` (lemma) in VD.CartanExperimentation
@@ -673,9 +673,16 @@
 - `ValueDistribution.ρ₃'` (lemma) in VD.CartanExperimentation
 - `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
-- `meromorphicAt_prod'` (theorem) in VD.BlaschkeDecomp
-- `meromorphicAt_sum'` (theorem) in VD.BlaschkeDecomp
-- `meromorphicOrderAt_prod` (theorem) in VD.BlaschkeDecomp
+- `nonneg_of_mem_closedBall` (theorem) in VD.BlaschkeDecomp
+- `MeromorphicOn.exists_meromorphicOrderAt_ne_top_iff_forall_mem` (theorem) in VD.BlaschkeDecomp
+- `meromorphicOrderAt_finprod_ne_top` (lemma) in VD.BlaschkeDecomp
+- `zero_canonicalFactor_iff` (theorem) in VD.BlaschkeDecomp
+- `divisor_canonicalFactor` (theorem) in VD.BlaschkeDecomp
+- `meromorphicOrderAt_canonicalFactor_ne_top` (lemma) in VD.BlaschkeDecomp
+- `MeromorphicOn.canonicalDecomposition₀` (theorem) in VD.BlaschkeDecomp
+- `MeromorphicOn.canonicalDecomposition₁` (theorem) in VD.BlaschkeDecomp
+- `MeromorphicOn.canonicalDecomposition₁₁` (theorem) in VD.BlaschkeDecomp
+- `MeromorphicOn.canonicalDecomposition₀₀` (theorem) in VD.BlaschkeDecomp
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
@@ -708,14 +715,7 @@
 - `vanishing_goursat_integral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
 - `cauchy_goursat_integral_scaled_unitDisc` (lemma) in VD.Poisson.PoissonIntegral
 - `poisson_formula_of_differentiableOn_scaled_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `poisson_formula_of_harmonicOn_scaled_unitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- `bounds_of_continuousOn_unitCircle_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `tendsto_integral_prod_of_continuousOn_unitCircle_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `poisson_kernel_continousOn_circle` (theorem) in VD.Poisson.PoissonIntegral
-- `seq_tendsto_to_one_in_unit_interval_aux` (lemma) in VD.Poisson.PoissonIntegral
-- `tendsto_of_radius_tendsto_one_of_continuousOn_closedUnitDisc` (lemma) in VD.Poisson.PoissonIntegral
-- `poisson_integral_of_harmonicOn_unitDisc_continuousOn_closedUnitDisc` (theorem) in VD.Poisson.PoissonIntegral
-- ... and 29 more
+- ... and 55 more
 
 ### QFTFramework (+50)
 
@@ -1202,7 +1202,7 @@
 - `VirasoroProject.LieTwoCocycle.skew` (lemma) in VirasoroProject.LieCohomologySmallDegree
 - ... and 337 more
 
-### analysis (+2267)
+### analysis (+2279)
 
 - `helpText` (def) in analysis.LiterateExtract
 - `allCode` (def) in analysis.LiterateExtract
@@ -1254,7 +1254,7 @@
 - `Chapter8.Sum'` (abbrev) in analysis.Analysis.Section_8_2
 - `Chapter8.Sum'.of_finsupp` (theorem) in analysis.Analysis.Section_8_2
 - `Chapter8.Sum'.of_countable_supp` (theorem) in analysis.Analysis.Section_8_2
-- ... and 2217 more
+- ... and 2229 more
 
 ### debate (+297)
 
@@ -1394,7 +1394,7 @@
 - `Exchangeability.extendSet_measurable` (lemma) in Exchangeability.Core
 - ... and 821 more
 
-### fin-dep (+1069)
+### fin-dep (+1154)
 
 - `FiniteDependence.fin2ToBool` (def) in FiniteDependence.Core.Binary
 - `FiniteDependence.boolToFin2` (def) in FiniteDependence.Core.Binary
@@ -1410,16 +1410,29 @@
 - `FiniteDependence.toBoolConfig_eq_true_iff` (lemma) in FiniteDependence.Core.Binary
 - `FiniteDependence.toBoolConfig_eq_false_iff` (lemma) in FiniteDependence.Core.Binary
 - `FiniteDependence.toBoolConfig_shift` (lemma) in FiniteDependence.Core.Binary
+- `FiniteDependence.measurable_eq_const` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_eq_sites` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_no11` (lemma) in FiniteDependence.Core.MeasurablePredicates
 - `FiniteDependence.measurableSet_no11` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_no000` (lemma) in FiniteDependence.Core.MeasurablePredicates
 - `FiniteDependence.measurableSet_no000` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_no111` (lemma) in FiniteDependence.Core.MeasurablePredicates
 - `FiniteDependence.measurableSet_no111` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_isMIS` (lemma) in FiniteDependence.Core.MeasurablePredicates
 - `FiniteDependence.measurableSet_isMIS` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_isWeakTwoColoring` (lemma) in FiniteDependence.Core.MeasurablePredicates
 - `FiniteDependence.measurableSet_isWeakTwoColoring` (lemma) in FiniteDependence.Core.MeasurablePredicates
-- `FiniteDependence.measurableSet_isColoring3` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_isColoring` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurableSet_isColoring` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_hasNeighbor` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_hasZeroAndOneNeighbor` (lemma) in FiniteDependence.Core.MeasurablePredicates
+- `FiniteDependence.measurable_isGreedyThreeColoring` (lemma) in FiniteDependence.Core.MeasurablePredicates
 - `FiniteDependence.measurableSet_isGreedyThreeColoring` (lemma) in FiniteDependence.Core.MeasurablePredicates
 - `FiniteDependence.pastMeasurableSpace` (def) in FiniteDependence.Core.Process
 - `FiniteDependence.futureMeasurableSpace` (def) in FiniteDependence.Core.Process
 - `FiniteDependence.coordMeasurableSpace` (def) in FiniteDependence.Core.Process
+- `FiniteDependence.coordMeasurableSpace_id_eq_cylinderEvents` (lemma) in FiniteDependence.Core.Process
+- `FiniteDependence.measurable_restrict_coordMeasurableSpace` (lemma) in FiniteDependence.Core.Process
 - `FiniteDependence.IndexSeparated` (def) in FiniteDependence.Core.Process
 - `FiniteDependence.IsKDependent` (def) in FiniteDependence.Core.Process
 - `FiniteDependence.IsKDependentNoncontig` (def) in FiniteDependence.Core.Process
@@ -1433,20 +1446,7 @@
 - `FiniteDependence.MIS.Model.prob_union` (theorem) in FiniteDependence.MIS.Prob
 - `FiniteDependence.MIS.Model.prob_union_cyl_of_ne` (theorem) in FiniteDependence.MIS.Prob
 - `FiniteDependence.MIS.Model.Stationary.prob_cyl_succ` (theorem) in FiniteDependence.MIS.Prob
-- `FiniteDependence.MIS.Model.Stationary.prob_cyl_add_nat` (theorem) in FiniteDependence.MIS.Prob
-- `FiniteDependence.MIS.Model.KDependent.prob_inter_cyl_eq_mul` (theorem) in FiniteDependence.MIS.Prob
-- `FiniteDependence.MIS.Poly3.monomVal` (def) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.monomVal_mul` (lemma) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.evalTerm` (def) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.evalTerms` (def) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.eval` (def) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.evalTerms_nil` (lemma) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.evalTerms_cons` (lemma) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.evalTerms_append` (lemma) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.evalMap` (def) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.toList_erase_eq_filter` (lemma) in FiniteDependence.MIS.Poly3Eval
-- `FiniteDependence.MIS.Poly3.evalMap_insert` (lemma) in FiniteDependence.MIS.Poly3Eval
-- ... and 1019 more
+- ... and 1104 more
 
 ### finite-groups (+48)
 
@@ -1553,7 +1553,7 @@
 - `Sifting.State.bijective_tostate_toFin` (lemma) in FormalQKD.Sifting
 - ... and 56 more
 
-### gaussian-field (+1175)
+### gaussian-field (+1183)
 
 - `Cylinder` (abbrev) in Test
 - `Torus` (abbrev) in Test
@@ -1605,7 +1605,7 @@
 - `GaussianField.SmoothMap_Circle.toRapidDecayCLM` (def) in SmoothCircle.Nuclear
 - `GaussianField.SmoothMap_Circle.summable_fourierBasis_smul` (theorem) in SmoothCircle.Nuclear
 - `GaussianField.SmoothMap_Circle.norm_iteratedFDeriv_fourierTerm` (theorem) in SmoothCircle.Nuclear
-- ... and 1125 more
+- ... and 1133 more
 
 ### interval (+844)
 
@@ -1846,7 +1846,7 @@
 - `InformationTheory.pmf.support` (def) in InformationTheory.InformationTheory
 - ... and 36 more
 
-### mathlib4 (+51141)
+### mathlib4 (+51564)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -1898,7 +1898,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 51091 more
+- ... and 51514 more
 
 ### monlib4 (+2413)
 
@@ -2057,7 +2057,7 @@
 - `birkhoffSum_ae_eq_of_ae_eq` (theorem) in BirkhoffErgodicThm.QuasiMeasurePreservingPR
 - `birkhoffAverage_ae_eq_of_ae_eq` (theorem) in BirkhoffErgodicThm.QuasiMeasurePreservingPR
 
-### pphi2 (+471)
+### pphi2 (+643)
 
 - `Pphi2.pphi2_main` (theorem) in Pphi2.Main
 - `Pphi2.pphi2_existence` (theorem) in Pphi2.Main
@@ -2109,7 +2109,7 @@
 - `Pphi2.timeReflectionLinear` (def) in Pphi2.OSAxioms
 - `Pphi2.timeReflectionCLE` (def) in Pphi2.OSAxioms
 - `Pphi2.compTimeReflection2` (def) in Pphi2.OSAxioms
-- ... and 421 more
+- ... and 593 more
 
 ### probability (+290)
 
@@ -2383,4 +2383,4 @@
 
 ## Update History (1 runs)
 
-- **2026-03-09T07:54:54.142156+00:00**: Checked 54 repos, updated 55, +39651 -0 declarations, 1 errors
+- **2026-03-16T08:04:05.624189+00:00**: Checked 54 repos, updated 55, +41468 -0 declarations, 1 errors
