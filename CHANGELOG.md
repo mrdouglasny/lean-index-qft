@@ -1,8 +1,8 @@
-# Changelog (since 2026-03-23)
+# Changelog (since 2026-03-30)
 
-## New Declarations (96020)
+## New Declarations (101260)
 
-### BrownianMotion (+835)
+### BrownianMotion (+857)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,7 +54,13 @@
 - `MeasureTheory.Measure.IsMulLeftInvariant.measure_ball_const'` (lemma) in BrownianMotion.Auxiliary.MeasureTheory
 - `MeasureTheory.Measure.IsMulRightInvariant.measure_ball_const'` (lemma) in BrownianMotion.Auxiliary.MeasureTheory
 - `MeasureTheory.Measure.IsMulLeftInvariant.measure_closedBall_const'` (lemma) in BrownianMotion.Auxiliary.MeasureTheory
-- ... and 785 more
+- ... and 807 more
+
+### CramerLundberg (+3)
+
+- `h₀` (lemma) in CramerLundberg.Basic
+- `g₀` (lemma) in CramerLundberg.Basic
+- `h₂` (lemma) in CramerLundberg.Basic
 
 ### CvxLean (+1181)
 
@@ -555,7 +561,7 @@
 - `integral_exp_neg_mul_Ioi_eq_inv` (lemma) in OSforGFF.Covariance.Momentum
 - ... and 805 more
 
-### OSreconstruction (+4918)
+### OSreconstruction (+5338)
 
 - `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
 - `distributional_uniqueness_tube_of_zero_bv` (theorem) in Proofideas.distributional_uniqueness_strategy
@@ -607,77 +613,77 @@
 - `SchwartzMap.tensorProduct_continuous_left` (theorem) in OSReconstruction.Wightman.SchwartzTensorProduct
 - `SchwartzMap.tensorProduct_continuous_right` (theorem) in OSReconstruction.Wightman.SchwartzTensorProduct
 - `SchwartzMap.conjTensorProduct_continuous_right` (theorem) in OSReconstruction.Wightman.SchwartzTensorProduct
-- ... and 4868 more
+- ... and 5288 more
 
-### PhysLean (+7334)
+### PhysLean (+9337)
 
+- `InfRegularized` (def) in QuantumInfo.Regularized
+- `SupRegularized` (def) in QuantumInfo.Regularized
+- `InfRegularized.lb` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.ub` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.anti_inf` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.anti_ub` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.lb` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.ub` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.mono_sup` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.mono_lb` (theorem) in QuantumInfo.Regularized
+- `SupRegularized.to_InfRegularized` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.anti_tendsto` (theorem) in QuantumInfo.Regularized
 - `getDocString` (def) in scripts.openAI_doc_check
 - `header` (def) in scripts.openAI_doc_check
 - `main` (def) in scripts.MetaPrograms.check_rfl
-- `IsUpperCamal` (def) in scripts.type_former_lint
+- `IsUpperCamel` (def) in scripts.type_former_lint
 - `DocGen4.Output.baseHtmlGenerator` (def) in scripts.Template
 - `DocGen4.Output.baseHtml` (def) in scripts.Template
-- `PhysLeanTODOItem` (def) in scripts.find_TODOs
+- `PhyslibTODOItem` (def) in scripts.find_TODOs
 - `TODOFinder` (def) in scripts.find_TODOs
 - `TODOContext` (structure) in scripts.find_TODOs
 - `printTODO` (def) in scripts.find_TODOs
 - `filePathToGitPath` (def) in scripts.find_TODOs
 - `docTODO` (def) in scripts.find_TODOs
-- `hepLeanLintFile` (def) in scripts.MetaPrograms.style_lint
+- `physlibLintFile` (def) in scripts.MetaPrograms.style_lint
 - `todoFileHeader` (def) in scripts.find_TODOs
 - `addModulesIn` (def) in scripts.check_file_imports
-- `expectedPhysLeanImports` (def) in scripts.check_file_imports
+- `expectedPhyslibImports` (def) in scripts.check_file_imports
 - `listDif` (def) in scripts.check_file_imports
 - `arrayImportSorted` (def) in scripts.check_file_imports
 - `checkMissingImports` (def) in scripts.check_file_imports
 - `getStats` (def) in scripts.MetaPrograms.local_stats
 - `Stats.toHtml` (def) in scripts.stats
-- `lintStyleCli` (def) in scripts.mathlib_textLint_on_hepLean
-- `heplean_lint_style` (def) in scripts.mathlib_textLint_on_hepLean
-- `Imports.RedundantImports` (def) in scripts.MetaPrograms.redundant_imports
-- `PhysLeanTextLinter` (def) in scripts.MetaPrograms.style_lint
-- `unneededParentheses` (def) in scripts.MetaPrograms.regex_lint
-- `doubleEmptyLineLinter` (def) in scripts.MetaPrograms.style_lint
-- `doubleSpaceLinter` (def) in scripts.MetaPrograms.style_lint
-- `longLineLinter` (def) in scripts.MetaPrograms.style_lint
-- `substringLinter` (def) in scripts.MetaPrograms.style_lint
-- `endLineLinter` (def) in scripts.MetaPrograms.style_lint
-- `numInitialSpacesEven` (def) in scripts.MetaPrograms.style_lint
-- `PhysLeanErrorContext` (structure) in scripts.MetaPrograms.style_lint
-- `printErrors` (def) in scripts.MetaPrograms.style_lint
-- `PhysLeanCategory` (inductive) in scripts.MetaPrograms.TODO_to_yml
-- `PhysLeanCategory.string` (def) in scripts.MetaPrograms.TODO_to_yml
-- `PhysLeanCategory.emoji` (def) in scripts.MetaPrograms.TODO_to_yml
-- `PhysLeanCategory.List` (def) in scripts.MetaPrograms.TODO_to_yml
-- `PhysLeanCategory.ofFileName` (def) in scripts.MetaPrograms.TODO_to_yml
-- `FullTODOInfo` (structure) in scripts.MetaPrograms.TODO_to_yml
-- `FullTODOInfo.toYAML` (def) in scripts.MetaPrograms.TODO_to_yml
-- `FullTODOInfo.ofTODO` (def) in scripts.MetaPrograms.TODO_to_yml
-- `getTodoInfo` (def) in scripts.MetaPrograms.TODO_to_yml
-- `informalTODO` (def) in scripts.MetaPrograms.check_dup_tags
-- `allInformalTODO` (def) in scripts.MetaPrograms.TODO_to_yml
-- `FullTODOInfo.ofSemiFormal` (def) in scripts.MetaPrograms.TODO_to_yml
-- `allSemiInformal` (def) in scripts.MetaPrograms.TODO_to_yml
-- `SorryfulInfo.toFullTODOInfo` (def) in scripts.MetaPrograms.TODO_to_yml
-- `allSorryfulResults` (def) in scripts.MetaPrograms.TODO_to_yml
-- `allTODOs` (def) in scripts.MetaPrograms.TODO_to_yml
-- ... and 7284 more
+- `lintStyleCli` (def) in scripts.mathlib_textLint_on_physlib
+- `physlib_lint_style` (def) in scripts.mathlib_textLint_on_physlib
+- `MicroHamiltonian.PartitionZ` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.PartitionZT` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.InternalU` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.HelmholtzA` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.EntropyS` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.EntropySβ` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.ZIntegrable` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.PositiveβIntegrable` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `MicroHamiltonian.entropy_A_eq_entropy_Z` (theorem) in QuantumInfo.StatMech.ThermoQuantities
+- `NVEHamiltonian.Pressure` (def) in QuantumInfo.StatMech.ThermoQuantities
+- `IdealGas` (def) in QuantumInfo.StatMech.IdealGas
+- `IdealGas.PartitionZ_eq` (theorem) in QuantumInfo.StatMech.IdealGas
+- `IdealGas.HelmholtzA_eq` (theorem) in QuantumInfo.StatMech.IdealGas
+- `IdealGas.ZIntegrable` (theorem) in QuantumInfo.StatMech.IdealGas
+- `IdealGas.IdealGasLaw` (theorem) in QuantumInfo.StatMech.IdealGas
+- ... and 9287 more
 
-### ProjectVD (+70)
+### ProjectVD (+68)
 
 - `MeromorphicOn.finprod_ne_zero` (theorem) in VD.BlaschkeDecomp2
 - `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.BlaschkeDecomp2
 - `MeromorphicOn.canonicalDecomposition₀` (theorem) in VD.BlaschkeDecomp2
 - `MeromorphicOn.canonicalDecomposition₁` (theorem) in VD.BlaschkeDecomp2
 - `MeromorphicOn.canonicalDecomposition₂` (theorem) in VD.BlaschkeDecomp2
-- `meromorphicNFAt_comp_iff_of_deriv_ne_zero` (theorem) in VD.PoissonJensen
-- `finprod_ne_zero` (theorem) in VD.PoissonJensen
-- `MeromorphicOn.codiscreteWithin_setOf_meromorphicOrderAt_eq_zero_or_top` (theorem) in VD.PoissonJensen
-- `MeromorphicOn.codiscreteWithin_setOf_ne_zero` (theorem) in VD.PoissonJensen
-- `PoissonJensen_aux₀` (theorem) in VD.PoissonJensen
-- `PoissonJensen_aux₁` (theorem) in VD.PoissonJensen
-- `PoissonJensen_aux₂` (theorem) in VD.PoissonJensen
-- `PoissonJensen_aux₃` (theorem) in VD.PoissonJensen
+- `meromorphicNFAt_comp_iff_of_deriv_ne_zero` (theorem) in VD.PoissonJensen2
+- `finprod_ne_zero` (theorem) in VD.PoissonJensen2
+- `MeromorphicOn.codiscreteWithin_setOf_meromorphicOrderAt_eq_zero_or_top` (theorem) in VD.PoissonJensen2
+- `MeromorphicOn.codiscreteWithin_setOf_ne_zero` (theorem) in VD.PoissonJensen2
+- `PoissonJensen_aux₀` (theorem) in VD.PoissonJensen2
+- `PoissonJensen_aux₁` (theorem) in VD.PoissonJensen2
+- `PoissonJensen_aux₂` (theorem) in VD.PoissonJensen2
+- `PoissonJensen_aux₃` (theorem) in VD.PoissonJensen2
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
 - `ValueDistribution.σ₁` (lemma) in VD.CartanExperimentation
 - `ValueDistribution.σ₂` (lemma) in VD.CartanExperimentation
@@ -688,21 +694,7 @@
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
-- `MeromorphicAt.eventuallyEq_nhdsNE_of_eventuallyEq_codiscreteWithin_preperfect` (theorem) in VD.Perfect
-- `MeromorphicOn.eventuallyEq_nhdsNE_of_eventuallyEq_codiscreteWithin_preperfect` (theorem) in VD.Perfect
-- `PerfectSpace.preperfect_of_isOpen` (theorem) in VD.Perfect
-- `PerfectSpace.preperfect_closure_of_isOpen` (theorem) in VD.Perfect
 - `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
-- `nonneg_of_mem_closedBall` (theorem) in VD.MathlibPending.BlaschkeDecomp
-- `MeromorphicOn.exists_meromorphicOrderAt_ne_top_iff_forall_mem` (theorem) in VD.MathlibPending.BlaschkeDecomp
-- `meromorphicOrderAt_finprod_ne_top` (lemma) in VD.MathlibPending.BlaschkeDecomp
-- `zero_canonicalFactor_iff` (theorem) in VD.MathlibPending.BlaschkeDecomp
-- `divisor_canonicalFactor` (theorem) in VD.MathlibPending.BlaschkeDecomp
-- `meromorphicOrderAt_canonicalFactor_ne_top` (lemma) in VD.MathlibPending.BlaschkeDecomp
-- `MeromorphicOn.canonicalDecomposition_aux₁` (lemma) in VD.MathlibPending.BlaschkeDecomp
-- `MeromorphicOn.canonicalDecomposition_aux₂` (lemma) in VD.MathlibPending.BlaschkeDecomp
-- `MeromorphicOn.canonicalDecomposition_aux₃` (lemma) in VD.MathlibPending.BlaschkeDecomp
-- `MeromorphicOn.canonicalDecomposition` (theorem) in VD.MathlibPending.BlaschkeDecomp
 - `herglotzLogIntegrand` (def) in VD.MathlibSubmitted.Poisson_log_affine
 - `herglotzLogIntegrand_continuousAt` (lemma) in VD.MathlibSubmitted.Poisson_log_affine
 - `herglotzLogIntegrand_continuous_on_circle` (lemma) in VD.MathlibSubmitted.Poisson_log_affine
@@ -712,10 +704,24 @@
 - `circleAverage_re_herglotzRieszKernel_mul_log₀` (theorem) in VD.MathlibSubmitted.Poisson_log_affine
 - `herglotzRieszKernel_add_const` (lemma) in VD.MathlibSubmitted.Poisson_log_affine
 - `circleAverage_re_herglotzRieszKernel_mul_log` (theorem) in VD.MathlibSubmitted.Poisson_log_affine
-- `Function.locallyFinsuppWithin.coe_sum` (lemma) in VD.MathlibSubmitted.LocallyFinsupp
-- `Function.locallyFinsuppWithin.coe_finsum` (lemma) in VD.MathlibSubmitted.LocallyFinsupp
-- `Function.locallyFinsuppWithin.sum_apply_smul_single_eq_self` (lemma) in VD.MathlibSubmitted.LocallyFinsupp
-- ... and 20 more
+- `MeromorphicAt.eventuallyEq_nhdsNE_of_eventuallyEq_codiscreteWithin_preperfect` (theorem) in VD.MathlibSubmitted.Perfect
+- `MeromorphicOn.divisor_of_eventuallyEq_codiscreteWithin_preperfect` (theorem) in VD.MathlibSubmitted.Perfect
+- `PerfectSpace.preperfect_of_isOpen` (theorem) in VD.MathlibSubmitted.Perfect
+- `PerfectSpace.preperfect_closure_of_isOpen` (theorem) in VD.MathlibSubmitted.Perfect
+- `nonneg_of_mem_closedBall` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
+- `MeromorphicOn.exists_meromorphicOrderAt_ne_top_iff_forall_mem` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
+- `meromorphicOrderAt_finprod_ne_top` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
+- `zero_canonicalFactor_iff` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
+- `divisor_canonicalFactor` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
+- `meromorphicOrderAt_canonicalFactor_ne_top` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
+- `MeromorphicOn.canonicalDecomposition_aux₁` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
+- `MeromorphicOn.sum_apply_smul_single_eq_self` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
+- `MeromorphicOn.canonicalDecomposition_aux₂` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
+- `MeromorphicOn.canonicalDecomposition_aux₃` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
+- `MeromorphicOn.congr_codiscreteWitin_closedBall_prod_canonicalFactor_smul` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
+- `LinearDiffOp` (structure) in VD.LinearDiffOp.Basic
+- `linearDiffOp_apply` (theorem) in VD.LinearDiffOp.Basic
+- ... and 18 more
 
 ### QFTFramework (+50)
 
@@ -878,7 +884,7 @@
 - `main` (theorem) in RMT4.Main
 - ... and 101 more
 
-### SampCert (+606)
+### SampCert (+775)
 
 - `IntHistogram` (structure) in Test
 - `IntHistogram.index` (def) in Test
@@ -896,11 +902,14 @@
 - `approxNormalizerGaussianPDF` (def) in Test
 - `KolmogorovDistance` (def) in Test
 - `test` (def) in Test
+- `query_tests` (def) in Test
+- `statistical_tests` (def) in Test
+- `sparseVector_tests` (def) in Test
 - `main` (def) in SampCertCheck
 - `combineConcentrated` (def) in SampCert
 - `combinePure` (def) in SampCert
 - `numBins` (def) in SampCert
-- `bin` (def) in SampCert
+- `example_bin` (def) in SampCert
 - `unbin` (def) in SampCert
 - `combineMeanHistogram` (def) in SampCert
 - `UInt32.toNa_of_non_zero` (lemma) in SampCert
@@ -918,19 +927,16 @@
 - `SLang.probWhileCut` (def) in SampCert.SLang
 - `SLang.probWhile` (def) in SampCert.SLang
 - `SLang.probUntil` (def) in SampCert.SLang
+- `SLang.probPure_norm` (lemma) in SampCert.SLang
+- `SLang.SPMF_pure` (def) in SampCert.SLang
+- `SLang.probBind_norm` (lemma) in SampCert.SLang
+- `SLang.SPMF_bind` (def) in SampCert.SLang
 - `PMF.run` (opaque) in SampCert.SLang
 - `in_subset_satisfies` (theorem) in SampCert.Util.Util
 - `sum_simple` (theorem) in SampCert.Util.Util
 - `tsum_simpl_ite_left` (theorem) in SampCert.Util.Util
 - `tsum_simpl_ite_right` (theorem) in SampCert.Util.Util
-- `tsum_split_ite` (theorem) in SampCert.Util.Util
-- `tsum_simpl_ite_left'` (theorem) in SampCert.Util.Util
-- `tsum_simpl_ite_right'` (theorem) in SampCert.Util.Util
-- `tsum_split_ite'` (theorem) in SampCert.Util.Util
-- `tsum_split_coe_right` (theorem) in SampCert.Util.Util
-- `tsum_split_coe_left` (theorem) in SampCert.Util.Util
-- `tsum_split_less` (theorem) in SampCert.Util.Util
-- ... and 556 more
+- ... and 725 more
 
 ### SemicircleLaw (+175)
 
@@ -1499,60 +1505,6 @@
 - `FG.example_Z₃.Z₃.rep2` (def) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep2.is_reducible` (lemma) in src.linear_space3.examples.Z3
 
-### formal-learning-theory-kernel (+517)
-
-- `Alphabet` (class) in FLT_Proofs.Computation
-- `Word` (abbrev) in FLT_Proofs.Computation
-- `FormalLanguage` (def) in FLT_Proofs.Computation
-- `DFA'` (structure) in FLT_Proofs.Computation
-- `DFA'.accepts` (def) in FLT_Proofs.Computation
-- `NFA'` (structure) in FLT_Proofs.Computation
-- `IsRegularLang` (def) in FLT_Proofs.Computation
-- `CFG` (structure) in FLT_Proofs.Computation
-- `CFG.DerivesStep` (def) in FLT_Proofs.Computation
-- `CFG.Derives` (def) in FLT_Proofs.Computation
-- `CFG.Language` (def) in FLT_Proofs.Computation
-- `IsContextFree` (def) in FLT_Proofs.Computation
-- `PDA` (structure) in FLT_Proofs.Computation
-- `TuringMachine` (structure) in FLT_Proofs.Computation
-- `GodelNumbering` (def) in FLT_Proofs.Computation
-- `PartialComputable` (def) in FLT_Proofs.Computation
-- `RESet` (def) in FLT_Proofs.Computation
-- `LimitingRecursive` (def) in FLT_Proofs.Computation
-- `Delta02Class` (def) in FLT_Proofs.Computation
-- `KolmogorovComplexity` (def) in FLT_Proofs.Computation
-- `DescriptionLength` (def) in FLT_Proofs.Computation
-- `MDLPrinciple` (structure) in FLT_Proofs.Computation
-- `MMLPrinciple` (structure) in FLT_Proofs.Computation
-- `AlgorithmicProbability` (def) in FLT_Proofs.Computation
-- `SRM` (structure) in FLT_Proofs.Computation
-- `ExecutionTrace` (def) in FLT_Proofs.Computation
-- `PartialTrace` (def) in FLT_Proofs.Computation
-- `conceptClassToSetFamily` (def) in FLT_Proofs.Bridge
-- `setFamilyToConceptClass` (def) in FLT_Proofs.Bridge
-- `bridge_round_trip` (theorem) in FLT_Proofs.Bridge
-- `conceptToFinset` (def) in FLT_Proofs.Bridge
-- `conceptClassToFinsetFamily` (def) in FLT_Proofs.Bridge
-- `conceptToFinset_injective` (theorem) in FLT_Proofs.Bridge
-- `shatters_iff_finset_shatters` (theorem) in FLT_Proofs.Bridge
-- `vcdim_eq_finset_vcdim` (theorem) in FLT_Proofs.Bridge
-- `vcdim_finite_of_fintype` (theorem) in FLT_Proofs.Bridge
-- `restrictToFinset` (def) in FLT_Proofs.Bridge
-- `restrictConceptClass` (def) in FLT_Proofs.Bridge
-- `growthFunction_le_card_restrict` (theorem) in FLT_Proofs.Bridge
-- `funcToSubsetFamily` (def) in FLT_Proofs.Bridge
-- `funcToSubset_injective` (theorem) in FLT_Proofs.Bridge
-- `restrict_shatters_lift` (theorem) in FLT_Proofs.Bridge
-- `vcDim_restrict_le` (theorem) in FLT_Proofs.Bridge
-- `card_restrict_le_sauer_shelah_bound` (theorem) in FLT_Proofs.Bridge
-- `ncard_restrictions_eq_card` (theorem) in FLT_Proofs.Bridge
-- `ncard_restrictions_le_bound` (theorem) in FLT_Proofs.Bridge
-- `growth_function_le_sauer_shelah` (theorem) in FLT_Proofs.Bridge
-- `iidSampleToProbMeasure` (def) in FLT_Proofs.Bridge
-- `iidSampleIsProbability` (instance) in FLT_Proofs.Bridge
-- `withTopNatToOrdinal` (def) in FLT_Proofs.Bridge
-- ... and 467 more
-
 ### formal-qkd (+106)
 
 - `parseStates` (def) in Main
@@ -1607,7 +1559,7 @@
 - `Sifting.State.isntStateToString` (instance) in FormalQKD.Sifting
 - ... and 56 more
 
-### gaussian-field (+1325)
+### gaussian-field (+1566)
 
 - `Cylinder` (abbrev) in Test
 - `Torus` (abbrev) in Test
@@ -1625,6 +1577,12 @@
 - `GaussianField.abs_cast_general` (lemma) in Scratch
 - `GaussianField.abs_cast_general'` (lemma) in Scratch
 - `GaussianField.productBasisIndices_polyGrowth` (theorem) in GeneralResults.SchwartzProducts
+- `GaussianField.asymFiniteLaplacianFun` (def) in Lattice.AsymmetricLaplacian
+- `GaussianField.asymFiniteLaplacianLM` (def) in Lattice.AsymmetricLaplacian
+- `GaussianField.asymFiniteLaplacian` (def) in Lattice.AsymmetricLaplacian
+- `GaussianField.asymFiniteLaplacian_eq_symmetric` (theorem) in Lattice.AsymmetricLaplacian
+- `GaussianField.asymMassOperator` (def) in Lattice.AsymmetricLaplacian
+- `GaussianField.asymMassOperator_eq_symmetric` (theorem) in Lattice.AsymmetricLaplacian
 - `GaussianField.FinLatticeSites` (abbrev) in Lattice.Sites
 - `GaussianField.InfLatticeSites` (abbrev) in Lattice.Sites
 - `GaussianField.latticeNorm` (def) in Lattice.Sites
@@ -1653,13 +1611,7 @@
 - `GaussianField.massOperatorMatrix_eigenvalues_pos` (theorem) in Lattice.SpectralCovariance
 - `GaussianField.spectralLatticeCovariance` (def) in Lattice.SpectralCovariance
 - `GaussianField.spectralLatticeCovariance_inner` (theorem) in Lattice.SpectralCovariance
-- `GaussianField.spectralLatticeCovariance_norm_sq` (theorem) in Lattice.SpectralCovariance
-- `GaussianField.spectral_eq_site_bilinear` (theorem) in Lattice.SpectralCovariance
-- `GaussianField.spectral_singular_values_bounded` (theorem) in Lattice.SpectralCovariance
-- `GaussianField.gaussianDensity` (def) in Lattice.SpectralCovariance
-- `GaussianField.gaussianDensity_eq_exp_spectral` (theorem) in Lattice.SpectralCovariance
-- `GaussianField.massEigenbasis_coeff_reprSymm` (theorem) in Lattice.SpectralCovariance
-- ... and 1275 more
+- ... and 1516 more
 
 ### interval (+844)
 
@@ -1900,7 +1852,7 @@
 - `InformationTheory.pmf.support` (def) in InformationTheory.InformationTheory
 - ... and 36 more
 
-### mathlib4 (+52346)
+### mathlib4 (+52668)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -1952,7 +1904,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 52296 more
+- ... and 52618 more
 
 ### monlib4 (+2413)
 
@@ -2165,7 +2117,7 @@
 - `Filter.EventuallyEq.add_left` (lemma) in BirkhoffErgodicThm.FilterPR
 - `MeasurableSpace.invariant_of_measurable_invariants` (theorem) in BirkhoffErgodicThm.InvariantsPR
 
-### pphi2 (+939)
+### pphi2 (+1238)
 
 - `Pphi2.pphi2_main` (theorem) in Pphi2.Main
 - `Pphi2.pphi2_existence` (theorem) in Pphi2.Main
@@ -2190,34 +2142,34 @@
 - `Pphi2.Bridge.os3_for_phi4_via_pphi2` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.full_os_via_bridge` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.phi4_full_os_via_bridge` (theorem) in Pphi2.Bridge
-- `Pphi2.SpaceTime2` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.TestFunction2` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.TestFunction2ℂ` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.FieldConfig2` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.distribPairing` (def) in Pphi2.OSAxioms
-- `Pphi2.generatingFunctional` (def) in Pphi2.OSAxioms
-- `Pphi2.schwartzRe` (def) in Pphi2.OSAxioms
-- `Pphi2.schwartzIm` (def) in Pphi2.OSAxioms
-- `Pphi2.generatingFunctionalℂ` (def) in Pphi2.OSAxioms
-- `Pphi2.O2` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.E2` (structure) in Pphi2.OSAxioms
-- `Pphi2.E2.act` (def) in Pphi2.OSAxioms
-- `Pphi2.euclideanInverse` (def) in Pphi2.OSAxioms
-- `Pphi2.euclideanInverse_hasTemperateGrowth` (lemma) in Pphi2.OSAxioms
-- `Pphi2.euclideanInverse_antilipschitz` (lemma) in Pphi2.OSAxioms
-- `Pphi2.euclideanAction2` (def) in Pphi2.OSAxioms
-- `Pphi2.euclideanAction2ℂ` (def) in Pphi2.OSAxioms
-- `Pphi2.timeReflection2` (def) in Pphi2.OSAxioms
-- `Pphi2.timeReflection2_involution` (theorem) in Pphi2.OSAxioms
-- `Pphi2.timeReflectionLinear` (def) in Pphi2.OSAxioms
-- `Pphi2.timeReflectionCLE` (def) in Pphi2.OSAxioms
-- `Pphi2.compTimeReflection2` (def) in Pphi2.OSAxioms
-- `Pphi2.compTimeReflection2_apply` (theorem) in Pphi2.OSAxioms
-- `Pphi2.SchwartzMap.translate` (def) in Pphi2.OSAxioms
-- `Pphi2.hasPositiveTime2` (def) in Pphi2.OSAxioms
-- `Pphi2.positiveTimeSubmodule2` (def) in Pphi2.OSAxioms
-- `Pphi2.PositiveTimeTestFunction2` (abbrev) in Pphi2.OSAxioms
-- ... and 889 more
+- `Pphi2.distribPairing` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.generatingFunctional` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.schwartzRe` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.schwartzIm` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.generatingFunctionalℂ` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.OS0_Analyticity` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.OS1_Regularity` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.OS2_EuclideanInvariance` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.OS3_ReflectionPositivity` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.OS4_Clustering` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.OS4_Ergodicity` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.SatisfiesFullOS` (abbrev) in Pphi2.OSAxioms
+- `Pphi2.pphi2Formulation` (def) in Pphi2.FormulationAdapter
+- `Pphi2.pphi2MeasureModel` (def) in Pphi2.FormulationAdapter
+- `Pphi2.pphi2PairingMeasureModel` (abbrev) in Pphi2.FormulationAdapter
+- `Pphi2.pphi2TensorSchwingerModel` (def) in Pphi2.FormulationAdapter
+- `Pphi2.pphi2MeasureToTensorBridge` (def) in Pphi2.FormulationAdapter
+- `Pphi2.schwartzOfReal` (def) in Pphi2.EuclideanComplex
+- `Pphi2.generatingFunctionalℂ_ofReal_add_real_smul` (lemma) in Pphi2.EuclideanComplex
+- `Pphi2.schwartz_decompose` (lemma) in Pphi2.EuclideanComplex
+- `Pphi2.schwartz_decompose_actionComplex` (lemma) in Pphi2.EuclideanComplex
+- `InteractionPolynomial` (structure) in Pphi2.Polynomial
+- `InteractionPolynomial.eval` (def) in Pphi2.Polynomial
+- `InteractionPolynomial.eval_neg` (theorem) in Pphi2.Polynomial
+- `InteractionPolynomial.shiftQuadratic` (def) in Pphi2.Polynomial
+- `InteractionPolynomial.evalWick` (def) in Pphi2.Polynomial
+- `InteractionPolynomial.evalWick'` (def) in Pphi2.Polynomial
+- ... and 1188 more
 
 ### probability (+353)
 
@@ -2435,65 +2387,69 @@
 - `OrderedFinpartition.whole` (def) in Series.Analysis.OrderedFinpartition
 - ... and 132 more
 
-### spectral-theorem-lean (+2)
+### spectral-thm-lean (+6)
 
-- `test` (lemma) in SpectralThm.Basic
-- `DenselyDefinedOperator` (structure) in SpectralThm.spthm
+- `hilbertAdjointDomain` (def) in spectral.Main
+- `adjointFunctional` (def) in spectral.Main
+- `hilbertAdjoint` (def) in spectral.Main
+- `operatorU` (def) in spectral.Main
+- `adjointGraph` (def) in spectral.Main
+- `hello` (def) in spectral.Spectral.Basic
 
-### spectrum-topos (+2277)
+### spectrum-topos (+4553)
 
-- `Ruliology.LabeledGraphAut` (def) in RuleSys.LabeledSymmetry
-- `Ruliology.LabeledGraphAut.id` (def) in RuleSys.LabeledSymmetry
-- `Ruliology.LabeledLindenbaumAut` (abbrev) in RuleSys.LabeledSymmetry
-- `Ruliology.labeled_aut_all_trivial` (theorem) in RuleSys.LabeledSymmetry
-- `Ruliology.labeledSymmetryKernel` (def) in RuleSys.LabeledSymmetry
-- `Ruliology.labeled_kernel_trivial_when_aut_trivial` (theorem) in RuleSys.LabeledSymmetry
-- `Ruliology.labeled_kernel_all_trivial` (theorem) in RuleSys.LabeledSymmetry
-- `Ruliology.labels_break_symmetries` (theorem) in RuleSys.LabeledSymmetry
-- `Ruliology.ForkState` (inductive) in RuleSys.FirstSeparation
-- `Ruliology.PathState` (inductive) in RuleSys.FirstSeparation
-- `Ruliology.fork` (def) in RuleSys.FirstSeparation
-- `Ruliology.pathSys` (def) in RuleSys.FirstSeparation
-- `Ruliology.fork_imageFinite` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.pathSys_imageFinite` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.fork_to_path` (def) in RuleSys.FirstSeparation
-- `Ruliology.path_to_fork` (def) in RuleSys.FirstSeparation
-- `Ruliology.fork_c_halting` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.pathSys_x_unique_succ` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.fork_path_not_relBisimilar` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.fork_path_not_bisimilar` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.Total'` (def) in RuleSys.FirstSeparation
-- `Ruliology.pathSys_total` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.fork_not_total` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.totality_separation` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.pathSys_proves_sigma_tot` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.fork_not_satisfies_sigma_tot` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.fork_not_proves_sigma_tot` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.fork_path_topos_nonequiv` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.first_separation_theorem` (theorem) in RuleSys.FirstSeparation
-- `Ruliology.terminalSystem` (def) in RuleSys.GeometricTheory
-- `Ruliology.CompSort` (inductive) in RuleSys.GeometricTheory
-- `Ruliology.CompFunction` (inductive) in RuleSys.GeometricTheory
-- `Ruliology.CompRelation` (inductive) in RuleSys.GeometricTheory
-- `Ruliology.GeometricFormula` (inductive) in RuleSys.GeometricTheory
-- `Ruliology.GeometricSequent` (structure) in RuleSys.GeometricTheory
-- `Ruliology.GeometricTheory` (structure) in RuleSys.GeometricTheory
-- `Ruliology.T_Comp` (def) in RuleSys.GeometricTheory
-- `Ruliology.modelFromSystem` (def) in RuleSys.GeometricTheory
-- `Ruliology.ToposMorphism` (structure) in RuleSys.GeometricTheory
-- `Ruliology.genericModel` (def) in RuleSys.GeometricTheory
-- `Ruliology.ruliad_classifies_TComp` (theorem) in RuleSys.GeometricTheory
-- `Ruliology.ObserverData.isComplete` (def) in RuleSys.GeometricTheory
-- `Ruliology.finest_is_complete` (theorem) in RuleSys.GeometricTheory
-- `Ruliology.MoritaEquivalent` (def) in RuleSys.GeometricTheory
-- `Ruliology.MoritaEquivalent.refl` (def) in RuleSys.GeometricTheory
-- `Ruliology.MoritaEquivalent.symm` (def) in RuleSys.GeometricTheory
-- `Ruliology.MoritaEquivalent.trans` (def) in RuleSys.GeometricTheory
-- `Ruliology.trivialTopology` (def) in RuleSys.GeometricTheory
-- `Ruliology.complete_observer_morita` (theorem) in RuleSys.GeometricTheory
-- `Ruliology.SieveBoolean` (def) in RuleSys.GeometricTheory
-- ... and 2227 more
+- `RTS.LabeledGraphAut` (def) in RuleSys.LabeledSymmetry
+- `RTS.LabeledGraphAut.id` (def) in RuleSys.LabeledSymmetry
+- `RTS.LabeledLindenbaumAut` (abbrev) in RuleSys.LabeledSymmetry
+- `RTS.labeled_aut_all_trivial` (theorem) in RuleSys.LabeledSymmetry
+- `RTS.labeledSymmetryKernel` (def) in RuleSys.LabeledSymmetry
+- `RTS.labeled_kernel_trivial_when_aut_trivial` (theorem) in RuleSys.LabeledSymmetry
+- `RTS.labeled_kernel_all_trivial` (theorem) in RuleSys.LabeledSymmetry
+- `RTS.labels_break_symmetries` (theorem) in RuleSys.LabeledSymmetry
+- `RTS.ForkState` (inductive) in RuleSys.FirstSeparation
+- `RTS.PathState` (inductive) in RuleSys.FirstSeparation
+- `RTS.fork` (def) in RuleSys.FirstSeparation
+- `RTS.pathSys` (def) in RuleSys.FirstSeparation
+- `RTS.fork_imageFinite` (theorem) in RuleSys.FirstSeparation
+- `RTS.pathSys_imageFinite` (theorem) in RuleSys.FirstSeparation
+- `RTS.fork_to_path` (def) in RuleSys.FirstSeparation
+- `RTS.path_to_fork` (def) in RuleSys.FirstSeparation
+- `RTS.fork_c_halting` (theorem) in RuleSys.FirstSeparation
+- `RTS.pathSys_x_unique_succ` (theorem) in RuleSys.FirstSeparation
+- `RTS.fork_path_not_relBisimilar` (theorem) in RuleSys.FirstSeparation
+- `RTS.fork_path_not_bisimilar` (theorem) in RuleSys.FirstSeparation
+- `RTS.Total'` (def) in RuleSys.FirstSeparation
+- `RTS.pathSys_total` (theorem) in RuleSys.FirstSeparation
+- `RTS.fork_not_total` (theorem) in RuleSys.FirstSeparation
+- `RTS.totality_separation` (theorem) in RuleSys.FirstSeparation
+- `RTS.pathSys_proves_sigma_tot` (theorem) in RuleSys.FirstSeparation
+- `RTS.fork_not_satisfies_sigma_tot` (theorem) in RuleSys.FirstSeparation
+- `RTS.fork_not_proves_sigma_tot` (theorem) in RuleSys.FirstSeparation
+- `RTS.fork_path_topos_nonequiv` (theorem) in RuleSys.FirstSeparation
+- `RTS.first_separation_theorem` (theorem) in RuleSys.FirstSeparation
+- `RTS.RTSTopos` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.yoneda` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.yoneda_fullyFaithful` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.yoneda_lemma` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.IsRepresentable` (def) in RuleSys.RTSTopos
+- `RTS.FlatFunctor` (class) in RuleSys.RTSTopos
+- `RTS.FlatFunctorCat` (def) in RuleSys.RTSTopos
+- `RTS.FlatFunctor.toPreservesFiniteLimits` (def) in RuleSys.RTSTopos
+- `RTS.RTSToposPoint` (structure) in RuleSys.RTSTopos
+- `RTS.RTSToposPoint.Equiv` (def) in RuleSys.RTSTopos
+- `RTS.RTSToposPoint.eval` (def) in RuleSys.RTSTopos
+- `RTS.RTSToposPoint.evalMap` (def) in RuleSys.RTSTopos
+- `RTS.Observer` (abbrev) in RuleSys.RTSTopos
+- `RTS.Observer.view` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.yonedaSheaf` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.IsRepresentableSheaf` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.representingObject` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.representingIso` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.yonedaSheaf_homEquiv` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.simulation_from_sheafHom` (def) in RuleSys.RTSTopos
+- `RTS.RTSTopos.sheafHom_from_simulation` (def) in RuleSys.RTSTopos
+- ... and 4503 more
 
 ## Update History (1 runs)
 
-- **2026-03-30T08:05:25.276711+00:00**: Checked 57 repos, updated 58, +43674 -0 declarations, 1 errors
+- **2026-04-06T08:05:26.369670+00:00**: Checked 58 repos, updated 59, +48592 -0 declarations, 1 errors
