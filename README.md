@@ -2,7 +2,7 @@
 
 Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**68,999 topic-matched declarations** across **45 repositories** (scanned 58 repos, 101,260 declarations).
+**69,315 topic-matched declarations** across **46 repositories** (scanned 60 repos, 102,284 declarations).
 
 Tracks Lean declarations related to:
 - **Functional analysis**: Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
@@ -20,26 +20,26 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 52,668 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 3,441 | Digitalized physics results in Lean (492 stars) |
-| [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 1,942 | Osterwalder-Schrader reconstruction theorem |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 52,816 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 3,454 | Digitalized physics results in Lean (492 stars) |
+| [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 2,145 | Osterwalder-Schrader reconstruction theorem |
 | [SStarrySSky/Measure](https://github.com/SStarrySSky/Measure) | 1,812 | 📏 A dependently-typed language on Lean 4 for formalizing physics. Dimensions,... |
 | [mrdouglasny/gaussian-field](https://github.com/mrdouglasny/gaussian-field) | 1,447 | Gaussian free field formalization |
 | [cameronfreer/exchangeability](https://github.com/cameronfreer/exchangeability) | 815 | Exchangeability, de Finetti's theorem |
 | [or4nge19/SpinGlass](https://github.com/or4nge19/SpinGlass) | 670 | Spin glass models, statistical mechanics |
 | [themathqueen/monlib4](https://github.com/themathqueen/monlib4) | 646 | Von Neumann algebras, quantum information theory |
-| [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 639 | Construction of a Brownian Motion in Lean |
+| [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 604 | Construction of a Brownian Motion in Lean |
+| [YellPika/quasi-borel-spaces](https://github.com/YellPika/quasi-borel-spaces) | 553 | Quasi-Borel spaces, categorical probability |
 | [YuanheZ/lean-stat-learning-theory](https://github.com/YuanheZ/lean-stat-learning-theory) | 553 | Statistical learning theory, Gaussian concentration, Dudley's entropy |
-| [YellPika/quasi-borel-spaces](https://github.com/YellPika/quasi-borel-spaces) | 550 | Quasi-Borel spaces, categorical probability |
 | [mrdouglasny/pphi2](https://github.com/mrdouglasny/pphi2) | 488 | Construction of phi^4_2 quantum field theory in Lean 4 |
 | [teorth/analysis](https://github.com/teorth/analysis) | 343 | Tao's analysis formalization |
 | [xiyin137/StochasticPDE](https://github.com/xiyin137/StochasticPDE) | 335 | Stochastic PDEs |
 | [mrdouglasny/OSforGFF](https://github.com/mrdouglasny/OSforGFF) | 329 | Osterwalder-Schrader axioms for Gaussian free field |
-| [ImperialCollegeLondon/FLT](https://github.com/ImperialCollegeLondon/FLT) | 323 | Fermat's Last Theorem (uses representation theory) |
+| [ImperialCollegeLondon/FLT](https://github.com/ImperialCollegeLondon/FLT) | 312 | Fermat's Last Theorem (uses representation theory) |
 | [slink/LeanLevy](https://github.com/slink/LeanLevy) | 299 | Levy processes on Mathlib |
 | [suomela/fin-dep](https://github.com/suomela/fin-dep) | 290 | Finitely dependent distributions |
 | [Timeroot/Lean-QuantumInfo](https://github.com/Timeroot/Lean-QuantumInfo) | 224 | Quantum information theory, quantum channels |
-| [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 197 | Bandit algorithms, probability bounds |
+| [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 187 | Bandit algorithms, probability bounds |
 | [K-NANOG/spectrum-topos](https://github.com/K-NANOG/spectrum-topos) | 184 |  |
 | [MingMing42hours/spectrum-topos](https://github.com/MingMing42hours/spectrum-topos) | 184 |  |
 | [oliver-butterley/SpectralThm](https://github.com/oliver-butterley/SpectralThm) | 93 | Spectral theorem formalization |
@@ -58,6 +58,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [awodey/joyal](https://github.com/awodey/joyal) | 8 |  |
 | [sunoru/finite-groups](https://github.com/sunoru/finite-groups) | 7 | Finite group theory |
 | [formalproofs/probability](https://github.com/formalproofs/probability) | 7 | Probability theory fundamentals |
+| [bjoernkjoshanssen/CramerLundberg](https://github.com/bjoernkjoshanssen/CramerLundberg) | 5 | Cramér-Lundberg distribution in Lean |
 | [girving/series](https://github.com/girving/series) | 4 | Power series, analytic functions |
 | [Abraxas1010/persistent-sheaf-laplacian](https://github.com/Abraxas1010/persistent-sheaf-laplacian) | 3 | Machine-checked proof that the persistent sheaf Laplacian is independent of... |
 | [mrdouglasny/QFTFramework](https://github.com/mrdouglasny/QFTFramework) | 3 | QFT framework formalization |
