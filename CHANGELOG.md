@@ -1,8 +1,8 @@
-# Changelog (since 2026-04-06)
+# Changelog (since 2026-04-13)
 
-## New Declarations (102284)
+## New Declarations (103781)
 
-### BrownianMotion (+821)
+### BrownianMotion (+831)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,9 +54,9 @@
 - `Finset.toFin_ofFin` (lemma) in BrownianMotion.Gaussian.BrownianMotion
 - `Finset.ofFin'` (def) in BrownianMotion.Gaussian.BrownianMotion
 - `Finset.ofFin'_zero` (lemma) in BrownianMotion.Gaussian.BrownianMotion
-- ... and 771 more
+- ... and 781 more
 
-### CramerLundberg (+27)
+### CramerLundberg (+35)
 
 - `integral_exponentialPDFReal_eq` (lemma) in CramerLundberg.Basic
 - `Real.exp_assoc_add` (lemma) in CramerLundberg.Basic
@@ -85,6 +85,14 @@
 - `ite_sub'` (lemma) in CramerLundberg.Basic
 - `indicator_exp_integrable` (theorem) in CramerLundberg.Basic
 - `ruin_theory_classical_model_solution` (lemma) in CramerLundberg.Basic
+- `exponentialPDFReal_of_nonneg` (lemma) in CramerLundberg.Basic
+- `exponentialPDFReal_of_neg` (lemma) in CramerLundberg.Basic
+- `inner_integral_eq` (lemma) in CramerLundberg.Basic
+- `outer_integral_eq` (lemma) in CramerLundberg.Basic
+- `ruin_theory_classical_model_solution_Aristotle` (lemma) in CramerLundberg.Basic
+- `ruin_theory_tendsto` (lemma) in CramerLundberg.Basic
+- `ruin_theory_tendsto_converse` (lemma) in CramerLundberg.Basic
+- `ruin_theory_tendsto_iff` (lemma) in CramerLundberg.Basic
 
 ### CvxLean (+1181)
 
@@ -252,7 +260,7 @@
 - `CumulativeDistributionFunction.oneDivNegLog_apply_ofReal_of_pos_of_lt_one` (lemma) in ExtremeValueProject.TransformedCDF
 - ... and 235 more
 
-### FLT (+1684)
+### FLT (+1594)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `IsDedekindDomain.bracketBilin` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
@@ -275,7 +283,6 @@
 - `AutomorphicForm.GLn.Weight` (structure) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GLn.IsConstantOn` (structure) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GLn.annihilator` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
-- `AutomorphicForm.GLn.AutomorphicFormForGLnOverQ` (structure) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GL0.classification` (def) in FLT.GlobalLanglandsConjectures.GLzero
 - `IsResidueAlgebra` (class) in FLT.Deformations.IsResidueAlgebra
 - `IsResidueAlgebra.algebraMap_surjective` (lemma) in FLT.Deformations.IsResidueAlgebra
@@ -301,10 +308,11 @@
 - `MonoidHom.coe_smul` (lemma) in FLT.Deformations.Lemmas
 - `ContinuousMonoidHom.coe_smul` (lemma) in FLT.Deformations.Lemmas
 - `IsTopologicalGroup.discreteUniformity` (instance) in FLT.Deformations.Lemmas
-- `IsLocalRing.map_maximalIdeal` (lemma) in FLT.Deformations.Lemmas
 - `IsLocalRing.ResidueField.map_surjective` (lemma) in FLT.Deformations.Lemmas
 - `MonoidHom.continuous_iff_isOpen_ker` (lemma) in FLT.Deformations.Lemmas
-- ... and 1634 more
+- `RingHom.continuous_iff_isOpen_ker` (lemma) in FLT.Deformations.Lemmas
+- `continuousAt_discrete_rng` (lemma) in FLT.Deformations.Lemmas
+- ... and 1544 more
 
 ### GFF (+6)
 
@@ -369,7 +377,7 @@
 - `Prob.coe_le_one` (theorem) in ClassicalInfo.Prob
 - ... and 1901 more
 
-### LeanLevy (+317)
+### LeanLevy (+321)
 
 - `main` (def) in Main
 - `hello` (def) in LeanLevy.Basic
@@ -421,10 +429,11 @@
 - `MeasureTheory.FiniteMeasure.continuous_fourierTransform` (theorem) in LeanLevy.Fourier.MeasureFourier
 - `MeasureTheory.FiniteMeasure.fourierTransform_apply_zero` (theorem) in LeanLevy.Fourier.MeasureFourier
 - `ProbabilityTheory.norm_charFun_half_le_of_charFun_eq_zero` (theorem) in LeanLevy.Levy.LevyKhintchineProof
-- ... and 267 more
+- ... and 271 more
 
-### MCMC (+526)
+### MCMC (+608)
 
+- `MCMC.PF.rootSequence` (def) in MCMC.PF.AppendixA
 - `stdSimplex` (def) in MCMC.PF.aux
 - `UpperSemicontinuousOn` (def) in MCMC.PF.aux
 - `LowerSemicontinuousOn` (def) in MCMC.PF.aux
@@ -474,8 +483,7 @@
 - `Set.toFinset_nonempty_iff` (lemma) in MCMC.PF.aux
 - `div_le_iff` (lemma) in MCMC.PF.aux
 - `le_div_iff` (lemma) in MCMC.PF.aux
-- `ratio_nonneg` (lemma) in MCMC.PF.aux
-- ... and 476 more
+- ... and 558 more
 
 ### Measure (+1924)
 
@@ -585,7 +593,7 @@
 - `regulated_propagator_norm` (lemma) in OSforGFF.Covariance.Parseval
 - ... and 805 more
 
-### OSreconstruction (+5797)
+### OSreconstruction (+6826)
 
 - `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
 - `distributional_uniqueness_tube_of_zero_bv` (theorem) in Proofideas.distributional_uniqueness_strategy
@@ -637,9 +645,9 @@
 - `BHW.rapidityElement` (def) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.rapidityMatrix_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.rapidityElement_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- ... and 5747 more
+- ... and 6776 more
 
-### PhysLean (+9401)
+### PhysLean (+9387)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -691,61 +699,61 @@
 - `informalTODO` (def) in scripts.MetaPrograms.check_dup_tags
 - `allInformalTODO` (def) in scripts.MetaPrograms.TODO_to_yml
 - `FullTODOInfo.ofSemiFormal` (def) in scripts.MetaPrograms.TODO_to_yml
-- ... and 9351 more
+- ... and 9337 more
 
-### ProjectVD (+69)
+### ProjectVD (+107)
 
+- `ValueDistribution.logCounting_zero_sub_logCounting_top_eq_circleAverage_sub_log_trailingCoeff` (theorem) in VD.CartanTrailing
+- `ValueDistribution.Cartan.norm_eq_one_of_mem_unitSphere` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.ne_zero_of_mem_unitSphere` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.meromorphicTrailingCoeffAt_eq_of_tendsto_order_eq_zero` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.logCounting_add_log_trailingCoeff_eq_circleAverage_add_logCounting_top` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.meromorphicTrailingCoeff_sub_const_eq_neg` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.log_trailingCoeff_eq_zero_on_unitSphere` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.circleAverage_log_trailingCoeff_eq_zero` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.meromorphicTrailingCoeff_sub_const_eq_of_meromorphicOrderAt_neg` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.meromorphicTrailingCoeff_sub_const_eq_sub_of_meromorphicOrderAt_eq_zero` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.singleton_compl_mem_codiscreteWithin_unitSphere` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.eventuallyEq_log_trailingCoeff_of_meromorphicOrderAt_eq_zero` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.log_trailingCoeff_eq_const_on_unitSphere_of_meromorphicOrderAt_neg` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphicOrderAt_neg` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphicOrderAt_eq_zero` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff` (lemma) in VD.CartanTrailing
+- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphic` (lemma) in VD.CartanTrailing
 - `meromorphicNFAt_comp_iff_of_deriv_ne_zero` (theorem) in VD.PoissonJensen2
 - `finprod_ne_zero` (theorem) in VD.PoissonJensen2
 - `MeromorphicOn.codiscreteWithin_setOf_meromorphicOrderAt_eq_zero_or_top` (theorem) in VD.PoissonJensen2
 - `MeromorphicOn.codiscreteWithin_setOf_ne_zero` (theorem) in VD.PoissonJensen2
+- `xx` (lemma) in VD.PoissonJensen3
 - `PoissonJensen_aux₀` (theorem) in VD.PoissonJensen2
 - `PoissonJensen_aux₁` (theorem) in VD.PoissonJensen2
 - `PoissonJensen_aux₂` (theorem) in VD.PoissonJensen2
 - `PoissonJensen_aux₃` (theorem) in VD.PoissonJensen2
-- `MeromorphicOn.finprod_ne_zero` (theorem) in VD.BlaschkeDecomp2
-- `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.BlaschkeDecomp2
-- `MeromorphicOn.canonicalDecomposition₀` (theorem) in VD.BlaschkeDecomp2
-- `MeromorphicOn.canonicalDecomposition₁` (theorem) in VD.BlaschkeDecomp2
-- `MeromorphicOn.canonicalDecomposition₂` (theorem) in VD.BlaschkeDecomp2
-- `MeromorphicOn.congr_codiscreteWitin_closedBall_prod_canonicalFactor_mul_prod_smul` (theorem) in VD.BlaschkeDecomp2
+- `ValueDistribution.circleAverage_add_const` (lemma) in VD.Cartan
+- `ValueDistribution.circleIntegrable_logCounting_of_trailing` (lemma) in VD.Cartan
+- `ValueDistribution.circleIntegrable_logCounting` (theorem) in VD.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_add_circleAverage_log_trailingCoeff_aux` (theorem) in VD.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_add_circleAverage_log_trailingCoeff` (theorem) in VD.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_of_meromorphicOrderAt_pos` (theorem) in VD.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_add_const` (theorem) in VD.Cartan
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
-- `ValueDistribution.σ₁` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.σ₂` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₀` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₁` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₂` (lemma) in VD.CartanExperimentation
-- `ValueDistribution.ρ₃'` (lemma) in VD.CartanExperimentation
-- `tendsto_nhdsWithin_of_tendsto_nhds'` (lemma) in VD.leftovers.meromorphicAt_topology
-- `MeromorphicAt.order_nonneg_if_exists_continuous_extension` (theorem) in VD.leftovers.meromorphicAt_topology
-- `MeromorphicAt.exists_analytic_extension_if_order_nonneg` (theorem) in VD.leftovers.meromorphicAt_topology
-- `MeromorphicAt.order_nonneg_iff_exists_continuous_extension` (theorem) in VD.leftovers.meromorphicAt_topology
-- `MeromorphicAt.order_nonneg_iff_exists_analytic_extension` (theorem) in VD.leftovers.meromorphicAt_topology
-- `LinearDiffOp` (structure) in VD.LinearDiffOp.Basic
-- `linearDiffOp_apply` (theorem) in VD.LinearDiffOp.Basic
-- `linearDiffOp_coe_apply` (theorem) in VD.LinearDiffOp.Basic
-- `LinearDiffOp.applyWithin` (def) in VD.LinearDiffOp.Basic
-- `linearDiffOp_applyWithin` (theorem) in VD.LinearDiffOp.Basic
-- `Filter.EventuallyEq.linearDiffOp_apply` (lemma) in VD.LinearDiffOp.Basic
-- `Filter.EventuallyEqWithin.linearDiffOp_applyWithin` (lemma) in VD.LinearDiffOp.Basic
-- `lieDerivative` (def) in VD.LinearDiffOp.Regularity
-- `lieDerivative_apply` (lemma) in VD.LinearDiffOp.Regularity
-- `lieBracket` (def) in VD.LinearDiffOp.Regularity
-- `lieBracket_anticomm` (lemma) in VD.LinearDiffOp.Regularity
-- `del_by_del_z` (def) in VD.LinearDiffOp.Regularity
-- `del_by_del_z_apply` (lemma) in VD.LinearDiffOp.Regularity
-- `del_by_del_z_bar` (def) in VD.LinearDiffOp.Regularity
-- `del_by_del_z_bar_apply` (lemma) in VD.LinearDiffOp.Regularity
-- `MeromorphicAt.eventuallyEq_nhdsNE_of_eventuallyEq_codiscreteWithin_preperfect` (theorem) in VD.MathlibSubmitted.Perfect
-- `MeromorphicOn.divisor_of_eventuallyEq_codiscreteWithin_preperfect` (theorem) in VD.MathlibSubmitted.Perfect
-- `PerfectSpace.preperfect_of_isOpen` (theorem) in VD.MathlibSubmitted.Perfect
-- `PerfectSpace.preperfect_closure_of_isOpen` (theorem) in VD.MathlibSubmitted.Perfect
-- `herglotzLogIntegrand` (def) in VD.MathlibSubmitted.Poisson_log_affine
-- ... and 19 more
+- `ValueDistribution.Cartan.integral_restrict_eq_setIntegral` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.uIoc_zero_eq_Ioc` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.integral_restrict_Ioc_eq_intervalIntegral` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.circleIntegrable_of_const_on_sphere` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.circleIntegrable_log_norm_sub` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.intervalIntegral_swap` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.meromorphicOn_measurable_of_univ` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.cartanKernel` (def) in VD.CartanKernel
+- `ValueDistribution.Cartan.intervalIntegrable_cartanKernel_in_alpha` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.integrable_cartanKernel_in_alpha` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.integrable_posLog_norm_circleMap` (lemma) in VD.CartanKernel
+- `ValueDistribution.Cartan.max_cartanKernel_le` (lemma) in VD.CartanKernel
+- ... and 57 more
 
 ### QFTFramework (+50)
 
@@ -853,6 +861,60 @@
 - `braket.instFunLikeKet` (instance) in Quave.braket
 - `braket.instFunLikeBra` (instance) in Quave.braket
 - ... and 13 more
+
+### QHilbert (+320)
+
+- `TensorProduct.liftAuxₛₗ` (def) in QHilbert.TensorProduct
+- `TensorProduct.liftAux_tmulₛₗ` (theorem) in QHilbert.TensorProduct
+- `TensorProduct.liftAux.smulₛₗ` (theorem) in QHilbert.TensorProduct
+- `TensorProduct.liftₛₗ` (def) in QHilbert.TensorProduct
+- `TensorProduct.mapₛₗ` (def) in QHilbert.TensorProduct
+- `LinearMap.isPartialDensityOperator` (def) in QHilbert.LinearMapPropositions
+- `LinearMap.isDensityOperator` (def) in QHilbert.LinearMapPropositions
+- `LinearMap.isEffect` (def) in QHilbert.LinearMapPropositions
+- `LinearMap.isIsometry` (def) in QHilbert.LinearMapPropositions
+- `LinearMap.isUnitary` (def) in QHilbert.LinearMapPropositions
+- `LinearMap.isPureState` (def) in QHilbert.LinearMapPropositions
+- `LinearMap.areProjMeas` (def) in QHilbert.LinearMapPropositions
+- `LinearMap.IsStarProjection.apply_range` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.IsStarProjection.isSymmetric` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.IsStarProjection.comp_self` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.IsPositive.sub_of_LoewnerOrder` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.eq_zero_iff_forall_re_inner_eq_zero` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.IsSelfAdjoint.eq_zero_iff_re_inner_app_self_eq_zero` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.IsSelfAdjoint.eq_iff_forall_re_inner_app_self_eq` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.IsPositive.re_inner_app_eq_zero_iff_app_eq_zero` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.IsPositive.inner_app_eq_zero_iff_app_eq_zero` (theorem) in QHilbert.LinearMapPropositions
+- `LinearMap.isDensityOperator.neZero` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.LoewnerOrder_iff_of_IsPositive` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.LoewnerOrder_iff_of_IsPositive'` (lemma) in QHilbert.LinearMapPropositions
+- `LinearMap.eq_iff_eq_zero_of_inner_eq_zero` (lemma) in QHilbert.Spectrum
+- `LinearMap.IsSymmetric.zero_eigenvalues_eq_rank_ker_of_finrank_eq_two` (lemma) in QHilbert.Spectrum
+- `LinearMap.IsSymmetric.zero_eigenvalue_zero_or_one_of_finrank_ker_eq_one_of_finrank_eq_two` (lemma) in QHilbert.Spectrum
+- `BasicProperties.scalar_product_eq_one` (lemma) in QHilbert.Properties
+- `BasicProperties.scalar_product` (lemma) in QHilbert.Properties
+- `BasicProperties.addition` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.adjointeql` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.zero_mul` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.one_mul` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.mult_assoc` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.zero_add` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.add_zero` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.zero_add_add_zero_eq` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.add_comm` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.add_right_associativity` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.add_left_associativity` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.add_left_right_associativity_eqv` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.zero_prod_identity` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.prod_zero_identity` (lemma) in QHilbert.Properties
+- `AlgebraicProperties.zero_tmulmap_eq_tmulmap_zero` (lemma) in QHilbert.Properties
+- `Submodule.eq_orthogonal_of_finrank_add_of_orthogonal` (lemma) in QHilbert.Projection
+- `Submodule.span_singleton_eq_orthogonal_of_inner_eq_zero` (lemma) in QHilbert.Projection
+- `Submodule.inner_eq_zero_iff_mem_span_singleton_of_inner_eq_zero` (lemma) in QHilbert.Projection
+- `TensorProduct.linner` (def) in QHilbert.InnerTensorProduct
+- `TensorProduct.linner_tmul` (lemma) in QHilbert.InnerTensorProduct
+- `TensorProduct.linner_ladd` (lemma) in QHilbert.InnerTensorProduct
+- ... and 270 more
 
 ### RMT4 (+151)
 
@@ -1016,7 +1078,7 @@
 - `ProbabilityTheory.integrable_semicirclePDFReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
 - ... and 125 more
 
-### SpectralThm (+115)
+### SpectralThm (+114)
 
 - `toLinearFunctional` (def) in SpectralThm.SpectralTheorem
 - `toLinearFunctional_apply` (lemma) in SpectralThm.SpectralTheorem
@@ -1068,7 +1130,7 @@
 - `MeasureTheory.Measure.isClosed_support` (lemma) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
 - `MeasureTheory.Measure.essRange` (def) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
 - `MeasureTheory.Measure.essRange_eq_of_ae_eq` (theorem) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
-- ... and 65 more
+- ... and 64 more
 
 ### SpinGlass (+1644)
 
@@ -1583,7 +1645,7 @@
 - `Sifting.State.ofChar` (def) in FormalQKD.Sifting
 - ... and 56 more
 
-### gaussian-field (+1566)
+### gaussian-field (+1599)
 
 - `GaussianField.myBlockMI` (def) in Scratch
 - `GaussianField.myBlockMI_abs_le` (lemma) in Scratch
@@ -1635,7 +1697,7 @@
 - `GaussianField.SmoothMap_Circle.fourierBasisFun` (def) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_smooth` (theorem) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_periodic` (theorem) in SmoothCircle.Basic
-- ... and 1516 more
+- ... and 1549 more
 
 ### interval (+844)
 
@@ -1703,7 +1765,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+492)
+### lean-bandits (+491)
 
 - `extraHead` (def) in tutorial.Manual
 - `config` (def) in tutorial.Manual
@@ -1722,40 +1784,40 @@
 - `regret_le` (lemma) in tutorial.Manual.Pages.DefiningAlgorithm
 - `empMean'` (def) in tutorial.Manual.Pages.DefiningAlgorithm
 - `empMean` (def) in tutorial.Manual.Pages.DefiningAlgorithm
-- `Bandits.ucbWidth'` (def) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.nextArm` (def) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.measurable_nextArm` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.ucbAlgorithm` (def) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.isAlgEnvSeqUntil_roundRobinAlgorithm` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.ucbWidth` (def) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.measurable_ucbWidth` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.ucbWidth_eq_ucbWidth'` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.arm_zero` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.arm_ae_eq_ucbNextArm` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.arm_ae_all_eq` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.ucbIndex_le_ucbIndex_arm` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.forall_arm_eq_mod_of_lt` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.forall_ucbIndex_le_ucbIndex_arm` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.forall_arm_prop` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.time_gt_of_pullCount_gt_one` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.pullCount_pos_of_pullCount_gt_one` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.gap_arm_le_two_mul_ucbWidth` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.pullCount_arm_le` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.prob_ucbIndex_le` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.prob_ucbIndex_ge` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.probReal_ucbIndex_le` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.probReal_ucbIndex_ge` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.pullCount_le_add_three` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.pullCount_le_add_three_ae` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.some_sum_eq_zero` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.pullCount_ae_le_add_two` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.constSum` (def) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.constSum_lt_top` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.expectation_pullCount_le'` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.expectation_pullCount_le` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `Bandits.UCB.regret_le` (lemma) in LeanMachineLearning.BanditAlgorithms.UCB
-- `sum_mod_range` (lemma) in LeanMachineLearning.BanditAlgorithms.AuxSums
-- ... and 442 more
+- `ProbabilityTheory.HasCondDistrib` (structure) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.hasCondDistrib_fst_prod` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.HasCondDistrib.comp` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.HasCondDistrib.fst` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.HasCondDistrib.snd` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.HasCondDistrib.comp_right` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.HasCondDistrib.prod_right` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.hasCondDistrib_prod_right_iff` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.HasLaw.prod_of_hasCondDistrib` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.HasCondDistrib.prod` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `MeasureTheory.Integrable.congr_identDistrib` (lemma) in LeanMachineLearning.Probability.Integrable
+- `MeasureTheory.measurable_comp_comap` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
+- `MeasureTheory.Measurable.coe_nat_enat` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
+- `MeasureTheory.Measurable.toNat` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
+- `MeasureTheory.measurable_sum_range_of_le` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
+- `MeasureTheory.measurable_sum_Icc_of_le` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
+- `Learning.pullCount` (def) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount'` (def) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_zero` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_zero_apply` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.monotone_pullCount` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_mono` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_action_eq_pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_eq_pullCount_of_action_ne` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount'_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_add_one_eq_pullCount'` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_eq_pullCount'` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount'_mono` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_le` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- `Learning.pullCount_congr` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
+- ... and 441 more
 
 ### lean-qkd (+8)
 
@@ -1876,7 +1938,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+52816)
+### mathlib4 (+52870)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -1928,7 +1990,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 52766 more
+- ... and 52820 more
 
 ### monlib4 (+2413)
 
@@ -1984,7 +2046,7 @@
 - `matrix_linearEquiv_iff_fintype_equiv` (theorem) in Monlib.RepTheory.AutMat
 - ... and 2363 more
 
-### ou-formal-system (+366)
+### ou-formal-system (+390)
 
 - `OUMembrane.project` (def) in OUMembrane
 - `OUMembrane.project_length` (theorem) in OUMembrane
@@ -2036,7 +2098,7 @@
 - `OUComplete.c_ax8_order` (lemma) in OUArithmetic
 - `OUComplete.c_ax9` (lemma) in OUArithmetic
 - `OUComplete.completeModel` (def) in OUArithmetic
-- ... and 316 more
+- ... and 340 more
 
 ### partial-regularity (+263)
 
@@ -2249,8 +2311,9 @@
 - `Pphi2.generatingFunctionalℂ` (abbrev) in Pphi2.OSAxioms
 - ... and 1188 more
 
-### probability (+353)
+### probability (+354)
 
+- `fancy` (theorem) in Main
 - `main` (def) in Main
 - `Finset.argmax'` (def) in MDPLib.Expected
 - `MDPs.ObjectiveFH` (structure) in MDPLib.Expected
@@ -2300,8 +2363,7 @@
 - `MDPs.reward_at` (def) in MDPLib.Histories
 - `MDPs.reward_to` (def) in MDPLib.Histories
 - `MDPs.reward_from` (def) in MDPLib.Histories
-- `MDPs.prob_h` (def) in MDPLib.Histories
-- ... and 303 more
+- ... and 304 more
 
 ### quasi-borel-spaces (+632)
 
@@ -2530,4 +2592,4 @@
 
 ## Update History (1 runs)
 
-- **2026-04-13T08:07:44.985987+00:00**: Checked 60 repos, updated 61, +49468 -0 declarations, 1 errors
+- **2026-04-20T08:02:17.111775+00:00**: Checked 61 repos, updated 62, +50911 -0 declarations, 1 errors
