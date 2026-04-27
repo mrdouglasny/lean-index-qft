@@ -1,8 +1,8 @@
-# Changelog (since 2026-04-13)
+# Changelog (since 2026-04-20)
 
-## New Declarations (103781)
+## New Declarations (104198)
 
-### BrownianMotion (+831)
+### BrownianMotion (+843)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,15 +54,18 @@
 - `Finset.toFin_ofFin` (lemma) in BrownianMotion.Gaussian.BrownianMotion
 - `Finset.ofFin'` (def) in BrownianMotion.Gaussian.BrownianMotion
 - `Finset.ofFin'_zero` (lemma) in BrownianMotion.Gaussian.BrownianMotion
-- ... and 781 more
+- ... and 793 more
 
-### CramerLundberg (+35)
+### CramerLundberg (+39)
 
+- `exponentialPDFReal_of_nonneg` (lemma) in CramerLundberg.Basic
+- `exponentialPDFReal_of_neg` (lemma) in CramerLundberg.Basic
+- `integral_ite` (lemma) in CramerLundberg.Basic
 - `integral_exponentialPDFReal_eq` (lemma) in CramerLundberg.Basic
-- `Real.exp_assoc_add` (lemma) in CramerLundberg.Basic
+- `Real.neg_mul_add` (lemma) in CramerLundberg.Basic
 - `ae` (lemma) in CramerLundberg.Basic
 - `integral_exponentialPDFReal_eq_one` (lemma) in CramerLundberg.Basic
-- `first_loss_is_ruinous` (lemma) in CramerLundberg.Basic
+- `prob_first_loss_is_ruinous` (lemma) in CramerLundberg.Basic
 - `exp_nonneg` (lemma) in CramerLundberg.Basic
 - `measExp₁` (lemma) in CramerLundberg.Basic
 - `measExp₂` (lemma) in CramerLundberg.Basic
@@ -71,6 +74,7 @@
 - `integ` (lemma) in CramerLundberg.Basic
 - `integ₀` (lemma) in CramerLundberg.Basic
 - `integrable_exponential_joint` (theorem) in CramerLundberg.Basic
+- `div_add_nonneg` (lemma) in CramerLundberg.Basic
 - `first_loss_is_ruinous'` (lemma) in CramerLundberg.Basic
 - `sigmaFiniteMeasure_pi_prod` (lemma) in CramerLundberg.Basic
 - `expMeasure_pi_prod` (lemma) in CramerLundberg.Basic
@@ -85,14 +89,14 @@
 - `ite_sub'` (lemma) in CramerLundberg.Basic
 - `indicator_exp_integrable` (theorem) in CramerLundberg.Basic
 - `ruin_theory_classical_model_solution` (lemma) in CramerLundberg.Basic
-- `exponentialPDFReal_of_nonneg` (lemma) in CramerLundberg.Basic
-- `exponentialPDFReal_of_neg` (lemma) in CramerLundberg.Basic
 - `inner_integral_eq` (lemma) in CramerLundberg.Basic
 - `outer_integral_eq` (lemma) in CramerLundberg.Basic
 - `ruin_theory_classical_model_solution_Aristotle` (lemma) in CramerLundberg.Basic
+- `one_phi_solves_many_integralEquations` (lemma) in CramerLundberg.Basic
 - `ruin_theory_tendsto` (lemma) in CramerLundberg.Basic
 - `ruin_theory_tendsto_converse` (lemma) in CramerLundberg.Basic
 - `ruin_theory_tendsto_iff` (lemma) in CramerLundberg.Basic
+- `integralEquation₂` (def) in CramerLundberg.Basic
 
 ### CvxLean (+1181)
 
@@ -260,7 +264,7 @@
 - `CumulativeDistributionFunction.oneDivNegLog_apply_ofReal_of_pos_of_lt_one` (lemma) in ExtremeValueProject.TransformedCDF
 - ... and 235 more
 
-### FLT (+1594)
+### FLT (+1593)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `IsDedekindDomain.bracketBilin` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
@@ -270,7 +274,6 @@
 - `AutomorphicForm.GLn.LieModuleHom.baseChange` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GLn.LieHom.baseChange` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GLn.actionTensorC` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
-- `AutomorphicForm.GLn.actionTensorCAlg` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GLn.actionTensorCAlg'` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GLn.actionTensorCAlg'2` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
 - `AutomorphicForm.GLn.Alg` (def) in FLT.GlobalLanglandsConjectures.GLnDefs
@@ -312,7 +315,8 @@
 - `MonoidHom.continuous_iff_isOpen_ker` (lemma) in FLT.Deformations.Lemmas
 - `RingHom.continuous_iff_isOpen_ker` (lemma) in FLT.Deformations.Lemmas
 - `continuousAt_discrete_rng` (lemma) in FLT.Deformations.Lemmas
-- ... and 1544 more
+- `ContinuousAlgHom.isLocalHom_id` (instance) in FLT.Deformations.Lemmas
+- ... and 1543 more
 
 ### GFF (+6)
 
@@ -593,7 +597,7 @@
 - `regulated_propagator_norm` (lemma) in OSforGFF.Covariance.Parseval
 - ... and 805 more
 
-### OSreconstruction (+6826)
+### OSreconstruction (+6829)
 
 - `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
 - `distributional_uniqueness_tube_of_zero_bv` (theorem) in Proofideas.distributional_uniqueness_strategy
@@ -645,9 +649,9 @@
 - `BHW.rapidityElement` (def) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.rapidityMatrix_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.rapidityElement_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- ... and 6776 more
+- ... and 6779 more
 
-### PhysLean (+9387)
+### PhysLean (+9431)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -699,10 +703,11 @@
 - `informalTODO` (def) in scripts.MetaPrograms.check_dup_tags
 - `allInformalTODO` (def) in scripts.MetaPrograms.TODO_to_yml
 - `FullTODOInfo.ofSemiFormal` (def) in scripts.MetaPrograms.TODO_to_yml
-- ... and 9337 more
+- ... and 9381 more
 
-### ProjectVD (+107)
+### ProjectVD (+87)
 
+- `circleIntegrable_log_norm_sub` (lemma) in VD.CartanTrailing
 - `ValueDistribution.logCounting_zero_sub_logCounting_top_eq_circleAverage_sub_log_trailingCoeff` (theorem) in VD.CartanTrailing
 - `ValueDistribution.Cartan.norm_eq_one_of_mem_unitSphere` (lemma) in VD.CartanTrailing
 - `ValueDistribution.Cartan.ne_zero_of_mem_unitSphere` (lemma) in VD.CartanTrailing
@@ -720,15 +725,11 @@
 - `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphicOrderAt_eq_zero` (lemma) in VD.CartanTrailing
 - `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff` (lemma) in VD.CartanTrailing
 - `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphic` (lemma) in VD.CartanTrailing
-- `meromorphicNFAt_comp_iff_of_deriv_ne_zero` (theorem) in VD.PoissonJensen2
-- `finprod_ne_zero` (theorem) in VD.PoissonJensen2
-- `MeromorphicOn.codiscreteWithin_setOf_meromorphicOrderAt_eq_zero_or_top` (theorem) in VD.PoissonJensen2
-- `MeromorphicOn.codiscreteWithin_setOf_ne_zero` (theorem) in VD.PoissonJensen2
-- `xx` (lemma) in VD.PoissonJensen3
-- `PoissonJensen_aux₀` (theorem) in VD.PoissonJensen2
-- `PoissonJensen_aux₁` (theorem) in VD.PoissonJensen2
-- `PoissonJensen_aux₂` (theorem) in VD.PoissonJensen2
-- `PoissonJensen_aux₃` (theorem) in VD.PoissonJensen2
+- `meromorphicNFAt_comp_iff_of_deriv_ne_zero` (theorem) in VD.PoissonJensen
+- `finprod_ne_zero` (theorem) in VD.PoissonJensen
+- `MeromorphicOn.codiscreteWithin_setOf_meromorphicOrderAt_eq_zero_or_top` (theorem) in VD.PoissonJensen
+- `MeromorphicOn.codiscreteWithin_setOf_ne_zero` (theorem) in VD.PoissonJensen
+- `xx` (lemma) in VD.PoissonJensen
 - `ValueDistribution.circleAverage_add_const` (lemma) in VD.Cartan
 - `ValueDistribution.circleIntegrable_logCounting_of_trailing` (lemma) in VD.Cartan
 - `ValueDistribution.circleIntegrable_logCounting` (theorem) in VD.Cartan
@@ -741,19 +742,22 @@
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
-- `ValueDistribution.Cartan.integral_restrict_eq_setIntegral` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.uIoc_zero_eq_Ioc` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.integral_restrict_Ioc_eq_intervalIntegral` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.circleIntegrable_of_const_on_sphere` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.circleIntegrable_log_norm_sub` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.intervalIntegral_swap` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.meromorphicOn_measurable_of_univ` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.cartanKernel` (def) in VD.CartanKernel
-- `ValueDistribution.Cartan.intervalIntegrable_cartanKernel_in_alpha` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.integrable_cartanKernel_in_alpha` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.integrable_posLog_norm_circleMap` (lemma) in VD.CartanKernel
-- `ValueDistribution.Cartan.max_cartanKernel_le` (lemma) in VD.CartanKernel
-- ... and 57 more
+- `MeromorphicOn.finprod_ne_zero` (theorem) in VD.MathlibPending.BlaschkeDecomp2
+- `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibPending.BlaschkeDecomp2
+- `MeromorphicOn.divisor_congr_codiscreteWitin_closedBall_prod_canonicalFactor_smul` (theorem) in VD.MathlibPending.BlaschkeDecomp2
+- `MeromorphicOn.congr_codiscreteWitin_closedBall_prod_canonicalFactor_mul_prod_smul` (theorem) in VD.MathlibPending.BlaschkeDecomp2
+- `tendsto_nhdsWithin_of_tendsto_nhds'` (lemma) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.order_nonneg_if_exists_continuous_extension` (theorem) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.exists_analytic_extension_if_order_nonneg` (theorem) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.order_nonneg_iff_exists_continuous_extension` (theorem) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.order_nonneg_iff_exists_analytic_extension` (theorem) in VD.leftovers.meromorphicAt_topology
+- `LinearDiffOp` (structure) in VD.LinearDiffOp.Basic
+- `linearDiffOp_apply` (theorem) in VD.LinearDiffOp.Basic
+- `linearDiffOp_coe_apply` (theorem) in VD.LinearDiffOp.Basic
+- `LinearDiffOp.applyWithin` (def) in VD.LinearDiffOp.Basic
+- `linearDiffOp_applyWithin` (theorem) in VD.LinearDiffOp.Basic
+- `Filter.EventuallyEq.linearDiffOp_apply` (lemma) in VD.LinearDiffOp.Basic
+- ... and 37 more
 
 ### QFTFramework (+50)
 
@@ -1645,7 +1649,7 @@
 - `Sifting.State.ofChar` (def) in FormalQKD.Sifting
 - ... and 56 more
 
-### gaussian-field (+1599)
+### gaussian-field (+1625)
 
 - `GaussianField.myBlockMI` (def) in Scratch
 - `GaussianField.myBlockMI_abs_le` (lemma) in Scratch
@@ -1697,7 +1701,7 @@
 - `GaussianField.SmoothMap_Circle.fourierBasisFun` (def) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_smooth` (theorem) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_periodic` (theorem) in SmoothCircle.Basic
-- ... and 1549 more
+- ... and 1575 more
 
 ### interval (+844)
 
@@ -1765,11 +1769,12 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+491)
+### lean-bandits (+499)
 
 - `extraHead` (def) in tutorial.Manual
 - `config` (def) in tutorial.Manual
 - `main` (def) in tutorial.Manual
+- `Docs.degenne2025markov` (def) in tutorial.Manual.References
 - `Algorithm` (structure) in tutorial.Manual.Pages.DefiningAlgorithm
 - `detAlgorithm` (def) in tutorial.Manual.Pages.DefiningAlgorithm
 - `Environment` (structure) in tutorial.Manual.Pages.DefiningAlgorithm
@@ -1784,6 +1789,9 @@
 - `regret_le` (lemma) in tutorial.Manual.Pages.DefiningAlgorithm
 - `empMean'` (def) in tutorial.Manual.Pages.DefiningAlgorithm
 - `empMean` (def) in tutorial.Manual.Pages.DefiningAlgorithm
+- `ae_tendsto_limitProcess` (theorem) in LeanMachineLearning.Tutorial.Martingales
+- `submartingale_iff_expected_stoppedValue_mono'` (theorem) in LeanMachineLearning.Tutorial.Martingales
+- `todo` (lemma) in LeanMachineLearning.Tutorial.MarkovKernel
 - `ProbabilityTheory.HasCondDistrib` (structure) in LeanMachineLearning.Probability.HasCondDistrib
 - `ProbabilityTheory.hasCondDistrib_fst_prod` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
 - `ProbabilityTheory.HasCondDistrib.comp` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
@@ -1794,6 +1802,7 @@
 - `ProbabilityTheory.hasCondDistrib_prod_right_iff` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
 - `ProbabilityTheory.HasLaw.prod_of_hasCondDistrib` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
 - `ProbabilityTheory.HasCondDistrib.prod` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
+- `ProbabilityTheory.hasLaw_of_hasCondDistrib_const` (lemma) in LeanMachineLearning.Probability.HasCondDistrib
 - `MeasureTheory.Integrable.congr_identDistrib` (lemma) in LeanMachineLearning.Probability.Integrable
 - `MeasureTheory.measurable_comp_comap` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
 - `MeasureTheory.Measurable.coe_nat_enat` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
@@ -1812,12 +1821,7 @@
 - `Learning.pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
 - `Learning.pullCount_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
 - `Learning.pullCount'_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_add_one_eq_pullCount'` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_eq_pullCount'` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount'_mono` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_le` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_congr` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- ... and 441 more
+- ... and 449 more
 
 ### lean-qkd (+8)
 
@@ -1938,7 +1942,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+52870)
+### mathlib4 (+53149)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -1990,7 +1994,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 52820 more
+- ... and 53099 more
 
 ### monlib4 (+2413)
 
@@ -2046,7 +2050,7 @@
 - `matrix_linearEquiv_iff_fintype_equiv` (theorem) in Monlib.RepTheory.AutMat
 - ... and 2363 more
 
-### ou-formal-system (+390)
+### ou-formal-system (+444)
 
 - `OUMembrane.project` (def) in OUMembrane
 - `OUMembrane.project_length` (theorem) in OUMembrane
@@ -2069,25 +2073,15 @@
 - `OUComplete.cKind` (def) in OUArithmetic
 - `OUComplete.cMem` (def) in OUArithmetic
 - `OUComplete.cIndication` (def) in OUArithmetic
-- `OUComplete.cComplement` (def) in OUArithmetic
 - `OUComplete.cBd` (def) in OUArithmetic
 - `OUComplete.cDrawnIn` (def) in OUArithmetic
-- `OUComplete.cDrawnAlong` (def) in OUArithmetic
-- `OUComplete.cHost` (def) in OUArithmetic
 - `OUComplete.cProportion` (def) in OUArithmetic
 - `OUComplete.cConcat` (def) in OUArithmetic
 - `OUComplete.cScale` (def) in OUArithmetic
 - `OUComplete.cDrawnIn_elim` (lemma) in OUArithmetic
-- `OUComplete.voidR_no_ground` (lemma) in OUArithmetic
 - `OUComplete.complement1_no_ground` (lemma) in OUArithmetic
 - `OUComplete.only_cPositive` (lemma) in OUArithmetic
-- `OUComplete.mark_indication_eq` (lemma) in OUArithmetic
-- `OUComplete.c_indication_is_locus` (lemma) in OUArithmetic
-- `OUComplete.c_bd_is_boundary` (lemma) in OUArithmetic
-- `OUComplete.c_complement_is_locus` (lemma) in OUArithmetic
 - `OUComplete.c_distinction` (lemma) in OUArithmetic
-- `OUComplete.c_ax3` (lemma) in OUArithmetic
-- `OUComplete.c_ax4` (lemma) in OUArithmetic
 - `OUComplete.cSystem` (def) in OUArithmetic
 - `OUComplete.mark1_positive` (lemma) in OUArithmetic
 - `OUComplete.cField` (def) in OUArithmetic
@@ -2098,7 +2092,17 @@
 - `OUComplete.c_ax8_order` (lemma) in OUArithmetic
 - `OUComplete.c_ax9` (lemma) in OUArithmetic
 - `OUComplete.completeModel` (def) in OUArithmetic
-- ... and 340 more
+- `OUComplete.complete_consistent` (theorem) in OUArithmetic
+- `OUComplete.archimedean_model` (theorem) in OUArithmetic
+- `OUComplete.convergence_model` (theorem) in OUArithmetic
+- `OUComplete.complete_field` (theorem) in OUArithmetic
+- `OUArithmeticGaps.concat_commutative_model` (theorem) in OUArithmetic
+- `OUArithmeticGaps.concat_commutative_principle` (theorem) in OUArithmetic
+- `OUArithmeticGaps.scale_distributes_model` (theorem) in OUArithmetic
+- `OUArithmeticGaps.scale_distributes_principle` (theorem) in OUArithmetic
+- `OUArithmeticGaps.model_sign_inverse` (theorem) in OUArithmetic
+- `OUArithmeticGaps.convergence_nontrivial` (theorem) in OUArithmetic
+- ... and 394 more
 
 ### partial-regularity (+263)
 
@@ -2257,7 +2261,7 @@
 - `Filter.EventuallyEq.add_right` (lemma) in BirkhoffErgodicThm.FilterPR
 - `Filter.EventuallyEq.add_left` (lemma) in BirkhoffErgodicThm.FilterPR
 
-### pphi2 (+1238)
+### pphi2 (+1246)
 
 - `InteractionPolynomial` (structure) in Pphi2.Polynomial
 - `InteractionPolynomial.eval` (def) in Pphi2.Polynomial
@@ -2309,7 +2313,7 @@
 - `Pphi2.schwartzRe` (abbrev) in Pphi2.OSAxioms
 - `Pphi2.schwartzIm` (abbrev) in Pphi2.OSAxioms
 - `Pphi2.generatingFunctionalℂ` (abbrev) in Pphi2.OSAxioms
-- ... and 1188 more
+- ... and 1196 more
 
 ### probability (+354)
 
@@ -2592,4 +2596,4 @@
 
 ## Update History (1 runs)
 
-- **2026-04-20T08:02:17.111775+00:00**: Checked 61 repos, updated 62, +50911 -0 declarations, 1 errors
+- **2026-04-27T08:15:19.243912+00:00**: Checked 61 repos, updated 62, +51049 -0 declarations, 1 errors
