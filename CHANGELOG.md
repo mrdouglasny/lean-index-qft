@@ -1,8 +1,8 @@
-# Changelog (since 2026-04-20)
+# Changelog (since 2026-04-27)
 
-## New Declarations (104198)
+## New Declarations (107046)
 
-### BrownianMotion (+843)
+### BrownianMotion (+958)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,7 +54,61 @@
 - `Finset.toFin_ofFin` (lemma) in BrownianMotion.Gaussian.BrownianMotion
 - `Finset.ofFin'` (def) in BrownianMotion.Gaussian.BrownianMotion
 - `Finset.ofFin'_zero` (lemma) in BrownianMotion.Gaussian.BrownianMotion
-- ... and 793 more
+- ... and 908 more
+
+### Burkholder (+711)
+
+- `hello` (def) in Burkholder.Basic
+- `Burkholder.q` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.pStar` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.v` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.IsMajorant` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.u` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.du_dx` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.du_dy` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.C` (def) in Burkholder.MartingaleTransforms
+- `Burkholder.du_dx_continuousOn` (lemma) in Burkholder.MartingaleTransforms
+- `Burkholder.du_dx_growth_bound` (lemma) in Burkholder.MartingaleTransforms
+- `Burkholder.du_dy_continuousOn` (lemma) in Burkholder.MartingaleTransforms
+- `Burkholder.du_dy_growth_bound` (lemma) in Burkholder.MartingaleTransforms
+- `Burkholder.u_isMajorant` (theorem) in Burkholder.MartingaleTransforms
+- `MeasureTheory.martingaleDiff` (def) in Burkholder.MartingaleTransforms
+- `MeasureTheory.martingaleTransform` (def) in Burkholder.MartingaleTransforms
+- `MeasureTheory.IsMartingaleTransform` (def) in Burkholder.MartingaleTransforms
+- `MeasureTheory.martingaleTransform_zero` (theorem) in Burkholder.MartingaleTransforms
+- `MeasureTheory.martingaleTransform_succ_sub` (theorem) in Burkholder.MartingaleTransforms
+- `MeasureTheory.martingaleTransform_martingale` (theorem) in Burkholder.MartingaleTransforms
+- `MeasureTheory.plusOne` (def) in Burkholder.MartingaleTransforms
+- `MeasureTheory.minusOne` (def) in Burkholder.MartingaleTransforms
+- `MeasureTheory.BurkholderAssumptions` (structure) in Burkholder.MartingaleTransforms
+- `MeasureTheory.inequality_for_transform_differences` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_martingaleDiff_memLp` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_plusOne_mul_martingaleDiff_memLp` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_minusOne_mul_martingaleDiff_memLp` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_X_memLp` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_Y_memLp` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_v_XY_integrable` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_u_Xn_Yn_integrable` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_du_dx_Xn_Yn_Lq` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_du_dy_Xn_Yn_Lq` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_du_dx_Xn_Yn_integrable_mul_diff` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_du_dy_Xn_Yn_integrable_mul_diff` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_v_le_u` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_u_nonpos_of_mul_nonpos` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_u_tangent_step` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_tangentDx` (def) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_tangentDy` (def) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_u_n_nplus1` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_u_XY_integral_succ_le` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_v_XY_le_u_XY_pointwise` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_v_XY_le_u_XY` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_u_X0Y0_nonpos_ae` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.burkholder_integral_v_XY_nonpos` (lemma) in Burkholder.MartingaleTransforms
+- `MeasureTheory.Lp_Burkholder_inequality_martingaleTransform` (theorem) in Burkholder.MartingaleTransforms
+- `Majorants.exists_majorant_p_g_1` (theorem) in Burkholder.Majorants
+- `Majorants.Majorant_p_g_2.pStar_eq_self_of_two_le` (theorem) in Burkholder.Majorants.Majorant_p_g_2
+- `Majorants.Majorant_p_g_2.vGeTwo` (def) in Burkholder.Majorants.Majorant_p_g_2
+- ... and 661 more
 
 ### CramerLundberg (+39)
 
@@ -435,43 +489,18 @@
 - `ProbabilityTheory.norm_charFun_half_le_of_charFun_eq_zero` (theorem) in LeanLevy.Levy.LevyKhintchineProof
 - ... and 271 more
 
-### MCMC (+608)
+### MCMC (+644)
 
 - `MCMC.PF.rootSequence` (def) in MCMC.PF.AppendixA
-- `stdSimplex` (def) in MCMC.PF.aux
-- `UpperSemicontinuousOn` (def) in MCMC.PF.aux
-- `LowerSemicontinuousOn` (def) in MCMC.PF.aux
-- `ClusterPt` (def) in MCMC.PF.aux
-- `Ultrafilter` (structure) in MCMC.PF.aux
-- `Ultrafilter.exists_le` (theorem) in MCMC.PF.aux
-- `isCompact_iff_ultrafilter_le_nhds` (theorem) in MCMC.PF.aux
-- `IsCompact.exists_clusterPt` (theorem) in MCMC.PF.aux
-- `ClusterPt.exists_ultrafilter` (theorem) in MCMC.PF.aux
-- `tendsto_of_lower_upper_semicontinuous_ultrafilter` (lemma) in MCMC.PF.aux
-- `upperSemicontinuousOn_eventually_lt_ultrafilter` (lemma) in MCMC.PF.aux
-- `lowerSemicontinuousOn_eventually_gt_ultrafilter` (lemma) in MCMC.PF.aux
-- `isCompact_stdSimplex` (theorem) in MCMC.PF.aux
-- `convex_stdSimplex` (theorem) in MCMC.PF.aux
 - `stdSimplex_nonempty` (theorem) in MCMC.PF.aux
-- `IsCompact.exists_max` (theorem) in MCMC.PF.aux
-- `isMaxOn_eq_sSup` (theorem) in MCMC.PF.aux
-- `Ultrafilter.map` (def) in MCMC.PF.aux
-- `Ultrafilter.eq_of_le` (theorem) in MCMC.PF.aux
-- `tendsto_map'_iff` (theorem) in MCMC.PF.aux
 - `eventually_to_open` (theorem) in MCMC.PF.aux
 - `continuousOn_finset_inf'` (theorem) in MCMC.PF.aux
 - `finset_inf'_mono_subset` (theorem) in MCMC.PF.aux
-- `matrix_mulVec_component` (theorem) in MCMC.PF.aux
 - `mulVec_nonneg` (theorem) in MCMC.PF.aux
-- `positive_mul_vec_pos` (theorem) in MCMC.PF.aux
 - `exists_pos_of_sum_one_of_nonneg` (theorem) in MCMC.PF.aux
-- `exists_ne_zero_of_ne_zero` (theorem) in MCMC.PF.aux
 - `pow_mulVec_succ` (theorem) in MCMC.PF.aux
-- `iInf_apply_eq_finset_inf'_apply_fun` (theorem) in MCMC.PF.aux
-- `iInf_eq_ciInf` (theorem) in MCMC.PF.aux
 - `mul_div_cancel_pos_right` (theorem) in MCMC.PF.aux
 - `mul_nonpos_of_nonpos_of_pos` (theorem) in MCMC.PF.aux
-- `continuousOn_iInf` (theorem) in MCMC.PF.aux
 - `Fintype.card_gt_one_of_nonempty_ne` (lemma) in MCMC.PF.aux
 - `sum_pos_of_mem` (theorem) in MCMC.PF.aux
 - `exists_mem_of_sum_pos` (theorem) in MCMC.PF.aux
@@ -484,10 +513,35 @@
 - `bounded_stdSimplex'` (lemma) in MCMC.PF.aux
 - `mem_supp_of_sum_eq_one` (lemma) in MCMC.PF.aux
 - `exists_pos_of_ne_zero` (lemma) in MCMC.PF.aux
+- `exists_pos_maximal_of_nonneg_ne_zero` (lemma) in MCMC.PF.aux
 - `Set.toFinset_nonempty_iff` (lemma) in MCMC.PF.aux
 - `div_le_iff` (lemma) in MCMC.PF.aux
 - `le_div_iff` (lemma) in MCMC.PF.aux
-- ... and 558 more
+- `ratio_nonneg` (lemma) in MCMC.PF.aux
+- `Finset.inf'_pos` (lemma) in MCMC.PF.aux
+- `lt_not_le` (lemma) in MCMC.PF.aux
+- `le_of_mem_upperBounds` (lemma) in MCMC.PF.aux
+- `bddAbove_iff_exists_upperBound` (lemma) in MCMC.PF.aux
+- `mulVec_apply` (lemma) in MCMC.PF.aux
+- `eq_mul_of_eq_div` (lemma) in MCMC.PF.aux
+- `mul_div_mul_eq_div` (lemma) in MCMC.PF.aux
+- `le_sSup_of_mem` (lemma) in MCMC.PF.aux
+- `sum_pos_of_nonneg_of_ne_zero` (lemma) in MCMC.PF.aux
+- `le_sup'_of_mem` (lemma) in MCMC.PF.aux
+- `sup'_le_sup'_of_le` (lemma) in MCMC.PF.aux
+- `Function.exists_ne_zero_of_ne_zero` (lemma) in MCMC.PF.aux
+- `mulVec_eq_zero_of_ratio_zero` (lemma) in MCMC.PF.aux
+- `mul_vec_mul_vec` (lemma) in MCMC.PF.aux
+- `zero_block_of_mulVec_eq_zero` (lemma) in MCMC.PF.aux
+- `Nat.eq_one_or_one_lt` (lemma) in MCMC.PF.aux
+- `exists_eq_iInf` (lemma) in MCMC.PF.aux
+- `le_csSup_of_mem` (lemma) in MCMC.PF.aux
+- `div_lt_iff` (lemma) in MCMC.PF.aux
+- `smul_sum` (lemma) in MCMC.PF.aux
+- `ones_norm_mem_simplex` (lemma) in MCMC.PF.aux
+- `Finset.inf'_eq_of_forall_le_of_exists_le` (lemma) in MCMC.PF.aux
+- `ne_zero_of_mem_stdSimplex` (lemma) in MCMC.PF.aux
+- ... and 594 more
 
 ### Measure (+1924)
 
@@ -597,7 +651,7 @@
 - `regulated_propagator_norm` (lemma) in OSforGFF.Covariance.Parseval
 - ... and 805 more
 
-### OSreconstruction (+6829)
+### OSreconstruction (+8501)
 
 - `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
 - `distributional_uniqueness_tube_of_zero_bv` (theorem) in Proofideas.distributional_uniqueness_strategy
@@ -649,9 +703,9 @@
 - `BHW.rapidityElement` (def) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.rapidityMatrix_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.rapidityElement_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- ... and 6779 more
+- ... and 8451 more
 
-### PhysLean (+9431)
+### PhysLean (+9438)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -703,49 +757,32 @@
 - `informalTODO` (def) in scripts.MetaPrograms.check_dup_tags
 - `allInformalTODO` (def) in scripts.MetaPrograms.TODO_to_yml
 - `FullTODOInfo.ofSemiFormal` (def) in scripts.MetaPrograms.TODO_to_yml
-- ... and 9381 more
+- ... and 9388 more
 
-### ProjectVD (+87)
+### ProjectVD (+67)
 
-- `circleIntegrable_log_norm_sub` (lemma) in VD.CartanTrailing
-- `ValueDistribution.logCounting_zero_sub_logCounting_top_eq_circleAverage_sub_log_trailingCoeff` (theorem) in VD.CartanTrailing
-- `ValueDistribution.Cartan.norm_eq_one_of_mem_unitSphere` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.ne_zero_of_mem_unitSphere` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.meromorphicTrailingCoeffAt_eq_of_tendsto_order_eq_zero` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.logCounting_add_log_trailingCoeff_eq_circleAverage_add_logCounting_top` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.meromorphicTrailingCoeff_sub_const_eq_neg` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.log_trailingCoeff_eq_zero_on_unitSphere` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.circleAverage_log_trailingCoeff_eq_zero` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.meromorphicTrailingCoeff_sub_const_eq_of_meromorphicOrderAt_neg` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.meromorphicTrailingCoeff_sub_const_eq_sub_of_meromorphicOrderAt_eq_zero` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.singleton_compl_mem_codiscreteWithin_unitSphere` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.eventuallyEq_log_trailingCoeff_of_meromorphicOrderAt_eq_zero` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.log_trailingCoeff_eq_const_on_unitSphere_of_meromorphicOrderAt_neg` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphicOrderAt_neg` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphicOrderAt_eq_zero` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff` (lemma) in VD.CartanTrailing
-- `ValueDistribution.Cartan.circleIntegrable_log_trailingCoeff_of_meromorphic` (lemma) in VD.CartanTrailing
+- `meromorphicAt_canonicalFactor` (lemma) in VD.PoissonJensen
 - `meromorphicNFAt_comp_iff_of_deriv_ne_zero` (theorem) in VD.PoissonJensen
 - `finprod_ne_zero` (theorem) in VD.PoissonJensen
 - `MeromorphicOn.codiscreteWithin_setOf_meromorphicOrderAt_eq_zero_or_top` (theorem) in VD.PoissonJensen
 - `MeromorphicOn.codiscreteWithin_setOf_ne_zero` (theorem) in VD.PoissonJensen
 - `xx` (lemma) in VD.PoissonJensen
-- `ValueDistribution.circleAverage_add_const` (lemma) in VD.Cartan
-- `ValueDistribution.circleIntegrable_logCounting_of_trailing` (lemma) in VD.Cartan
-- `ValueDistribution.circleIntegrable_logCounting` (theorem) in VD.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_add_circleAverage_log_trailingCoeff_aux` (theorem) in VD.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_add_circleAverage_log_trailingCoeff` (theorem) in VD.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_of_meromorphicOrderAt_pos` (theorem) in VD.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_logCounting_add_const` (theorem) in VD.Cartan
+- `yy` (lemma) in VD.PoissonJensen
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
-- `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.CharacteristicMonotone
 - `MeromorphicOn.finprod_ne_zero` (theorem) in VD.MathlibPending.BlaschkeDecomp2
 - `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibPending.BlaschkeDecomp2
 - `MeromorphicOn.divisor_congr_codiscreteWitin_closedBall_prod_canonicalFactor_smul` (theorem) in VD.MathlibPending.BlaschkeDecomp2
 - `MeromorphicOn.congr_codiscreteWitin_closedBall_prod_canonicalFactor_mul_prod_smul` (theorem) in VD.MathlibPending.BlaschkeDecomp2
+- `ValueDistribution.CircleIntegrable.sub` (theorem) in VD.MathlibPending.Cartan
+- `ValueDistribution.logCounting_add_log_trailingCoeff_eq_circleAverage_add_logCounting_top` (lemma) in VD.MathlibPending.Cartan
+- `ValueDistribution.circleIntegrable_logCounting` (theorem) in VD.MathlibPending.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_add_circleAverage` (theorem) in VD.MathlibPending.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_of_meromorphicOrderAt_pos` (theorem) in VD.MathlibPending.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_add_const` (theorem) in VD.MathlibPending.Cartan
+- `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.MathlibPending.Cartan
 - `tendsto_nhdsWithin_of_tendsto_nhds'` (lemma) in VD.leftovers.meromorphicAt_topology
 - `MeromorphicAt.order_nonneg_if_exists_continuous_extension` (theorem) in VD.leftovers.meromorphicAt_topology
 - `MeromorphicAt.exists_analytic_extension_if_order_nonneg` (theorem) in VD.leftovers.meromorphicAt_topology
@@ -757,7 +794,24 @@
 - `LinearDiffOp.applyWithin` (def) in VD.LinearDiffOp.Basic
 - `linearDiffOp_applyWithin` (theorem) in VD.LinearDiffOp.Basic
 - `Filter.EventuallyEq.linearDiffOp_apply` (lemma) in VD.LinearDiffOp.Basic
-- ... and 37 more
+- `Filter.EventuallyEqWithin.linearDiffOp_applyWithin` (lemma) in VD.LinearDiffOp.Basic
+- `lieDerivative` (def) in VD.LinearDiffOp.Regularity
+- `lieDerivative_apply` (lemma) in VD.LinearDiffOp.Regularity
+- `lieBracket` (def) in VD.LinearDiffOp.Regularity
+- `lieBracket_anticomm` (lemma) in VD.LinearDiffOp.Regularity
+- `del_by_del_z` (def) in VD.LinearDiffOp.Regularity
+- `del_by_del_z_apply` (lemma) in VD.LinearDiffOp.Regularity
+- `del_by_del_z_bar` (def) in VD.LinearDiffOp.Regularity
+- `del_by_del_z_bar_apply` (lemma) in VD.LinearDiffOp.Regularity
+- `ValueDistribution.Cartan.cartanKernel` (def) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.Cartan.integrable_cartanKernel_in_alpha` (lemma) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.Cartan.integral_norm_eq_two_mul_integral_max_sub` (lemma) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.Cartan.measurable_cartanKernel` (theorem) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.Cartan.integral_norm_cartanKernel_eq` (lemma) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.Cartan.integrable_integral_norm_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.Cartan.integrable_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.circleIntegrable_circleAverage_log_norm_sub` (theorem) in VD.MathlibSubmitted.ProximityIntegral
+- ... and 17 more
 
 ### QFTFramework (+50)
 
@@ -974,7 +1028,7 @@
 - `main` (theorem) in RMT4.Main
 - ... and 101 more
 
-### SampCert (+775)
+### SampCert (+812)
 
 - `combineConcentrated` (def) in SampCert
 - `combinePure` (def) in SampCert
@@ -1026,7 +1080,7 @@
 - `summable_exp_mul_sq` (theorem) in SampCert.Util.UtilMathlib
 - `in_subset_satisfies` (theorem) in SampCert.Util.Util
 - `sum_simple` (theorem) in SampCert.Util.Util
-- ... and 725 more
+- ... and 762 more
 
 ### SemicircleLaw (+175)
 
@@ -1243,6 +1297,41 @@
 - `SPDE.Examples.Phi4Model.isSupercritical` (def) in StochasticPDE.Examples.Phi4
 - `SPDE.Examples.Phi4Model.subcritical_d_lt_4` (theorem) in StochasticPDE.Examples.Phi4
 - ... and 1037 more
+
+### TCSR-QFT-Lean4 (+32)
+
+- `TrueCircleSelfReferon.full_lagrangian` (def) in Basic
+- `TrueCircleSelfReferon.params` (def) in Basic
+- `TrueCircleSelfReferon.Γ_TCSR` (def) in Basic
+- `TrueCircleSelfReferon.τ_TCSR` (def) in Basic
+- `TrueCircleSelfReferon.BR` (def) in Basic
+- `TrueCircleSelfReferon.TCSR_full_action` (def) in TCSR
+- `TrueCircleSelfReferon.TCSR_grav_minimal_coupling` (def) in TCSR
+- `TrueCircleSelfReferon.TCSRParameters` (structure) in Utils.Parameters
+- `TrueCircleSelfReferon.default_TCSR_params` (def) in Utils.Parameters
+- `TrueCircleSelfReferon.self_interaction_preserves_fermi_statistics` (theorem) in Theorems.CoreProperties
+- `TrueCircleSelfReferon.energy_coupling_respects_diff_invariance` (theorem) in Theorems.CoreProperties
+- `TrueCircleSelfReferon.m_TCSR` (def) in Field.Definition
+- `TrueCircleSelfReferon.g_SR` (def) in Lagrangian.SelfInteraction
+- `TrueCircleSelfReferon.λ_coupl` (def) in Lagrangian.EnergyCoupling
+- `TrueCircleSelfReferon.alpha` (def) in Utils.Parameters
+- `TrueCircleSelfReferon.Λ_SR` (def) in Lagrangian.SelfInteraction
+- `TrueCircleSelfReferon.physical_scales_summary` (def) in Utils.Parameters
+- `TrueCircleSelfReferon.TCSRField` (structure) in Field.Definition
+- `TrueCircleSelfReferon.ψ_TCSR` (abbrev) in Field.Definition
+- `TrueCircleSelfReferon.DecayChannel` (inductive) in Decay.Widths
+- `TrueCircleSelfReferon.observable_channels` (def) in Decay.Widths
+- `TrueCircleSelfReferon.total_decay_width` (def) in Decay.Widths
+- `TrueCircleSelfReferon.proper_lifetime` (def) in Decay.Widths
+- `TrueCircleSelfReferon.branching_ratios` (def) in Decay.Widths
+- `TrueCircleSelfReferon.branching_ratios_sum_to_one` (theorem) in Decay.Widths
+- `TrueCircleSelfReferon.get_branching_ratio` (def) in Decay.Widths
+- `TrueCircleSelfReferon.TCSR_energy_coupling` (def) in Lagrangian.EnergyCoupling
+- `TrueCircleSelfReferon.stress_energy_trace_total` (def) in Lagrangian.EnergyCoupling
+- `TrueCircleSelfReferon.energy_coupling_diffeomorphism_invariant` (theorem) in Lagrangian.EnergyCoupling
+- `TrueCircleSelfReferon.TCSR_kinetic_term` (def) in Lagrangian.Kinetic
+- `TrueCircleSelfReferon.TCSR_mass_term` (def) in Lagrangian.Kinetic
+- `TrueCircleSelfReferon.TCSR_self_interaction` (def) in Lagrangian.SelfInteraction
 
 ### VirasoroProject (+387)
 
@@ -1649,7 +1738,7 @@
 - `Sifting.State.ofChar` (def) in FormalQKD.Sifting
 - ... and 56 more
 
-### gaussian-field (+1625)
+### gaussian-field (+1629)
 
 - `GaussianField.myBlockMI` (def) in Scratch
 - `GaussianField.myBlockMI_abs_le` (lemma) in Scratch
@@ -1701,7 +1790,7 @@
 - `GaussianField.SmoothMap_Circle.fourierBasisFun` (def) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_smooth` (theorem) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_periodic` (theorem) in SmoothCircle.Basic
-- ... and 1575 more
+- ... and 1579 more
 
 ### interval (+844)
 
@@ -1769,11 +1858,13 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+499)
+### lean-bandits (+501)
 
 - `extraHead` (def) in tutorial.Manual
 - `config` (def) in tutorial.Manual
 - `main` (def) in tutorial.Manual
+- `lattimore2020bandit` (def) in verso_blueprint.LMLBlueprint.References
+- `marion2025formalization` (def) in verso_blueprint.LMLBlueprint.References
 - `Docs.degenne2025markov` (def) in tutorial.Manual.References
 - `Algorithm` (structure) in tutorial.Manual.Pages.DefiningAlgorithm
 - `detAlgorithm` (def) in tutorial.Manual.Pages.DefiningAlgorithm
@@ -1819,9 +1910,7 @@
 - `Learning.pullCount_action_eq_pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
 - `Learning.pullCount_eq_pullCount_of_action_ne` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
 - `Learning.pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount'_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- ... and 449 more
+- ... and 451 more
 
 ### lean-qkd (+8)
 
@@ -1942,7 +2031,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+53149)
+### mathlib4 (+53345)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -1994,7 +2083,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 53099 more
+- ... and 53295 more
 
 ### monlib4 (+2413)
 
@@ -2261,7 +2350,7 @@
 - `Filter.EventuallyEq.add_right` (lemma) in BirkhoffErgodicThm.FilterPR
 - `Filter.EventuallyEq.add_left` (lemma) in BirkhoffErgodicThm.FilterPR
 
-### pphi2 (+1246)
+### pphi2 (+1294)
 
 - `InteractionPolynomial` (structure) in Pphi2.Polynomial
 - `InteractionPolynomial.eval` (def) in Pphi2.Polynomial
@@ -2270,11 +2359,17 @@
 - `InteractionPolynomial.evalWick` (def) in Pphi2.Polynomial
 - `InteractionPolynomial.evalWick'` (def) in Pphi2.Polynomial
 - `Pphi2.schwartzOfReal` (def) in Pphi2.EuclideanComplex
+- `Pphi2.schwartzRe_sum_complex_smul` (theorem) in Pphi2.EuclideanComplex
+- `Pphi2.schwartzIm_sum_complex_smul` (theorem) in Pphi2.EuclideanComplex
+- `Pphi2.pairing_sum_complex_smul` (lemma) in Pphi2.EuclideanComplex
 - `Pphi2.generatingFunctionalℂ_ofReal_add_real_smul` (lemma) in Pphi2.EuclideanComplex
 - `Pphi2.schwartz_decompose` (lemma) in Pphi2.EuclideanComplex
 - `Pphi2.schwartz_decompose_actionComplex` (lemma) in Pphi2.EuclideanComplex
+- `Pphi2.schwartz_decompose_continuumEuclideanActionComplex` (theorem) in Pphi2.EuclideanComplex
 - `Pphi2.EuclideanOS.distribPairing` (def) in Pphi2.EuclideanOS
 - `Pphi2.EuclideanOS.generatingFunctional` (def) in Pphi2.EuclideanOS
+- `Pphi2.EuclideanOS.generatingFunctional_re_eq_integral_cos` (theorem) in Pphi2.EuclideanOS
+- `Pphi2.EuclideanOS.generatingFunctional_im_eq_integral_sin` (theorem) in Pphi2.EuclideanOS
 - `Pphi2.EuclideanOS.schwartzRe` (def) in Pphi2.EuclideanOS
 - `Pphi2.EuclideanOS.schwartzIm` (def) in Pphi2.EuclideanOS
 - `Pphi2.EuclideanOS.generatingFunctionalℂ` (def) in Pphi2.EuclideanOS
@@ -2290,8 +2385,11 @@
 - `Pphi2.pphi2_nontrivial` (theorem) in Pphi2.Main
 - `Pphi2.pphi2_nonGaussianity` (theorem) in Pphi2.Main
 - `Pphi2.pphi2_nonGaussian` (theorem) in Pphi2.Main
+- `Pphi2.bareMassParameter_positive` (theorem) in Pphi2.Main
 - `Pphi2.pphi2_mass_gap` (theorem) in Pphi2.Main
+- `Pphi2.massParameter_positive` (theorem) in Pphi2.Main
 - `Pphi2.os_reconstruction` (theorem) in Pphi2.Main
+- `Pphi2.pphi2_exists_os_and_massParameter_positive` (theorem) in Pphi2.Main
 - `Pphi2.pphi2_wightman` (theorem) in Pphi2.Main
 - `Pphi2.mass_reparametrization_invariance` (theorem) in Pphi2.Main
 - `Pphi2.mass_reparametrization_exists` (theorem) in Pphi2.Main
@@ -2304,20 +2402,15 @@
 - `Pphi2.Bridge.IsPphi2ContinuumLimit.toIsPphi2Limit` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.same_continuum_measure` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.os2_for_pphi2_via_phi4` (theorem) in Pphi2.Bridge
-- `Pphi2.Bridge.os3_from_pphi2` (theorem) in Pphi2.Bridge
-- `Pphi2.Bridge.os3_for_phi4_via_pphi2` (theorem) in Pphi2.Bridge
-- `Pphi2.Bridge.full_os_via_bridge` (theorem) in Pphi2.Bridge
-- `Pphi2.Bridge.phi4_full_os_via_bridge` (theorem) in Pphi2.Bridge
-- `Pphi2.distribPairing` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.generatingFunctional` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.schwartzRe` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.schwartzIm` (abbrev) in Pphi2.OSAxioms
-- `Pphi2.generatingFunctionalℂ` (abbrev) in Pphi2.OSAxioms
-- ... and 1196 more
+- ... and 1244 more
 
-### probability (+354)
+### probability (+362)
 
 - `fancy` (theorem) in Main
+- `strTrim` (def) in Main
+- `parseRat?` (def) in Main
+- `computeVaR` (def) in Main
+- `parseAndPrintVaR` (def) in Main
 - `main` (def) in Main
 - `Finset.argmax'` (def) in MDPLib.Expected
 - `MDPs.ObjectiveFH` (structure) in MDPLib.Expected
@@ -2363,11 +2456,7 @@
 - `MDPs.PolicySD` (def) in MDPLib.Histories
 - `MDPs.HistDist` (def) in MDPLib.Histories
 - `MDPs.Δℋ` (abbrev) in MDPLib.Histories
-- `MDPs.reward` (def) in MDPLib.Histories
-- `MDPs.reward_at` (def) in MDPLib.Histories
-- `MDPs.reward_to` (def) in MDPLib.Histories
-- `MDPs.reward_from` (def) in MDPLib.Histories
-- ... and 304 more
+- ... and 312 more
 
 ### quasi-borel-spaces (+632)
 
@@ -2596,4 +2685,4 @@
 
 ## Update History (1 runs)
 
-- **2026-04-27T08:15:19.243912+00:00**: Checked 61 repos, updated 62, +51049 -0 declarations, 1 errors
+- **2026-05-04T08:31:27.419325+00:00**: Checked 63 repos, updated 64, +53701 -0 declarations, 1 errors

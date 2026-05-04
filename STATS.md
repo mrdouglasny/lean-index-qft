@@ -1,33 +1,33 @@
 # Lean Index Statistics
 
-**84,877 topic-matched declarations** across **47 repositories**
-(104,198 total declarations scanned from 61 repos)
+**85,715 topic-matched declarations** across **48 repositories**
+(107,046 total declarations scanned from 63 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| functional-analysis            |     29,139 |
-| measure-theory                 |     25,185 |
-| probability-theory             |      8,944 |
-| topological-groups             |      5,882 |
-| spectral-theory                |      4,661 |
-| quantum-field-theory           |      4,214 |
-| distributions-schwartz         |      3,478 |
-| operator-algebras              |      3,374 |
+| functional-analysis            |     29,229 |
+| measure-theory                 |     25,526 |
+| probability-theory             |      9,006 |
+| topological-groups             |      5,917 |
+| spectral-theory                |      4,688 |
+| quantum-field-theory           |      4,234 |
+| distributions-schwartz         |      3,714 |
+| operator-algebras              |      3,401 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     48,656 |
-| def             |      8,540 |
-| lemma           |      6,599 |
-| instance        |      4,429 |
-| structure       |        628 |
+| theorem         |     49,155 |
+| def             |      8,641 |
+| lemma           |      6,689 |
+| instance        |      4,439 |
+| structure       |        631 |
 | ctor            |        513 |
 | class           |        311 |
-| abbrev          |        300 |
+| abbrev          |        301 |
 | inductive       |         80 |
 | opaque          |         68 |
 
@@ -35,18 +35,18 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     53,149 |     53,149 |
-| PhysLean                            |      3,465 |      9,431 |
-| OSreconstruction                    |      2,499 |      6,829 |
+| mathlib4                            |     53,345 |     53,345 |
+| PhysLean                            |      3,467 |      9,438 |
+| OSreconstruction                    |      2,867 |      8,501 |
 | Measure                             |      1,812 |      1,924 |
-| gaussian-field                      |      1,502 |      1,625 |
+| gaussian-field                      |      1,506 |      1,629 |
 | exchangeability                     |        815 |        871 |
+| BrownianMotion                      |        700 |        958 |
 | SpinGlass                           |        670 |      1,644 |
 | monlib4                             |        646 |      2,413 |
-| BrownianMotion                      |        620 |        843 |
 | quasi-borel-spaces                  |        553 |        632 |
 | lean-stat-learning-theory           |        553 |      1,205 |
-| pphi2                               |        491 |      1,246 |
+| pphi2                               |        504 |      1,294 |
 | analysis                            |        343 |      2,270 |
 | StochasticPDE                       |        335 |      1,087 |
 | OSforGFF                            |        329 |        855 |
@@ -54,24 +54,24 @@
 | fin-dep                             |        290 |      1,154 |
 | FLT                                 |        290 |      1,593 |
 | Lean-QuantumInfo                    |        224 |      1,951 |
-| lean-bandits                        |        191 |        499 |
+| lean-bandits                        |        191 |        501 |
 | spectrum-topos                      |        184 |      2,276 |
 | spectrum-topos                      |        184 |      2,277 |
+| MCMC                                |        106 |        644 |
 | SpectralThm                         |         93 |        114 |
 | ExtremeValueProject                 |         91 |        285 |
-| MCMC                                |         88 |        608 |
 | SemicircleLaw                       |         81 |        175 |
-| SampCert                            |         49 |        775 |
+| SampCert                            |         52 |        812 |
 | ray                                 |         47 |        851 |
-| ProjectVD                           |         38 |         87 |
+| Burkholder                          |         33 |        711 |
 | RMT4                                |         33 |        151 |
-| ... and 17 more |  |  |
+| ... and 18 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-04-27T08:15:19.243912+00:00
-- **Repos checked**: 61
-- **Repos updated**: 62
-- **New declarations**: 51049
+- **When**: 2026-05-04T08:31:27.419325+00:00
+- **Repos checked**: 63
+- **Repos updated**: 64
+- **New declarations**: 53701
 - **Removed declarations**: 0
-- **Summary**: Checked 61 repos, updated 62, +51049 -0 declarations, 1 errors
+- **Summary**: Checked 63 repos, updated 64, +53701 -0 declarations, 1 errors
