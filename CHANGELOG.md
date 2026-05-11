@@ -1,6 +1,6 @@
-# Changelog (since 2026-04-27)
+# Changelog (since 2026-05-04)
 
-## New Declarations (107046)
+## New Declarations (108420)
 
 ### BrownianMotion (+958)
 
@@ -110,7 +110,7 @@
 - `Majorants.Majorant_p_g_2.vGeTwo` (def) in Burkholder.Majorants.Majorant_p_g_2
 - ... and 661 more
 
-### CramerLundberg (+39)
+### CramerLundberg (+55)
 
 - `exponentialPDFReal_of_nonneg` (lemma) in CramerLundberg.Basic
 - `exponentialPDFReal_of_neg` (lemma) in CramerLundberg.Basic
@@ -151,6 +151,18 @@
 - `ruin_theory_tendsto_converse` (lemma) in CramerLundberg.Basic
 - `ruin_theory_tendsto_iff` (lemma) in CramerLundberg.Basic
 - `integralEquation₂` (def) in CramerLundberg.Basic
+- `Filtration.piLE` (def) in CramerLundberg.Basic
+- `RNP` (def) in CramerLundberg.NeymanPearsonReal
+- `NP.intRNP₀` (theorem) in CramerLundberg.NeymanPearsonReal
+- `NP.intRNP₁` (theorem) in CramerLundberg.NeymanPearsonReal
+- `wiki_arith` (lemma) in CramerLundberg.NeymanPearsonReal
+- `wiki` (lemma) in CramerLundberg.NeymanPearsonReal
+- `wiki_nonneg` (lemma) in CramerLundberg.NeymanPearsonReal
+- `RNPnnreal` (def) in CramerLundberg.NeymanPearsonReal
+- `RNPennreal` (def) in CramerLundberg.NeymanPearsonReal
+- `wiki_ennreal` (lemma) in CramerLundberg.NeymanPearsonReal
+- `wiki_ennreal'` (lemma) in CramerLundberg.NeymanPearsonReal
+- ... and 5 more
 
 ### CvxLean (+1181)
 
@@ -381,7 +393,7 @@
 - `CylinderTestFun` (abbrev) in GFF.SpacetimeInstances
 - `TorusTestFun` (abbrev) in GFF.SpacetimeInstances
 
-### Lean-QuantumInfo (+1951)
+### Lean-QuantumInfo (+2283)
 
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
@@ -433,7 +445,7 @@
 - `Prob.instInhabited` (instance) in ClassicalInfo.Prob
 - `Prob.zero_le_coe` (theorem) in ClassicalInfo.Prob
 - `Prob.coe_le_one` (theorem) in ClassicalInfo.Prob
-- ... and 1901 more
+- ... and 2233 more
 
 ### LeanLevy (+321)
 
@@ -489,7 +501,7 @@
 - `ProbabilityTheory.norm_charFun_half_le_of_charFun_eq_zero` (theorem) in LeanLevy.Levy.LevyKhintchineProof
 - ... and 271 more
 
-### MCMC (+644)
+### MCMC (+677)
 
 - `MCMC.PF.rootSequence` (def) in MCMC.PF.AppendixA
 - `stdSimplex_nonempty` (theorem) in MCMC.PF.aux
@@ -541,7 +553,7 @@
 - `ones_norm_mem_simplex` (lemma) in MCMC.PF.aux
 - `Finset.inf'_eq_of_forall_le_of_exists_le` (lemma) in MCMC.PF.aux
 - `ne_zero_of_mem_stdSimplex` (lemma) in MCMC.PF.aux
-- ... and 594 more
+- ... and 627 more
 
 ### Measure (+1924)
 
@@ -651,11 +663,26 @@
 - `regulated_propagator_norm` (lemma) in OSforGFF.Covariance.Parseval
 - ... and 805 more
 
-### OSreconstruction (+8501)
+### OSreconstruction (+8680)
 
 - `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
 - `distributional_uniqueness_tube_of_zero_bv` (theorem) in Proofideas.distributional_uniqueness_strategy
+- `OSReconstruction.KallenLehmann.spacetimeTranslate` (def) in Proofideas.kallen_lehmann
+- `OSReconstruction.KallenLehmann.spectralFunction` (def) in Proofideas.kallen_lehmann
+- `OSReconstruction.KallenLehmann.spectralFunction_continuous` (theorem) in Proofideas.kallen_lehmann
+- `OSReconstruction.KallenLehmann.kallen_lehmann_representation` (theorem) in Proofideas.kallen_lehmann
 - ``schwinger_continuation_base_step_full`;` (theorem) in Proofideas.osto_wightman_retired_full_holomorphic_helpers
+- `OSReconstruction.KallenLehmann.cluster_2point_from_KL` (theorem) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.for` (theorem) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.WightmanReconstruction` (class) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.cluster_npoint_from_KL` (theorem) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.plus` (class) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.ClusterRouteA.instNormedH` (instance) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.ClusterRouteA.instInnerH` (instance) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.ClusterRouteA.instCompleteH` (instance) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.ClusterRouteA.cluster_inner_product_from_GNS` (theorem) in Proofideas.cluster_from_kallen_lehmann
+- `OSReconstruction.KallenLehmann.ClusterRouteA.fields` (class) in Proofideas.cluster_from_kallen_lehmann
+- `in` (theorem) in Proofideas.ruelle_blueprint
 - `BHWCore.ForwardTube` (def) in OSReconstruction.ComplexLieGroups.BHWCore
 - `BHWCore.complexLorentzAction` (def) in OSReconstruction.ComplexLieGroups.BHWCore
 - `BHWCore.complexLorentzAction_mul` (theorem) in OSReconstruction.ComplexLieGroups.BHWCore
@@ -688,24 +715,9 @@
 - `BHW.d1_metric_eq_01` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.d1_metric_eq_10` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
 - `BHW.d1_metric_eq_11` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.d1_eta_transpose_eta_eq` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.d1_inv_eq_adjugate_fin_two` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.d1_entries_pairing` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.d1_hyperbola_relation` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.d1_matrix_normal_form` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.d1_exists_rapidity` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.rapidityMatrix` (def) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.imag_rapidity_plus_formula` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.imag_rapidity_minus_formula` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.pureImag_rapidity_preserves_cone_segment` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.rapidityMatrix_metric` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.rapidityMatrix_det` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.rapidityElement` (def) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.rapidityMatrix_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- `BHW.rapidityElement_mul` (theorem) in OSReconstruction.ComplexLieGroups.D1OrbitSet
-- ... and 8451 more
+- ... and 8630 more
 
-### PhysLean (+9438)
+### PhysLean (+9826)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -740,8 +752,10 @@
 - `SupRegularized.ub` (theorem) in QuantumInfo.Regularized
 - `SupRegularized.mono_sup` (theorem) in QuantumInfo.Regularized
 - `SupRegularized.mono_lb` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.to_SupRegularized` (theorem) in QuantumInfo.Regularized
 - `SupRegularized.to_InfRegularized` (theorem) in QuantumInfo.Regularized
 - `InfRegularized.anti_tendsto` (theorem) in QuantumInfo.Regularized
+- `InfRegularized.of_Subadditive` (theorem) in QuantumInfo.Regularized
 - `numDefs` (def) in scripts.MetaPrograms.local_stats
 - `numLemmas` (def) in scripts.MetaPrograms.local_stats
 - `Imports.RedundantImports` (def) in scripts.MetaPrograms.redundant_imports
@@ -755,24 +769,19 @@
 - `FullTODOInfo.ofTODO` (def) in scripts.MetaPrograms.TODO_to_yml
 - `getTodoInfo` (def) in scripts.MetaPrograms.TODO_to_yml
 - `informalTODO` (def) in scripts.MetaPrograms.check_dup_tags
-- `allInformalTODO` (def) in scripts.MetaPrograms.TODO_to_yml
-- `FullTODOInfo.ofSemiFormal` (def) in scripts.MetaPrograms.TODO_to_yml
-- ... and 9388 more
+- ... and 9776 more
 
-### ProjectVD (+67)
+### ProjectVD (+58)
 
-- `meromorphicAt_canonicalFactor` (lemma) in VD.PoissonJensen
-- `meromorphicNFAt_comp_iff_of_deriv_ne_zero` (theorem) in VD.PoissonJensen
-- `finprod_ne_zero` (theorem) in VD.PoissonJensen
-- `MeromorphicOn.codiscreteWithin_setOf_meromorphicOrderAt_eq_zero_or_top` (theorem) in VD.PoissonJensen
-- `MeromorphicOn.codiscreteWithin_setOf_ne_zero` (theorem) in VD.PoissonJensen
+- `meromorphicAt_canonicalFactor` (lemma) in VD.BlaschkeDecomp3
+- `AnalyticOnNhd.eq_smul_meromorphicTrailingCoeffAt_of_eventuallyEq` (lemma) in VD.BlaschkeDecomp3
+- `AnalyticOnNhd.eq_smul_meromorphicTrailingCoeffAt_of_eventuallyEq_of_meromorphicOrderAt` (lemma) in VD.BlaschkeDecomp3
+- `AnalyticOnNhd.eq_smul_meromorphicTrailingCoeffAt_of_eventuallyEq_of_meromorphicOrderAt'` (lemma) in VD.BlaschkeDecomp3
 - `xx` (lemma) in VD.PoissonJensen
-- `yy` (lemma) in VD.PoissonJensen
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.BoundednessCharacteristic
-- `MeromorphicOn.finprod_ne_zero` (theorem) in VD.MathlibPending.BlaschkeDecomp2
 - `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibPending.BlaschkeDecomp2
 - `MeromorphicOn.divisor_congr_codiscreteWitin_closedBall_prod_canonicalFactor_smul` (theorem) in VD.MathlibPending.BlaschkeDecomp2
 - `MeromorphicOn.congr_codiscreteWitin_closedBall_prod_canonicalFactor_mul_prod_smul` (theorem) in VD.MathlibPending.BlaschkeDecomp2
@@ -811,7 +820,10 @@
 - `ValueDistribution.Cartan.integrable_integral_norm_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
 - `ValueDistribution.Cartan.integrable_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
 - `ValueDistribution.circleIntegrable_circleAverage_log_norm_sub` (theorem) in VD.MathlibSubmitted.ProximityIntegral
-- ... and 17 more
+- `nonneg_of_mem_closedBall` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
+- `MeromorphicOn.exists_meromorphicOrderAt_ne_top_iff_forall_mem` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
+- `meromorphicOrderAt_finprod_ne_top` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
+- ... and 8 more
 
 ### QFTFramework (+50)
 
@@ -1136,7 +1148,7 @@
 - `ProbabilityTheory.integrable_semicirclePDFReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
 - ... and 125 more
 
-### SpectralThm (+114)
+### SpectralThm (+81)
 
 - `toLinearFunctional` (def) in SpectralThm.SpectralTheorem
 - `toLinearFunctional_apply` (lemma) in SpectralThm.SpectralTheorem
@@ -1188,7 +1200,7 @@
 - `MeasureTheory.Measure.isClosed_support` (lemma) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
 - `MeasureTheory.Measure.essRange` (def) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
 - `MeasureTheory.Measure.essRange_eq_of_ae_eq` (theorem) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
-- ... and 64 more
+- ... and 31 more
 
 ### SpinGlass (+1644)
 
@@ -1332,6 +1344,70 @@
 - `TrueCircleSelfReferon.TCSR_kinetic_term` (def) in Lagrangian.Kinetic
 - `TrueCircleSelfReferon.TCSR_mass_term` (def) in Lagrangian.Kinetic
 - `TrueCircleSelfReferon.TCSR_self_interaction` (def) in Lagrangian.SelfInteraction
+
+### The-Fucik-spectrum-of-the-discrete-Dirichlet-operator (+25)
+
+- `V` (def) in Lemma-4
+- `chebyshev_U_sq_sub_mul` (theorem) in Lemma-4
+- `lemma4` (theorem) in Lemma-4
+- `ChebyV` (def) in Lemma-11
+- `MobiusW` (def) in Lemma-11
+- `chebyV_neg_one` (lemma) in Lemma-11
+- `chebyV_zero` (lemma) in Lemma-11
+- `chebyV_recurrence` (lemma) in Lemma-11
+- `chebyV_turan` (theorem) in Lemma-6
+- `chebyV_of_mid_zero` (lemma) in Lemma-11
+- `chebyV_sq_of_mid_zero` (lemma) in Lemma-11
+- `chebyV_ne_zero_of_mid_zero` (lemma) in Lemma-11
+- `mobiusW_eq_id_iff_chebyV` (lemma) in Lemma-11
+- `chebyU_eval_cos_root` (lemma) in Lemma-11
+- `chebyU_natDegree` (lemma) in Lemma-11
+- `cos_jpi_div_k_injective` (lemma) in Lemma-11
+- `chebyU_roots_complete` (lemma) in Lemma-11
+- `chebyV_zero_iff_cos` (lemma) in Lemma-11
+- `lemma_11` (theorem) in Lemma-11
+- `lemma_11'` (theorem) in Lemma-11
+- `chebyV` (def) in Lemma-6
+- `solution_formula` (theorem) in Lemma-6
+- `moebiusW` (def) in Lemma-6
+- `div_ratio_eq` (lemma) in Lemma-6
+- `lemma6` (theorem) in Lemma-6
+
+### UnconditionalSchauderBasis (+33)
+
+- `SchauderBasis` (structure) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `SchauderBasis.coord` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `SchauderBasis.hasSum_repr_apply` (theorem) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `SchauderBasis.IsUnconditional` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalSchauderBasis` (structure) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalSchauderBasis.basis` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalSchauderBasis.coeff` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalSchauderBasis.hasSum_repr_apply` (theorem) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalSchauderBasis.hasSum_rearranged` (theorem) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.HasDenseSpan` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.HasFiniteSignBound` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.SchauderData` (structure) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.SchauderData.toUnconditionalSchauderBasis` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.projectionSigns` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.projectionSigns_of_mem` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.projectionSigns_of_not_mem` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.projectionSigns_is_sign` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.signed_sum_eq_two_projection_sub_sum` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.finite_projection_bound_of_sign_bound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.FiniteProjectionBound` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.finiteProjectionBound_of_signBound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.linearIndependent_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.CoordMapsAgreeOnFiniteSpans` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.exists_coordMaps_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.coordMaps_of_finiteProjectionBound` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.coordMaps_of_finiteProjectionBound_apply_finite_sum` (theorem) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.coordMaps_tendsto_finite_partial_sums_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.coordMaps_hasSum_repr_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.coordMaps_unique_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.coordMaps_unconditional_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.schauderData_of_finiteProjectionBound` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.unconditionalSchauderBasis_of_finiteSignBound` (def) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
+- `UnconditionalCriterion.exists_unconditionalSchauderBasis_of_finiteSignBound` (theorem) in UnconditionalSchauderBasis.UnconditionalSchauderBasisforR
 
 ### VirasoroProject (+387)
 
@@ -1738,7 +1814,7 @@
 - `Sifting.State.ofChar` (def) in FormalQKD.Sifting
 - ... and 56 more
 
-### gaussian-field (+1629)
+### gaussian-field (+1757)
 
 - `GaussianField.myBlockMI` (def) in Scratch
 - `GaussianField.myBlockMI_abs_le` (lemma) in Scratch
@@ -1790,7 +1866,61 @@
 - `GaussianField.SmoothMap_Circle.fourierBasisFun` (def) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_smooth` (theorem) in SmoothCircle.Basic
 - `GaussianField.SmoothMap_Circle.fourierBasisFun_periodic` (theorem) in SmoothCircle.Basic
-- ... and 1579 more
+- ... and 1707 more
+
+### gaussian-hilbert (+84)
+
+- `GaussianHilbert.hermiteFamilyOfDegree` (def) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiEval_continuous` (lemma) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiEval_sq_integrable` (lemma) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiEval_memLp` (lemma) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiLp` (def) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiLp_coeFn` (lemma) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.wienerChaos` (def) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.wienerChaos_isClosed` (lemma) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.wienerChaos_completeSpace` (instance) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.wienerChaos_hasOrthogonalProjection` (instance) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.wienerChaosLE` (def) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiLp_mem_wienerChaos` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiEval_mem_wienerChaos` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.hermiteMultiLp_inner_eq_zero_of_totalDegree_ne` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.wienerChaos_orthogonal` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.wienerChaos_isHilbertSum` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.chaosProjection` (def) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.chaosProjection_mem_wienerChaos` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.chaosProjection_eLpNorm_two_le` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.chaosProjection_sum_eq_of_mem_wienerChaosLE` (theorem) in GaussianHilbert.WienerChaos
+- `GaussianHilbert.MultiIndex.totalDegree` (def) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteEval` (def) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteMultiEval` (def) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.stdGaussianFin` (def) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteEval_eq_wickMonomial_one` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteMulti_orthogonality` (theorem) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteMulti_l2_pos` (theorem) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermitePolyR` (abbrev) in GaussianHilbert.OUEigenfunctions
+- `GaussianHilbert.hermiteEval_eq_eval_hermitePolyR` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.derivative_hermitePolyR` (lemma) in GaussianHilbert.OUEigenfunctions
+- `GaussianHilbert.hermiteEval_zero` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteEval_one` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteEval_recurrence` (lemma) in GaussianHilbert.OUEigenfunctions
+- `GaussianHilbert.x_mul_hermiteEval_succ` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.x_mul_hermiteEval` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.x_mul_hermiteMultiEval` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteSpan` (def) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteMultiEval_mem_hermiteSpan` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.const_one_mem_hermiteSpan` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.const_mem_hermiteSpan` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.x_mul_hermiteMultiEval_mem_hermiteSpan` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.coord_mul_mem_hermiteSpan` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.mvPolynomial_eval_mem_hermiteSpan` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.exists_hermite_combination_of_mem_hermiteSpan` (lemma) in GaussianHilbert.HermitePolynomials
+- `GaussianHilbert.hermiteMulti_dense` (theorem) in GaussianHilbert.HermitePolynomials
+- `MeasureTheory.Lp.coeFn_finset_sum` (theorem) in GaussianHilbert.PolynomialChaosConcentration
+- `GaussianHilbert.bonami_nelson_chaos` (theorem) in GaussianHilbert.PolynomialChaosConcentration
+- `GaussianHilbert.bonami_nelson_chaosLE` (theorem) in GaussianHilbert.PolynomialChaosConcentration
+- `GaussianHilbert.eLpNorm_two_eq_ofReal_norm` (theorem) in GaussianHilbert.PolynomialChaosConcentration
+- `GaussianHilbert.one_le_two_mul_exp_neg_half_ennreal` (theorem) in GaussianHilbert.PolynomialChaosConcentration
+- ... and 34 more
 
 ### interval (+844)
 
@@ -1858,7 +1988,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+501)
+### lean-bandits (+557)
 
 - `extraHead` (def) in tutorial.Manual
 - `config` (def) in tutorial.Manual
@@ -1869,6 +1999,7 @@
 - `Algorithm` (structure) in tutorial.Manual.Pages.DefiningAlgorithm
 - `detAlgorithm` (def) in tutorial.Manual.Pages.DefiningAlgorithm
 - `Environment` (structure) in tutorial.Manual.Pages.DefiningAlgorithm
+- `obliviousEnv` (def) in tutorial.Manual.Pages.DefiningAlgorithm
 - `stationaryEnv` (def) in tutorial.Manual.Pages.DefiningAlgorithm
 - `IsAlgEnvSeq` (structure) in tutorial.Manual.Pages.DefiningAlgorithm
 - `isAlgEnvSeq_unique` (theorem) in tutorial.Manual.Pages.DefiningAlgorithm
@@ -1900,17 +2031,16 @@
 - `MeasureTheory.Measurable.toNat` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
 - `MeasureTheory.measurable_sum_range_of_le` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
 - `MeasureTheory.measurable_sum_Icc_of_le` (lemma) in LeanMachineLearning.MeasureTheory.Measurable
-- `Learning.pullCount` (def) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount'` (def) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_zero` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_zero_apply` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.monotone_pullCount` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_mono` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_action_eq_pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_eq_pullCount_of_action_ne` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- ... and 451 more
+- `Learning.onlineEvalEnv` (def) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.feedbackCondAction_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.feedbackFunZero_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.feedbackFun_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.hascondDistrib_feedback_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.feedback_onlineEvalEnv_ae_eq_eval_action` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.forall_feedback_onlineEvalEnv_ae_eq_eval_action` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.evalEnv` (def) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.feedbackCondAction_evalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- ... and 507 more
 
 ### lean-qkd (+8)
 
@@ -2031,7 +2161,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+53345)
+### mathlib4 (+53539)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2083,7 +2213,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 53295 more
+- ... and 53489 more
 
 ### monlib4 (+2413)
 
@@ -2247,60 +2377,6 @@
 - `sum_Fin_eq_sum_ZMod` (lemma) in PartialRegularity.solution
 - ... and 213 more
 
-### persistent-sheaf-laplacian (+230)
-
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentCoboundaryMatrix` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafLaplacian
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentSheafLaplacianMatrix` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafLaplacian
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentSheafLaplacianMatrix_posSemidef` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafLaplacian
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentCoboundaryMatrix_eq_coboundaryMatrix_sorted` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafLaplacian
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentSheafLaplacianMatrix_eq_sheafLaplacianMatrix_sorted` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafLaplacian
-- `HeytingLean.PersistentSheafLaplacian.Persistent.Filtration` (structure) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.Filtration
-- `HeytingLean.PersistentSheafLaplacian.Persistent.inclusionSimplex` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.Filtration
-- `HeytingLean.PersistentSheafLaplacian.Persistent.inclusionSimplex_face` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.Filtration
-- `HeytingLean.PersistentSheafLaplacian.Persistent.inclusionqSimplex` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.Filtration
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentHarmonicNullity` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.BettiNumbers
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentCohomologicalBetti` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.BettiNumbers
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistentHarmonicNullity_eq_harmonicSheafNullity_sorted` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.BettiNumbers
-- `HeytingLean.PersistentSheafLaplacian.Persistent.persistent_betti_eq_nullity` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.BettiNumbers
-- `HeytingLean.PersistentSheafLaplacian.Persistent.inducedOrientation` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.IsPullbackSheaf` (structure) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair` (structure) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.stalkIso_symm_restriction_eq` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.projectionCochain` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.inclusionCochain` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.persistentCoboundary` (def) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.inclusionCochain_piSingle` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.persistentCoboundary_piSingle_eq_coboundary_piSingle` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.persistentCoboundary_eq_coboundary_induced` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.persistentCoboundary_eq_coboundary_sorted` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.projectionCochain_inclusionCochain` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.projectionCochain_surjective` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.Persistent.PersistentSheafPair.inclusionCochain_injective` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Persistent.PersistentCoboundary
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex` (structure) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.Simplex` (abbrev) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.simplexDim` (def) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.qSimplices` (def) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.le_def` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.simplex_nonempty` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.face_refl` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.face_trans` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.IsSubcomplex` (def) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.SimplicialComplex.mem_qSimplices` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.SimplicialComplex
-- `HeytingLean.PersistentSheafLaplacian.Orientation.alternatingSign` (def) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation` (structure) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.inducedFaceVertices` (def) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.inducedFaceVertices_trans` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.inducedFaceVertices_nodup` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.inducedFaceVertices_toFinset` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.inducedFaceVertices_eq_erase_of_codim1` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.idxOf_erase_of_lt` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.idxOf_erase_of_gt` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.alternatingSign_succ` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.alternatingSign_add_succ_eq_zero` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.alternatingSign_succ_add_eq_zero` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- `HeytingLean.PersistentSheafLaplacian.Orientation.alternatingSign_eq_neg_one_pow` (theorem) in lean.HeytingLean.PersistentSheafLaplacian.Basic.Orientation
-- ... and 180 more
-
 ### pointwise-birkhoff (+46)
 
 - `birkhoffMax` (def) in BirkhoffErgodicThm
@@ -2350,7 +2426,7 @@
 - `Filter.EventuallyEq.add_right` (lemma) in BirkhoffErgodicThm.FilterPR
 - `Filter.EventuallyEq.add_left` (lemma) in BirkhoffErgodicThm.FilterPR
 
-### pphi2 (+1294)
+### pphi2 (+1441)
 
 - `InteractionPolynomial` (structure) in Pphi2.Polynomial
 - `InteractionPolynomial.eval` (def) in Pphi2.Polynomial
@@ -2402,7 +2478,7 @@
 - `Pphi2.Bridge.IsPphi2ContinuumLimit.toIsPphi2Limit` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.same_continuum_measure` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.os2_for_pphi2_via_phi4` (theorem) in Pphi2.Bridge
-- ... and 1244 more
+- ... and 1391 more
 
 ### probability (+362)
 
@@ -2683,6 +2759,40 @@
 - `RTS.FiberProduct.snd` (def) in RuleSys.FiberProduct
 - ... and 4503 more
 
+### sturm-liouville-comparator-run (+31)
+
+- `IsConfiningPotential` (def) in Solution
+- `IsSturmLiouvilleEigenfunction` (def) in Solution
+- `IsSimpleEigenvalue` (def) in Solution
+- `wronskian` (def) in Solution
+- `wronskian_constant_same_eigenvalue` (theorem) in Solution
+- `exists_seq_tendsto_zero_of_memLp` (lemma) in Solution
+- `not_memLp_of_tendsto_deriv_pos` (lemma) in Solution
+- `eventually_V_gt_eigenvalue` (lemma) in Solution
+- `not_memLp_of_zero_and_deriv_pos_and_confining` (lemma) in Solution
+- `constant_sign_of_no_zeros` (lemma) in Solution
+- `tendsto_deriv_zero_of_convex_nonneg_l2` (lemma) in Solution
+- `tendsto_zero_of_convex_nonneg_l2_and_deriv` (lemma) in Solution
+- `deriv_deriv_neg_eq_neg_deriv_deriv` (lemma) in Solution
+- `is_eigenfunction_neg` (lemma) in Solution
+- `zero_of_ode_zero_init` (lemma) in Solution
+- `tendsto_zero_and_deriv_zero_of_eigenfunction` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v2` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v3` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v4` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v5` (lemma) in Solution
+- `tendsto_zero_and_deriv_zero_of_eigenfunction_final` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v6` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v7` (lemma) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v8` (lemma) in Solution
+- `wronskian_zero_of_l2` (theorem) in Solution
+- `wronskian_zero_of_l2_final` (theorem) in Solution
+- `linearly_dependent_of_wronskian_zero` (theorem) in Solution
+- `eventually_nonzero_of_confining_eigenfunction_aux_v9` (lemma) in Solution
+- `tendsto_zero_and_deriv_zero_of_eigenfunction_fixed` (lemma) in Solution
+- `sturm_liouville_simple_eigenvalues` (theorem) in Solution
+
 ## Update History (1 runs)
 
-- **2026-05-04T08:31:27.419325+00:00**: Checked 63 repos, updated 64, +53701 -0 declarations, 1 errors
+- **2026-05-11T08:37:21.601795+00:00**: Checked 67 repos, updated 68, +54881 -0 declarations, 1 errors
