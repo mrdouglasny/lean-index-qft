@@ -1,8 +1,8 @@
-# Changelog (since 2026-05-25)
+# Changelog (since 2026-06-01)
 
-## New Declarations (113304)
+## New Declarations (113167)
 
-### BrownianMotion (+943)
+### BrownianMotion (+942)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,7 +54,7 @@
 - `ContinuousBilinForm.toMatrix_apply` (lemma) in BrownianMotion.Auxiliary.ContinuousBilinForm
 - `ContinuousBilinForm.dotProduct_toMatrix_mulVec` (lemma) in BrownianMotion.Auxiliary.ContinuousBilinForm
 - `ContinuousBilinForm.apply_eq_dotProduct_toMatrix_mulVec` (lemma) in BrownianMotion.Auxiliary.ContinuousBilinForm
-- ... and 893 more
+- ... and 892 more
 
 ### Burkholder (+711)
 
@@ -110,11 +110,15 @@
 - `Majorants.Majorant_p_g_2.vGeTwo` (def) in Burkholder.Majorants.Majorant_p_g_2
 - ... and 661 more
 
-### CramerLundberg (+61)
+### CramerLundberg (+75)
 
-- `p₁` (def) in CramerLundberg.VickreyAuction
 - `p₂` (def) in CramerLundberg.VickreyAuction
+- `p₂_with_fee` (def) in CramerLundberg.VickreyAuction
+- `vickrey_with_fee` (lemma) in CramerLundberg.VickreyAuction
+- `p₁` (def) in CramerLundberg.VickreyAuction
 - `p₃` (def) in CramerLundberg.VickreyAuction
+- `p₂_with_reserve` (def) in CramerLundberg.VickreyAuction
+- `vickrey_with_reserve` (lemma) in CramerLundberg.VickreyAuction
 - `vickrey` (lemma) in CramerLundberg.VickreyAuction
 - `vickrey₁` (lemma) in CramerLundberg.VickreyAuction
 - `vickrey'` (lemma) in CramerLundberg.VickreyAuction
@@ -157,12 +161,8 @@
 - `ruin_theory_tendsto_converse` (lemma) in CramerLundberg.Basic
 - `ruin_theory_tendsto_iff` (lemma) in CramerLundberg.Basic
 - `integralEquation₂` (def) in CramerLundberg.Basic
-- `Filtration.piLE` (def) in CramerLundberg.Basic
-- `RNP` (def) in CramerLundberg.NeymanPearsonReal
-- `NP.intRNP₀` (theorem) in CramerLundberg.NeymanPearsonReal
-- `NP.intRNP₁` (theorem) in CramerLundberg.NeymanPearsonReal
-- `wiki_arith` (lemma) in CramerLundberg.NeymanPearsonReal
-- ... and 11 more
+- `a` (def) in CramerLundberg.Tweedie
+- ... and 25 more
 
 ### CvxLean (+1181)
 
@@ -330,7 +330,7 @@
 - `CumulativeDistributionFunction.selfSimilar_index_zero_transform` (lemma) in ExtremeValueProject.SelfSimilarCDF
 - ... and 235 more
 
-### FLT (+1594)
+### FLT (+1592)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `main` (def) in blueprint-verso.FLTBlueprintMain
@@ -382,7 +382,7 @@
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E` (def) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_compact` (lemma) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_noninjective_left` (lemma) in FLT.DivisionAlgebra.Finiteness
-- ... and 1544 more
+- ... and 1542 more
 
 ### GFF (+6)
 
@@ -663,7 +663,7 @@
 - `OS4_Ergodicity.variance_decay_from_clustering` (lemma) in OSforGFF.OS.OS4_Ergodicity
 - ... and 805 more
 
-### OSreconstruction (+8760)
+### OSreconstruction (+8762)
 
 - `OSReconstruction.KallenLehmann.cluster_2point_from_KL` (theorem) in Proofideas.cluster_from_kallen_lehmann
 - `OSReconstruction.KallenLehmann.for` (theorem) in Proofideas.cluster_from_kallen_lehmann
@@ -715,9 +715,9 @@
 - `SCV.supportsInOpen_transport_from_euclidean` (theorem) in OSReconstruction.SCV.DistributionalEOWRegularity
 - `SCV.realBlockFlattenMeasurableEquiv` (def) in OSReconstruction.SCV.DistributionalEOWRegularity
 - `SCV.realBlockFlattenMeasurableEquiv_apply` (theorem) in OSReconstruction.SCV.DistributionalEOWRegularity
-- ... and 8710 more
+- ... and 8712 more
 
-### PhysLean (+10208)
+### PhysLean (+10124)
 
 - `getDocString` (def) in scripts.openAI_doc_check
 - `header` (def) in scripts.openAI_doc_check
@@ -769,9 +769,9 @@
 - `spaceTime.γ3` (def) in Physlib.Relativity.CliffordAlgebra
 - `spaceTime.γ5` (def) in Physlib.Relativity.CliffordAlgebra
 - `spaceTime.γ` (def) in Physlib.Relativity.CliffordAlgebra
-- ... and 10158 more
+- ... and 10074 more
 
-### ProjectVD (+73)
+### ProjectVD (+56)
 
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.BoundednessCharacteristic
@@ -779,16 +779,18 @@
 - `Continuous.isBounded_range_iff_isBigO_atTop_atBot` (theorem) in VD.ProximityAsymptotics
 - `Function.Even.isBigO_atBot_of_isBigO_atTop` (theorem) in VD.ProximityAsymptotics
 - `Continuous.isBounded_range_iff_isBigO_atTop_of_even` (theorem) in VD.ProximityAsymptotics
-- `continuous_proximity` (theorem) in VD.ProximityAsymptotics
 - `norm_canonicalFactor` (theorem) in VD.ProximityAsymptotics
 - `η₀` (theorem) in VD.ProximityAsymptotics
 - `η₁` (theorem) in VD.ProximityAsymptotics
+- `logCounting_isBigO_one_iff_analyticOnNhd` (theorem) in VD.ProximityAsymptotics
 - `analyticOnNhd_herglotzRieszKernel_compl` (theorem) in VD.PoissonJensen0
 - `continuousOn_herglotzRieszKernel_sphere` (theorem) in VD.PoissonJensen0
 - `CircleIntegrable.circleIntegrable_re_herglotzRieszKernel_smul` (theorem) in VD.PoissonJensen0
 - `xx` (lemma) in VD.PoissonJensen0
 - `poissonJensen₀` (theorem) in VD.PoissonJensen0
+- `ValueDistribution.proximity_bounded_iff_constant` (theorem) in VD.BoundednessProximity
 - `ValueDistribution.proximity_bounded_if_eventuallyConstant` (theorem) in VD.BoundednessProximity
+- `MeromorphicAt.meromorphicTrailingCoeffAt_comp` (theorem) in VD.PoissonJensen1
 - `LinearDiffOp` (structure) in VD.LinearDiffOp.Basic
 - `linearDiffOp_apply` (theorem) in VD.LinearDiffOp.Basic
 - `linearDiffOp_coe_apply` (theorem) in VD.LinearDiffOp.Basic
@@ -811,19 +813,17 @@
 - `ValueDistribution.Cartan.integral_norm_cartanKernel_eq` (lemma) in VD.MathlibSubmitted.ProximityIntegral
 - `ValueDistribution.Cartan.integrable_integral_norm_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
 - `ValueDistribution.Cartan.integrable_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.proximity_top_eq_circleAverage_circleAverage` (theorem) in VD.MathlibSubmitted.ProximityIntegral
 - `ValueDistribution.circleIntegrable_circleAverage_log_norm_sub` (theorem) in VD.MathlibSubmitted.ProximityIntegral
-- `CanonicalDecomp` (structure) in VD.MathlibSubmitted.BlaschkeDecomp
-- `nonneg_of_mem_closedBall` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
-- `MeromorphicOn.exists_meromorphicOrderAt_ne_top_iff_forall_mem` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
-- `meromorphicOrderAt_finprod_ne_top` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
-- `zero_canonicalFactor_iff` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
-- `divisor_canonicalFactor` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp
-- `meromorphicOrderAt_canonicalFactor_ne_top` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
-- `MeromorphicOn.canonicalDecomposition_aux₁` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
-- `MeromorphicOn.sum_apply_smul_single_eq_self` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
-- `MeromorphicOn.canonicalDecomposition_aux₂` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
-- `MeromorphicOn.canonicalDecomposition_aux₃` (lemma) in VD.MathlibSubmitted.BlaschkeDecomp
-- ... and 23 more
+- `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
+- `MeromorphicOn.exists_ecanonicalDecomp` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
+- `tendsto_nhdsWithin_of_tendsto_nhds'` (lemma) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.order_nonneg_if_exists_continuous_extension` (theorem) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.exists_analytic_extension_if_order_nonneg` (theorem) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.order_nonneg_iff_exists_continuous_extension` (theorem) in VD.leftovers.meromorphicAt_topology
+- `MeromorphicAt.order_nonneg_iff_exists_analytic_extension` (theorem) in VD.leftovers.meromorphicAt_topology
+- `meromorphicAt_canonicalFactor` (lemma) in VD.MathlibPending.BlaschkeDecomp3
+- ... and 6 more
 
 ### QFTFramework (+50)
 
@@ -1256,60 +1256,6 @@
 - `Specification.isGibbsMeasure_isssd_productMeasure` (lemma) in GibbsMeasure.Specification
 - ... and 1594 more
 
-### StochasticPDE (+1087)
-
-- `SPDE.TruncatedTensorAlgebra` (structure) in StochasticPDE.RegularityStructures
-- `SPDE.TruncatedTensorAlgebra.one` (def) in StochasticPDE.RegularityStructures
-- `SPDE.TruncatedTensorAlgebra.tensorProduct` (def) in StochasticPDE.RegularityStructures
-- `SPDE.TruncatedTensorAlgebra.mul` (def) in StochasticPDE.RegularityStructures
-- `SPDE.TruncatedTensorAlgebra.inv` (def) in StochasticPDE.RegularityStructures
-- `SPDE.RoughPath` (structure) in StochasticPDE.RegularityStructures
-- `SPDE.RoughPath.path` (def) in StochasticPDE.RegularityStructures
-- `SPDE.RoughPath.area` (def) in StochasticPDE.RegularityStructures
-- `SPDE.RoughPath.level1_additive` (theorem) in StochasticPDE.RegularityStructures
-- `SPDE.RoughPath.level2_chen` (theorem) in StochasticPDE.RegularityStructures
-- `SPDE.IsGeometric` (def) in StochasticPDE.RegularityStructures
-- `SPDE.SmoothPathSignatureData` (structure) in StochasticPDE.RegularityStructures
-- `SPDE.smoothPathSignatureApprox` (def) in StochasticPDE.RegularityStructures
-- `SPDE.UnboundedOperatorReal` (structure) in StochasticPDE.SPDE
-- `SPDE.UnboundedOperatorReal.IsDenselyDefined` (def) in StochasticPDE.SPDE
-- `SPDE.UnboundedOperatorReal.IsClosedOperator` (def) in StochasticPDE.SPDE
-- `SPDE.UnboundedOperatorReal.IsSelfAdjoint` (def) in StochasticPDE.SPDE
-- `SPDE.UnboundedOperatorReal.IsNegativeDefinite` (def) in StochasticPDE.SPDE
-- `SPDE.C0Semigroup` (structure) in StochasticPDE.SPDE
-- `SPDE.C0Semigroup.generator` (def) in StochasticPDE.SPDE
-- `SPDE.C0Semigroup.IsContraction` (def) in StochasticPDE.SPDE
-- `SPDE.C0Semigroup.generator_negative_of_contraction` (theorem) in StochasticPDE.SPDE
-- `SPDE.AbstractSPDE` (structure) in StochasticPDE.SPDE
-- `SPDE.AbstractSPDE.generator` (def) in StochasticPDE.SPDE
-- `SPDE.AbstractSPDE.domain_A` (def) in StochasticPDE.SPDE
-- `SPDE.AbstractSPDE.S` (def) in StochasticPDE.SPDE
-- `SPDE.AbstractSPDE.MildSolution` (structure) in StochasticPDE.SPDE
-- `SPDE.AbstractSPDE.StrongSolution` (structure) in StochasticPDE.SPDE
-- `SPDE.SemilinearParabolicSPDE` (structure) in StochasticPDE.SPDE
-- `SPDE.PolynomialNonlinearity` (structure) in StochasticPDE.SPDE
-- `SPDE.PolynomialNonlinearity.nontrivial` (theorem) in StochasticPDE.SPDE
-- `SPDE.PolynomialNonlinearity.eval` (def) in StochasticPDE.SPDE
-- `SPDE.PolynomialNonlinearity.phi4` (def) in StochasticPDE.SPDE
-- `SPDE.PolynomialNonlinearity.kpz` (def) in StochasticPDE.SPDE
-- `SPDE.SingularSPDE` (structure) in StochasticPDE.SPDE
-- `SPDE.RegularityStructureSolution` (structure) in StochasticPDE.SPDE
-- `SPDE.LocalWellPosedness` (structure) in StochasticPDE.SPDE
-- `SPDE.GlobalWellPosedness` (structure) in StochasticPDE.SPDE
-- `SPDE.modelledDistributionMeasurableSpace` (instance) in StochasticPDE.SPDE
-- `SPDE.SolutionSemigroup` (structure) in StochasticPDE.SPDE
-- `SPDE.InvariantMeasure` (structure) in StochasticPDE.SPDE
-- `SPDE.Ergodicity` (structure) in StochasticPDE.SPDE
-- `SPDE.RenormalizationConstants` (structure) in StochasticPDE.SPDE
-- `SPDE.renormalized_spde` (def) in StochasticPDE.SPDE
-- `SPDE.regularity_classical_agree` (theorem) in StochasticPDE.SPDE
-- `InnerIntegral.stronglyMeasurable_inner_integral` (theorem) in StochasticPDE.Helpers.InnerIntegralIntegrability
-- `InnerIntegral.stronglyMeasurable_inner_sq_integral` (theorem) in StochasticPDE.Helpers.InnerIntegralIntegrability
-- `InnerIntegral.stronglyMeasurable_inner_product_integral` (theorem) in StochasticPDE.Helpers.InnerIntegralIntegrability
-- `InnerIntegral.inner_integral_quadratic_split_ae` (theorem) in StochasticPDE.Helpers.InnerIntegralIntegrability
-- `SPDE.Examples.BurgersEquation` (structure) in StochasticPDE.Examples.Burgers
-- ... and 1037 more
-
 ### TCSR-QFT-Lean4 (+80)
 
 - `TrueCircleSelfReferon.TCSR_full_action` (def) in TCSR
@@ -1551,7 +1497,7 @@
 - `Chapter2.Nat.mul` (abbrev) in Analysis.Section_2_3
 - ... and 2220 more
 
-### asymptotic-spectrum-distance (+2799)
+### asymptotic-spectrum-distance (+2802)
 
 - `AsymptoticSpectrumDistance.main_asympSpecDistance_pseudometric` (theorem) in AsymptoticSpectrumDistance.Main
 - `AsymptoticSpectrumDistance.main_shannonCapacity_lipschitz` (theorem) in AsymptoticSpectrumDistance.Main
@@ -1603,7 +1549,7 @@
 - `main_alpha3_2_2_2` (theorem) in AsymptoticSpectrumDistance.Main
 - `main_alpha3_2_2_3` (theorem) in AsymptoticSpectrumDistance.Main
 - `main_alpha3_2_3_3` (theorem) in AsymptoticSpectrumDistance.Main
-- ... and 2749 more
+- ... and 2752 more
 
 ### debate (+297)
 
@@ -1848,6 +1794,35 @@
 - `FG.example_Z₃.Z₃.rep2` (def) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep2.is_reducible` (lemma) in src.linear_space3.examples.Z3
 
+### formal-martingales (+26)
+
+- `FormalMartingales.Examples.eprocess_sequential_test_typeI` (theorem) in examples.EProcessTest
+- `FormalMartingales.Examples.eprocess_sequential_test_typeI_from_components` (theorem) in examples.EProcessTest
+- `FormalMartingales.Examples.submartingale_finite_horizon_crossing_bound` (theorem) in examples.EProcessTest
+- `FormalMartingales.EValue` (structure) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.EProcess` (structure) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.EValue.nonneg_ae` (theorem) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.EProcess.of_supermartingale` (theorem) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.EProcess.start_evalue` (theorem) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.EProcess.value_evalue` (theorem) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.EProcess.sequential_test_typeI` (theorem) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.eprocess_sequential_test_typeI` (theorem) in FormalMartingales.Sequential.EProcess
+- `FormalMartingales.Supermartingale.expected_stoppedValue_le_start` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.smul_le_stoppedValue_hittingBtwn_of_supermartingale` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.ville_maximal_ineq` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.ville_maximal_ineq_exists_le` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.ville_maximal_ineq_of_integral_le_one` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.ville_maximal_ineq_exists_le_of_integral_le_one` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.ville_inequality_iUnion` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.ville_inequality` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.ville_inequality_of_integral_le_one` (theorem) in FormalMartingales.Martingale.Ville
+- `FormalMartingales.doob_maximal_ineq` (theorem) in FormalMartingales.Martingale.Doob
+- `FormalMartingales.doob_maximal_ineq_expectation_bound` (theorem) in FormalMartingales.Martingale.Doob
+- `FormalMartingales.doob_maximal_ineq_exists_le` (theorem) in FormalMartingales.Martingale.Doob
+- `FormalMartingales.doob_maximal_ineq_exists_le_expectation_bound` (theorem) in FormalMartingales.Martingale.Doob
+- `FormalMartingales.doob_maximal_ineq_of_integral_le_one` (theorem) in FormalMartingales.Martingale.Doob
+- `FormalMartingales.doob_maximal_ineq_exists_le_of_integral_le_one` (theorem) in FormalMartingales.Martingale.Doob
+
 ### formal-qkd (+106)
 
 - `parseStates` (def) in Main
@@ -1902,7 +1877,7 @@
 - `MyComputable.τ0` (def) in FormalQKD.RuscaEqnApprox
 - ... and 56 more
 
-### gaussian-field (+1769)
+### gaussian-field (+1878)
 
 - `GaussianField.myBlockMI` (def) in Scratch
 - `GaussianField.myBlockMI_abs_le` (lemma) in Scratch
@@ -1954,7 +1929,7 @@
 - `GaussianField.schwartz_partial_hermiteCoeff_eq_1D` (lemma) in SchwartzNuclear.SchwartzSlicing
 - `GaussianField.schwartz_slice_eq` (lemma) in SchwartzNuclear.SchwartzSlicing
 - `GaussianField.integral_euclidean_snoc` (lemma) in SchwartzNuclear.SchwartzSlicing
-- ... and 1719 more
+- ... and 1828 more
 
 ### gaussian-hilbert (+151)
 
@@ -2249,7 +2224,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+53901)
+### mathlib4 (+54274)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2301,7 +2276,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 53851 more
+- ... and 54224 more
 
 ### mini-measure-probability-integration (+1228)
 
@@ -2596,7 +2571,7 @@
 - `partialSups_succ'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 - `partialSups_add_one'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 
-### pphi2 (+1694)
+### pphi2 (+2221)
 
 - `Pphi2.EuclideanOS.distribPairing` (def) in Pphi2.EuclideanOS
 - `Pphi2.EuclideanOS.generatingFunctional` (def) in Pphi2.EuclideanOS
@@ -2645,10 +2620,10 @@
 - `Pphi2.Bridge.IsPhi4ContinuumLimit` (def) in Pphi2.Bridge
 - `Pphi2.Bridge.IsWeakCoupling` (def) in Pphi2.Bridge
 - `Pphi2.Bridge.IsPphi2ContinuumLimit.toIsPphi2Limit` (theorem) in Pphi2.Bridge
+- `Pphi2.Bridge.measure_determined_by_schwinger` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.same_continuum_measure` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.os2_for_pphi2_via_phi4` (theorem) in Pphi2.Bridge
-- `Pphi2.Bridge.os3_from_pphi2` (theorem) in Pphi2.Bridge
-- ... and 1644 more
+- ... and 2171 more
 
 ### probability (+282)
 
@@ -2965,4 +2940,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-01T09:27:52.309784+00:00**: Checked 70 repos, updated 71, +59403 -0 declarations, 1 errors
+- **2026-06-08T09:09:56.038726+00:00**: Checked 72 repos, updated 73, +58893 -0 declarations, 1 errors
