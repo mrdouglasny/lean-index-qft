@@ -1,8 +1,8 @@
-# Changelog (since 2026-06-08)
+# Changelog (since 2026-06-15)
 
-## New Declarations (113986)
+## New Declarations (114818)
 
-### BrownianMotion (+1052)
+### BrownianMotion (+1038)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,7 +54,7 @@
 - `iInter_sigma_eq_empty_iff` (theorem) in BrownianMotion.Choquet.CompactSystem
 - `iInter₂_sigma_eq_empty_iff` (theorem) in BrownianMotion.Choquet.CompactSystem
 - `IsCompactSystem.sigma` (lemma) in BrownianMotion.Choquet.CompactSystem
-- ... and 1002 more
+- ... and 988 more
 
 ### Burkholder (+711)
 
@@ -109,60 +109,6 @@
 - `Majorants.Majorant_p_l_2.pStar_eq_q_of_one_lt_of_lt_two` (lemma) in Burkholder.Majorants.Majorant_p_l_2
 - `Majorants.Majorant_p_l_2.pStar_eq_self_of_two_le` (lemma) in Burkholder.Majorants.Majorant_p_l_2
 - ... and 661 more
-
-### CramerLundberg (+108)
-
-- `RNP` (def) in CramerLundberg.NeymanPearsonReal
-- `NP.intRNP₀` (theorem) in CramerLundberg.NeymanPearsonReal
-- `NP.intRNP₁` (theorem) in CramerLundberg.NeymanPearsonReal
-- `wiki_arith` (lemma) in CramerLundberg.NeymanPearsonReal
-- `wiki` (lemma) in CramerLundberg.NeymanPearsonReal
-- `wiki_nonneg` (lemma) in CramerLundberg.NeymanPearsonReal
-- `RNPnnreal` (def) in CramerLundberg.NeymanPearsonReal
-- `RNPennreal` (def) in CramerLundberg.NeymanPearsonReal
-- `wiki_ennreal` (lemma) in CramerLundberg.NeymanPearsonReal
-- `wiki_ennreal'` (lemma) in CramerLundberg.NeymanPearsonReal
-- `transport_ennreal` (lemma) in CramerLundberg.NeymanPearsonReal
-- `wiki_nnreal` (lemma) in CramerLundberg.NeymanPearsonReal
-- `int_help` (lemma) in CramerLundberg.NeymanPearsonReal
-- `int_help'` (lemma) in CramerLundberg.NeymanPearsonReal
-- `NP` (lemma) in CramerLundberg.NeymanPearsonReal
-- `tweedieTerm` (def) in CramerLundberg.TweedieDensity
-- `tweedieTerm_nonneg` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieReal` (def) in CramerLundberg.TweedieDensity
-- `tweedieReal_eq_zero_of_nonpos` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieReal_nonneg` (lemma) in CramerLundberg.TweedieDensity
-- `four_pow_le_factorial_mul` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieTerm_le` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieTerm_summable` (lemma) in CramerLundberg.TweedieDensity
-- `tsum_tweedieTerm_le` (lemma) in CramerLundberg.TweedieDensity
-- `exp_sub_one_div_le_exp` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieReal_le_bound_pos` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieReal_le_bound` (lemma) in CramerLundberg.TweedieDensity
-- `bound_integrable` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieReal_aestronglyMeasurable` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieReal_integrable` (theorem) in CramerLundberg.TweedieDensity
-- `tweedie_nonneg` (lemma) in CramerLundberg.TweedieDensity
-- `tweedieDensity` (def) in CramerLundberg.TweedieDensity
-- `tweedieDensity_lintegral_lt_top` (theorem) in CramerLundberg.TweedieDensity
-- `p₂` (def) in CramerLundberg.VickreyAuction
-- `p₂_with_fee` (def) in CramerLundberg.VickreyAuction
-- `vickrey_with_fee` (lemma) in CramerLundberg.VickreyAuction
-- `p₁` (def) in CramerLundberg.VickreyAuction
-- `p₃` (def) in CramerLundberg.VickreyAuction
-- `p₂_with_reserve` (def) in CramerLundberg.VickreyAuction
-- `vickrey_with_reserve` (lemma) in CramerLundberg.VickreyAuction
-- `vickrey` (lemma) in CramerLundberg.VickreyAuction
-- `vickrey₁` (lemma) in CramerLundberg.VickreyAuction
-- `vickrey'` (lemma) in CramerLundberg.VickreyAuction
-- `a` (def) in CramerLundberg.Tweedie
-- `tweediePDF` (def) in CramerLundberg.Tweedie
-- `tweediePDF_nonneg` (lemma) in CramerLundberg.Tweedie
-- `tweediePDF'` (def) in CramerLundberg.Tweedie
-- `tweedie_prob_zero` (def) in CramerLundberg.Tweedie
-- `tweedie_prob_zero_le_one` (lemma) in CramerLundberg.Tweedie
-- `tweedieMeasure` (def) in CramerLundberg.Tweedie
-- ... and 58 more
 
 ### CvxLean (+1181)
 
@@ -663,7 +609,7 @@
 - `TimeTranslation.timeShift_spatial` (lemma) in OSforGFF.Spacetime.TimeTranslation
 - ... and 805 more
 
-### OSreconstruction (+8762)
+### OSreconstruction (+8865)
 
 - `distributional_uniqueness_tube_of_zero_bv` (theorem) in Proofideas.distributional_uniqueness_strategy
 - `HasOneSidedFourierSupport` (def) in Proofideas.paley_wiener_definition_analysis
@@ -715,9 +661,9 @@
 - `SCV.radialPrimitiveDeriv` (def) in OSReconstruction.SCV.EuclideanWeylPoisson
 - `SCV.radialPrimitiveProfile` (def) in OSReconstruction.SCV.EuclideanWeylPoisson
 - `SCV.radialMass_zero` (theorem) in OSReconstruction.SCV.EuclideanWeylPoisson
-- ... and 8712 more
+- ... and 8815 more
 
-### PhysLean (+10402)
+### PhysLean (+10843)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -769,12 +715,23 @@
 - `DepDecls` (structure) in scripts.MetaPrograms.informal
 - `DeclsM` (abbrev) in scripts.MetaPrograms.informal
 - `Decl.ofName` (def) in scripts.MetaPrograms.informal
-- ... and 10352 more
+- ... and 10793 more
 
-### ProjectVD (+63)
+### ProjectVD (+69)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
+- `Function.locallyFinsuppWithin.logCounting_single_isBigO_log` (lemma) in VD.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.logCounting_isBigO_log_of_finite_support` (lemma) in VD.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.finite_support_of_logCounting_isBigO_log` (lemma) in VD.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.finite_support_iff_logCounting_isBigO_log` (theorem) in VD.LogCountingIsBigOLog
+- `ValueDistribution.logCounting_isBigO_log_iff_finite_support` (theorem) in VD.LogCountingIsBigOLog
+- `ValueDistribution.analyticOnNhd_polynomial` (lemma) in VD.CharacteristicIsBigOLog
+- `ValueDistribution.polynomial_meromorphicOrderAt_ne_top` (lemma) in VD.CharacteristicIsBigOLog
+- `ValueDistribution.characteristic_zero_top` (lemma) in VD.CharacteristicIsBigOLog
+- `ValueDistribution.characteristic_polynomial_isBigO_log` (lemma) in VD.CharacteristicIsBigOLog
+- `ValueDistribution.rational_iff_characteristic_isBigO_log` (theorem) in VD.CharacteristicIsBigOLog
+- `ValueDistribution.polynomial_iff_characteristic_isBigO_log` (theorem) in VD.CharacteristicIsBigOLog
 - `wirtingerDeriv` (def) in VD.LinearDiffOp.Wirtinger
 - `wirtingerDerivBar` (def) in VD.LinearDiffOp.Wirtinger
 - `wirtingerDeriv_apply` (lemma) in VD.LinearDiffOp.Wirtinger
@@ -795,35 +752,24 @@
 - `Filter.EventuallyEqWithin.linearDiffOp_applyWithin` (lemma) in VD.LinearDiffOp.Basic
 - `iteratedFDerivWithin_const_smul_apply_field` (theorem) in VD.LinearDiffOp.Basic
 - `iteratedFDeriv_const_smul_apply_field` (theorem) in VD.LinearDiffOp.Basic
+- `Continuous.isBounded_range_iff_isBigO_atTop_atBot` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
+- `Function.Even.isBigO_atBot_of_isBigO_atTop` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
+- `Continuous.isBounded_range_iff_isBigO_atTop_of_even` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
 - `ball_eq_setOf_sub_mem_ball` (theorem) in VD.MathlibSubmitted.Translation
 - `closedBall_eq_setOf_sub_mem_closedBall` (theorem) in VD.MathlibSubmitted.Translation
 - `sphere_eq_setOf_sub_mem_sphere` (theorem) in VD.MathlibSubmitted.Translation
 - `MeromorphicAt.meromorphicTrailingCoeffAt_comp` (theorem) in VD.MathlibSubmitted.Translation
 - `MeromorphicAt.exists_analytic_extension_if_order_nonneg` (theorem) in VD.MathlibSubmitted.meromorphicAt_topology
 - `MeromorphicAt.order_nonneg_iff_exists_analytic_extension` (theorem) in VD.MathlibSubmitted.meromorphicAt_topology
-- `ValueDistribution.Cartan.cartanKernel` (def) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.Cartan.integrable_cartanKernel_in_alpha` (lemma) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.Cartan.integral_norm_eq_two_mul_integral_max_sub` (lemma) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.Cartan.measurable_cartanKernel` (theorem) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.Cartan.integral_norm_cartanKernel_eq` (lemma) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.Cartan.integrable_integral_norm_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.Cartan.integrable_cartanKernel` (lemma) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.MeasureTheory.intervalIntegral_intervalIntegral_swap` (lemma) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.proximity_top_eq_circleAverage_circleAverage` (theorem) in VD.MathlibSubmitted.ProximityIntegral
-- `ValueDistribution.circleIntegrable_circleAverage_log_norm_sub` (theorem) in VD.MathlibSubmitted.ProximityIntegral
+- `ValueDistribution.logCounting_add_log_trailingCoeff_eq_circleAverage_add_logCounting_top` (lemma) in VD.MathlibSubmitted.Cartan
+- `ValueDistribution.circleIntegrable_logCounting` (theorem) in VD.MathlibSubmitted.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_add_circleAverage` (theorem) in VD.MathlibSubmitted.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_of_meromorphicOrderAt_pos` (theorem) in VD.MathlibSubmitted.Cartan
+- `ValueDistribution.characteristic_top_eq_circleAverage_add_const` (theorem) in VD.MathlibSubmitted.Cartan
+- `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.MathlibSubmitted.Cartan
 - `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
 - `MeromorphicOn.exists_ecanonicalDecomp` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
-- `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.MathlibPending.BoundednessCharacteristic
-- `ValueDistribution.proximity_eq_proximity_toMeromorphiNFOn` (lemma) in VD.MathlibPending.BoundednessCharacteristic
-- `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.MathlibPending.BoundednessCharacteristic
-- `Continuous.isBounded_range_iff_isBigO_atTop_atBot` (theorem) in VD.MathlibPending.ProximityBounded
-- `Function.Even.isBigO_atBot_of_isBigO_atTop` (theorem) in VD.MathlibPending.ProximityBounded
-- `Continuous.isBounded_range_iff_isBigO_atTop_of_even` (theorem) in VD.MathlibPending.ProximityBounded
-- `one_lt_norm_canonicalFactor` (theorem) in VD.MathlibPending.ProximityBounded
-- `ValueDistribution.log_norm_le_circleAverage_posLog_norm` (theorem) in VD.MathlibPending.ProximityBounded
-- `ValueDistribution.log_norm_le_three_mul_proximity` (theorem) in VD.MathlibPending.ProximityBounded
-- `ValueDistribution.proximity_isBigO_one_of_eventuallyConst` (theorem) in VD.MathlibPending.ProximityBounded
-- ... and 13 more
+- ... and 19 more
 
 ### QFTFramework (+50)
 
@@ -2052,7 +1998,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+566)
+### lean-bandits (+647)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
 - `config` (def) in LMLTutorial.Tutorial
@@ -2066,25 +2012,29 @@
 - `Learning.stepKernel` (def) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.stepKernel_def` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.fst_stepKernel` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.step` (def) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.measurable_step` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.hist` (def) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.measurable_hist` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.eval_comp_hist` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.fst_eval_comp_hist` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.snd_eval_comp_hist` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.step` (def) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.measurable_step` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.trajectory` (def) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.measurable_trajectory` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.history` (def) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.measurable_history` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.eval_comp_history` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.fst_eval_comp_history` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.snd_eval_comp_history` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.history_succ` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq` (structure) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeqUntil` (structure) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeqUntil.mono` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq.isAlgEnvSeqUntil` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.IsAlgEnvSeq.measurable_step` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.IsAlgEnvSeq.measurable_history` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq.hasLaw_step_zero` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeqUntil.hasLaw_step_zero` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq.hasCondDistrib_step` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeqUntil.hasCondDistrib_step` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.hasLaw_hist_zero` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.hasLaw_hist_succ` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.IsAlgEnvSeq.hasLaw_history_zero` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq.filtration` (def) in LeanMachineLearning.SequentialLearning.Algorithm
-- `Learning.IsAlgEnvSeq.adapted_hist` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
+- `Learning.IsAlgEnvSeq.adapted_history` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq.adapted_step` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq.adapted_action` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
 - `Learning.IsAlgEnvSeq.adapted_feedback` (lemma) in LeanMachineLearning.SequentialLearning.Algorithm
@@ -2100,11 +2050,7 @@
 - `Learning.forall_feedback_onlineEvalEnv_ae_eq_eval_action` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.evalEnv` (def) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.feedbackCondAction_evalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
-- `Learning.feedbackFunZero_evalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
-- `Learning.feedbackFun_evalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
-- `Learning.hascondDistrib_feedback_evalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
-- `Learning.feedback_evalEnv_ae_eq_eval_action` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
-- ... and 516 more
+- ... and 597 more
 
 ### lean-qkd (+8)
 
@@ -2225,7 +2171,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+54702)
+### mathlib4 (+54982)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2277,7 +2223,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 54652 more
+- ... and 54932 more
 
 ### mini-measure-probability-integration (+1228)
 
@@ -2572,7 +2518,7 @@
 - `partialSups_succ'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 - `partialSups_add_one'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 
-### pphi2 (+2221)
+### pphi2 (+2263)
 
 - `ourNS` (def) in scripts.BlueprintEnum
 - `topNS` (def) in scripts.BlueprintEnum
@@ -2624,9 +2570,9 @@
 - `Pphi2.Bridge.full_os_via_bridge` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.phi4_full_os_via_bridge` (theorem) in Pphi2.Bridge
 - `Pphi2.distribPairing` (abbrev) in Pphi2.OSAxioms
-- ... and 2171 more
+- ... and 2213 more
 
-### probability (+284)
+### probability (+285)
 
 - `fancy` (theorem) in Main
 - `strTrim` (def) in Main
@@ -2678,7 +2624,7 @@
 - `prod_eq_zero_of_nneg_dp_zero` (theorem) in MDPLib.Probability.Prelude
 - `abs_pos_hom` (theorem) in MDPLib.Probability.Prelude
 - `jensen_abs_uniform` (theorem) in MDPLib.Probability.Prelude
-- ... and 234 more
+- ... and 235 more
 
 ### quasi-borel-spaces (+632)
 
@@ -2941,4 +2887,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-15T09:39:24.957240+00:00**: Checked 72 repos, updated 73, +59284 -0 declarations, 1 errors
+- **2026-06-22T09:39:20.959601+00:00**: Checked 71 repos, updated 72, +59836 -0 declarations, 1 errors
