@@ -1,8 +1,8 @@
-# Changelog (since 2026-06-15)
+# Changelog (since 2026-06-22)
 
-## New Declarations (114818)
+## New Declarations (115788)
 
-### BrownianMotion (+1038)
+### BrownianMotion (+1046)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
@@ -54,7 +54,7 @@
 - `iInter_sigma_eq_empty_iff` (theorem) in BrownianMotion.Choquet.CompactSystem
 - `iInter₂_sigma_eq_empty_iff` (theorem) in BrownianMotion.Choquet.CompactSystem
 - `IsCompactSystem.sigma` (lemma) in BrownianMotion.Choquet.CompactSystem
-- ... and 988 more
+- ... and 996 more
 
 ### Burkholder (+711)
 
@@ -276,7 +276,7 @@
 - `AffineIncrEquiv.homOfIndex` (def) in ExtremeValueProject.OneParameterAffine
 - ... and 235 more
 
-### FLT (+1592)
+### FLT (+1997)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `main` (def) in blueprint-verso.FLTBlueprintMain
@@ -328,7 +328,7 @@
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E` (def) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_compact` (lemma) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_noninjective_left` (lemma) in FLT.DivisionAlgebra.Finiteness
-- ... and 1542 more
+- ... and 1947 more
 
 ### GFF (+6)
 
@@ -338,6 +338,60 @@
 - `torusGFF_T` (def) in GFF.GFFConstruction
 - `CylinderTestFun` (abbrev) in GFF.SpacetimeInstances
 - `TorusTestFun` (abbrev) in GFF.SpacetimeInstances
+
+### GibbsMeasure (+66)
+
+- `IsConsistent` (def) in GibbsMeasure.Specification
+- `isConsistentKernel_cylinderEventsCompl` (lemma) in GibbsMeasure.Specification
+- `Specification` (structure) in GibbsMeasure.Specification
+- `Specification.instDFunLike` (instance) in GibbsMeasure.Specification
+- `Specification.isConsistent` (lemma) in GibbsMeasure.Specification
+- `Specification.bind` (lemma) in GibbsMeasure.Specification
+- `Specification.IsIndep` (def) in GibbsMeasure.Specification
+- `Specification.IsMarkov` (class) in GibbsMeasure.Specification
+- `Specification.IsMarkov.toIsMarkovKernel` (instance) in GibbsMeasure.Specification
+- `Specification.IsProper` (def) in GibbsMeasure.Specification
+- `Specification.isProper_iff_restrict_eq_indicator_smul` (lemma) in GibbsMeasure.Specification
+- `Specification.isProper_iff_inter_eq_indicator_mul` (lemma) in GibbsMeasure.Specification
+- `Specification.IsProper.setLIntegral_eq_indicator_mul_lintegral` (lemma) in GibbsMeasure.Specification
+- `Specification.IsProper.setLIntegral_inter_eq_indicator_mul_setLIntegral` (lemma) in GibbsMeasure.Specification
+- `Specification.IsProper.lintegral_mul` (lemma) in GibbsMeasure.Specification
+- `Specification.IsGibbsMeasure` (def) in GibbsMeasure.Specification
+- `Specification.isGibbsMeasure_iff_forall_bind_eq` (lemma) in GibbsMeasure.Specification
+- `Specification.isGibbsMeasure_iff_frequently_bind_eq` (lemma) in GibbsMeasure.Specification
+- `Specification.isssdFun` (def) in GibbsMeasure.Specification
+- `Specification.isssd` (def) in GibbsMeasure.Specification
+- `Specification.isssd_comp_isssd` (lemma) in GibbsMeasure.Specification
+- `Specification.IsProper.isssd` (lemma) in GibbsMeasure.Specification
+- `Specification.isssd.instIsMarkov` (instance) in GibbsMeasure.Specification
+- `Specification.modificationKer` (def) in GibbsMeasure.Specification
+- `Specification.IsModifier` (structure) in GibbsMeasure.Specification
+- `Specification.modification` (def) in GibbsMeasure.Specification
+- `Specification.coe_modification` (lemma) in GibbsMeasure.Specification
+- `Specification.modification_apply` (lemma) in GibbsMeasure.Specification
+- `Specification.modificationKer_modification` (lemma) in GibbsMeasure.Specification
+- `Specification.IsProper.modification` (lemma) in GibbsMeasure.Specification
+- `Specification.IsPremodifier` (structure) in GibbsMeasure.Specification
+- `juxt` (def) in GibbsMeasure.Prereqs.Juxt
+- `juxt_apply_of_mem` (lemma) in GibbsMeasure.Prereqs.Juxt
+- `juxt_apply_of_not_mem` (lemma) in GibbsMeasure.Prereqs.Juxt
+- `measurable_coordinate_projection_2` (lemma) in GibbsMeasure.Prereqs.Juxt
+- `Measurable.juxt` (lemma) in GibbsMeasure.Prereqs.Juxt
+- `MeasureTheory.lcondExp` (def) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_of_not_le` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_of_not_sigmaFinite` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_of_sigmaFinite` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_of_measurable` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_const` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_zero` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.measurable_lcondExp` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lintegral_lcondExp` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lintegral_lcondExp_indicator` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.ae_eq_lcondExp_of_forall_setLIntegral_eq` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_bot_ae_eq` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_bot` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- `MeasureTheory.lcondExp_finset_sum` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
+- ... and 16 more
 
 ### Lean-QuantumInfo (+2283)
 
@@ -663,7 +717,7 @@
 - `SCV.radialMass_zero` (theorem) in OSReconstruction.SCV.EuclideanWeylPoisson
 - ... and 8815 more
 
-### PhysLean (+10843)
+### PhysLean (+11134)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -715,23 +769,14 @@
 - `DepDecls` (structure) in scripts.MetaPrograms.informal
 - `DeclsM` (abbrev) in scripts.MetaPrograms.informal
 - `Decl.ofName` (def) in scripts.MetaPrograms.informal
-- ... and 10793 more
+- ... and 11084 more
 
-### ProjectVD (+69)
+### ProjectVD (+73)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
-- `Function.locallyFinsuppWithin.logCounting_single_isBigO_log` (lemma) in VD.LogCountingIsBigOLog
-- `Function.locallyFinsuppWithin.logCounting_isBigO_log_of_finite_support` (lemma) in VD.LogCountingIsBigOLog
-- `Function.locallyFinsuppWithin.finite_support_of_logCounting_isBigO_log` (lemma) in VD.LogCountingIsBigOLog
-- `Function.locallyFinsuppWithin.finite_support_iff_logCounting_isBigO_log` (theorem) in VD.LogCountingIsBigOLog
-- `ValueDistribution.logCounting_isBigO_log_iff_finite_support` (theorem) in VD.LogCountingIsBigOLog
-- `ValueDistribution.analyticOnNhd_polynomial` (lemma) in VD.CharacteristicIsBigOLog
-- `ValueDistribution.polynomial_meromorphicOrderAt_ne_top` (lemma) in VD.CharacteristicIsBigOLog
-- `ValueDistribution.characteristic_zero_top` (lemma) in VD.CharacteristicIsBigOLog
-- `ValueDistribution.characteristic_polynomial_isBigO_log` (lemma) in VD.CharacteristicIsBigOLog
-- `ValueDistribution.rational_iff_characteristic_isBigO_log` (theorem) in VD.CharacteristicIsBigOLog
-- `ValueDistribution.polynomial_iff_characteristic_isBigO_log` (theorem) in VD.CharacteristicIsBigOLog
+- `ValueDistribution.isBigO_characteristic_sub_characteristic_const_mul` (theorem) in VD.CharacteristicMoebius
+- `ValueDistribution.isBigO_characteristic_sub_characteristic_moebius` (theorem) in VD.CharacteristicMoebius
 - `wirtingerDeriv` (def) in VD.LinearDiffOp.Wirtinger
 - `wirtingerDerivBar` (def) in VD.LinearDiffOp.Wirtinger
 - `wirtingerDeriv_apply` (lemma) in VD.LinearDiffOp.Wirtinger
@@ -752,6 +797,13 @@
 - `Filter.EventuallyEqWithin.linearDiffOp_applyWithin` (lemma) in VD.LinearDiffOp.Basic
 - `iteratedFDerivWithin_const_smul_apply_field` (theorem) in VD.LinearDiffOp.Basic
 - `iteratedFDeriv_const_smul_apply_field` (theorem) in VD.LinearDiffOp.Basic
+- `Function.locallyFinsuppWithin.Asymptotics.IsBigO.sum'` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.sum_apply_smul_single_eq_self_on_univ` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.logCounting_single_isBigO_log` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.logCounting_isBigO_log_of_finite_support` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.finite_support_of_logCounting_isBigO_log` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
+- `Function.locallyFinsuppWithin.finite_support_iff_logCounting_isBigO_log` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
+- `ValueDistribution.logCounting_isBigO_log_iff_finite_support` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
 - `Continuous.isBounded_range_iff_isBigO_atTop_atBot` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
 - `Function.Even.isBigO_atBot_of_isBigO_atTop` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
 - `Continuous.isBounded_range_iff_isBigO_atTop_of_even` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
@@ -769,7 +821,9 @@
 - `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.MathlibSubmitted.Cartan
 - `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
 - `MeromorphicOn.exists_ecanonicalDecomp` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
-- ... and 19 more
+- `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.MathlibPending.BoundednessCharacteristic
+- `ValueDistribution.proximity_eq_proximity_toMeromorphicNFOn` (lemma) in VD.MathlibPending.BoundednessCharacteristic
+- ... and 23 more
 
 ### QFTFramework (+50)
 
@@ -1998,7 +2052,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+647)
+### lean-bandits (+650)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
 - `config` (def) in LMLTutorial.Tutorial
@@ -2050,7 +2104,7 @@
 - `Learning.forall_feedback_onlineEvalEnv_ae_eq_eval_action` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.evalEnv` (def) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.feedbackCondAction_evalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
-- ... and 597 more
+- ... and 600 more
 
 ### lean-qkd (+8)
 
@@ -2171,7 +2225,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+54982)
+### mathlib4 (+55149)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2223,9 +2277,9 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 54932 more
+- ... and 55099 more
 
-### mini-measure-probability-integration (+1228)
+### mini-measure-probability-integration (+1209)
 
 - `main` (def) in mini-stochastic-processes.Computation.Main
 - `MiniProbabilityTheory.SmokeTests.constZero` (def) in mini-probability-theory.Test.Smoke
@@ -2277,7 +2331,7 @@
 - `MiniProbabilityTheory.boxMuller` (def) in mini-probability-theory.MiniProbabilityTheory.Bridges.ToComputation
 - `MiniProbabilityTheory.polarMethod` (def) in mini-probability-theory.MiniProbabilityTheory.Bridges.ToComputation
 - `MiniProbabilityTheory.weakConvergence` (def) in mini-probability-theory.MiniProbabilityTheory.Bridges.ToTopology
-- ... and 1178 more
+- ... and 1159 more
 
 ### monlib4 (+2413)
 
@@ -2518,7 +2572,7 @@
 - `partialSups_succ'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 - `partialSups_add_one'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 
-### pphi2 (+2263)
+### pphi2 (+2308)
 
 - `ourNS` (def) in scripts.BlueprintEnum
 - `topNS` (def) in scripts.BlueprintEnum
@@ -2570,7 +2624,7 @@
 - `Pphi2.Bridge.full_os_via_bridge` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.phi4_full_os_via_bridge` (theorem) in Pphi2.Bridge
 - `Pphi2.distribPairing` (abbrev) in Pphi2.OSAxioms
-- ... and 2213 more
+- ... and 2258 more
 
 ### probability (+285)
 
@@ -2887,4 +2941,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-22T09:39:20.959601+00:00**: Checked 71 repos, updated 72, +59836 -0 declarations, 1 errors
+- **2026-06-29T09:07:15.371222+00:00**: Checked 72 repos, updated 73, +60639 -0 declarations, 1 errors
