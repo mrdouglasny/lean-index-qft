@@ -1,6 +1,6 @@
-# Changelog (since 2026-06-22)
+# Changelog (since 2026-06-29)
 
-## New Declarations (115788)
+## New Declarations (117130)
 
 ### BrownianMotion (+1046)
 
@@ -276,9 +276,20 @@
 - `AffineIncrEquiv.homOfIndex` (def) in ExtremeValueProject.OneParameterAffine
 - ... and 235 more
 
-### FLT (+1997)
+### FLT (+2073)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
+- `FLT.Bosses.B1` (def) in FLT.Proof
+- `FLT.Bosses.B2` (def) in FLT.Proof
+- `FLT.Bosses.B3` (def) in FLT.Proof
+- `FLT.Bosses.B4` (def) in FLT.Proof
+- `FLT.Bosses.B2_implies_B1` (theorem) in FLT.Proof
+- `FLT.Bosses.B3_implies_B2` (theorem) in FLT.Proof
+- `FLT.Bosses.B4_implies_B3` (theorem) in FLT.Proof
+- `FLT.Bosses.B3_proof` (theorem) in FLT.Proof
+- `FLT.Bosses.B2_proof` (theorem) in FLT.Proof
+- `FLT.Bosses.B1_proof` (theorem) in FLT.Proof
+- `flt` (theorem) in FLT.Proof
 - `main` (def) in blueprint-verso.FLTBlueprintMain
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.Df` (abbrev) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.Dfx` (abbrev) in FLT.DivisionAlgebra.Finiteness
@@ -317,18 +328,7 @@
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.InfiniteAdeleRing.isCentralSimple_infinite_addHaarScalarFactor_left_mul_eq_right_mul` (lemma) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.isCentralSimple_addHaarScalarFactor_left_mul_eq_right_mul` (lemma) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.Uf` (def) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.Uf.spec` (theorem) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.Ui` (def) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.Ui.spec` (theorem) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.Efamily` (def) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_family_compact` (lemma) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_family_nonempty_interior` (lemma) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_family_unbounded` (lemma) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.existsE` (lemma) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E` (def) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_compact` (lemma) in FLT.DivisionAlgebra.Finiteness
-- `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.E_noninjective_left` (lemma) in FLT.DivisionAlgebra.Finiteness
-- ... and 1947 more
+- ... and 2023 more
 
 ### GFF (+6)
 
@@ -717,7 +717,7 @@
 - `SCV.radialMass_zero` (theorem) in OSReconstruction.SCV.EuclideanWeylPoisson
 - ... and 8815 more
 
-### PhysLean (+11134)
+### PhysLean (+11250)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -769,12 +769,17 @@
 - `DepDecls` (structure) in scripts.MetaPrograms.informal
 - `DeclsM` (abbrev) in scripts.MetaPrograms.informal
 - `Decl.ofName` (def) in scripts.MetaPrograms.informal
-- ... and 11084 more
+- ... and 11200 more
 
-### ProjectVD (+73)
+### ProjectVD (+69)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
+- `ValueDistribution.CircleIntegrable.const_smul'` (theorem) in VD.CharacteristicMoebius
+- `ValueDistribution.circleIntegrable_iff_circleIntegrable_const_smul` (theorem) in VD.CharacteristicMoebius
+- `ValueDistribution.proximity_smul_top_le` (theorem) in VD.CharacteristicMoebius
+- `ValueDistribution.abs_posLog_mul_sub_posLog_le_posLog_add_posLog` (theorem) in VD.CharacteristicMoebius
+- `ValueDistribution.isBigO_proximity_top_sub_proximity_const_smul_top` (theorem) in VD.CharacteristicMoebius
 - `ValueDistribution.isBigO_characteristic_sub_characteristic_const_mul` (theorem) in VD.CharacteristicMoebius
 - `ValueDistribution.isBigO_characteristic_sub_characteristic_moebius` (theorem) in VD.CharacteristicMoebius
 - `wirtingerDeriv` (def) in VD.LinearDiffOp.Wirtinger
@@ -804,26 +809,21 @@
 - `Function.locallyFinsuppWithin.finite_support_of_logCounting_isBigO_log` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
 - `Function.locallyFinsuppWithin.finite_support_iff_logCounting_isBigO_log` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
 - `ValueDistribution.logCounting_isBigO_log_iff_finite_support` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
-- `Continuous.isBounded_range_iff_isBigO_atTop_atBot` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
-- `Function.Even.isBigO_atBot_of_isBigO_atTop` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
-- `Continuous.isBounded_range_iff_isBigO_atTop_of_even` (theorem) in VD.MathlibSubmitted.BoundedRangeIsBigO
 - `ball_eq_setOf_sub_mem_ball` (theorem) in VD.MathlibSubmitted.Translation
 - `closedBall_eq_setOf_sub_mem_closedBall` (theorem) in VD.MathlibSubmitted.Translation
 - `sphere_eq_setOf_sub_mem_sphere` (theorem) in VD.MathlibSubmitted.Translation
 - `MeromorphicAt.meromorphicTrailingCoeffAt_comp` (theorem) in VD.MathlibSubmitted.Translation
 - `MeromorphicAt.exists_analytic_extension_if_order_nonneg` (theorem) in VD.MathlibSubmitted.meromorphicAt_topology
 - `MeromorphicAt.order_nonneg_iff_exists_analytic_extension` (theorem) in VD.MathlibSubmitted.meromorphicAt_topology
-- `ValueDistribution.logCounting_add_log_trailingCoeff_eq_circleAverage_add_logCounting_top` (lemma) in VD.MathlibSubmitted.Cartan
-- `ValueDistribution.circleIntegrable_logCounting` (theorem) in VD.MathlibSubmitted.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_add_circleAverage` (theorem) in VD.MathlibSubmitted.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_of_meromorphicOrderAt_pos` (theorem) in VD.MathlibSubmitted.Cartan
-- `ValueDistribution.characteristic_top_eq_circleAverage_add_const` (theorem) in VD.MathlibSubmitted.Cartan
-- `ValueDistribution.characteristic_monotoneOn` (theorem) in VD.MathlibSubmitted.Cartan
 - `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
 - `MeromorphicOn.exists_ecanonicalDecomp` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
 - `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.MathlibPending.BoundednessCharacteristic
 - `ValueDistribution.proximity_eq_proximity_toMeromorphicNFOn` (lemma) in VD.MathlibPending.BoundednessCharacteristic
-- ... and 23 more
+- `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.MathlibPending.BoundednessCharacteristic
+- `ValueDistribution.analyticOnNhd_polynomial` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
+- `ValueDistribution.polynomial_meromorphicOrderAt_ne_top` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
+- `ValueDistribution.characteristic_zero_top` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
+- ... and 19 more
 
 ### QFTFramework (+50)
 
@@ -1443,7 +1443,7 @@
 - `VirasoroProject.TriangularDecomposition.VermaHW.upper_smul_hwVec` (lemma) in VirasoroProject.LieVerma
 - ... and 337 more
 
-### analysis (+2270)
+### analysis (+2271)
 
 - `Real.Adherent` (abbrev) in Analysis.Section_6_4
 - `Real.ContinuallyAdherent` (abbrev) in Analysis.Section_6_4
@@ -1495,7 +1495,7 @@
 - `EReal.sup_of_unbounded_nonempty` (theorem) in Analysis.Section_6_2
 - `EReal.sup_of_empty` (theorem) in Analysis.Section_6_2
 - `EReal.sup_of_infty_mem` (theorem) in Analysis.Section_6_2
-- ... and 2220 more
+- ... and 2221 more
 
 ### asymptotic-spectrum-distance (+2802)
 
@@ -2117,7 +2117,7 @@
 - `eigenvalue_bound_eigenbasis` (lemma) in QKD
 - `high_fidelity_implies_low_entropy_equivalent` (theorem) in QKD
 
-### lean-stat-learning-theory (+1205)
+### lean-stat-learning-theory (+2009)
 
 - `linter` (abbrev) in lakefile
 - `options` (abbrev) in lakefile
@@ -2169,7 +2169,7 @@
 - `condVarExceptCoord` (def) in SLT.EfronStein
 - `expectation_sq_diff_eq_expectation_condVar` (lemma) in SLT.EfronStein
 - `variance_ge_two_cov_sub_variance` (lemma) in SLT.EfronStein
-- ... and 1155 more
+- ... and 1959 more
 
 ### lean4_information_theory (+86)
 
@@ -2225,7 +2225,7 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+55149)
+### mathlib4 (+55498)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2277,7 +2277,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 55099 more
+- ... and 55448 more
 
 ### mini-measure-probability-integration (+1209)
 
@@ -2941,4 +2941,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-29T09:07:15.371222+00:00**: Checked 72 repos, updated 73, +60639 -0 declarations, 1 errors
+- **2026-07-06T09:07:14.471310+00:00**: Checked 72 repos, updated 73, +61632 -0 declarations, 1 errors

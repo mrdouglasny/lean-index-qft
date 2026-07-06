@@ -2,7 +2,7 @@
 
 Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**75,516 topic-matched declarations** across **52 repositories** (scanned 72 repos, 115,788 declarations).
+**76,214 topic-matched declarations** across **52 repositories** (scanned 72 repos, 117,130 declarations).
 
 Tracks Lean declarations related to:
 - **Functional analysis**: Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
@@ -20,19 +20,19 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 55,149 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 3,909 | Digitalized physics results in Lean (492 stars) |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 55,498 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 3,938 | Digitalized physics results in Lean (492 stars) |
 | [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 3,026 | Osterwalder-Schrader reconstruction theorem |
 | [SwayingWheatfield/Measure](https://github.com/SwayingWheatfield/Measure) | 1,812 | 📏 A dependently-typed language on Lean 4 for formalizing physics. Dimensions,... |
 | [mrdouglasny/gaussian-field](https://github.com/mrdouglasny/gaussian-field) | 1,745 | Gaussian free field formalization |
 | [jzuiddam/asymptotic-spectrum-distance](https://github.com/jzuiddam/asymptotic-spectrum-distance) | 1,065 | Lean 4 formalization of "The asymptotic spectrum distance, graph limits, and... |
+| [YuanheZ/lean-stat-learning-theory](https://github.com/YuanheZ/lean-stat-learning-theory) | 874 | Statistical learning theory, Gaussian concentration, Dudley's entropy |
 | [rootkiller6788/mini-measure-probability-integration](https://github.com/rootkiller6788/mini-measure-probability-integration) | 838 | Measure theory, probability and integration built from scratch, learn analysis... |
 | [mrdouglasny/pphi2](https://github.com/mrdouglasny/pphi2) | 822 | Construction of phi^4_2 quantum field theory in Lean 4 |
 | [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 722 | Construction of a Brownian Motion in Lean |
 | [or4nge19/SpinGlass](https://github.com/or4nge19/SpinGlass) | 670 | Spin glass models, statistical mechanics |
 | [themathqueen/monlib4](https://github.com/themathqueen/monlib4) | 646 | Von Neumann algebras, quantum information theory |
 | [YellPika/quasi-borel-spaces](https://github.com/YellPika/quasi-borel-spaces) | 553 | Quasi-Borel spaces, categorical probability |
-| [YuanheZ/lean-stat-learning-theory](https://github.com/YuanheZ/lean-stat-learning-theory) | 553 | Statistical learning theory, Gaussian concentration, Dudley's entropy |
 | [cameronfreer/exchangeability](https://github.com/cameronfreer/exchangeability) | 468 | Exchangeability, de Finetti's theorem |
 | [ImperialCollegeLondon/FLT](https://github.com/ImperialCollegeLondon/FLT) | 405 | Fermat's Last Theorem (uses representation theory) |
 | [teorth/analysis](https://github.com/teorth/analysis) | 343 | Tao's analysis formalization |
@@ -55,7 +55,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [vbeffara/RMT4](https://github.com/vbeffara/RMT4) | 33 | Random matrix theory, complex analysis |
 | [kkytola/VirasoroProject](https://github.com/kkytola/VirasoroProject) | 29 | Virasoro algebra, Verma modules, conformal field theory |
 | [Robby955/formal-martingales](https://github.com/Robby955/formal-martingales) | 27 | Lean 4 library for martingale inequalities, anytime-valid inference, and... |
-| [kebekus/ProjectVD](https://github.com/kebekus/ProjectVD) | 25 | Value distribution theory |
+| [kebekus/ProjectVD](https://github.com/kebekus/ProjectVD) | 24 | Value distribution theory |
 | [alexjgreig/QHL-Lean](https://github.com/alexjgreig/QHL-Lean) | 24 | Quantum Hoare logic |
 | [Joeyxyxyz/sturm-liouville-comparator-run](https://github.com/Joeyxyxyz/sturm-liouville-comparator-run) | 19 | Sturm–Liouville eigenvalue simplicity for confining potentials, formalized in... |
 | [lua-vr/pointwise-birkhoff](https://github.com/lua-vr/pointwise-birkhoff) | 19 | Birkhoff ergodic theorem |
