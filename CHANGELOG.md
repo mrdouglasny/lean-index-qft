@@ -1,6 +1,6 @@
-# Changelog (since 2026-06-29)
+# Changelog (since 2026-07-06)
 
-## New Declarations (117130)
+## New Declarations (123264)
 
 ### BrownianMotion (+1046)
 
@@ -276,7 +276,7 @@
 - `AffineIncrEquiv.homOfIndex` (def) in ExtremeValueProject.OneParameterAffine
 - ... and 235 more
 
-### FLT (+2073)
+### FLT (+2937)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `FLT.Bosses.B1` (def) in FLT.Proof
@@ -328,7 +328,7 @@
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.InfiniteAdeleRing.isCentralSimple_infinite_addHaarScalarFactor_left_mul_eq_right_mul` (lemma) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.isCentralSimple_addHaarScalarFactor_left_mul_eq_right_mul` (lemma) in FLT.DivisionAlgebra.Finiteness
 - `NumberField.AdeleRing.DivisionAlgebra.Aux.AdeleRing.DivisionAlgebra.Aux.Uf` (def) in FLT.DivisionAlgebra.Finiteness
-- ... and 2023 more
+- ... and 2887 more
 
 ### GFF (+6)
 
@@ -393,6 +393,60 @@
 - `MeasureTheory.lcondExp_finset_sum` (lemma) in GibbsMeasure.Prereqs.LebesgueCondExp
 - ... and 16 more
 
+### HilbertSpacesLean4 (+60)
+
+- `GrupoConmutativo` (class) in Test
+- `doble'` (def) in Test
+- `opuesto` (def) in Test
+- `ejemplo1` (theorem) in Test
+- `ejemplo2` (theorem) in Test
+- `doble` (def) in Test
+- `ejemplo3` (theorem) in Test
+- `ejemplo4` (theorem) in Test
+- `ejemplo5` (theorem) in Test
+- `ejemplo6` (theorem) in Test
+- `ejemplo7` (theorem) in Test
+- `ejemplo8` (theorem) in Test
+- `ejemplo9` (theorem) in Test
+- `ejemplo10` (theorem) in Test
+- `ejemplo11` (theorem) in Test
+- `ejemplo12` (theorem) in Test
+- `cauchyschwarz.des_cauchy_schwartz` (theorem) in EspaciosHilbert.cauchyschwarz
+- `cauchyschwarz.des_cauchy_schwartz_mod` (theorem) in EspaciosHilbert.cauchyschwarz
+- `metrica_pos` (def) in EspaciosHilbert.metricainducida
+- `metrica_inducida_pos` (def) in EspaciosHilbert.metricainducida
+- `metrica_cero` (def) in EspaciosHilbert.metricainducida
+- `metrica_inducida_cero` (def) in EspaciosHilbert.metricainducida
+- `metrica_sim` (def) in EspaciosHilbert.metricainducida
+- `metrica_inducida_sim` (def) in EspaciosHilbert.metricainducida
+- `metrica_dt` (def) in EspaciosHilbert.metricainducida
+- `metrica_inducida_dt` (def) in EspaciosHilbert.metricainducida
+- `Inner` (class) in EspaciosHilbert.definiciones
+- `InnerProductSpace` (class) in EspaciosHilbert.definiciones
+- `norma_inducida` (def) in EspaciosHilbert.definiciones
+- `dist_ind` (def) in EspaciosHilbert.definiciones
+- `deCauchy` (def) in EspaciosHilbert.definiciones
+- `convergente'` (def) in EspaciosHilbert.definiciones
+- `convergente` (def) in EspaciosHilbert.definiciones
+- `completo` (def) in EspaciosHilbert.definiciones
+- `HilbertSpace` (class) in EspaciosHilbert.definiciones
+- `modulo` (def) in EspaciosHilbert.definiciones
+- `IsBoundedLinearMap` (structure) in EspaciosHilbert.definiciones
+- `modulo_pos` (lemma) in EspaciosHilbert.lemas
+- `re_im_cero` (lemma) in EspaciosHilbert.lemas
+- `lema_norma_lineal` (lemma) in EspaciosHilbert.lemas
+- `lema_dt1` (lemma) in EspaciosHilbert.lemas
+- `lema_dt2` (lemma) in EspaciosHilbert.lemas
+- `producto_cero_l` (lemma) in EspaciosHilbert.lemas
+- `producto_cero_r` (lemma) in EspaciosHilbert.lemas
+- `linealidad_menos` (lemma) in EspaciosHilbert.lemas
+- `lema_dcs` (lemma) in EspaciosHilbert.lemas
+- `lema_re` (lemma) in EspaciosHilbert.lemas
+- `lema_ab2` (lemma) in EspaciosHilbert.lemas
+- `riesz.proyeccion_ortogonal` (theorem) in EspaciosHilbert.riesz
+- `riesz.suma_directa` (theorem) in EspaciosHilbert.riesz
+- ... and 10 more
+
 ### Lean-QuantumInfo (+2283)
 
 - `MicroHamiltonian.PartitionZ` (def) in StatMech.ThermoQuantities
@@ -447,7 +501,7 @@
 - `Prob.toNNReal_zero` (theorem) in ClassicalInfo.Prob
 - ... and 2233 more
 
-### LeanLevy (+339)
+### LeanLevy (+612)
 
 - `main` (def) in Main
 - `ProbabilityTheory.IsLevyMeasure` (def) in LeanLevy.Levy.LevyMeasure
@@ -457,6 +511,7 @@
 - `ProbabilityTheory.IsLevyMeasure.measure_setOf_abs_ge_lt_top` (theorem) in LeanLevy.Levy.LevyMeasure
 - `ProbabilityTheory.IsLevyMeasure.measure_compl_Ioo_lt_top` (theorem) in LeanLevy.Levy.LevyMeasure
 - `ProbabilityTheory.IsLevyMeasure.sigmaFinite` (theorem) in LeanLevy.Levy.LevyMeasure
+- `ProbabilityTheory.IsLevyMeasure.of_isFiniteMeasure` (theorem) in LeanLevy.Levy.LevyMeasure
 - `ProbabilityTheory.isLevyMeasure_zero` (theorem) in LeanLevy.Levy.LevyMeasure
 - `MeasureTheory.continuous_charFun` (theorem) in LeanLevy.Levy.CharacteristicExponent
 - `LocalLog.goodDomain` (def) in LeanLevy.Levy.CharacteristicExponent
@@ -498,8 +553,7 @@
 - `ProbabilityTheory.IsInfinitelyDivisible.hermitian_log` (theorem) in LeanLevy.Levy.LevyKhintchineProof
 - `ProbabilityTheory.IsConditionallyNegativeDefinite` (def) in LeanLevy.Levy.LevyKhintchineProof
 - `ProbabilityTheory.charFun_zero_eq_one` (theorem) in LeanLevy.Levy.LevyKhintchineProof
-- `ProbabilityTheory.double_sum_conj_mul_eq_zero` (theorem) in LeanLevy.Levy.LevyKhintchineProof
-- ... and 289 more
+- ... and 562 more
 
 ### MCMC (+677)
 
@@ -717,7 +771,7 @@
 - `SCV.radialMass_zero` (theorem) in OSReconstruction.SCV.EuclideanWeylPoisson
 - ... and 8815 more
 
-### PhysLean (+11250)
+### PhysLean (+11461)
 
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
@@ -769,19 +823,12 @@
 - `DepDecls` (structure) in scripts.MetaPrograms.informal
 - `DeclsM` (abbrev) in scripts.MetaPrograms.informal
 - `Decl.ofName` (def) in scripts.MetaPrograms.informal
-- ... and 11200 more
+- ... and 11411 more
 
-### ProjectVD (+69)
+### ProjectVD (+161)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
-- `ValueDistribution.CircleIntegrable.const_smul'` (theorem) in VD.CharacteristicMoebius
-- `ValueDistribution.circleIntegrable_iff_circleIntegrable_const_smul` (theorem) in VD.CharacteristicMoebius
-- `ValueDistribution.proximity_smul_top_le` (theorem) in VD.CharacteristicMoebius
-- `ValueDistribution.abs_posLog_mul_sub_posLog_le_posLog_add_posLog` (theorem) in VD.CharacteristicMoebius
-- `ValueDistribution.isBigO_proximity_top_sub_proximity_const_smul_top` (theorem) in VD.CharacteristicMoebius
-- `ValueDistribution.isBigO_characteristic_sub_characteristic_const_mul` (theorem) in VD.CharacteristicMoebius
-- `ValueDistribution.isBigO_characteristic_sub_characteristic_moebius` (theorem) in VD.CharacteristicMoebius
 - `wirtingerDeriv` (def) in VD.LinearDiffOp.Wirtinger
 - `wirtingerDerivBar` (def) in VD.LinearDiffOp.Wirtinger
 - `wirtingerDeriv_apply` (lemma) in VD.LinearDiffOp.Wirtinger
@@ -802,28 +849,35 @@
 - `Filter.EventuallyEqWithin.linearDiffOp_applyWithin` (lemma) in VD.LinearDiffOp.Basic
 - `iteratedFDerivWithin_const_smul_apply_field` (theorem) in VD.LinearDiffOp.Basic
 - `iteratedFDeriv_const_smul_apply_field` (theorem) in VD.LinearDiffOp.Basic
+- `meromorphicOrderAt_deriv_eq_top` (theorem) in VD.SMT.DivisorDeriv
+- `meromorphicOrderAt_deriv_nonneg` (theorem) in VD.SMT.DivisorDeriv
+- `meromorphicOrderAt_sub_const_eq_zero_of_ne` (theorem) in VD.SMT.DivisorDeriv
+- `MeromorphicOn.negPart_divisor_deriv` (theorem) in VD.SMT.DivisorDeriv
+- `MeromorphicOn.posPart_divisor_sub_trunc_le_divisor_deriv` (theorem) in VD.SMT.DivisorDeriv
+- `MeromorphicOn.sum_posPart_divisor_sub_trunc_le_divisor_deriv` (theorem) in VD.SMT.DivisorDeriv
+- `ValueDistribution.logCounting_deriv_top` (theorem) in VD.SMT.DivisorDeriv
+- `ValueDistribution.sum_logCounting_sub_truncatedLogCounting_le` (theorem) in VD.SMT.DivisorDeriv
+- `Function.locallyFinsuppWithin.trunc` (def) in VD.SMT.TruncatedCounting
+- `Function.locallyFinsuppWithin.trunc_le` (lemma) in VD.SMT.TruncatedCounting
+- `Function.locallyFinsuppWithin.trunc_nonneg` (lemma) in VD.SMT.TruncatedCounting
+- `Function.locallyFinsuppWithin.trunc_mono` (lemma) in VD.SMT.TruncatedCounting
+- `Function.locallyFinsuppWithin.support_trunc` (lemma) in VD.SMT.TruncatedCounting
+- `Function.locallyFinsuppWithin.logCounting_trunc_le` (theorem) in VD.SMT.TruncatedCounting
+- `Function.locallyFinsuppWithin.logCounting_trunc_nonneg` (theorem) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting` (def) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting_top` (lemma) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting_coe` (lemma) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting_zero` (lemma) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting_le` (theorem) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting_nonneg` (theorem) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting_monotoneOn` (theorem) in VD.SMT.TruncatedCounting
+- `ValueDistribution.truncatedLogCounting_congr_codiscrete` (theorem) in VD.SMT.TruncatedCounting
+- `Real.sum_posLog_norm_inv_sub_le` (lemma) in VD.SMT.SeparationLemma
+- `Real.exists_sum_posLog_norm_inv_sub_le` (theorem) in VD.SMT.SeparationLemma
 - `Function.locallyFinsuppWithin.Asymptotics.IsBigO.sum'` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
 - `Function.locallyFinsuppWithin.sum_apply_smul_single_eq_self_on_univ` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
 - `Function.locallyFinsuppWithin.logCounting_single_isBigO_log` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
-- `Function.locallyFinsuppWithin.logCounting_isBigO_log_of_finite_support` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
-- `Function.locallyFinsuppWithin.finite_support_of_logCounting_isBigO_log` (lemma) in VD.MathlibSubmitted.LogCountingIsBigOLog
-- `Function.locallyFinsuppWithin.finite_support_iff_logCounting_isBigO_log` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
-- `ValueDistribution.logCounting_isBigO_log_iff_finite_support` (theorem) in VD.MathlibSubmitted.LogCountingIsBigOLog
-- `ball_eq_setOf_sub_mem_ball` (theorem) in VD.MathlibSubmitted.Translation
-- `closedBall_eq_setOf_sub_mem_closedBall` (theorem) in VD.MathlibSubmitted.Translation
-- `sphere_eq_setOf_sub_mem_sphere` (theorem) in VD.MathlibSubmitted.Translation
-- `MeromorphicAt.meromorphicTrailingCoeffAt_comp` (theorem) in VD.MathlibSubmitted.Translation
-- `MeromorphicAt.exists_analytic_extension_if_order_nonneg` (theorem) in VD.MathlibSubmitted.meromorphicAt_topology
-- `MeromorphicAt.order_nonneg_iff_exists_analytic_extension` (theorem) in VD.MathlibSubmitted.meromorphicAt_topology
-- `MeromorphicOn.finprod_apply_ne_zero` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
-- `MeromorphicOn.exists_ecanonicalDecomp` (theorem) in VD.MathlibSubmitted.BlaschkeDecomp2
-- `ValueDistribution.characteristic_isBigO_iff` (lemma) in VD.MathlibPending.BoundednessCharacteristic
-- `ValueDistribution.proximity_eq_proximity_toMeromorphicNFOn` (lemma) in VD.MathlibPending.BoundednessCharacteristic
-- `ValueDistribution.characteristic_isBigO_one_iff_constant` (theorem) in VD.MathlibPending.BoundednessCharacteristic
-- `ValueDistribution.analyticOnNhd_polynomial` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
-- `ValueDistribution.polynomial_meromorphicOrderAt_ne_top` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
-- `ValueDistribution.characteristic_zero_top` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
-- ... and 19 more
+- ... and 111 more
 
 ### QFTFramework (+50)
 
@@ -1986,6 +2040,114 @@
 - `GaussianHilbert.stdGaussianFin_LSI` (theorem) in GaussianHilbert.HypercontractivityFromBE
 - ... and 101 more
 
+### gleason-theorem-lean (+3662)
+
+- `ClassicalGleason.Separable.gleason_theorem_verified` (theorem) in GleasonVerification
+- `ClassicalGleason.Separable.OrthogonalProjection` (abbrev) in GleasonStatement
+- `ClassicalGleason.Separable.ProjectionMeasure` (structure) in GleasonStatement
+- `ClassicalGleason.Separable.HasDiagonalTrace` (def) in GleasonStatement
+- `ClassicalGleason.Separable.HasProjectionTrace` (def) in GleasonStatement
+- `ClassicalGleason.Separable.Represents` (def) in GleasonStatement
+- `ClassicalGleason.Separable.GleasonStatement` (def) in GleasonStatement
+- `SphericalHarmonics.finiteDimensional_homogeneousSubmodule` (instance) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.finiteDimensional_harmonicHomogeneousSubmodule` (instance) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.restrictToSector` (def) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.restrictToSector_surjective` (theorem) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.finiteDimensional_sector` (instance) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.sectorToSectorL2` (def) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.sectorToSectorL2_surjective` (theorem) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.finiteDimensional_sectorL2` (instance) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.completeSpace_sectorL2` (instance) in SphericalHarmonics.FiniteDimensional
+- `SphericalHarmonics.Rotation.coeff_sum_mul_coeff_eq` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.Rotation.pderiv_comm` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.Rotation.pderiv_compPolynomial` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.Rotation.laplacian_compPolynomial` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.Rotation.compPolynomial_mem_harmonicSubmodule` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.Rotation.compPolynomial_mem_harmonicHomogeneousSubmodule` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.compContinuous_mem_sector` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.compContinuous_map_sector` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.continuousToLp_compContinuous_symm` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.compL2Rotation_mem_sectorL2` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.compL2Rotation_map_sectorL2` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.measurePreserving_toSphereEquiv_rotationMeasure` (theorem) in SphericalHarmonics.CyclicLineCriterion
+- `SphericalHarmonics.compL2Rotation_compL2Rotation_symm_apply` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.sectorL2_starProjection_compL2Rotation_apply` (theorem) in SphericalHarmonics.RotationInvariant
+- `SphericalHarmonics.northAxisAverage_eq_self_of_mem_northFixedSubmodule` (theorem) in SphericalHarmonics.NorthAxisAverageSector
+- `SphericalHarmonics.northAxisAverage_mem_sector` (theorem) in SphericalHarmonics.NorthAxisAverageSector
+- `SphericalHarmonics.northAxisAverageSector` (def) in SphericalHarmonics.NorthAxisAverageSector
+- `SphericalHarmonics.northAxisAverageSector_mem_northFixedSector` (theorem) in SphericalHarmonics.NorthAxisAverageSector
+- `SphericalHarmonics.northAxisAverage_eq_self_of_mem_northFixedSector` (theorem) in SphericalHarmonics.NorthAxisAverageSector
+- `SphericalHarmonics.distinguishedZonalSector` (def) in SphericalHarmonics.NorthAxisAverageSector
+- `SphericalHarmonics.northAxisAverage_distinguishedZonalSector` (theorem) in SphericalHarmonics.NorthAxisAverageSector
+- `SphericalHarmonics.eval_smul_of_isHomogeneous` (theorem) in SphericalHarmonics.NorthFixedAmbient
+- `SphericalHarmonics.restrictToSphere_injective_on_homogeneousSubmodule` (theorem) in SphericalHarmonics.NorthFixedAmbient
+- `SphericalHarmonics.restrictToSphere_injective_on_harmonicHomogeneousSubmodule` (theorem) in SphericalHarmonics.NorthFixedAmbient
+- `SphericalHarmonics.compPolynomial_eq_self_of_mem_northFixedSector` (theorem) in SphericalHarmonics.NorthFixedAmbient
+- `SphericalHarmonics.exists_fixed_ambientRepresentative_of_mem_northFixedSector` (theorem) in SphericalHarmonics.NorthFixedAmbient
+- `SphericalHarmonics.exists_fixed_ambientRepresentative_of_mem_northFixedSectorL2` (theorem) in SphericalHarmonics.NorthFixedAmbient
+- `SphericalHarmonics.exists_nonzero_fixed_ambientRepresentative_of_isRotationInvariant_of_ne_bot` (theorem) in SphericalHarmonics.NorthFixedAmbient
+- `SphericalHarmonics.ContinuousLinearMap.IsRotationEquivariant` (def) in SphericalHarmonics.EquivariantKernel
+- `SphericalHarmonics.ContinuousLinearMap.closedKer` (def) in SphericalHarmonics.EquivariantKernel
+- `SphericalHarmonics.ContinuousLinearMap.closedKer_isRotationInvariant` (theorem) in SphericalHarmonics.EquivariantKernel
+- `SphericalHarmonics.ContinuousLinearMap.sectorL2_starProjection_mem_closedKer` (theorem) in SphericalHarmonics.EquivariantKernel
+- `SphericalHarmonics.ContinuousLinearMap.closedKer_eq_topologicalClosure_iSup_inf_sectorL2` (theorem) in SphericalHarmonics.EquivariantKernel
+- `SphericalHarmonics.rot01Point` (def) in SphericalHarmonics.SectorOrthogonality
+- ... and 3612 more
+
+### imscrbgrmr-lean (+667)
+
+- `Manuscript_ZFCt.Voynich.type1` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type1_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type1_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type2_sym_F` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type2_sym_F_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type2_sym_F_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type3_sym_all` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type3_sym_all_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type3_sym_all_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type4_sym_F_broad` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type4_sym_F_broad_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type4_sym_F_broad_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type5_broad` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type5_broad_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type5_broad_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type6_sym_cl_cross` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type6_sym_cl_cross_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type6_sym_cl_cross_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type7_sym_all_cross` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type7_sym_all_cross_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type7_sym_all_cross_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type8_sym_cl` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type8_sym_cl_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type8_sym_cl_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type9_broad_memless` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type9_broad_memless_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type9_broad_memless_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type10_sym_cl_broad_cross` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type10_sym_cl_broad_cross_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type10_sym_cl_broad_cross_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type11_memless` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type11_memless_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Voynich.type11_memless_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type1_sym_F_cross` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type1_sym_F_cross_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type1_sym_F_cross_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type2_broad_cross` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type2_broad_cross_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type2_broad_cross_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type3_cross` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type3_cross_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type3_cross_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type4_incl` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type4_incl_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type4_incl_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type5_broad_incl` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type5_broad_incl_zfct` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type5_broad_incl_tier` (theorem) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type6_sym_all_cross` (def) in Manuscript_ZFCt
+- `Manuscript_ZFCt.Rohonc.type6_sym_all_cross_zfct` (def) in Manuscript_ZFCt
+- ... and 617 more
+
 ### interval (+844)
 
 - `exp_series_test` (def) in test.series
@@ -2225,7 +2387,35 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### mathlib4 (+55498)
+### legion-core-specification (+25)
+
+- `LegionCore.PrivacyCore.metadataFree` (def) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
+- `LegionCore.PrivacyCore.satisfiesZeroMetadata` (def) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
+- `LegionCore.PrivacyCore.zero_metadata_preserved` (theorem) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
+- `LegionCore.PrivacyCore.sessionsIsolated` (def) in docs.formal-models.privacy-core.SessionIsolation
+- `LegionCore.PrivacyCore.isolationPreserving` (def) in docs.formal-models.privacy-core.SessionIsolation
+- `LegionCore.PrivacyCore.fresh_sessions_isolated` (theorem) in docs.formal-models.privacy-core.SessionIsolation
+- `LegionCore.PrivacyCore.isDecentralized` (def) in docs.formal-models.privacy-core.CensorshipResistance
+- `LegionCore.PrivacyCore.censorshipResistant` (def) in docs.formal-models.privacy-core.CensorshipResistance
+- `LegionCore.PrivacyCore.decentralized_survives_removal` (theorem) in docs.formal-models.privacy-core.CensorshipResistance
+- `LegionCore.MeritCore.decisionAuditable` (def) in docs.formal-models.merit-core.AuditabilityModel
+- `LegionCore.MeritCore.auditable_is_reproducible` (theorem) in docs.formal-models.merit-core.AuditabilityModel
+- `LegionCore.MeritCore.transferAuthorized` (def) in docs.formal-models.merit-core.FundsSafety
+- `LegionCore.MeritCore.funds_move_to_authorized` (theorem) in docs.formal-models.merit-core.FundsSafety
+- `LegionCore.MeritCore.emergencyActionSafe` (def) in docs.formal-models.merit-core.FundsSafety
+- `LegionCore.MeritCore.allocationValid` (def) in docs.formal-models.merit-core.AllocationIntegrity
+- `LegionCore.MeritCore.allocation_cap_respected` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
+- `LegionCore.MeritCore.allocation_requires_proof` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
+- `LegionCore.ParticipantId` (def) in docs.formal-models.shared.Types
+- `LegionCore.TokenAmount` (def) in docs.formal-models.shared.Types
+- `LegionCore.MerkleRoot` (def) in docs.formal-models.shared.Types
+- `LegionCore.Proof` (def) in docs.formal-models.shared.Types
+- `LegionCore.AllocationPolicy` (structure) in docs.formal-models.shared.Types
+- `LegionCore.AllocationRecord` (structure) in docs.formal-models.shared.Types
+- `LegionCore.SessionId` (def) in docs.formal-models.shared.Types
+- `LegionCore.MessageFrame` (structure) in docs.formal-models.shared.Types
+
+### mathlib4 (+55670)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2277,7 +2467,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 55448 more
+- ... and 55620 more
 
 ### mini-measure-probability-integration (+1209)
 
@@ -2572,7 +2762,7 @@
 - `partialSups_succ'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 - `partialSups_add_one'` (lemma) in BirkhoffErgodicThm.PartialSupsPR
 
-### pphi2 (+2308)
+### pphi2 (+2307)
 
 - `ourNS` (def) in scripts.BlueprintEnum
 - `topNS` (def) in scripts.BlueprintEnum
@@ -2624,7 +2814,7 @@
 - `Pphi2.Bridge.full_os_via_bridge` (theorem) in Pphi2.Bridge
 - `Pphi2.Bridge.phi4_full_os_via_bridge` (theorem) in Pphi2.Bridge
 - `Pphi2.distribPairing` (abbrev) in Pphi2.OSAxioms
-- ... and 2258 more
+- ... and 2257 more
 
 ### probability (+285)
 
@@ -2679,6 +2869,60 @@
 - `abs_pos_hom` (theorem) in MDPLib.Probability.Prelude
 - `jensen_abs_uniform` (theorem) in MDPLib.Probability.Prelude
 - ... and 235 more
+
+### qcal-formalization (+109)
+
+- `equivalencia_qcal_rh` (theorem) in CIERRE_BRECHA_5
+- `SistemaQCAL` (structure) in CIERRE_BRECHA_5
+- `Đ_self_adjoint_completo` (theorem) in CIERRE_BRECHA_1
+- `weyl_law_completa` (theorem) in CIERRE_BRECHA_1
+- `heat_expansion_completa` (theorem) in CIERRE_BRECHA_1
+- `c` (def) in QCAL.NoesisConstant
+- `ħ` (def) in QCAL.FrecuenciaEmergente
+- `G` (def) in QCAL.FrecuenciaEmergente
+- `α` (def) in QCAL.FrecuenciaEmergente
+- `φ` (def) in QCAL.SINTESIS_FINAL
+- `L_P` (def) in QCAL.FrecuenciaEmergente
+- `f_P` (def) in QCAL.FrecuenciaEmergente
+- `α_hol` (def) in QCAL.FrecuenciaEmergente
+- `D_amortiguamiento` (def) in QCAL.FrecuenciaEmergente
+- `ℛ` (def) in QCAL.FrecuenciaEmergente
+- `φ⁶` (def) in QCAL.FrecuenciaEmergente
+- `Ψ` (def) in QCAL.FrecuenciaEmergente
+- `Ψ³` (def) in QCAL.FrecuenciaEmergente
+- `flujo_π³` (def) in QCAL.FrecuenciaEmergente
+- `f₀` (def) in QCAL.SINTESIS_FINAL
+- `f0_emerge` (theorem) in QCAL.FrecuenciaEmergente
+- `error_H` (def) in QCAL.FrecuenciaEmergente
+- `error_H_cero` (theorem) in QCAL.FrecuenciaEmergente
+- `friccion` (def) in QCAL.FrecuenciaEmergente
+- `friccion_minima` (theorem) in QCAL.FrecuenciaEmergente
+- `nodo2_ok` (def) in QCAL.FrecuenciaEmergente
+- `nodo2_sin_disipacion` (theorem) in QCAL.FrecuenciaEmergente
+- `QCAL.f₀` (def) in QCAL.Coherence.Renormalization
+- `QCAL.f_bare` (def) in QCAL.Coherence.Renormalization
+- `QCAL.Ψ_target` (def) in QCAL.Coherence.Renormalization
+- `QCAL.N` (def) in QCAL.Coherence.Renormalization
+- `QCAL.Δ_c` (def) in QCAL.Coherence.Renormalization
+- `QCAL.TipoQubitQCAL` (inductive) in QCAL.Main
+- `QCAL.QubitQCAL` (def) in QCAL.Main
+- `QCAL.DiracAdelico` (def) in QCAL.Main
+- `QCAL.gamma` (def) in QCAL.Main
+- `QCAL.potencial_noetico` (def) in QCAL.Quantum.SchrodingerRiemann
+- `QCAL.flujo_renorm` (def) in QCAL.Coherence.Renormalization
+- `QCAL.f_efectiva` (def) in QCAL.Coherence.Renormalization
+- `QCAL.verificacion_sistema` (theorem) in QCAL.Main
+- `QCAL.renormalizacion_punto_fijo` (theorem) in QCAL.Main
+- `f_base` (def) in QCAL.NoesisConstant
+- `s_spin` (def) in QCAL.NoesisConstant
+- `κₙ` (def) in QCAL.NoesisConstant
+- `f0_geometric_emergence` (theorem) in QCAL.NoesisConstant
+- `κ_OIT` (def) in QCAL.SINTESIS_FINAL
+- `δ_ζ` (def) in QCAL.SINTESIS_FINAL
+- `Δf_coherencia` (def) in QCAL.SINTESIS_FINAL
+- `f_batimiento_inf` (def) in QCAL.SINTESIS_FINAL
+- `f_batimiento_sup` (def) in QCAL.SINTESIS_FINAL
+- ... and 59 more
 
 ### quasi-borel-spaces (+632)
 
@@ -2941,4 +3185,4 @@
 
 ## Update History (1 runs)
 
-- **2026-07-06T09:07:14.471310+00:00**: Checked 72 repos, updated 73, +61632 -0 declarations, 1 errors
+- **2026-07-13T08:39:01.610988+00:00**: Checked 78 repos, updated 79, +67594 -0 declarations, 1 errors
