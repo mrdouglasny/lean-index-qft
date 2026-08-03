@@ -1,48 +1,48 @@
 # Lean Index Statistics
 
-**97,150 topic-matched declarations** across **64 repositories**
-(128,603 total declarations scanned from 92 repos)
+**100,217 topic-matched declarations** across **132 repositories**
+(131,410 total declarations scanned from 151 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| functional-analysis            |     30,917 |
-| measure-theory                 |     28,587 |
-| probability-theory             |     12,419 |
-| topological-groups             |      6,506 |
-| spectral-theory                |      6,313 |
-| quantum-field-theory           |      4,927 |
-| distributions-schwartz         |      3,973 |
-| operator-algebras              |      3,508 |
+| functional-analysis            |     31,114 |
+| measure-theory                 |     29,278 |
+| probability-theory             |     13,406 |
+| spectral-theory                |      6,788 |
+| topological-groups             |      6,577 |
+| quantum-field-theory           |      4,934 |
+| distributions-schwartz         |      4,606 |
+| operator-algebras              |      3,514 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     53,470 |
-| def             |     10,357 |
-| lemma           |      9,408 |
+| theorem         |     54,022 |
+| def             |     11,263 |
+| lemma           |      9,602 |
 | instance        |      4,762 |
-| structure       |        812 |
-| ctor            |        532 |
-| abbrev          |        366 |
-| class           |        319 |
-| inductive       |         84 |
+| structure       |      1,617 |
+| ctor            |        535 |
+| abbrev          |        370 |
+| class           |        320 |
+| inductive       |         86 |
 | opaque          |         69 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     55,758 |     55,758 |
-| PhysLean                            |      4,292 |     11,806 |
+| mathlib4                            |     55,852 |     55,852 |
+| PhysLean                            |      4,315 |     11,924 |
 | OSreconstruction                    |      3,026 |      8,865 |
 | Measure                             |      1,812 |      1,924 |
 | ProbabilityApproximation            |      1,750 |      1,770 |
 | gaussian-field                      |      1,745 |      1,878 |
+| BrownianMotion                      |      1,184 |      1,589 |
 | asymptotic-spectrum-distance        |      1,065 |      2,802 |
-| BrownianMotion                      |      1,059 |      1,449 |
 | pphi2                               |        918 |      2,587 |
 | lean-stat-learning-theory           |        874 |      2,009 |
 | LeanLevy                            |        844 |        862 |
@@ -52,26 +52,26 @@
 | quasi-borel-spaces                  |        553 |        632 |
 | FLT                                 |        470 |      2,937 |
 | exchangeability                     |        468 |        489 |
-| analysis                            |        343 |      2,271 |
+| analysis                            |        343 |      2,272 |
 | OSforGFF                            |        329 |        855 |
 | Lean-QuantumInfo                    |        297 |      2,283 |
 | fin-dep                             |        290 |      1,154 |
-| lean-bandits                        |        249 |        650 |
-| computable-analysis                 |        232 |      1,405 |
+| computable-analysis                 |        257 |      2,030 |
+| lean-bandits                        |        249 |        660 |
 | spectrum-topos                      |        184 |      2,277 |
-| spectrum-topos                      |        184 |      2,276 |
+| spectrum-topos                      |        184 |      2,283 |
 | gaussian-hilbert                    |        151 |        151 |
 | gleason-theorem-lean                |        130 |      3,662 |
 | MCMC                                |        124 |        677 |
-| ExtremeValueProject                 |         92 |        287 |
-| ProjectVD                           |         92 |        208 |
-| ... and 34 more |  |  |
+| martingales-continuous-parameter-th |        110 |        110 |
+| variational-methods-eigenvalues-ope |        110 |        110 |
+| ... and 102 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-07-27T08:47:30.527815+00:00
-- **Repos checked**: 92
-- **Repos updated**: 93
-- **New declarations**: 72845
+- **When**: 2026-08-03T08:40:32.245628+00:00
+- **Repos checked**: 151
+- **Repos updated**: 152
+- **New declarations**: 75558
 - **Removed declarations**: 0
-- **Summary**: Checked 92 repos, updated 93, +72845 -0 declarations, 1 errors
+- **Summary**: Checked 151 repos, updated 152, +75558 -0 declarations, 1 errors

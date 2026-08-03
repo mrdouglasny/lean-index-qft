@@ -1,14 +1,34 @@
-# Changelog (since 2026-07-20)
+# Changelog (since 2026-07-27)
 
-## New Declarations (128603)
+## New Declarations (131410)
 
-### BrownianMotion (+1449)
+### Algebraic-Measurement-Theory-AMT (+16)
+
+- `AMT.dirac_operator_emergence` (theorem) in AMT_06_SpectralGeometry
+- `AMT.dimensional_bound` (theorem) in AMT_06_SpectralGeometry
+- `AMT.emergent_einstein_geometry` (theorem) in AMT_06_SpectralGeometry
+- `AMT.RelationalNetwork` (class) in AMT_01_UniversalMedium
+- `AMT.VonNeumannFactor` (class) in AMT_01_UniversalMedium
+- `AMT.derive_type_III_1_bulk` (theorem) in AMT_01_UniversalMedium
+- `AMT.coherence_law_derivation` (theorem) in AMT_05_CoherenceLaw
+- `AMT.special_algebra_failure` (theorem) in AMT_03_ExceptionalBoundary
+- `AMT.exceptional_obstruction` (theorem) in AMT_03_ExceptionalBoundary
+- `AMT.J3O_unique_boundary` (theorem) in AMT_03_ExceptionalBoundary
+- `AMT.trace_constraint_derivation` (theorem) in AMT_04_ModularNuclearity
+- `AMT.doplicher_longo_derivation` (theorem) in AMT_04_ModularNuclearity
+- `AMT.solitary_projection_failure` (theorem) in AMT_02_BipartiteObserver
+- `AMT.bipartite_emergence` (theorem) in AMT_02_BipartiteObserver
+- `AMT.state_independent_observer` (theorem) in AMT_02_BipartiteObserver
+- `AMT.local_vacuum_emergence` (theorem) in AMT_02_BipartiteObserver
+
+### BrownianMotion (+1589)
 
 - `extraHead` (def) in verso.Manual
 - `config` (def) in verso.Manual
 - `main` (def) in verso.Manual
 - `mem_supClosure_set_iff` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `mem_infClosure_set_iff` (lemma) in BrownianMotion.Choquet.CompactSystem
+- `mem_supClosure_set_iff'` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `mem_supClosure_insert_empty_iff` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `mem_infClosure_insert_univ_iff` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `isCompactSystem_singleton_empty` (lemma) in BrownianMotion.Choquet.CompactSystem
@@ -16,8 +36,8 @@
 - `isCompactSystem_insert_empty_Icc` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `IsCompactSystem.finsetCoe` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `IsCompactSystem.equiv` (lemma) in BrownianMotion.Choquet.CompactSystem
-- `iInter_sigma_eq_empty_iff` (theorem) in BrownianMotion.Choquet.CompactSystem
-- `iInter₂_sigma_eq_empty_iff` (theorem) in BrownianMotion.Choquet.CompactSystem
+- `iInter_sigma_eq_empty_iff` (lemma) in BrownianMotion.Choquet.CompactSystem
+- `iInter₂_sigma_eq_empty_iff` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `IsCompactSystem.sigma` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `IsCompactSystem.sigma_ofFintype` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `MeasureTheory.mem_image2_prod_mono` (lemma) in BrownianMotion.Choquet.CompactSystem
@@ -30,7 +50,7 @@
 - `MeasureTheory.prodSigmaDelta.mono` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `MeasureTheory.fst_iInter_of_supClosure_image2_prod_of_antitone` (lemma) in BrownianMotion.Choquet.CompactSystem
 - `MeasureTheory.nullMeasurable_generateFrom` (lemma) in BrownianMotion.Choquet.Debut
-- `MeasureTheory.nullMeasurable_of_Iio` (theorem) in BrownianMotion.Choquet.Debut
+- `MeasureTheory.nullMeasurable_of_Iio` (lemma) in BrownianMotion.Choquet.Debut
 - `MeasureTheory.debut` (def) in BrownianMotion.Choquet.Debut
 - `MeasureTheory.debut_eq_ite` (lemma) in BrownianMotion.Choquet.Debut
 - `MeasureTheory.debut_eq_hittingAfter_indicator` (lemma) in BrownianMotion.Choquet.Debut
@@ -53,8 +73,7 @@
 - `MeasureTheory.debut_lt_iff` (lemma) in BrownianMotion.Choquet.Debut
 - `MeasureTheory.debut_mono` (lemma) in BrownianMotion.Choquet.Debut
 - `MeasureTheory.debut_mem_of_isClosed` (lemma) in BrownianMotion.Choquet.Debut
-- `MeasureTheory.ProgMeasurableSet` (def) in BrownianMotion.Choquet.Debut
-- ... and 1399 more
+- ... and 1539 more
 
 ### Burkholder (+711)
 
@@ -771,7 +790,7 @@
 - `pow_mul_exp_neg_bounded_explicit_le` (theorem) in OSReconstruction.GeneralResults.SchwartzCutoffExp
 - ... and 8815 more
 
-### PhysLean (+11806)
+### PhysLean (+11924)
 
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
@@ -823,7 +842,7 @@
 - `printTODO` (def) in scripts.find_TODOs
 - `filePathToGitPath` (def) in scripts.find_TODOs
 - `docTODO` (def) in scripts.find_TODOs
-- ... and 11756 more
+- ... and 11874 more
 
 ### ProbabilityApproximation (+1770)
 
@@ -879,7 +898,7 @@
 - `ProbabilityTheory.abs_mul_min_ge_sq_sub` (lemma) in ProbabilityApproximation.ChenShao.Concentration
 - ... and 1720 more
 
-### ProjectVD (+208)
+### ProjectVD (+210)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
@@ -931,7 +950,7 @@
 - `one_lt_norm_canonicalFactor` (theorem) in VD.MathlibPending.ProximityBounded
 - `Polynomial.norm_eval_le_of_one_le` (lemma) in VD.MathlibPending.ProximityBounded
 - `AnalyticOnNhd.dslope_zero` (lemma) in VD.MathlibPending.ProximityBounded
-- ... and 158 more
+- ... and 160 more
 
 ### QFTFramework (+50)
 
@@ -1268,20 +1287,20 @@
 - `cfc_toLinearFunctional_apply` (lemma) in SpectralThm.SpectralTheorem
 - `cfc_toLinearFunctional_bound` (lemma) in SpectralThm.SpectralTheorem
 - `cfc_toComplexMeasure` (def) in SpectralThm.SpectralTheorem
-- `IsOrthogonalProjection` (def) in SpectralThm.Resolutions
-- `toSubmodule` (def) in SpectralThm.Resolutions
-- `toOrthogonalProjection` (def) in SpectralThm.Resolutions
 - `ResolutionOfIdentity` (structure) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.instFunLike` (instance) in SpectralThm.Resolutions
-- `toComplexMeasure` (def) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.apply` (lemma) in SpectralThm.Resolutions
-- `toMeasure_apply` (lemma) in SpectralThm.Resolutions
-- `toOuterMeasure_apply` (lemma) in SpectralThm.Resolutions
-- `ResolutionOfIdentity.zero_iff` (lemma) in SpectralThm.Resolutions
-- `SumOuterMeasure` (def) in SpectralThm.Resolutions
-- `SumMeasure` (def) in SpectralThm.Resolutions
-- `ofUnitBall` (def) in SpectralThm.Resolutions
-- `Linfty` (def) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.m_Union` (lemma) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.subset_iff_le` (lemma) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.toComplexMeasure` (def) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.ResolutionOfIdentity.apply` (lemma) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.toMeasure_apply` (lemma) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.toOuterMeasure_apply` (lemma) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.ResolutionOfIdentity.zero_iff` (lemma) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.SumOuterMeasure` (def) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.SumMeasure` (def) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.ofUnitBall` (def) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.Linfty` (def) in SpectralThm.Resolutions
 - `A` (lemma) in SpectralThm.Projections
 - `integral` (def) in SpectralThm.ComplexMeasure.Integral
 - `MeasureTheory.ComplexMeasure.var` (def) in SpectralThm.ComplexMeasure.Integral
@@ -1364,60 +1383,6 @@
 - `Potential.IsLocallyFinitary` (class) in GibbsMeasure.Potential
 - ... and 1594 more
 
-### TCSR-QFT-Lean4 (+80)
-
-- `TrueCircleSelfReferon.full_lagrangian` (def) in Basic
-- `TrueCircleSelfReferon.params` (def) in Basic
-- `TrueCircleSelfReferon.Γ_TCSR` (def) in Basic
-- `TrueCircleSelfReferon.τ_TCSR` (def) in Basic
-- `TrueCircleSelfReferon.BR` (def) in Basic
-- `TrueCircleSelfReferon.TCSR_full_action` (def) in TCSR
-- `TrueCircleSelfReferon.TCSR_grav_minimal_coupling` (def) in TCSR
-- `TrueCircleSelfReferon.TCSRParameters` (structure) in Utils.Parameters
-- `TrueCircleSelfReferon.default_TCSR_params` (def) in Utils.Parameters
-- `TrueCircleSelfReferon.m_TCSR` (def) in Field.Definition
-- `TrueCircleSelfReferon.g_SR` (def) in Lagrangian.SelfInteraction
-- `TrueCircleSelfReferon.λ_coupl` (def) in Lagrangian.EnergyCoupling
-- `TrueCircleSelfReferon.alpha` (def) in Utils.Parameters
-- `TrueCircleSelfReferon.Λ_SR` (def) in Lagrangian.SelfInteraction
-- `TrueCircleSelfReferon.physical_scales_summary` (def) in Utils.Parameters
-- `TCSR.Gamma_total` (def) in Decay.Widths
-- `TCSR.lifetime` (def) in Decay.Widths
-- `TCSR.BR_gg` (def) in Decay.Widths
-- `TCSR.BR_nunu` (def) in Decay.Widths
-- `TCSR.BR_ee` (def) in Decay.Widths
-- `TCSR.BR_mumu` (def) in Decay.Widths
-- `TCSR.BR_tautau` (def) in Decay.Widths
-- `TCSR.branching_ratios_sum_to_one` (theorem) in Decay.Widths
-- `TCSR.total_width_positive` (theorem) in Decay.Widths
-- `TCSR.main_decay_channels` (def) in Decay.Widths
-- `TrueCircleSelfReferon.TCSR_self_interaction` (def) in Lagrangian.SelfInteraction
-- `TrueCircleSelfReferon.TCSR_energy_coupling` (def) in Lagrangian.EnergyCoupling
-- `TrueCircleSelfReferon.stress_energy_trace_total` (def) in Lagrangian.EnergyCoupling
-- `TrueCircleSelfReferon.energy_coupling_diffeomorphism_invariant` (theorem) in Lagrangian.EnergyCoupling
-- `TrueCircleSelfReferon.TCSR_kinetic_term` (def) in Lagrangian.Kinetic
-- `TrueCircleSelfReferon.TCSR_mass_term` (def) in Lagrangian.Kinetic
-- `TCSR.no_free_parameters` (theorem) in lean.Theorems.Main
-- `TCSR.theory_is_stable_no_tachyon` (theorem) in Theorems.CoreProperties
-- `TCSR.unitary_bound_satisfied` (theorem) in Theorems.CoreProperties
-- `TCSR.branching_ratios_complete_and_normalized` (theorem) in Theorems.CoreProperties
-- `TCSR.renormalization_consistent` (theorem) in Theorems.CoreProperties
-- `TCSR.higgs_correction_exists` (theorem) in Theorems.CoreProperties
-- `TCSR.causality_and_unitarity_holds` (theorem) in Theorems.CoreProperties
-- `TCSR.tcsr_is_testable_in_principle` (theorem) in Theorems.CoreProperties
-- `TrueCircleSelfReferon.TCSRField` (structure) in Field.Definition
-- `TrueCircleSelfReferon.ψ_TCSR` (abbrev) in Field.Definition
-- `TCSR.d` (def) in lean.Renormalization.Dimensional
-- `TCSR.δ_m` (def) in lean.Renormalization.Dimensional
-- `TCSR.δ_Z` (def) in lean.Renormalization.Dimensional
-- `TCSR.δ_g` (def) in lean.Renormalization.Dimensional
-- `TCSR.δ_λ` (def) in lean.Renormalization.Dimensional
-- `TCSR.L_renormalized` (def) in lean.Renormalization.Dimensional
-- `TCSR.beta_function_g_SR` (theorem) in lean.Renormalization.Dimensional
-- `TCSR.renormalization_consistent_with_effective_field_theory` (theorem) in lean.Renormalization.Dimensional
-- `TCSR.ultraviolet_completion_needed_beyond_planck` (theorem) in lean.Renormalization.Dimensional
-- ... and 30 more
-
 ### The-Fucik-spectrum-of-the-discrete-Dirichlet-operator (+25)
 
 - `V` (def) in Lemma-4
@@ -1445,57 +1410,6 @@
 - `chebyV_zero_iff_cos` (lemma) in Lemma-11
 - `lemma_11` (theorem) in Lemma-11
 - `lemma_11'` (theorem) in Lemma-11
-
-### UnconditionalSchauderBasis (+48)
-
-- `HasSchauderSum` (def) in UnconditionalSchauderBasis
-- `SchauderBasis` (structure) in UnconditionalSchauderBasis
-- `SchauderBasis.coord` (def) in UnconditionalSchauderBasis
-- `SchauderBasis.hasSchauderSum_repr_apply` (theorem) in UnconditionalSchauderBasis
-- `SchauderBasis.exists_perm_subseq_range_image_of_monotone_finset` (theorem) in UnconditionalSchauderBasis
-- `SchauderBasis.hasSum_of_forall_tendsto_sum_nat_rearranged` (theorem) in UnconditionalSchauderBasis
-- `SchauderBasis.IsUnconditional` (def) in UnconditionalSchauderBasis
-- `SchauderBasis.isUnconditional_iff_hasSum_rearranged` (theorem) in UnconditionalSchauderBasis
-- `SchauderBasis.isUnconditional_iff_tendsto_rearranged` (theorem) in UnconditionalSchauderBasis
-- `SchauderBasis.isUnconditional_tendsto_rearranged` (theorem) in UnconditionalSchauderBasis
-- `SchauderBasis.isUnconditional_iff_tendsto_ordered_rearranged` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis` (structure) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex` (structure) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex.hasSum_repr_apply` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex.unique_coeff_apply` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex.coeff_basis_self` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex.coeff_basis_ne` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex.toUnconditionalSchauderBasis` (def) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex.range_basis_toUnconditionalSchauderBasis` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasisAbstractIndex.range_coeff_toUnconditionalSchauderBasis` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis.basis` (def) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis.coeff` (def) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis.hasSchauderSum_repr_apply` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis.hasSum_repr_apply` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis.hasSum_rearranged` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis.toUnconditionalSchauderBasisAbstractIndex` (def) in UnconditionalSchauderBasis
-- `UnconditionalSchauderBasis.exists_unconditionalSchauderBasisAbstractIndex_nat` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.HasDenseSpan` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.HasFiniteSignBound` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.projectionSigns` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.projectionSigns_of_mem` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.projectionSigns_of_not_mem` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.projectionSigns_is_sign` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.signed_sum_eq_two_projection_sub_sum` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.finite_projection_bound_of_sign_bound` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.FiniteProjectionBound` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.finiteProjectionBound_of_signBound` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.linearIndependent_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.CoordMapsAgreeOnFiniteSpans` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.exists_coordMaps_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.coordMaps_of_finiteProjectionBound` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.coordMaps_tendsto_finite_partial_sums_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.coordMaps_hasSum_repr_abstract_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.coordMaps_unique_hasSum_of_finiteProjectionBound` (lemma) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.unconditionalSchauderBasisAbstractIndex_of_finiteSignBound` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.unconditionalSchauderBasis_of_finiteSignBound` (def) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.exists_unconditionalSchauderBasisAbstractIndex_of_finiteSignBound` (theorem) in UnconditionalSchauderBasis
-- `UnconditionalCriterion.exists_unconditionalSchauderBasis_of_finiteSignBound` (theorem) in UnconditionalSchauderBasis
 
 ### VirasoroProject (+387)
 
@@ -1555,7 +1469,7 @@
 
 - `ClosedSubspace` (structure) in Quantum_Lattice
 
-### analysis (+2271)
+### analysis (+2272)
 
 - `Section_4_2.PreRat` (structure) in Analysis.Section_4_2
 - `Section_4_2.PreRat.eq` (theorem) in Analysis.Section_4_2
@@ -1607,7 +1521,27 @@
 - `Real.EventuallySteady.mono` (theorem) in Analysis.Section_6_1
 - `Chapter6.Sequence.IsCauchy` (abbrev) in Analysis.Section_6_1
 - `Chapter6.Sequence.isCauchy_def` (lemma) in Analysis.Section_6_1
-- ... and 2221 more
+- ... and 2222 more
+
+### approximations-statistical-distributions-nonasymptotic-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.AdmissibleClass` (def) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.bridgeClosed` (def) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.gateClosed` (def) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.bridge_from_admissible_class` (def) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.gate_from_admissible_class` (def) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.ConstrainedTheoremClosure` (def) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.constrained_theorem_closure` (theorem) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.FinalTheorem
+
+### asymptotic-distribution-eigenvalues-asymptotic-theory-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.AdmissibleClass` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.bridgeClosed` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.gateClosed` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.bridge_from_admissible_class` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.gate_from_admissible_class` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.ConstrainedTheoremClosure` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.constrained_theorem_closure` (theorem) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.FinalTheorem
 
 ### asymptotic-spectrum-distance (+2802)
 
@@ -1663,22 +1597,277 @@
 - `main_alpha3_2_3_3` (theorem) in AsymptoticSpectrumDistance.Main
 - ... and 2752 more
 
-### banach-steinhaus-theorem-canonical-lane-mathlib (+2)
+### banach-steinhaus-theorem-canonical-lane-mathlib (+66)
 
-- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (def) in BanachSteinhausTheoremCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSpacePackage` (structure) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausCore
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.LinearOperatorPackage` (structure) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausCore
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.FamilyOfOperators` (structure) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausCore
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.pointwiseBounded` (def) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausCore
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.uniformBounded` (def) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausCore
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausAdmittedObject` (structure) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausObjects
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausWitnessClosed` (def) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausObjects
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.AdmissibleClass` (structure) in BanachSteinhausTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.admittedClosure` (def) in BanachSteinhausTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.pointwiseBoundedProp` (def) in BanachSteinhausTheoremCanonicalLaneLean.OperatorBoundedness
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.uniformBoundedProp` (def) in BanachSteinhausTheoremCanonicalLaneLean.OperatorBoundedness
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BoundednessEvidence` (structure) in BanachSteinhausTheoremCanonicalLaneLean.OperatorBoundedness
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.pointwise_implies_uniform` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.OperatorBoundedness
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.FrechetSpacePackage` (structure) in BanachSteinhausTheoremCanonicalLaneLean.FrechetSpace
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.FrechetSpaceEvidence` (structure) in BanachSteinhausTheoremCanonicalLaneLean.FrechetSpace
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.FrechetSpaceClosed` (def) in BanachSteinhausTheoremCanonicalLaneLean.FrechetSpace
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.frechet_space_closed_from_evidence` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.FrechetSpace
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.ConstrainedBanachSteinhausClosure` (def) in BanachSteinhausTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.constrained_banach_steinhaus_endgame` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.gateClosed` (def) in BanachSteinhausTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSpaceBundle` (structure) in BanachSteinhausTheoremCanonicalLaneLean.BanachSpaceBundle
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSpaceBundleClosed` (def) in BanachSteinhausTheoremCanonicalLaneLean.BanachSpaceBundle
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.banach_space_bundle_closed` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.BanachSpaceBundle
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessProofPackage` (structure) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessProof
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.banach_steinhaus_theorem` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessProof
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausProofEvidence` (structure) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessProof
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessClosed` (def) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessPrinciple
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.uniform_boundedness_closed_proof` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessProof
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausStatement` (structure) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausStatement
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.sourceBanachSteinhausStatement` (def) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausStatement
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.banach_steinhaus_statement_imported` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausStatement
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausPackage` (structure) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausPackage
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausPackageClosed` (def) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausPackage
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.banach_steinhaus_package_closed` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausPackage
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.TheoremStatement` (structure) in BanachSteinhausTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.sourceTheoremStatement` (def) in BanachSteinhausTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.source_key_defined` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.LinearOperatorFamily` (structure) in BanachSteinhausTheoremCanonicalLaneLean.LinearOperatorFamily
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.LinearOperatorFamilyClosed` (def) in BanachSteinhausTheoremCanonicalLaneLean.LinearOperatorFamily
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.linear_operator_family_closed` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.LinearOperatorFamily
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessEvidence` (structure) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessPrinciple
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.uniform_boundedness_closed` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessEvidence
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausSpace` (structure) in BanachSteinhausTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.BanachSteinhausEndgameState` (structure) in BanachSteinhausTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessEvidenceTerms` (structure) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessEvidenceTerms
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.uniform_boundedness_evidence_from_admissible` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessEvidenceTerms
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessPackage` (structure) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundedness
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.uniform_boundedness_closed_from_evidence` (theorem) in BanachSteinhausTheoremCanonicalLaneLean.UniformBoundednessPrinciple
+- `HautevilleHouse.BanachSteinhausTheoremCanonicalLaneLean.PointwiseBoundednessCondition` (structure) in BanachSteinhausTheoremCanonicalLaneLean.PointwiseBoundedness
+- ... and 16 more
 
-### central-limit-theorem-canonical-lane-mathlib (+2)
+### boundary-eigenvalue-problems-ordinary-differential-canonical-lane-mathlib (+53)
 
-- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (def) in CentralLimitTheoremCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in CentralLimitTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.NonSelfAdjointPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.NonSelfAdjointProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.NonSelfAdjointEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.NonSelfAdjointProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.NonSelfAdjointClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.NonSelfAdjointProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.non_self_adjoint_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.NonSelfAdjointProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.EigenvalueAsymptoticsPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.EigenvalueAsymptotics
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.EigenvalueAsymptoticsEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.EigenvalueAsymptotics
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.EigenvalueAsymptoticsClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.EigenvalueAsymptotics
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.eigenvalue_asymptotics_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.EigenvalueAsymptotics
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueAdmittedObject` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueAdmissibleClass
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueWitnessClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.bridgeClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.bridge_from_admissible_class` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.gateClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.gate_from_admissible_class` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.OscillationTheoryPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.OscillationTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.OscillationTheoryEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.OscillationTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.OscillationTheoryClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.OscillationTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.oscillation_theory_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.OscillationTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GreenFunctionPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GreenFunction
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GreenFunctionEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GreenFunction
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GreenFunctionClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GreenFunction
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.green_function_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.GreenFunction
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.TheoremStatement` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.sourceTheoremStatement` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.TheoremLayerInternalized` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.theorem_statement_internalized_checked` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralTheoremPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralTheoremEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralTheoremClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.spectral_theorem_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.ConstrainedBoundaryEigenvalueClosure` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueFinalTheorem
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.constrained_boundary_eigenvalue_endgame` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueFinalTheorem
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueSpace` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SturmLiouvilleProblem` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueAdmissibleClass
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.AdmissibleClass` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueAdmissibleClass
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.admittedClosure` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueAdmissibleClass
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryConditionPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryConditions
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryConditionEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryConditions
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryConditionClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryConditions
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.boundary_condition_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryConditions
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SturmLiouvillePackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.BoundaryEigenvalueSturmLiouvillePackage
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SturmLiouvilleEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SturmLiouvilleOperator
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SturmLiouvilleClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SturmLiouvilleOperator
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.sturm_liouville_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SturmLiouvilleOperator
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SingularBoundaryPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SingularBoundaryProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SingularBoundaryEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SingularBoundaryProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SingularBoundaryClosed` (def) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SingularBoundaryProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.singular_boundary_closed_from_evidence` (theorem) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SingularBoundaryProblems
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralDecompositionPackage` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralDecomposition
+- `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralDecompositionEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralDecomposition
+- ... and 3 more
 
-### closed-graph-theorem-canonical-lane-mathlib (+2)
+### canon (+399)
 
-- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (def) in ClosedGraphTheoremCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in ClosedGraphTheoremCanonicalLaneLean.FinalTheorem
+- `p_adic_hodge_theory__tear_sigma_matching_vs_rho_rigidity` (theorem) in certificates.deep_tear.p_adic_hodge_theory__tear_sigma_matching_vs_rho_rigidity
+- `birational_geometry__tear_semiample_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.birational_geometry__tear_semiample_transfer_vs_rho_rigidity
+- `stable_borel_conjecture__tear_homeomorphism_transfer_vs_sigma_surgery` (theorem) in certificates.deep_tear.stable_borel_conjecture__tear_homeomorphism_transfer_vs_sigma_surgery
+- `motivic_architecture__tear_sigma_filtration_vs_rho_rigidity` (theorem) in certificates.deep_tear.motivic_architecture__tear_sigma_filtration_vs_rho_rigidity
+- `standard_conjectures_on_algebraic_cycles__tear_motivic_transfer_vs_sigma_kunneth` (theorem) in certificates.deep_tear.standard_conjectures_on_algebraic_cycles__tear_motivic_transfer_vs_sigma_kunneth
+- `birational_geometry__tear_birational_lock_vs_rho_rigidity` (theorem) in certificates.deep_tear.birational_geometry__tear_birational_lock_vs_rho_rigidity
+- `companion_forms__tear_weight_lock_vs_automorphic_transfer` (theorem) in certificates.deep_tear.companion_forms__tear_weight_lock_vs_automorphic_transfer
+- `anabelian_geometry__tear_birational_hyperbolicity_vs_hom_injectivity_factor` (theorem) in certificates.deep_tear.anabelian_geometry__tear_birational_hyperbolicity_vs_hom_injectivity_factor
+- `anabelian_hyperbolicity__tear_hyperbolic_gap_vs_fiber_capture` (theorem) in certificates.deep_tear.anabelian_hyperbolicity__tear_hyperbolic_gap_vs_fiber_capture
+- `birational_classification__collapse_sigma_model_eq_sigma_mori` (theorem) in certificates.deep_tear.birational_classification__collapse_sigma_model_eq_sigma_mori
+- `local_langlands_correspondence__tear_sigma_matching_vs_rho_rigidity` (theorem) in certificates.deep_tear.local_langlands_correspondence__tear_sigma_matching_vs_rho_rigidity
+- `schanuel_conjecture__tear_transcendence_transfer_vs_sigma_independence` (theorem) in certificates.deep_tear.schanuel_conjecture__tear_transcendence_transfer_vs_sigma_independence
+- `anabelian_reconstruction__tear_asset_pricing_geometrization_vs_pareto_optimal_sigma` (theorem) in certificates.deep_tear.anabelian_reconstruction__tear_asset_pricing_geometrization_vs_pareto_optimal_sigma
+- `grand_riemann_hypothesis__tear_spectral_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.grand_riemann_hypothesis__tear_spectral_transfer_vs_rho_rigidity
+- `anabelian_geometry__tear_eps_coh_an_vs_isomorphism_rigidity` (theorem) in certificates.deep_tear.anabelian_geometry__tear_eps_coh_an_vs_isomorphism_rigidity
+- `decorated_l_theory_assembly__tear_isomorphism_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.decorated_l_theory_assembly__tear_isomorphism_transfer_vs_rho_rigidity
+- `p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_matching` (theorem) in certificates.deep_tear.p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_matching
+- `section_conjecture__tear_sigma_fundamental_vs_rho_rigidity` (theorem) in certificates.deep_tear.section_conjecture__tear_sigma_fundamental_vs_rho_rigidity
+- `borel_conjecture__tear_homeomorphism_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.borel_conjecture__tear_homeomorphism_transfer_vs_rho_rigidity
+- `beilinson_conjectures__tear_value_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.beilinson_conjectures__tear_value_transfer_vs_rho_rigidity
+- `companion_forms__tear_weight_lock_vs_sigma_weight` (theorem) in certificates.deep_tear.companion_forms__tear_weight_lock_vs_sigma_weight
+- `trace_formula_endoscopy__tear_endoscopic_transfer_vs_packet_local` (theorem) in certificates.deep_tear.trace_formula_endoscopy__tear_endoscopic_transfer_vs_packet_local
+- `minimal_model_program__tear_semiample_transfer_vs_sigma_mori` (theorem) in certificates.deep_tear.minimal_model_program__tear_semiample_transfer_vs_sigma_mori
+- `p_vs_np__tear_mu_def_vs_lambda2_min_planted` (theorem) in certificates.deep_tear.p_vs_np__tear_mu_def_vs_lambda2_min_planted
+- `birational_classification__tear_sigma_model_vs_sigma_mori` (theorem) in certificates.deep_tear.birational_classification__tear_sigma_model_vs_sigma_mori
+- `p_vs_np__collapse_lambda_def_eq_mu_def` (theorem) in certificates.deep_tear.p_vs_np__collapse_lambda_def_eq_mu_def
+- `general_langlands_functoriality__tear_packet_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.general_langlands_functoriality__tear_packet_transfer_vs_rho_rigidity
+- `kaplansky_idempotent_conjecture__tear_idempotent_transfer_vs_sigma_trace` (theorem) in certificates.deep_tear.kaplansky_idempotent_conjecture__tear_idempotent_transfer_vs_sigma_trace
+- `jacobian_conjecture__tear_sigma_degree_vs_rho_rigidity` (theorem) in certificates.deep_tear.jacobian_conjecture__tear_sigma_degree_vs_rho_rigidity
+- `bombieri_lang_conjecture__tear_sigma_sparsity_vs_rho_rigidity` (theorem) in certificates.deep_tear.bombieri_lang_conjecture__tear_sigma_sparsity_vs_rho_rigidity
+- `jacobian_conjecture__tear_inverse_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.jacobian_conjecture__tear_inverse_transfer_vs_rho_rigidity
+- `baum_connes_conjecture__tear_sigma_equivariant_vs_rho_rigidity` (theorem) in certificates.deep_tear.baum_connes_conjecture__tear_sigma_equivariant_vs_rho_rigidity
+- `p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_comparison` (theorem) in certificates.deep_tear.p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_comparison
+- `decorated_l_theory_assembly__tear_decoration_lock_vs_rho_rigidity` (theorem) in certificates.deep_tear.decorated_l_theory_assembly__tear_decoration_lock_vs_rho_rigidity
+- `bateman_horn_conjecture__tear_sigma_pattern_vs_rho_rigidity` (theorem) in certificates.deep_tear.bateman_horn_conjecture__tear_sigma_pattern_vs_rho_rigidity
+- `anabelian_geometry__tear_isomorphism_rigidity_vs_tame_closure_index` (theorem) in certificates.deep_tear.anabelian_geometry__tear_isomorphism_rigidity_vs_tame_closure_index
+- `birch_swinnerton_dyer_conjecture__tear_bsd_floor_vs_alpha_lock` (theorem) in certificates.deep_tear.birch_swinnerton_dyer_conjecture__tear_bsd_floor_vs_alpha_lock
+- `minimal_model_program__tear_semiample_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.minimal_model_program__tear_semiample_transfer_vs_rho_rigidity
+- `kadison_kaplansky_conjecture__tear_sigma_trace_vs_rho_rigidity` (theorem) in certificates.deep_tear.kadison_kaplansky_conjecture__tear_sigma_trace_vs_rho_rigidity
+- `anabelian_geometry__tear_eps_coh_an_vs_birational_hyperbolicity` (theorem) in certificates.deep_tear.anabelian_geometry__tear_eps_coh_an_vs_birational_hyperbolicity
+- `anabelian_geometry__tear_eps_coh_an_vs_hom_injectivity_factor` (theorem) in certificates.deep_tear.anabelian_geometry__tear_eps_coh_an_vs_hom_injectivity_factor
+- `littlewood_conjecture__tear_exceptional_transfer_vs_sigma_nonescape` (theorem) in certificates.deep_tear.littlewood_conjecture__tear_exceptional_transfer_vs_sigma_nonescape
+- `bombieri_lang_conjecture__tear_lang_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.bombieri_lang_conjecture__tear_lang_transfer_vs_rho_rigidity
+- `anabelian_reconstruction__tear_asset_pricing_geometrization_vs_balanced_growth_rigidity` (theorem) in certificates.deep_tear.anabelian_reconstruction__tear_asset_pricing_geometrization_vs_balanced_growth_rigidity
+- `goldbach_conjecture__tear_sigma_minor_arc_vs_rho_rigidity` (theorem) in certificates.deep_tear.goldbach_conjecture__tear_sigma_minor_arc_vs_rho_rigidity
+- `p_adic_hodge_theory__collapse_sigma_comparison_eq_sigma_matching` (theorem) in certificates.deep_tear.p_adic_hodge_theory__collapse_sigma_comparison_eq_sigma_matching
+- `andre_oort_conjecture__tear_special_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.andre_oort_conjecture__tear_special_transfer_vs_rho_rigidity
+- `trace_formula_architecture__tear_packet_local_vs_rho_rigidity` (theorem) in certificates.deep_tear.trace_formula_architecture__tear_packet_local_vs_rho_rigidity
+- `trace_formula_architecture__tear_sigma_matching_vs_rho_rigidity` (theorem) in certificates.deep_tear.trace_formula_architecture__tear_sigma_matching_vs_rho_rigidity
+- `green_griffiths_lang_conjecture__tear_jet_transfer_vs_sigma_hyperbolic` (theorem) in certificates.deep_tear.green_griffiths_lang_conjecture__tear_jet_transfer_vs_sigma_hyperbolic
+- ... and 349 more
 
-### computable-analysis (+1405)
+### central-limit-theorem-canonical-lane-mathlib (+70)
+
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.LindebergConditionPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.LindebergCondition
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.LindebergConditionEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.LindebergCondition
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.LindebergConditionClosed` (def) in CentralLimitTheoremCanonicalLaneLean.LindebergCondition
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.lindeberg_condition_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.LindebergCondition
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.AdmissibleClass` (structure) in CentralLimitTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.admittedClosure` (def) in CentralLimitTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.RandomVariable` (structure) in CentralLimitTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ProbabilitySpacePackage` (structure) in CentralLimitTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ProbabilitySpaceEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ProbabilitySpaceClosed` (def) in CentralLimitTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.probability_space_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.gateClosed` (def) in CentralLimitTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in CentralLimitTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConvergenceRateEstimatesPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.ConvergenceRateEstimates
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConvergenceRateEstimatesEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.ConvergenceRateEstimates
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConvergenceRateEstimatesClosed` (def) in CentralLimitTheoremCanonicalLaneLean.ConvergenceRateEstimates
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.convergence_rate_estimates_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.ConvergenceRateEstimates
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.MomentGeneratingFunctionPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.MomentGeneratingFunctions
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.MomentGeneratingFunctionEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.MomentGeneratingFunctions
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.MomentGeneratingFunctionClosed` (def) in CentralLimitTheoremCanonicalLaneLean.MomentGeneratingFunctions
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.moment_generating_function_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.MomentGeneratingFunctions
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConvergenceInDistributionPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.ConvergenceInDistribution
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConvergenceInDistributionEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.ConvergenceInDistribution
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConvergenceInDistributionClosed` (def) in CentralLimitTheoremCanonicalLaneLean.ConvergenceInDistribution
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.convergence_in_distribution_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.ConvergenceInDistribution
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.IndependencePackage` (structure) in CentralLimitTheoremCanonicalLaneLean.Independence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.IndependenceEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.Independence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.IndependenceClosed` (def) in CentralLimitTheoremCanonicalLaneLean.Independence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.independence_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.Independence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.IndependentSummandsPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.IndependentSummands
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.IndependentSummandsEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.IndependentSummands
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.IndependentSummandsClosed` (def) in CentralLimitTheoremCanonicalLaneLean.IndependentSummands
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.independent_summands_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.IndependentSummands
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CLTAdmittedObject` (structure) in CentralLimitTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CLTWitnessClosed` (def) in CentralLimitTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.ConstrainedCentralLimitClosure` (def) in CentralLimitTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.constrained_central_limit_endgame` (theorem) in CentralLimitTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CLTConvergence` (structure) in CentralLimitTheoremCanonicalLaneLean.CLTConvergence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CLTConvergenceEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.CLTConvergence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CLTConvergenceClosed` (def) in CentralLimitTheoremCanonicalLaneLean.CLTConvergence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.clt_convergence_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.CLTConvergence
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CharacteristicFunctionPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.CharacteristicFunctionMethod
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CharacteristicFunctionEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.CharacteristicFunctionMethod
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.CharacteristicFunctionClosed` (def) in CentralLimitTheoremCanonicalLaneLean.CharacteristicFunctionMethod
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.characteristic_function_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.CharacteristicFunctionMethod
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.NormalApproximationPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.NormalApproximation
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.NormalApproximationEvidence` (structure) in CentralLimitTheoremCanonicalLaneLean.NormalApproximation
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.NormalApproximationClosed` (def) in CentralLimitTheoremCanonicalLaneLean.NormalApproximation
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.normal_approximation_closed_from_evidence` (theorem) in CentralLimitTheoremCanonicalLaneLean.NormalApproximation
+- `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.IIDRandomVariables` (structure) in CentralLimitTheoremCanonicalLaneLean.IIDRandomVariables
+- ... and 20 more
+
+### closed-graph-theorem-canonical-lane-mathlib (+64)
+
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ClosedGraphTheoremPackage` (structure) in ClosedGraphTheoremCanonicalLaneLean.ClosedGraphTheorem
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ClosedGraphTheoremClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.ClosedGraphTheorem
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.closed_graph_theorem_holds` (theorem) in ClosedGraphTheoremCanonicalLaneLean.ClosedGraphTheorem
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.GraphTopologyPackage` (structure) in ClosedGraphTheoremCanonicalLaneLean.GraphTopology
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.GraphTopologyEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.GraphTopology
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.GraphTopologyClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.GraphTopology
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.graph_topology_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.GraphTopology
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.AdmissibleClass` (structure) in ClosedGraphTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.admittedClosure` (def) in ClosedGraphTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.gateClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in ClosedGraphTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ClosedGraphApproximationModel` (structure) in ClosedGraphTheoremCanonicalLaneLean.ClosedGraphApproximation
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ClosedGraphApproximationEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.ClosedGraphApproximation
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ClosedGraphApproximationClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.ClosedGraphApproximation
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.closed_graph_approximation_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.ClosedGraphApproximation
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.AdmittedObject` (structure) in ClosedGraphTheoremCanonicalLaneLean.AdmittedObject
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.DualBanachSpace` (structure) in ClosedGraphTheoremCanonicalLaneLean.DualBanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.DualBanachSpaceEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.DualBanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.DualBanachSpaceClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.DualBanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.dual_banach_space_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.DualBanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachSpacePackage` (structure) in ClosedGraphTheoremCanonicalLaneLean.BanachSpaceDomain
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachSpaceEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.BanachSpaceDomain
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachSpaceClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.BanachSpaceDomain
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.banach_space_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.BanachSpaceDomain
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.LinearOperatorModel` (structure) in ClosedGraphTheoremCanonicalLaneLean.LinearOperator
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.LinearOperatorEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.LinearOperator
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.LinearOperatorClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.LinearOperator
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.linear_operator_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.LinearOperator
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachSpace` (structure) in ClosedGraphTheoremCanonicalLaneLean.BanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.BanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.BanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.banach_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.BanachSpace
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachSpaceModel` (structure) in ClosedGraphTheoremCanonicalLaneLean.BanachSpaceModel
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.TheoremStatement` (structure) in ClosedGraphTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.sourceTheoremStatement` (def) in ClosedGraphTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ConstrainedClosedGraphClosure` (def) in ClosedGraphTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.constrained_closed_graph_endgame` (theorem) in ClosedGraphTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BoundednessPackage` (structure) in ClosedGraphTheoremCanonicalLaneLean.Boundedness
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BoundednessEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.Boundedness
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BoundednessClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.Boundedness
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.boundedness_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.Boundedness
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BanachSpaceStructure` (structure) in ClosedGraphTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.LinearOperatorStructure` (structure) in ClosedGraphTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.closed_graph_property` (def) in ClosedGraphTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.ClosedGraphAdmittedObject` (structure) in ClosedGraphTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BoundednessEquivalenceModel` (structure) in ClosedGraphTheoremCanonicalLaneLean.BoundednessEquivalence
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BoundednessEquivalenceEvidence` (structure) in ClosedGraphTheoremCanonicalLaneLean.BoundednessEquivalence
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.BoundednessEquivalenceClosed` (def) in ClosedGraphTheoremCanonicalLaneLean.BoundednessEquivalence
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.boundedness_equivalence_closed_from_evidence` (theorem) in ClosedGraphTheoremCanonicalLaneLean.BoundednessEquivalence
+- `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.GraphNormModel` (structure) in ClosedGraphTheoremCanonicalLaneLean.GraphNorm
+- ... and 14 more
+
+### computable-analysis (+2030)
 
 - `allowedAxioms` (def) in scripts.AxiomAudit
 - `headlineDecls` (def) in scripts.AxiomAudit
@@ -1730,7 +1919,166 @@
 - `ComputableAnalysis.discreteRep` (def) in ComputableAnalysis.RepresentedSpace.Basic
 - `ComputableAnalysis.baireRep_names_iff` (theorem) in ComputableAnalysis.RepresentedSpace.Basic
 - `ComputableAnalysis.cantorRep_names_iff` (theorem) in ComputableAnalysis.RepresentedSpace.Basic
-- ... and 1355 more
+- ... and 1980 more
+
+### convergence-probability-measures-canonical-lane-mathlib (+10)
+
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.AdmissibleClass` (structure) in ConvergenceProbabilityMeasuresCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.ConstrainedConvergenceClosure` (def) in ConvergenceProbabilityMeasuresCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.gateClosed` (def) in ConvergenceProbabilityMeasuresCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.gate_from_admissible_class` (theorem) in ConvergenceProbabilityMeasuresCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.TheoremStatement` (structure) in ConvergenceProbabilityMeasuresCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.sourceTheoremStatement` (def) in ConvergenceProbabilityMeasuresCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in ConvergenceProbabilityMeasuresCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.constrained_convergence_endgame` (theorem) in ConvergenceProbabilityMeasuresCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.bridgeClosed` (def) in ConvergenceProbabilityMeasuresCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresCanonicalLaneLean.bridge_from_admissible_class` (theorem) in ConvergenceProbabilityMeasuresCanonicalLaneLean.BridgeLemmas
+
+### convergence-probability-measures-foundation-canonical-lane-mathlib (+35)
+
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.ProbabilitySpace` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.AdmittedProbabilityObject` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.AdmissibleClass` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.admittedClosure` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.gateClosed` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.gate_from_admissible_class` (theorem) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.LimitTheoremsPackage` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.LimitTheorems
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.LimitTheoremsEvidence` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.LimitTheorems
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.LimitTheoremsClosed` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.LimitTheorems
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.limit_theorems_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.LimitTheorems
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.MartingaleConvergencePackage` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.MartingaleConvergenceEvidence` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.MartingaleConvergenceClosed` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.martingale_convergence_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.StochasticCalculusPackage` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.StochasticCalculusEvidence` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.StochasticCalculusClosed` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.stochastic_calculus_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.ConvergenceAdmittedObject` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.ConvergenceWitnessClosed` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.ConstrainedConvergenceClosure` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.constrained_convergence_endgame` (theorem) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.WeakConvergencePackage` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.WeakConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.WeakConvergenceEvidence` (structure) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.WeakConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.WeakConvergenceClosed` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.WeakConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.weak_convergence_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.WeakConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.bridgeClosed` (def) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.bridge_from_admissible_class` (theorem) in ConvergenceProbabilityMeasuresFoundationCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.convergence_probability_measures_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in convergence_probability_measures_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.convergence_probability_measures_foundation_canonical_lane_mathlib.bridgeClosed` (def) in convergence_probability_measures_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.convergence_probability_measures_foundation_canonical_lane_mathlib.gateClosed` (def) in convergence_probability_measures_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.convergence_probability_measures_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in convergence_probability_measures_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.convergence_probability_measures_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in convergence_probability_measures_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.convergence_probability_measures_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in convergence_probability_measures_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.convergence_probability_measures_foundation_canonical_lane_mathlib.canonical` (theorem) in convergence_probability_measures_foundation_canonical_lane_mathlib.FinalTheorem
+
+### convergence-probability-measures-lemma-canonical-lane-mathlib (+88)
+
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.AdmissibleClass` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.admittedClosure` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.gateClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceLemmasBridge
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.gate_from_admissible_class` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceLemmasBridge
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauEquivalences` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauPackage` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauLemma
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauEvidence` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauLemma
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauLemma
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.portmanteau_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.PortmanteauLemma
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyProkhorovEquivalence` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyProkhorovTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ProbabilityMeasurePackage` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ProbabilityMeasureEvidence` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ProbabilityMeasureClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.probability_measure_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceConceptPackage` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceConceptEvidence` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceConceptClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.convergence_concept_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.CharacteristicFunction` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuity
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuityClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuityTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceMeasureSpace` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceMeasureSpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceMeasureSpaceClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceMeasureSpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.convergence_measure_space_closed` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConvergenceMeasureSpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.MartingaleConvergencePackage` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.MartingaleConvergenceEvidence` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.MartingaleConvergenceClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.martingale_convergence_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.sourceTheoremStatement` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ManifoldConstrainedTheoremClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremLayerInternalized` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.manifold_constrained_theorem_closed_checked` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.theorem_layer_internalized_checked` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.Tightness` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessAndUniformIntegrability
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.Tightness
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.tightness_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.Tightness
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ProbabilityMeasureSpace` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ProbabilityMeasuresSpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.ConstrainedConvergenceClosure` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.constrained_convergence_endgame` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuityPackage` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuityTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuityEvidence` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuityTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.levy_continuity_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.LevyContinuityTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessProkhorovTheoremPackage` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessProkhorovTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessProkhorovTheoremEvidence` (structure) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessProkhorovTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessProkhorovTheoremClosed` (def) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessProkhorovTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.tightness_prokhorov_theorem_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresLemmaCanonicalLaneLean.TightnessProkhorovTheorem
+- ... and 38 more
+
+### convergence-probability-measures-theorem-canonical-lane-mathlib (+75)
+
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.AdmissibleClass` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.admittedClosure` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.RandomProcessesConvergencePackage` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.RandomProcessesConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.RandomProcessesConvergenceEvidence` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.RandomProcessesConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.RandomProcessesConvergenceClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.RandomProcessesConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.random_processes_convergence_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.RandomProcessesConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilitySpace` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilitySpaceEvidence` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilitySpaceClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.probability_space_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilitySpace
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.gateClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.PortmanteauTheorem` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.PortmanteauTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.PortmanteauEvidence` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.PortmanteauTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.PortmanteauClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.PortmanteauTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.portmanteau_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.PortmanteauTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.WeakConvergencePackage` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.WeakConvergencePackage
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.WeakConvergenceEvidence` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.WeakConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.WeakConvergenceClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.weak_convergence_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.Martingale` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.AlmostSureConvergence` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.AlmostSureConvergenceClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.almost_sure_convergence_closed_from_evidence` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MathlibProofObligation` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlibProofObligation` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.commonCoreProjectionLawAvailable` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.commonCoreCarriageLawAvailable` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.commonCoreIdempotenceAvailable` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_common_core_imported_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_theorem_specific_definitions_native_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_theorem_specific_bridge_native_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_theorem_specific_admitted_closure_native_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_unrestricted_classical_closure_carried` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_common_core_projection_law_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_common_core_carriage_law_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.mathlib_common_core_idempotence_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.theoremSpecificEndgamePilotClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.theorem_specific_endgame_pilot_checked` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.IIDSequence` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.CentralLimitTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ConstrainedProbabilityConvergenceClosure` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.constrained_probability_convergence_endgame` (theorem) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilityMeasureSpace` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ProbabilityMeasures
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.AdmittedObject` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MeasureSpaceAdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ConvergenceMode` (inductive) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MeasureSpaceAdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MeasureSpaceAdmissibleClass
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ConvergenceProbabilityObject` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ConvergenceEndgameState` (structure) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.ConvergenceMeasureClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.bridgeClosed` (def) in ConvergenceProbabilityMeasuresTheoremCanonicalLaneLean.BridgeLemmas
+- ... and 25 more
 
 ### debate (+297)
 
@@ -1786,6 +2134,330 @@
 - `exp_bernoulli` (lemma) in Prob.Bernoulli
 - ... and 247 more
 
+### distribution-modulo-one-canonical-lane-mathlib (+75)
+
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ErdosTuranPackage` (structure) in DistributionModuloOneCanonicalLaneLean.EquidistributionErdos
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ErdosTuranClosed` (def) in DistributionModuloOneCanonicalLaneLean.EquidistributionErdos
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.erdos_turan_closed_from_evidence` (theorem) in DistributionModuloOneCanonicalLaneLean.EquidistributionErdos
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.KroneckerSequence` (structure) in DistributionModuloOneCanonicalLaneLean.KroneckerSequences
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.KroneckerEquidistribution` (def) in DistributionModuloOneCanonicalLaneLean.KroneckerSequences
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.kronecker_irrational_iff_equidistributed` (theorem) in DistributionModuloOneCanonicalLaneLean.KroneckerSequences
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.WeilEquidistributionPackage` (structure) in DistributionModuloOneCanonicalLaneLean.EquidistributionWeil
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.WeilEquidistributionClosed` (def) in DistributionModuloOneCanonicalLaneLean.EquidistributionWeil
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.weil_equidistribution_closed_from_evidence` (theorem) in DistributionModuloOneCanonicalLaneLean.EquidistributionWeil
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.AdmissibleClass` (structure) in DistributionModuloOneCanonicalLaneLean.EquidistributionAdmissibleClass
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.admittedClosure` (def) in DistributionModuloOneCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.gateClosed` (def) in DistributionModuloOneCanonicalLaneLean.EquidistributionGateLemma
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.gate_from_admissible_class` (theorem) in DistributionModuloOneCanonicalLaneLean.EquidistributionGateLemma
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.KroneckerSequencePackage` (structure) in DistributionModuloOneCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.KroneckerSequenceEvidence` (structure) in DistributionModuloOneCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.KroneckerSequenceClosed` (def) in DistributionModuloOneCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.kronecker_sequence_closed_from_evidence` (theorem) in DistributionModuloOneCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.AdmittedObject` (structure) in DistributionModuloOneCanonicalLaneLean.AdmittedObject
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.BridgeWitness` (def) in DistributionModuloOneCanonicalLaneLean.AdmittedObject
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.GateWitness` (def) in DistributionModuloOneCanonicalLaneLean.AdmittedObject
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.EquidistributionSpace` (structure) in DistributionModuloOneCanonicalLaneLean.EquidistributionAdmissibleClass
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.equidistributionAdmittedObject` (def) in DistributionModuloOneCanonicalLaneLean.EquidistributionAdmissibleClass
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.UniformDistributionPackage` (structure) in DistributionModuloOneCanonicalLaneLean.UniformDistributionPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.UniformDistributionClosed` (def) in DistributionModuloOneCanonicalLaneLean.UniformDistributionPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.uniform_distribution_closed_from_evidence` (theorem) in DistributionModuloOneCanonicalLaneLean.UniformDistributionPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.DiscrepancyPackage` (structure) in DistributionModuloOneCanonicalLaneLean.DiscrepancyBounds
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.DiscrepancyEvidence` (structure) in DistributionModuloOneCanonicalLaneLean.DiscrepancyBounds
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.DiscrepancyClosed` (structure) in DistributionModuloOneCanonicalLaneLean.DiscrepancyBounds
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.discrepancy_closed_from_evidence` (theorem) in DistributionModuloOneCanonicalLaneLean.DiscrepancyPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.bridgeClosed` (def) in DistributionModuloOneCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.bridge_from_admissible_class` (theorem) in DistributionModuloOneCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.TheoremStatement` (structure) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.sourceTheoremStatement` (def) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ManifoldConstrainedTheoremClosed` (def) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.TheoremLayerInternalized` (def) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.manifold_constrained_theorem_closed_checked` (theorem) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.theorem_layer_internalized_checked` (theorem) in DistributionModuloOneCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.OstrowskiExpansionPackage` (structure) in DistributionModuloOneCanonicalLaneLean.EquidistributionOstrowski
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.OstrowskiExpansionClosed` (def) in DistributionModuloOneCanonicalLaneLean.EquidistributionOstrowski
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ostrowski_expansion_closed_from_evidence` (theorem) in DistributionModuloOneCanonicalLaneLean.EquidistributionOstrowski
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ThreeGapTheoremPackage` (structure) in DistributionModuloOneCanonicalLaneLean.ThreeGapTheoremPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ThreeGapTheoremEvidence` (structure) in DistributionModuloOneCanonicalLaneLean.ThreeGapTheoremPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ThreeGapTheoremClosed` (def) in DistributionModuloOneCanonicalLaneLean.ThreeGapTheoremPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.three_gap_theorem_closed_from_evidence` (theorem) in DistributionModuloOneCanonicalLaneLean.ThreeGapTheoremPackage
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.ConstrainedDistributionClosure` (def) in DistributionModuloOneCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionModuloOneCanonicalLaneLean.constrained_distribution_endgame` (theorem) in DistributionModuloOneCanonicalLaneLean.FinalTheorem
+- ... and 25 more
+
+### distribution-modulo-one-theorem-canonical-lane-mathlib (+65)
+
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.KroneckerSequencePackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.KroneckerSequenceEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.KroneckerSequenceClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.kronecker_sequence_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.KroneckerSequence
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DistributionAdmittedObject` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.AdmissibleClass` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.admittedClosure` (def) in DistributionModuloOneTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.gateClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneGateLemmas
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneGateLemmas
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.KroneckerApproximationPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.KroneckerApproximation
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.KroneckerApproximationClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.KroneckerApproximation
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.kronecker_approximation_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.KroneckerApproximation
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DiophantineApproximationPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneDiophantineApprox
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DiophantineApproximationEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneDiophantineApprox
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DiophantineApproximationClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneDiophantineApprox
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.diophantine_approximation_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneDiophantineApprox
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.UniformDistributionPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneUniformDistribution
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.UniformDistributionEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneUniformDistribution
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.UniformDistributionClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneUniformDistribution
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.uniform_distribution_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneUniformDistribution
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.FiniteAdditiveProcessPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.FiniteAdditiveProcess
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.FiniteAdditiveProcessEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.FiniteAdditiveProcess
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.FiniteAdditiveProcessClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.FiniteAdditiveProcess
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.finite_additive_process_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.FiniteAdditiveProcess
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneAdmittedObject` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DistributionModOneWitnessClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.ConstrainedDistributionClosure` (def) in DistributionModuloOneTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.constrained_distribution_endgame` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.LowDiscrepancySequencesPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.LowDiscrepancySequences
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.LowDiscrepancySequencesEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.LowDiscrepancySequences
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.LowDiscrepancySequencesClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.LowDiscrepancySequences
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.low_discrepancy_sequences_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.LowDiscrepancySequences
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.EquidistributionPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.EquidistributionCriteria
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.EquidistributionClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.EquidistributionCriteria
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.equidistribution_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.EquidistributionCriteria
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DiscrepancyBoundsPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.DiscrepancyBounds
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DiscrepancyBoundsClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.DiscrepancyBounds
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.discrepancy_bounds_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.DiscrepancyBounds
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DistributionSpace` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DistributionEndgameState` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.DistributionWitnessClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.WeylCriterionPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.WeylCriterion
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.WeylCriterionEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.WeylCriterion
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.WeylCriterionClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.WeylCriterion
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.weyl_criterion_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.WeylCriterion
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.EquidistributionEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.EquidistributionCriteria
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.MinkowskiTheoremPackage` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.MinkowskiTheorem
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.MinkowskiTheoremEvidence` (structure) in DistributionModuloOneTheoremCanonicalLaneLean.MinkowskiTheorem
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.MinkowskiTheoremClosed` (def) in DistributionModuloOneTheoremCanonicalLaneLean.MinkowskiTheorem
+- `HautevilleHouse.DistributionModuloOneTheoremCanonicalLaneLean.minkowski_theorem_closed_from_evidence` (theorem) in DistributionModuloOneTheoremCanonicalLaneLean.MinkowskiTheorem
+- ... and 15 more
+
+### distribution-prime-ideals-canonical-lane-mathlib (+63)
+
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.LFunctionZeroCertificate` (structure) in DistributionPrimeIdealsCanonicalLaneLean.LFunctionZeroLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.lFunctionZeroCertificate` (def) in DistributionPrimeIdealsCanonicalLaneLean.LFunctionZeroLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.LFunctionZeroLayerClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.LFunctionZeroLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.l_function_zero_layer_closed_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.LFunctionZeroLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.AdmissibleClass` (structure) in DistributionPrimeIdealsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.admittedClosure` (def) in DistributionPrimeIdealsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ConstrainedDistributionPrimeIdealsClosure` (def) in DistributionPrimeIdealsCanonicalLaneLean.DistributionPrimeIdealsClosure
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.constrained_distribution_prime_ideals_closure` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.DistributionPrimeIdealsClosure
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.distribution_prime_ideals_endgame` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.DistributionPrimeIdealsClosure
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ChebyshevFunctionLayerCertificate` (structure) in DistributionPrimeIdealsCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.chebyshevFunctionLayerCertificate` (def) in DistributionPrimeIdealsCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ChebyshevFunctionLayerClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.chebyshev_function_layer_closed_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.gateClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.gate_from_admissible_class` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.RiemannZetaData` (structure) in DistributionPrimeIdealsCanonicalLaneLean.ZetaFunctionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.zeta_function_has_pole` (lemma) in DistributionPrimeIdealsCanonicalLaneLean.ZetaFunctionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDatum` (structure) in DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.primitiveChebotarevDatum` (def) in DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityCertificate` (structure) in DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.chebotarevDensityCertificate` (def) in DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityLayerClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.chebotarev_density_layer_closed_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.ChebotarevDensityTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.IdealCountingFunction` (structure) in DistributionPrimeIdealsCanonicalLaneLean.IdealCountingLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.idealCountingFunction` (def) in DistributionPrimeIdealsCanonicalLaneLean.IdealCountingLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.idealCountingAsymptotic` (def) in DistributionPrimeIdealsCanonicalLaneLean.IdealCountingLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.TheoremStatement` (structure) in DistributionPrimeIdealsCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.sourceTheoremStatement` (def) in DistributionPrimeIdealsCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in DistributionPrimeIdealsCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealDistributionCertificate` (structure) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealDistributionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.primeIdealDistributionCertificate` (def) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealDistributionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealDistributionClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealDistributionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.prime_ideal_distribution_closed_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealDistributionLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ConstrainedPrimeIdealClosure` (def) in DistributionPrimeIdealsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.constrained_prime_ideal_closure_endgame` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealDistributionClosure` (def) in DistributionPrimeIdealsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.prime_ideal_distribution_closure_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealEndpointLayerCertificate` (structure) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.primeIdealEndpointLayerCertificate` (def) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealEndpointLayerClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.prime_ideal_endpoint_layer_closed_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealLayer
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealTheoremClosureCertificate` (structure) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealTheoremClosureCertificate
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.primeIdealTheoremClosureCertificate` (def) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealTheoremClosureCertificate
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealTheoremClosureClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealTheoremClosureCertificate
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.prime_ideal_theorem_closure_closed_checked` (theorem) in DistributionPrimeIdealsCanonicalLaneLean.PrimeIdealTheoremClosureCertificate
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.ψ` (def) in DistributionPrimeIdealsCanonicalLaneLean.ChebyshevEstimates
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.chebyshev_theta_estimate` (lemma) in DistributionPrimeIdealsCanonicalLaneLean.ChebyshevEstimates
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.chebyshev_psi_estimate` (lemma) in DistributionPrimeIdealsCanonicalLaneLean.ChebyshevEstimates
+- `HautevilleHouse.DistributionPrimeIdealsCanonicalLaneLean.bridgeClosed` (def) in DistributionPrimeIdealsCanonicalLaneLean.BridgeLemmas
+- ... and 13 more
+
+### distribution-primes-canonical-lane-mathlib (+102)
+
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DistributionPrimeAdmissibleClass` (structure) in DistributionPrimesCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.admittedClosure` (def) in DistributionPrimesCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DistributionPrimesCertificate` (structure) in DistributionPrimesCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.distributionPrimesCertificate` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DistributionPrimesCertificateClosed` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.distribution_primes_certificate_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.ChebyshevFunctionLayerCertificate` (structure) in DistributionPrimesCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.chebyshevFunctionLayerCertificate` (def) in DistributionPrimesCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.ChebyshevFunctionLayerClosed` (def) in DistributionPrimesCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.chebyshev_function_layer_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.ChebyshevFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.ZetaDistributionLayerCertificate` (structure) in DistributionPrimesCanonicalLaneLean.ZetaDistributionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.zetaDistributionLayerCertificate` (def) in DistributionPrimesCanonicalLaneLean.ZetaDistributionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.ZetaDistributionLayerClosed` (def) in DistributionPrimesCanonicalLaneLean.ZetaDistributionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.zeta_distribution_layer_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.ZetaDistributionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.gateClosed` (def) in DistributionPrimesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.gate_from_admissible_class` (theorem) in DistributionPrimesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.SelbergSieveLayerCertificate` (structure) in DistributionPrimesCanonicalLaneLean.SelbergSieveLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.selbergSieveLayerCertificate` (def) in DistributionPrimesCanonicalLaneLean.SelbergSieveLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.SelbergSieveLayerClosed` (def) in DistributionPrimesCanonicalLaneLean.SelbergSieveLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.selberg_sieve_layer_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.SelbergSieveLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DirichletCharacterLayerCertificate` (structure) in DistributionPrimesCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.dirichletCharacterLayerCertificate` (def) in DistributionPrimesCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DirichletCharacterLayerClosed` (def) in DistributionPrimesCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.dirichlet_character_layer_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.PrimeNumberTheoremEndpointLayerCertificate` (structure) in DistributionPrimesCanonicalLaneLean.PrimeNumberTheoremEndpointLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.primeNumberTheoremEndpointLayerCertificate` (def) in DistributionPrimesCanonicalLaneLean.PrimeNumberTheoremEndpointLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.PrimeNumberTheoremEndpointLayerClosed` (def) in DistributionPrimesCanonicalLaneLean.PrimeNumberTheoremEndpointLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.prime_number_theorem_endpoint_layer_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.PrimeNumberTheoremEndpointLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.PrimeDensityDatum` (structure) in DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.primitivePrimeDensityDatum` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayerCertificate` (structure) in DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.distributionPrimeDensityLayerCertificate` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayerClosed` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.distribution_prime_density_layer_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.DistributionPrimeDensityLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.LFunctionDatum` (structure) in DistributionPrimesCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.primitiveLFunctionDatum` (def) in DistributionPrimesCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.LFunctionLayerCertificate` (structure) in DistributionPrimesCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.lFunctionLayerCertificate` (def) in DistributionPrimesCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.LFunctionLayerClosed` (def) in DistributionPrimesCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.l_function_layer_closed_checked` (theorem) in DistributionPrimesCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DistributionPrimeDatum` (structure) in DistributionPrimesCanonicalLaneLean.DistributionPrimesObjects
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.PrimeDistributionOperatorDatum` (structure) in DistributionPrimesCanonicalLaneLean.DistributionPrimesObjects
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.primitiveDistributionPrimeDatum` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimesObjects
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.primitivePrimeDistributionOperatorDatum` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimesObjects
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.PrimeNumberTheoremAgreement` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimesObjects
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.DistributionClosed` (def) in DistributionPrimesCanonicalLaneLean.DistributionPrimesObjects
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.TheoremStatement` (structure) in DistributionPrimesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.sourceTheoremStatement` (def) in DistributionPrimesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in DistributionPrimesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesCanonicalLaneLean.ManifoldConstrainedTheoremClosed` (def) in DistributionPrimesCanonicalLaneLean.TheoremStatement
+- ... and 52 more
+
+### distribution-primes-lemma-canonical-lane-mathlib (+98)
+
+- `HautevilleHouse.distribution_primes_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in distribution_primes_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.distribution_primes_lemma_canonical_lane_mathlib.bridgeClosed` (def) in distribution_primes_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.distribution_primes_lemma_canonical_lane_mathlib.gateClosed` (def) in distribution_primes_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.distribution_primes_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in distribution_primes_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.distribution_primes_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in distribution_primes_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.distribution_primes_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in distribution_primes_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.distribution_primes_lemma_canonical_lane_mathlib.canonical` (theorem) in distribution_primes_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.ArithmeticProgressionCertificate` (structure) in DistributionPrimesLemmaCanonicalLaneLean.ArithmeticProgressionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.arithmeticProgressionCertificate` (def) in DistributionPrimesLemmaCanonicalLaneLean.ArithmeticProgressionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.ArithmeticProgressionClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.ArithmeticProgressionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.arithmetic_progression_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.ArithmeticProgressionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootDatum` (structure) in DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primitivePrimitiveRootDatum` (def) in DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayerCertificate` (structure) in DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primitiveRootLayerCertificate` (def) in DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayerClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primitive_root_layer_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.PrimitiveRootLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.AdmissibleClass` (structure) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesAdmissibleClass
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.admittedClosure` (def) in DistributionPrimesLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaCertificate` (structure) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaAdmissibleClass
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primesLemmaCertificate` (def) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaAdmissibleClass
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaCertificateClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaAdmissibleClass
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primes_lemma_certificate_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaAdmissibleClass
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimeLayerCertificate` (structure) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimeLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.distributionPrimeLayerCertificate` (def) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimeLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimeLayerClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesLemmaLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.distribution_prime_layer_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesLemmaLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.gateClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesGateLemmas
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.gate_from_admissible_class` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesGateLemmas
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.bridgeClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesGateLemmas
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.bridge_from_admissible_class` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesGateLemmas
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaEndpointLayerCertificate` (structure) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaEndpointLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primesLemmaEndpointLayerCertificate` (def) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaEndpointLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaEndpointLayerClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaEndpointLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primes_lemma_endpoint_layer_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.PrimesLemmaEndpointLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.DirichletCharacterCertificate` (structure) in DistributionPrimesLemmaCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primitiveDirichletCharacterCertificate` (def) in DistributionPrimesLemmaCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.DirichletCharacterLayerClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.dirichlet_character_layer_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.DirichletCharacterLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.DistributionFunctionLayerCertificate` (structure) in DistributionPrimesLemmaCanonicalLaneLean.DistributionFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.distributionFunctionLayerCertificate` (def) in DistributionPrimesLemmaCanonicalLaneLean.DistributionFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.DistributionFunctionLayerClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.DistributionFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.distribution_function_layer_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.DistributionFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesClosure` (def) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesFinalTheorem
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.distribution_primes_endgame` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.DistributionPrimesFinalTheorem
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.LFunctionDatum` (structure) in DistributionPrimesLemmaCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.primitiveLFunctionDatum` (def) in DistributionPrimesLemmaCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.LFunctionLayerClosed` (def) in DistributionPrimesLemmaCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.l_function_layer_closed_checked` (theorem) in DistributionPrimesLemmaCanonicalLaneLean.LFunctionLayer
+- `HautevilleHouse.DistributionPrimesLemmaCanonicalLaneLean.TheoremStatement` (structure) in DistributionPrimesLemmaCanonicalLaneLean.TheoremStatement
+- ... and 48 more
+
+### distribution-primes-theorem-canonical-lane-mathlib (+82)
+
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingLayerCertificate` (structure) in DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingFunctionLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.primeCountingLayerCertificate` (def) in DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingLayerClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.prime_counting_layer_closed_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.AdmissibleClass` (structure) in DistributionPrimesTheoremCanonicalLaneLean.PrimeDistributionAdmissibleClass
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.admittedClosure` (def) in DistributionPrimesTheoremCanonicalLaneLean.PrimeDistributionAdmissibleClass
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeLayerCertificate` (structure) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.distributionPrimeLayerCertificate` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeLayerClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.distribution_prime_layer_closed_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimesCertificate` (structure) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.distributionPrimesCertificate` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimesCertificateClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.distribution_primes_certificate_closed_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimesCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.gateClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingCertificate` (structure) in DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeCountingDatum` (structure) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeDefs
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeDistributionCertificate` (structure) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeDefs
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.primitivePrimeCountingDatum` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeDefs
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.primeDistributionCertificate` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeDefs
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeDensityCertificate` (structure) in DistributionPrimesTheoremCanonicalLaneLean.PrimeDensityCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.primeDensityCertificate` (def) in DistributionPrimesTheoremCanonicalLaneLean.PrimeDensityCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeDensityCertificateClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.PrimeDensityCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.prime_density_certificate_closed_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.PrimeDensityCertificate
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeEndpointLayerCertificate` (structure) in DistributionPrimesTheoremCanonicalLaneLean.PrimeEndpointLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.primeEndpointLayerCertificate` (def) in DistributionPrimesTheoremCanonicalLaneLean.PrimeEndpointLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.PrimeEndpointLayerClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.PrimeEndpointLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.prime_endpoint_layer_closed_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.PrimeEndpointLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement` (structure) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.sourceTheoremStatement` (def) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.ManifoldConstrainedTheoremClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.TheoremLayerInternalized` (def) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.manifold_constrained_theorem_closed_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.theorem_layer_internalized_checked` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.bridgeClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (def) in DistributionPrimesTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.bridge_from_admissible_class` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.rhAdmittedObject` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeClosure
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.distPrimeAdmissibleClass` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeClosure
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.ConstrainedDistributionPrimeClosure` (def) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeClosure
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.constrained_distribution_prime_endgame` (theorem) in DistributionPrimesTheoremCanonicalLaneLean.DistributionPrimeClosure
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.ZetaZeroDistributionEndpointCert` (structure) in DistributionPrimesTheoremCanonicalLaneLean.ZetaZeroDistributionEndpointLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.zetaZeroDistributionEndpointCert` (def) in DistributionPrimesTheoremCanonicalLaneLean.ZetaZeroDistributionEndpointLayer
+- `HautevilleHouse.DistributionPrimesTheoremCanonicalLaneLean.ZetaZeroDistributionEndpointClosed` (def) in DistributionPrimesTheoremCanonicalLaneLean.ZetaZeroDistributionEndpointLayer
+- ... and 32 more
+
 ### distribution_factors (+27)
 
 - `neg_ite` (theorem) in DistributionFactors.Helper
@@ -1828,6 +2500,257 @@
 - `HautevilleHouse.DoobMartingaleTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in DoobMartingaleTheoremCanonicalLaneLean.FinalTheorem
 - `HautevilleHouse.DoobMartingaleTheoremCanonicalLaneLean.sourceRepository` (def) in DoobMartingaleTheoremCanonicalLaneLean.Basic
 - `HautevilleHouse.DoobMartingaleTheoremCanonicalLaneLean.sourceUrl` (def) in DoobMartingaleTheoremCanonicalLaneLean.Basic
+
+### eigenvalue-problems-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.EigenvalueProblemsCanonicalLaneLean.AdmissibleClass` (def) in EigenvalueProblemsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvalueProblemsCanonicalLaneLean.bridgeClosed` (def) in EigenvalueProblemsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvalueProblemsCanonicalLaneLean.gateClosed` (def) in EigenvalueProblemsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvalueProblemsCanonicalLaneLean.bridge_from_admissible_class` (def) in EigenvalueProblemsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvalueProblemsCanonicalLaneLean.gate_from_admissible_class` (def) in EigenvalueProblemsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvalueProblemsCanonicalLaneLean.ConstrainedTheoremClosure` (def) in EigenvalueProblemsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EigenvalueProblemsCanonicalLaneLean.constrained_theorem_closure` (theorem) in EigenvalueProblemsCanonicalLaneLean.FinalTheorem
+
+### eigenvalue-problems-integral-equations-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.gateClosed` (def) in eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.canonical` (theorem) in eigenvalue_problems_integral_equations_lemma_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalue-problems-integral-equations-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.gateClosed` (def) in eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.canonical` (theorem) in eigenvalue_problems_integral_equations_theorem_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalue-problems-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalue_problems_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalue_problems_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_lemma_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalue_problems_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_lemma_canonical_lane_mathlib.gateClosed` (def) in eigenvalue_problems_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalue_problems_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalue_problems_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalue_problems_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalue_problems_lemma_canonical_lane_mathlib.canonical` (theorem) in eigenvalue_problems_lemma_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalue-problems-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalue_problems_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalue_problems_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.gateClosed` (def) in eigenvalue_problems_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalue_problems_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalue_problems_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalue_problems_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.canonical` (theorem) in eigenvalue_problems_theorem_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalues-estimation-eigenvalues-upper-lower-canonical-lane-mathlib (+21)
+
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.AdmissibleClass` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.bridgeClosed` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueEstimationFinal
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.gateClosed` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueEstimationFinal
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.bridge_from_admissible_class` (theorem) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueEstimationFinal
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.gate_from_admissible_class` (theorem) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueEstimationFinal
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.UpperBoundEstimationPackage` (structure) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.UpperBoundEstimation
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.UpperBoundEstimationEvidence` (structure) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.UpperBoundEstimation
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.UpperBoundEstimationClosed` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.UpperBoundEstimation
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.upper_bound_estimation_closed_from_evidence` (theorem) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.UpperBoundEstimation
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.ConstrainedTheoremClosure` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.constrained_theorem_closure` (theorem) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueSpace` (structure) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueObjects
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueAdmittedObject` (structure) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueObjects
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueEndgameState` (structure) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueObjects
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueWitnessClosed` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueObjects
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.ConstrainedEigenvalueEstimationClosure` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueEstimationFinal
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.constrained_eigenvalue_estimation_endgame` (theorem) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.EigenvalueEstimationFinal
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.LowerBoundEstimationPackage` (structure) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.LowerBoundEstimation
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.LowerBoundEstimationEvidence` (structure) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.LowerBoundEstimation
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.LowerBoundEstimationClosed` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.LowerBoundEstimation
+- `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.lower_bound_estimation_closed_from_evidence` (theorem) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.LowerBoundEstimation
+
+### eigenvalues-estimation-eigenvalues-upper-lower-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.gateClosed` (def) in eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.canonical` (theorem) in eigenvalues_estimation_eigenvalues_upper_lower_foundation_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalues-estimation-eigenvalues-upper-lower-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.gateClosed` (def) in eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.canonical` (theorem) in eigenvalues_estimation_eigenvalues_upper_lower_lemma_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalues-estimation-eigenvalues-upper-lower-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.gateClosed` (def) in eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.canonical` (theorem) in eigenvalues_estimation_eigenvalues_upper_lower_theorem_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalues-singular-values-eigenvectors-canonical-lane-mathlib (+18)
+
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SpectralTheoremPackage` (structure) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SpectralTheoremPackageClosed` (def) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SpectralTheoremEvidence` (structure) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.spectral_theorem_closed_from_evidence` (theorem) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SingularValueDecompositionPackage` (structure) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SingularValueDecomposition
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SVDPackageClosed` (def) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SingularValueDecomposition
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SVDEvidence` (structure) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SingularValueDecomposition
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.svd_closed_from_evidence` (theorem) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.SingularValueDecomposition
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.EigenvalueAdmittedObject` (structure) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.EigenvalueWitnessClosed` (def) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.AdmissibleClass` (structure) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.admittedClosure` (def) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.gateClosed` (def) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.gate_from_admissible_class` (theorem) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.ConstrainedEigenvalueClosure` (def) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.constrained_eigenvalue_endgame` (theorem) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.bridgeClosed` (def) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.bridge_from_admissible_class` (theorem) in EigenvaluesSingularValuesEigenvectorsCanonicalLaneLean.BridgeLemmas
+
+### eigenvalues-singular-values-eigenvectors-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.gateClosed` (def) in eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.canonical` (theorem) in eigenvalues_singular_values_eigenvectors_foundation_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalues-singular-values-eigenvectors-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.gateClosed` (def) in eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.canonical` (theorem) in eigenvalues_singular_values_eigenvectors_lemma_canonical_lane_mathlib.FinalTheorem
+
+### eigenvalues-singular-values-eigenvectors-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.bridgeClosed` (def) in eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.gateClosed` (def) in eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.canonical` (theorem) in eigenvalues_singular_values_eigenvectors_theorem_canonical_lane_mathlib.FinalTheorem
+
+### estimates-eigenvalues-context-pdes-canonical-lane-mathlib (+56)
+
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.SemiclassicalAnalysisPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SemiclassicalAnalysis
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.SemiclassicalAnalysisEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SemiclassicalAnalysis
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.SemiclassicalAnalysisClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SemiclassicalAnalysis
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.semiclassical_analysis_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SemiclassicalAnalysis
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.AdmissibleClass` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.admittedClosure` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.EllipticOperatorPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EllipticOperatorPackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.EllipticOperatorEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EllipticOperatorPackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.EllipticOperatorClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EllipticOperatorPackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.elliptic_operator_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EllipticOperatorPackage
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.gateClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.gate_from_admissible_class` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.DomainGeometryPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.DomainGeometry
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.DomainGeometryClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.DomainGeometry
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.LiYauTypeEstimatePackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LiYauTypeEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.LiYauTypeEstimateEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LiYauTypeEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.LiYauTypeEstimateClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LiYauTypeEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.li_yau_type_estimate_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LiYauTypeEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueAdmittedObject` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueWitnessClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.SpectralTheoryPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.SpectralTheoryEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.SpectralTheoryClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.spectral_theory_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.SpectralTheory
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.UpperBoundEstimatePackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.UpperBoundEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.UpperBoundEstimateEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.UpperBoundEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.UpperBoundEstimateClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.UpperBoundEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.upper_bound_estimate_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.UpperBoundEstimatePackage
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.ConstrainedEigenvalueClosure` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.constrained_eigenvalue_endgame` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueEstimatePDEPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueEstimatePDE
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueEstimatePDEEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueEstimatePDE
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueEstimatePDEClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueEstimatePDE
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.eigenvalue_estimate_pde_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.EigenvalueEstimatePDE
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.LowerBoundEstimatePackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LowerBoundEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.LowerBoundEstimateEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LowerBoundEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.LowerBoundEstimateClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LowerBoundEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.lower_bound_estimate_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.LowerBoundEstimatePackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.WeylAsymptoticPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.WeylAsymptoticPackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.WeylAsymptoticEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.WeylAsymptoticPackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.WeylAsymptoticClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.WeylAsymptoticPackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.weyl_asymptotic_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.WeylAsymptoticPackage
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.CaccioppoliInequalityPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.CaccioppoliInequality
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.CaccioppoliInequalityEvidence` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.CaccioppoliInequality
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.CaccioppoliInequalityClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.CaccioppoliInequality
+- `HautevilleHouse.EstimatesEigenvaluesContextPdesCanonicalLaneLean.caccioppoli_inequality_closed_from_evidence` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.CaccioppoliInequality
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.OperatorTheoryPackage` (structure) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.OperatorTheory
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.OperatorTheoryClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.OperatorTheory
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.bridgeClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.bridge_from_admissible_class` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.BridgeLemmas
+- ... and 6 more
+
+### exact-distribution-theory-statistics-canonical-lane-mathlib (+39)
+
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEPackage
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.mle_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEPackage
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.AdmissibleClass` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.admittedClosure` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.gateClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.gate_from_admissible_class` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.TheoremStatement` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.sourceTheoremStatement` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ConstrainedExactDistributionClosure` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.constrained_exact_distribution_endgame` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptoticsPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptoticsEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptoticsClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.mle_asymptotics_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ParametricModel` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLE` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistencyEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistencyClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.mle_consistency_evidence_closed` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.StatisticalModel` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.Sufficiency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficientStatistic` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.Sufficiency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.sufficiency_evidence_closed` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.Sufficiency
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.neyman_pearson_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAProp` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.anova_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.sufficiency_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.bridgeClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.bridge_from_admissible_class` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamilyEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamilyClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
+- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.exponential_family_evidence_closed` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
 
 ### exchangeability (+489)
 
@@ -1883,18 +2806,46 @@
 - `Exchangeability.Contractable.prefix` (lemma) in Exchangeability.Contractability
 - ... and 439 more
 
-### f-distribution-canonical-lane-mathlib (+10)
+### f-distribution-canonical-lane-mathlib (+38)
 
-- `HautevilleHouse.FDistributionCanonicalLaneLean.AdmissibleClass` (structure) in FDistributionCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.FDistributionCanonicalLaneLean.defaultAdmissibleClass` (def) in FDistributionCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.FDistributionCanonicalLaneLean.bridgeClosed` (def) in FDistributionCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.FDistributionCanonicalLaneLean.gateClosed` (def) in FDistributionCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.FDistributionCanonicalLaneLean.bridge_from_admissible_class` (theorem) in FDistributionCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.FDistributionCanonicalLaneLean.gate_from_admissible_class` (theorem) in FDistributionCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.FDistributionCanonicalLaneLean.ConstrainedTheoremClosure` (def) in FDistributionCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.FDistributionCanonicalLaneLean.constrained_theorem_closure` (theorem) in FDistributionCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionObject` (structure) in FDistributionCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.FDistributionCanonicalLaneLean.AdmissibleClass` (structure) in FDistributionCanonicalLaneLean.FDistributionAdmissibleClass
+- `HautevilleHouse.FDistributionCanonicalLaneLean.admittedClosure` (def) in FDistributionCanonicalLaneLean.FDistributionAdmissibleClass
+- `HautevilleHouse.FDistributionCanonicalLaneLean.gateClosed` (def) in FDistributionCanonicalLaneLean.FDistributionBridge
+- `HautevilleHouse.FDistributionCanonicalLaneLean.gate_from_admissible_class` (theorem) in FDistributionCanonicalLaneLean.FDistributionBridge
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionAdmittedObject` (structure) in FDistributionCanonicalLaneLean.FDistributionAdmissibleClass
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionANOVAPackage` (structure) in FDistributionCanonicalLaneLean.FDistributionANOVA
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionANOVAEvidence` (structure) in FDistributionCanonicalLaneLean.FDistributionANOVA
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionANOVAClosed` (def) in FDistributionCanonicalLaneLean.FDistributionANOVA
+- `HautevilleHouse.FDistributionCanonicalLaneLean.f_distribution_anova_closed_from_evidence` (theorem) in FDistributionCanonicalLaneLean.FDistributionANOVA
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionPDFCDFPackage` (structure) in FDistributionCanonicalLaneLean.FDistributionPDFCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionPDFCDFEvidence` (structure) in FDistributionCanonicalLaneLean.FDistributionPDFCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionPDFCDFClosed` (def) in FDistributionCanonicalLaneLean.FDistributionPDFCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.f_distribution_pdf_cdf_closed_from_evidence` (theorem) in FDistributionCanonicalLaneLean.FDistributionPDFCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDensityFunctionParams` (structure) in FDistributionCanonicalLaneLean.FDensityFunction
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDensityFunction` (structure) in FDistributionCanonicalLaneLean.FDensityFunction
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDensityClosed` (def) in FDistributionCanonicalLaneLean.FDensityFunction
+- `HautevilleHouse.FDistributionCanonicalLaneLean.f_density_closed_from_props` (theorem) in FDistributionCanonicalLaneLean.FDensityFunction
+- `HautevilleHouse.FDistributionCanonicalLaneLean.bridgeClosed` (def) in FDistributionCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.FDistributionCanonicalLaneLean.bridge_from_admissible_class` (theorem) in FDistributionCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.FDistributionCanonicalLaneLean.TheoremStatement` (structure) in FDistributionCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.FDistributionCanonicalLaneLean.sourceTheoremStatement` (def) in FDistributionCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.FDistributionCanonicalLaneLean.ConstrainedFDistributionClosure` (def) in FDistributionCanonicalLaneLean.FDistributionFinalTheorem
+- `HautevilleHouse.FDistributionCanonicalLaneLean.constrained_f_distribution_endgame` (theorem) in FDistributionCanonicalLaneLean.FDistributionFinalTheorem
 - `HautevilleHouse.FDistributionCanonicalLaneLean.sourceRepository` (def) in FDistributionCanonicalLaneLean.Basic
 - `HautevilleHouse.FDistributionCanonicalLaneLean.sourceUrl` (def) in FDistributionCanonicalLaneLean.Basic
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FTestParams` (structure) in FDistributionCanonicalLaneLean.FTest
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FTest` (structure) in FDistributionCanonicalLaneLean.FTest
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FTestClosed` (def) in FDistributionCanonicalLaneLean.FTest
+- `HautevilleHouse.FDistributionCanonicalLaneLean.f_test_closed` (theorem) in FDistributionCanonicalLaneLean.FTest
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionCDFParams` (structure) in FDistributionCanonicalLaneLean.FDistributionCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionCDF` (structure) in FDistributionCanonicalLaneLean.FDistributionCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionCDFClosed` (def) in FDistributionCanonicalLaneLean.FDistributionCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.f_distribution_cdf_closed` (theorem) in FDistributionCanonicalLaneLean.FDistributionCDF
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionMomentsParams` (structure) in FDistributionCanonicalLaneLean.FDistributionMoments
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionMoments` (structure) in FDistributionCanonicalLaneLean.FDistributionMoments
+- `HautevilleHouse.FDistributionCanonicalLaneLean.FDistributionMomentsClosed` (def) in FDistributionCanonicalLaneLean.FDistributionMoments
+- `HautevilleHouse.FDistributionCanonicalLaneLean.f_distribution_moments_closed` (theorem) in FDistributionCanonicalLaneLean.FDistributionMoments
 
 ### fin-dep (+1154)
 
@@ -2031,60 +2982,6 @@
 - `FormalMartingales.EProcess.sequential_test_typeI` (theorem) in FormalMartingales.Sequential.EProcess
 - `FormalMartingales.eprocess_sequential_test_typeI` (theorem) in FormalMartingales.Sequential.EProcess
 
-### formal-qkd (+106)
-
-- `parseStates` (def) in Main
-- `main_count_states` (def) in Main
-- `String.parseMeasResult` (def) in Main
-- `NatsecretKeyLength` (def) in Main
-- `NatsecretKeyLength_correct` (lemma) in Main
-- `computeSKL` (def) in Main
-- `main_SKL` (def) in Main
-- `main` (def) in Main
-- `Sifting.State` (inductive) in FormalQKD.Sifting
-- `Sifting.State.ofChar` (def) in FormalQKD.Sifting
-- `Sifting.State.repr` (def) in FormalQKD.Sifting
-- `Sifting.State.instReprState` (instance) in FormalQKD.Sifting
-- `Sifting.State.isntStateToString` (instance) in FormalQKD.Sifting
-- `Sifting.State.toNat` (def) in FormalQKD.Sifting
-- `Sifting.State.toFin` (def) in FormalQKD.Sifting
-- `Sifting.State.Fin.toState` (def) in FormalQKD.Sifting
-- `Sifting.State.injective_toFin` (lemma) in FormalQKD.Sifting
-- `Sifting.State.instFinite` (instance) in FormalQKD.Sifting
-- `Sifting.State.bijective_tostate_toFin` (lemma) in FormalQKD.Sifting
-- `Sifting.State.bit` (def) in FormalQKD.Sifting
-- `Sifting.State.basis` (def) in FormalQKD.Sifting
-- `Sifting.State.isDecoy` (def) in FormalQKD.Sifting
-- `Sifting.State.toSignal` (def) in FormalQKD.Sifting
-- `Sifting.State.isSameBasis` (abbrev) in FormalQKD.Sifting
-- `Sifting.State.isSameBit` (abbrev) in FormalQKD.Sifting
-- `Sifting.State.isError` (abbrev) in FormalQKD.Sifting
-- `Sifting.State.toSignal_not_isDecoy` (theorem) in FormalQKD.Sifting
-- `Sifting.helperCountP` (def) in FormalQKD.Sifting
-- `Sifting.countErrors` (def) in FormalQKD.Sifting
-- `Sifting.countBasisMatches` (def) in FormalQKD.Sifting
-- `Sifting.countState` (def) in FormalQKD.Sifting
-- `Sifting.QBER` (def) in FormalQKD.Sifting
-- `Sifting.siftBasisHelper` (def) in FormalQKD.Sifting
-- `Sifting.siftBasis` (def) in FormalQKD.Sifting
-- `Sifting.one_lt_succ_nonzero` (lemma) in FormalQKD.Sifting
-- `min_eq_sum_sub_abs` (lemma) in FormalQKD.RuscaEqnApprox
-- `max_eq_sum_add_abs` (lemma) in FormalQKD.RuscaEqnApprox
-- `Interval.pown` (def) in FormalQKD.RuscaEqnApprox
-- `istHPowIntervalNat` (instance) in FormalQKD.RuscaEqnApprox
-- `MyComputable.Interval.max` (def) in FormalQKD.RuscaEqnApprox
-- `MyComputable.instMaxInterval` (instance) in FormalQKD.RuscaEqnApprox
-- `MyComputable.Interval.min` (def) in FormalQKD.RuscaEqnApprox
-- `MyComputable.instMinInterval` (instance) in FormalQKD.RuscaEqnApprox
-- `MyComputable.instToStringInterval` (instance) in FormalQKD.RuscaEqnApprox
-- `MyComputable.logb` (abbrev) in FormalQKD.RuscaEqnApprox
-- `MyComputable.log₂` (abbrev) in FormalQKD.RuscaEqnApprox
-- `MyComputable.binEntropy2` (def) in FormalQKD.RuscaEqnApprox
-- `MyComputable.γ` (def) in FormalQKD.RuscaEqnApprox
-- `MyComputable.δ` (def) in FormalQKD.RuscaEqnApprox
-- `MyComputable.τ0` (def) in FormalQKD.RuscaEqnApprox
-- ... and 56 more
-
 ### gaussian-field (+1878)
 
 - `GaussianField.myBlockMI` (def) in Scratch
@@ -2193,6 +3090,70 @@
 - `GaussianHilbert.hermiteMultiEval_continuous` (lemma) in GaussianHilbert.WienerChaos
 - ... and 101 more
 
+### generalizations-martingales-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.GeneralizationsMartingalesCanonicalLaneLean.AdmissibleClass` (def) in GeneralizationsMartingalesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GeneralizationsMartingalesCanonicalLaneLean.bridgeClosed` (def) in GeneralizationsMartingalesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GeneralizationsMartingalesCanonicalLaneLean.gateClosed` (def) in GeneralizationsMartingalesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GeneralizationsMartingalesCanonicalLaneLean.bridge_from_admissible_class` (def) in GeneralizationsMartingalesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GeneralizationsMartingalesCanonicalLaneLean.gate_from_admissible_class` (def) in GeneralizationsMartingalesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GeneralizationsMartingalesCanonicalLaneLean.ConstrainedTheoremClosure` (structure) in GeneralizationsMartingalesCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.GeneralizationsMartingalesCanonicalLaneLean.canonical` (theorem) in GeneralizationsMartingalesCanonicalLaneLean.FinalTheorem
+
+### geometric-measure-integration-theory-integral-canonical-lane-mathlib (+103)
+
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AdmissibleClass` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.admittedClosure` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.gateClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.gate_from_admissible_class` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LipschitzFunctionPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LipschitzFunction
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LipschitzFunctionEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LipschitzFunction
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LipschitzFunctionClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LipschitzFunction
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.lipschitz_function_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LipschitzFunction
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LebesgueIntegrationPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LebesgueIntegration
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LebesgueIntegrationEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LebesgueIntegration
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LebesgueIntegrationClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LebesgueIntegration
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.lebesgue_integration_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.LebesgueIntegration
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureSpace` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureSpace
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureDomain
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureDomain
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.geometric_measure_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureDomain
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.CurrentPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.CurrentsAndFlatChains
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.CurrentEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.CurrentsAndFlatChains
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.CurrentClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.CurrentsAndFlatChains
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.current_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.CurrentsAndFlatChains
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.BesicovitchCoveringPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.BesicovitchCovering
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.BesicovitchCoveringEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.BesicovitchCovering
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.BesicovitchCoveringClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.BesicovitchCovering
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.besicovitch_covering_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.BesicovitchCovering
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AreaCoareaPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AreaCoareaFormulas
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AreaCoareaEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AreaCoareaFormulas
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AreaCoareaClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AreaCoareaFormulas
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.area_coarea_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.AreaCoareaFormulas
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.IntegralPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.IntegrationTheorem
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.IntegralEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.IntegrationTheorem
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.IntegralClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.IntegrationTheorem
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.integral_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.IntegrationTheorem
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererDecompositionPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererDecomposition
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererDecompositionEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererDecomposition
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererDecompositionClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererDecomposition
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.federer_decomposition_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererDecomposition
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererCurrentPackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererCurrent
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererCurrentEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererCurrent
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererCurrentClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererCurrent
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.federer_current_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FedererCurrent
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.GeometricMeasureTheoremStatement` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.sourceTheoremStatement` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.RNikodymDerivativePackage` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.RadonNikodymDerivative
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.RNikodymEvidence` (structure) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.RadonNikodymDerivative
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.RNikodymDerivativeClosed` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.RadonNikodymDerivative
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.rnikodym_derivative_closed_from_evidence` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.RadonNikodymDerivative
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.ConstrainedIntegrationClosure` (def) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.constrained_integration_endgame` (theorem) in GeometricMeasureIntegrationTheoryIntegralCanonicalLaneLean.FinalTheorem
+- ... and 53 more
+
 ### gleason-theorem-lean (+3662)
 
 - `ClassicalGleason.Separable.gleason_theorem_verified` (theorem) in GleasonVerification
@@ -2247,7 +3208,61 @@
 - `SphericalHarmonics.harmonicToSectorL2_surjective` (theorem) in SphericalHarmonics.SectorProjectionInvariant
 - ... and 3612 more
 
-### imscrbgrmr-lean (+667)
+### graphs-linear-algebra-matrices-eigenvalues-canonical-lane-mathlib (+91)
+
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralTheoremPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralTheoremEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralTheoremClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.spectral_theorem_closed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralClusteringPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralClustering
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralClusteringEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralClustering
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralClusteringClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralClustering
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.spectralClustering_closed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralClustering
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacianSpectrumPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacianSpectrum
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacianSpectrumEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacianSpectrum
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacianSpectrumClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacianSpectrum
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.graphLaplacianSpectrumClosed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacianSpectrum
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.AdmissibleClass` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.admittedClosure` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.gateClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.gate_from_admissible_class` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvaluePackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvalueSpectralDecomposition
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvalueEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvalueSpectralDecomposition
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvalueClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvalueSpectralDecomposition
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.eigenvalue_closed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvalueSpectralDecomposition
+- `HautevilleHouse.GraphMatricesEigenvaluesCanonicalLaneLean.EigenvectorCentralityPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvectorCentrality
+- `HautevilleHouse.GraphMatricesEigenvaluesCanonicalLaneLean.EigenvectorCentralityClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvectorCentrality
+- `HautevilleHouse.GraphMatricesEigenvaluesCanonicalLaneLean.eigenvector_centrality_closed` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.EigenvectorCentrality
+- `HautevilleHouse.GraphMatricesEigenvaluesCanonicalLaneLean.GraphSpectralFormalizationPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphSpectralFormalization
+- `HautevilleHouse.GraphMatricesEigenvaluesCanonicalLaneLean.GraphSpectralFormalizationClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphSpectralFormalization
+- `HautevilleHouse.GraphMatricesEigenvaluesCanonicalLaneLean.graph_spectral_formalization_closed` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphSpectralFormalization
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralDrawingPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralGraphDrawing
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralDrawingEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralGraphDrawing
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralDrawingClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralGraphDrawing
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.spectral_drawing_closed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralGraphDrawing
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphEigenvalueBoundsPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphEigenvalueBounds
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphEigenvalueBoundsEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphEigenvalueBounds
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphEigenvalueBoundsClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphEigenvalueBounds
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.graph_eigenvalue_bounds_closed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphEigenvalueBounds
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.LaplacianMatrixPackage` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.LaplacianMatrix
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.LaplacianEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.LaplacianMatrix
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.LaplacianClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacian
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.laplacian_closed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.GraphLaplacian
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.PerronFrobeniusData` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.PerronFrobeniusTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.PerronFrobeniusEvidence` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.PerronFrobeniusTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.PerronFrobeniusClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.PerronFrobeniusTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.perron_frobenius_closed_from_evidence` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.PerronFrobeniusTheorem
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement` (structure) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.sourceTheoremStatement` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.SpectralConstrainedTheoremClosed` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremLayerInternalized` (def) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in GraphsLinearAlgebraMatricesEigenvaluesCanonicalLaneLean.TheoremStatement
+- ... and 41 more
+
+### imscrbgrmr-lean (+689)
 
 - `Manuscript_ZFCt.Voynich.type1` (def) in Manuscript_ZFCt
 - `Manuscript_ZFCt.Voynich.type1_zfct` (def) in Manuscript_ZFCt
@@ -2299,7 +3314,77 @@
 - `Manuscript_ZFCt.Rohonc.type5_broad_incl_tier` (theorem) in Manuscript_ZFCt
 - `Manuscript_ZFCt.Rohonc.type6_sym_all_cross` (def) in Manuscript_ZFCt
 - `Manuscript_ZFCt.Rohonc.type6_sym_all_cross_zfct` (def) in Manuscript_ZFCt
-- ... and 617 more
+- ... and 639 more
+
+### induced-representations-locally-compact-groups-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsufoundation.AdmissibleClass` (def) in uinducedurepresentationsulocallyucompactugroupsufoundation.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsufoundation.bridgeClosed` (def) in uinducedurepresentationsulocallyucompactugroupsufoundation.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsufoundation.gateClosed` (def) in uinducedurepresentationsulocallyucompactugroupsufoundation.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsufoundation.bridge_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsufoundation.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsufoundation.gate_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsufoundation.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsufoundation.ConstrainedTheoremClosure` (structure) in uinducedurepresentationsulocallyucompactugroupsufoundation.FinalTheorem
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsufoundation.canonical` (theorem) in uinducedurepresentationsulocallyucompactugroupsufoundation.FinalTheorem
+
+### induced-representations-locally-compact-groups-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.AdmissibleClass` (def) in uinducedurepresentationsulocallyucompactugroupsulemma.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.bridgeClosed` (def) in uinducedurepresentationsulocallyucompactugroupsulemma.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.gateClosed` (def) in uinducedurepresentationsulocallyucompactugroupsulemma.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.bridge_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsulemma.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.gate_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsulemma.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.ConstrainedTheoremClosure` (structure) in uinducedurepresentationsulocallyucompactugroupsulemma.FinalTheorem
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.canonical` (theorem) in uinducedurepresentationsulocallyucompactugroupsulemma.FinalTheorem
+
+### induced-representations-locally-compact-groups-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.AdmissibleClass` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.bridgeClosed` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.gateClosed` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.bridge_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.gate_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.ConstrainedTheoremClosure` (structure) in uinducedurepresentationsulocallyucompactugroupsutheorem.FinalTheorem
+- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.canonical` (theorem) in uinducedurepresentationsulocallyucompactugroupsutheorem.FinalTheorem
+
+### inequalities-involving-eigenvalues-eigenvectors-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.bridgeClosed` (def) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.gateClosed` (def) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.canonical` (theorem) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.FinalTheorem
+
+### infinitely-divisible-distributions-stable-distributions-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.bridgeClosed` (def) in infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.gateClosed` (def) in infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.canonical` (theorem) in infinitely_divisible_distributions_stable_distributions_foundation_canonical_lane_mathlib.FinalTheorem
+
+### infinitely-divisible-distributions-stable-distributions-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.bridgeClosed` (def) in infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.gateClosed` (def) in infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.canonical` (theorem) in infinitely_divisible_distributions_stable_distributions_lemma_canonical_lane_mathlib.FinalTheorem
+
+### infinitely-divisible-distributions-stable-distributions-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.bridgeClosed` (def) in infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.gateClosed` (def) in infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.canonical` (theorem) in infinitely_divisible_distributions_stable_distributions_theorem_canonical_lane_mathlib.FinalTheorem
 
 ### interval (+844)
 
@@ -2355,6 +3440,16 @@
 - `Fixed.approx_abs_eq` (lemma) in Interval.Fixed
 - ... and 794 more
 
+### irregularities-distribution-discrepancy-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.bridgeClosed` (def) in irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.gateClosed` (def) in irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.canonical` (theorem) in irregularities_distribution_discrepancy_foundation_canonical_lane_mathlib.FinalTheorem
+
 ### joyalRepresentationTheorem (+9)
 
 - `toBoundedLatticeHom` (def) in JoyalRepresentationTheorem
@@ -2367,12 +3462,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lax-milgram-theorem-canonical-lane-mathlib (+2)
-
-- `HautevilleHouse.LaxMilgramTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (def) in LaxMilgramTheoremCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.LaxMilgramTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in LaxMilgramTheoremCanonicalLaneLean.FinalTheorem
-
-### lean-bandits (+650)
+### lean-bandits (+660)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
 - `config` (def) in LMLTutorial.Tutorial
@@ -2424,18 +3514,7 @@
 - `Learning.IT.adapted_action` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IT.adapted_feedback` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IT.filtrationAction` (def) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- ... and 600 more
-
-### lean-qkd (+8)
-
-- `vonNeumannEntropy` (def) in QKD
-- `SchurConvex` (def) in QKD
-- `slope_comparison_tlogt` (lemma) in QKD
-- `telescoping_identity` (lemma) in QKD
-- `schur_convex_reduction_to_distinct` (lemma) in QKD
-- `schur_convex_xlogx` (theorem) in QKD
-- `eigenvalue_bound_eigenbasis` (lemma) in QKD
-- `high_fidelity_implies_low_entropy_equivalent` (theorem) in QKD
+- ... and 610 more
 
 ### lean-stat-learning-theory (+2009)
 
@@ -2545,35 +3624,439 @@
 - `InformationTheory.pmf.support` (def) in InformationTheory.InformationTheory
 - ... and 36 more
 
-### legion-core-specification (+25)
+### loeb-measure (+82)
 
-- `LegionCore.ParticipantId` (def) in docs.formal-models.shared.Types
-- `LegionCore.TokenAmount` (def) in docs.formal-models.shared.Types
-- `LegionCore.MerkleRoot` (def) in docs.formal-models.shared.Types
-- `LegionCore.Proof` (def) in docs.formal-models.shared.Types
-- `LegionCore.AllocationPolicy` (structure) in docs.formal-models.shared.Types
-- `LegionCore.AllocationRecord` (structure) in docs.formal-models.shared.Types
-- `LegionCore.SessionId` (def) in docs.formal-models.shared.Types
-- `LegionCore.MessageFrame` (structure) in docs.formal-models.shared.Types
-- `LegionCore.MeritCore.transferAuthorized` (def) in docs.formal-models.merit-core.FundsSafety
-- `LegionCore.MeritCore.funds_move_to_authorized` (theorem) in docs.formal-models.merit-core.FundsSafety
-- `LegionCore.MeritCore.emergencyActionSafe` (def) in docs.formal-models.merit-core.FundsSafety
-- `LegionCore.MeritCore.allocationValid` (def) in docs.formal-models.merit-core.AllocationIntegrity
-- `LegionCore.MeritCore.allocation_cap_respected` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
-- `LegionCore.MeritCore.allocation_requires_proof` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
-- `LegionCore.MeritCore.decisionAuditable` (def) in docs.formal-models.merit-core.AuditabilityModel
-- `LegionCore.MeritCore.auditable_is_reproducible` (theorem) in docs.formal-models.merit-core.AuditabilityModel
-- `LegionCore.PrivacyCore.isDecentralized` (def) in docs.formal-models.privacy-core.CensorshipResistance
-- `LegionCore.PrivacyCore.censorshipResistant` (def) in docs.formal-models.privacy-core.CensorshipResistance
-- `LegionCore.PrivacyCore.decentralized_survives_removal` (theorem) in docs.formal-models.privacy-core.CensorshipResistance
-- `LegionCore.PrivacyCore.sessionsIsolated` (def) in docs.formal-models.privacy-core.SessionIsolation
-- `LegionCore.PrivacyCore.isolationPreserving` (def) in docs.formal-models.privacy-core.SessionIsolation
-- `LegionCore.PrivacyCore.fresh_sessions_isolated` (theorem) in docs.formal-models.privacy-core.SessionIsolation
-- `LegionCore.PrivacyCore.metadataFree` (def) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
-- `LegionCore.PrivacyCore.satisfiesZeroMetadata` (def) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
-- `LegionCore.PrivacyCore.zero_metadata_preserved` (theorem) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
+- `Loeb.Ultraproduct` (abbrev) in LoebMeasure.Basic
+- `Loeb.Ultrapower` (abbrev) in LoebMeasure.Basic
+- `LoebMeasure.AxiomAudit.acceptedAxioms` (def) in scripts.AxiomAudit
+- `Filter.Product.reindex` (def) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_ofFun` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.eval_reindex` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_id` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_comp` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.finitePiEquiv_reindex` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute` (def) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_ofFun` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.eval_permute` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_one` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_mul` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_permute_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_symm_permute` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.finitePiEquiv_permute` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_finitePiMk` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.finPowerEquiv_reindex` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.finPowerEquiv_permute` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_finPowerEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_finPowerEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_zero` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.eval` (def) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.eval_ofFun` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.eventually_forall_of_forall` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.rep` (def) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.ofFun_rep` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finitePiMk` (def) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.eval_finitePiMk` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finitePiMk_ofFun` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finitePiEquiv` (def) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finitePiEquiv_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finitePiEquiv_symm_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finPowerEquiv` (def) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finPowerEquiv_eq` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finPowerEquiv_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finPowerEquiv_symm_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finitePiEquiv_symm_ofFun` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.eval_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.eval_finPowerEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.eval_map` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.map_finitePiMk` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.map_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finPowerEquiv_zero` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.finPowerEquiv_one` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.ofFun` (def) in LoebMeasure.Ultraproduct.Basic
+- `Filter.Product.quot_mk_eq_ofFun` (theorem) in LoebMeasure.Ultraproduct.Basic
+- ... and 32 more
 
-### mathlib4 (+55758)
+### martingales-classical-analysis-lemma-canonical-lane-mathlib (+73)
+
+- `HautevilleHouse.martingales_classical_analysis_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in martingales_classical_analysis_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_lemma_canonical_lane_mathlib.bridgeClosed` (def) in martingales_classical_analysis_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_lemma_canonical_lane_mathlib.gateClosed` (def) in martingales_classical_analysis_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in martingales_classical_analysis_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in martingales_classical_analysis_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in martingales_classical_analysis_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.martingales_classical_analysis_lemma_canonical_lane_mathlib.canonical` (theorem) in martingales_classical_analysis_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FilteredProbabilitySpace` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleBasicDefinitions
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.Martingale` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleBasicDefinitions
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.QuadraticVariation` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleBasicDefinitions
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleAdmittedObject` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.AdmissibleClass` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.admittedClosure` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleCondition` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleCondition
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConditionEvidence` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleCondition
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConditionClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleCondition
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.martingale_condition_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleCondition
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.gateClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleGateLemmas
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.gate_from_admissible_class` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleGateLemmas
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleEqualityPackage` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleEquality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleEqualityClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleEquality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.martingale_equality_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleEquality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleProcess` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleObjects
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.AdmittedMartingaleObject` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleObjects
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleWitnessClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleSpace` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConvergence` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConvergenceClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConvergencePackage` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.martingale_convergence_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.martingale_witness_closed_from_object` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.ConstrainedMartingaleClosure` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleFinalTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.constrained_martingale_endgame` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleFinalTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.StoppingTime` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.StoppingTime
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobMaximalInequality` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.StoppingTimeDoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobInequalityClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FiltrationStructure` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FiltrationStructure
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FiltrationEvidence` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FiltrationStructure
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FiltrationClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FiltrationStructure
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.filtration_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.FiltrationStructure
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobInequalityPackage` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobInequalityEvidence` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.doob_inequality_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MartingaleEndgameState` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.QuadraticVariationPackage` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.QuadraticVariationClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.quadratic_variation_closure` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.bridgeClosed` (def) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.bridge_from_admissible_class` (theorem) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MaximalInequality` (structure) in MartingalesClassicalAnalysisLemmaCanonicalLaneLean.MaximalInequality
+- ... and 23 more
+
+### martingales-classical-analysis-theorem-canonical-lane-mathlib (+86)
+
+- `HautevilleHouse.martingales_classical_analysis_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in martingales_classical_analysis_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_theorem_canonical_lane_mathlib.bridgeClosed` (def) in martingales_classical_analysis_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_theorem_canonical_lane_mathlib.gateClosed` (def) in martingales_classical_analysis_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in martingales_classical_analysis_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in martingales_classical_analysis_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_classical_analysis_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in martingales_classical_analysis_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.martingales_classical_analysis_theorem_canonical_lane_mathlib.canonical` (theorem) in martingales_classical_analysis_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.AdmissibleClass` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.admittedClosure` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleRepresentationPackage` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleRepresentation
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleRepresentationEvidence` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleRepresentation
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleRepresentationClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleRepresentation
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.martingale_representation_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleRepresentation
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.gateClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleBridgeLemmas
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleBridgeLemmas
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StochasticIntegrationPackage` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StochasticIntegration
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StochasticIntegrationEvidence` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StochasticIntegration
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StochasticIntegrationClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StochasticIntegration
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.stochastic_integration_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StochasticIntegration
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleMeasure` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleMeasure
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleMeasureEvidence` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleMeasure
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleMeasureClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleMeasure
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.martingale_measure_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleMeasure
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.SquareIntegrableMartingalePackage` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.SquareIntegrableMartingale
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.SquareIntegrableMartingaleEvidence` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.SquareIntegrableMartingale
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.SquareIntegrableMartingaleClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.SquareIntegrableMartingale
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.square_integrable_martingale_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.SquareIntegrableMartingale
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleSpace` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleAdmittedObject` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergencePackage` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergenceEvidence` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergenceClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.martingale_convergence_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StoppingTime` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.OptionalStopping
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StoppingTimeProperty` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StoppingTimes
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.OptionalStoppingTheorem` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StoppingTimes
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.optional_stopping_closed` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.StoppingTimes
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.TheoremStatement` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.sourceTheoremStatement` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.ConstrainedMartingaleClosure` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.constrained_martingale_endgame` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalitiesPackage` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalities
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalitiesEvidence` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalities
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalitiesClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalities
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.doob_inequalities_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalities
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalityPackage` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalityEvidence` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequalityClosed` (def) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.doob_inequality_closed_from_evidence` (theorem) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesClassicalAnalysisTheoremCanonicalLaneLean.FiltratedSpace` (structure) in MartingalesClassicalAnalysisTheoremCanonicalLaneLean.MartingaleDefinitions
+- ... and 36 more
+
+### martingales-continuous-parameter-foundation-canonical-lane-mathlib (+106)
+
+- `HautevilleHouse.martingales_continuous_parameter_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in martingales_continuous_parameter_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_foundation_canonical_lane_mathlib.bridgeClosed` (def) in martingales_continuous_parameter_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_foundation_canonical_lane_mathlib.gateClosed` (def) in martingales_continuous_parameter_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in martingales_continuous_parameter_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in martingales_continuous_parameter_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in martingales_continuous_parameter_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.martingales_continuous_parameter_foundation_canonical_lane_mathlib.canonical` (theorem) in martingales_continuous_parameter_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.FiltrationPackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.FiltrationEvidence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.FiltrationClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.filtration_closed_from_evidence` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.AdmissibleClass` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.admittedClosure` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.gateClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleBridge
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.gate_from_admissible_class` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleBridge
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.StationaryIncrementsPackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.StationaryIncrementsPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.StationaryIncrementsEvidence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.StationaryIncrementsPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.StationaryIncrementsClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.StationaryIncrementsPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.stationary_increments_closed_from_evidence` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.StationaryIncrementsPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.CanonicalNeighborhoodsPackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.CanonicalNeighborhoods
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.CanonicalNeighborhoodsEvidence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.CanonicalNeighborhoods
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.CanonicalNeighborhoodsClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.CanonicalNeighborhoods
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.canonical_neighborhoods_closed_from_evidence` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.CanonicalNeighborhoods
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleSpace` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleAdmittedObject
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleAdmittedObject` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleWitnessClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerDecomposition` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerDecomposition
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerEvidence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerDecomposition
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerDecomposition
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.doob_meyer_closed_from_evidence` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerDecomposition
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.OptionalSamplingTheorem` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.DoobMeyerAndOptionalSampling
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalizingSequence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleAndStochasticIntegral
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingalePackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleAndStochasticIntegral
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleEvidence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleAndStochasticIntegral
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleAndStochasticIntegral
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.local_martingale_closed_from_evidence` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleAndStochasticIntegral
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.StochasticIntegralPackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.LocalMartingaleAndStochasticIntegral
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleConvergencePackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleConvergenceClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterFoundationCanonicalLaneLean.martingale_convergence_closed` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.QuadraticVariationPackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.QuadraticVariationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.QuadraticVariationEvidence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.QuadraticVariationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.QuadraticVariationClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.QuadraticVariationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.quadratic_variation_closed_from_evidence` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.QuadraticVariationPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.MartingaleAdmissibleClosure` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.martingale_admissible_endgame` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.OptionalSamplingPackage` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.OptionalSamplingPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.OptionalSamplingEvidence` (structure) in MartingalesContinuousParameterFoundationCanonicalLaneLean.OptionalSamplingPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.OptionalSamplingClosed` (def) in MartingalesContinuousParameterFoundationCanonicalLaneLean.OptionalSamplingPackage
+- `HautevilleHouse.MartingalesContinuousParameterFoundation.optional_sampling_closed_from_evidence` (theorem) in MartingalesContinuousParameterFoundationCanonicalLaneLean.OptionalSamplingPackage
+- ... and 56 more
+
+### martingales-continuous-parameter-lemma-canonical-lane-mathlib (+62)
+
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.AdmissibleClass` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.admittedClosure` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.gateClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.gate_from_admissible_class` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleSpace` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleObjects
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleAdmittedObject` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleAdmissibleClass
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleEndgameState` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleObjects
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleWitnessClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleConvergencePackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleConvergenceEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleConvergenceClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.martingale_convergence_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.StochasticIntegralPackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.StochasticIntegralEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.StochasticIntegralClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.stochastic_integral_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.StochasticCalculus
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.TheoremStatement` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.sourceTheoremStatement` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.theorem_statement_internalized` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ConstrainedMartingaleClosure` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.constrained_martingale_endgame` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ItoIntegralPackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ItoIntegral
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ItoIntegralEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ItoIntegral
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ItoIntegralClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ItoIntegral
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ito_integral_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ItoIntegral
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.DoobInequalityPackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.DoobMartingaleInequality
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.DoobInequalityEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.DoobMartingaleInequality
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.DoobInequalityClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.DoobMartingaleInequality
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.doob_inequality_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.DoobMartingaleInequality
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.Filtration` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.AdapatedProcess` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.MartingaleObject` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.MathlibObjects
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.QuadraticVariationPackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.QuadraticVariationEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.QuadraticVariationClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.quadratic_variation_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousMartingalePackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousMartingaleStructure
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousMartingaleEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousMartingaleStructure
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousMartingaleClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousMartingaleStructure
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.continuous_martingale_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousMartingaleStructure
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.OptionalStoppingPackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.OptionalStopping
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.OptionalStoppingEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.OptionalStopping
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.OptionalStoppingClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.OptionalStopping
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.optional_stopping_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.OptionalStopping
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousParameterLemmaPackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousParameterLemma
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousParameterLemmaEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousParameterLemma
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousParameterLemmaClosed` (def) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousParameterLemma
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.continuous_parameter_lemma_closed_from_evidence` (theorem) in MartingalesContinuousParameterLemmaCanonicalLaneLean.ContinuousParameterLemma
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.StoppingTimePackage` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.StoppingTimeLemma
+- `HautevilleHouse.MartingalesContinuousParameterLemmaCanonicalLaneLean.StoppingTimeEvidence` (structure) in MartingalesContinuousParameterLemmaCanonicalLaneLean.StoppingTimeLemma
+- ... and 12 more
+
+### martingales-continuous-parameter-theorem-canonical-lane-mathlib (+110)
+
+- `HautevilleHouse.martingales_continuous_parameter_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in martingales_continuous_parameter_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_theorem_canonical_lane_mathlib.bridgeClosed` (def) in martingales_continuous_parameter_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_theorem_canonical_lane_mathlib.gateClosed` (def) in martingales_continuous_parameter_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in martingales_continuous_parameter_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in martingales_continuous_parameter_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_continuous_parameter_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in martingales_continuous_parameter_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.martingales_continuous_parameter_theorem_canonical_lane_mathlib.canonical` (theorem) in martingales_continuous_parameter_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleProcess` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleProcess
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationPackage` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationEvidence` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationClosed` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.filtration_closed_from_evidence` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.RegularizationPackage` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.RegularizationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.RegularizationEvidence` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.RegularizationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.RegularizationClosed` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.RegularizationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.regularization_closed_from_evidence` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.RegularizationPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.AdmissibleClass` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.admittedClosure` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.FiltrationSpace` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterMathlibObjects
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousMartingaleObject` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterMathlibObjects
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleEndgameState` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterMathlibObjects
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleWitnessClosed` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleAdmittedObject
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterFiltration` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterFiltration
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.gateClosed` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ConvergencePackage` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousMartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ConvergenceEvidence` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousMartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ConvergenceClosed` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousMartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.convergence_closed_from_evidence` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousMartingaleConvergence
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.DoobsInequality` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.DoobsInequality
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleSpace` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleAdmittedObject
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleAdmittedObject` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleAdmittedObject
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.MathlibProofObligation` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlibProofObligation` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.commonCoreProjectionLawAvailable` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.commonCoreCarriageLawAvailable` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.commonCoreIdempotenceAvailable` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_common_core_imported_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_theorem_specific_definitions_native_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_theorem_specific_bridge_native_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_theorem_specific_admitted_closure_native_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_unrestricted_classical_closure_carried` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_common_core_projection_law_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_common_core_carriage_law_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.mathlib_common_core_idempotence_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.theoremSpecificEndgamePilotClosed` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.theorem_specific_endgame_pilot_checked` (theorem) in MartingalesContinuousParameterTheoremCanonicalLaneLean.MartingaleContinuousParameterStatement
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterPackage` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterEvidence` (structure) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterPackage
+- `HautevilleHouse.MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterClosed` (def) in MartingalesContinuousParameterTheoremCanonicalLaneLean.ContinuousParameterPackage
+- ... and 60 more
+
+### martingales-discrete-parameter-lemma-canonical-lane-mathlib (+102)
+
+- `HautevilleHouse.martingales_discrete_parameter_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in martingales_discrete_parameter_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_discrete_parameter_lemma_canonical_lane_mathlib.bridgeClosed` (def) in martingales_discrete_parameter_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_discrete_parameter_lemma_canonical_lane_mathlib.gateClosed` (def) in martingales_discrete_parameter_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_discrete_parameter_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in martingales_discrete_parameter_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_discrete_parameter_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in martingales_discrete_parameter_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.martingales_discrete_parameter_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in martingales_discrete_parameter_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.martingales_discrete_parameter_lemma_canonical_lane_mathlib.canonical` (theorem) in martingales_discrete_parameter_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.AdmissibleClass` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.admittedClosure` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.gateClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.gate_from_admissible_class` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleStoppingPackage` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleStopping
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleStoppingEvidence` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleStopping
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleStoppingClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleStopping
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.martingale_stopping_closed_from_evidence` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleStopping
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConvergencePackage` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConvergenceEvidence` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConvergenceClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.convergence_closed_from_evidence` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleAdmittedObject` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleLatticePackage
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleWitnessClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleLatticePackage
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergenceTheoremPackage` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergenceTheoremEvidence` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergenceTheoremClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.martingale_convergence_theorem_closed_from_evidence` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergenceTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteMartingalePackage` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteMartingaleEvidence` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteMartingaleClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.discrete_martingale_closed_from_evidence` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteTimeIndexSet` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteTimeIndexSet
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteTimeIndexSetClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteTimeIndexSet
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteTimeIndexSetEvidence` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteTimeIndexSet
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.discrete_time_index_set_closed_from_evidence` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.DiscreteTimeIndexSet
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.sourceTheoremStatement` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.MartingaleConstrainedTheoremClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremLayerInternalized` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.martingale_constrained_theorem_closed_checked` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.theorem_layer_internalized_checked` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.FiltrationSystem` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.FiltrationSystem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.FiltrationSystemClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.FiltrationSystem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.FiltrationSystemEvidence` (structure) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.FiltrationSystem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.filtration_system_closed_from_evidence` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.FiltrationSystem
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.bridgeClosed` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.bridge_from_admissible_class` (theorem) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.BridgeLemmas
+- `HautevilleHouse.MartingalesDiscreteParameterLemmaCanonicalLaneLean.ConstrainedMartingaleClosure` (def) in MartingalesDiscreteParameterLemmaCanonicalLaneLean.FinalTheorem
+- ... and 52 more
+
+### martingales-discrete-parameter-theorem-canonical-lane-mathlib (+88)
+
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.Filtration` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.AdaptedProcess` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.IntegrableCondition` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleBasicDefinitions
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleProperty` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleBasicDefinitions
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleObject` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleBasicDefinitions
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleSpace` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleProcess
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleProcess` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleProcess
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleEvidence` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleDefinition
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleDefinition
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.martingale_closed_from_evidence` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleDefinition
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleCentralLimitPackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleCentralLimit
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleCentralLimitClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleCentralLimit
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.AdmissibleClass` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.admittedClosure` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.gateClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.FiltrationPackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleFiltration
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.FiltrationEvidence` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleFiltration
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.FiltrationClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleFiltration
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.filtration_closed_from_evidence` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleFiltration
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergencePackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergencePackage
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergenceClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergencePackage
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleRepresentationPackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleRepresentation
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleRepresentationClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleRepresentation
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.martingale_representation_implies_decomposition` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleRepresentationPackage
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.L1Bounded` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.Martingale` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergenceEvidence` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.martingale_convergence_closed_from_evidence` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.MartingaleConvergence
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobMaximalInequalityPackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobMaximalInequality
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobLpInequalityPackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequalityPackage
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequalityClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.doob_inequality_implies_submartingale` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequalityPackage
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.sourceTheoremStatement` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.SigmaAlgebraConstrainedTheoremClosed` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremLayerInternalized` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.sigma_algebra_constrained_theorem_closed_checked` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.theorem_layer_internalized_checked` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.ConstrainedMartingaleClosure` (def) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.constrained_martingale_endgame` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequalityPackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequalityEvidence` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.doob_inequality_closed_from_evidence` (theorem) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.DoobInequality
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.QuadraticVariationPackage` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.QuadraticVariation
+- `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.QuadraticVariationEvidence` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.QuadraticVariation
+- ... and 38 more
+
+### mathlib4 (+55852)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2625,7 +4108,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 55708 more
+- ... and 55802 more
 
 ### mini-measure-probability-integration (+1209)
 
@@ -2735,92 +4218,110 @@
 - `QuantumGraph.real_toSubset_iff` (theorem) in Monlib.QuantumGraph.Degree
 - ... and 2363 more
 
-### nesterov-lean (+25)
+### multivariate-distribution-statistics-lemma-canonical-lane-mathlib (+7)
 
-- `LSmooth` (def) in NesterovLean.Defs
-- `ConvexFirstOrder` (def) in NesterovLean.Defs
-- `IsGlobalMin` (def) in NesterovLean.Defs
-- `momentumCoeff` (def) in NesterovLean.Defs
-- `agdState` (def) in NesterovLean.Defs
-- `agd_x` (def) in NesterovLean.Defs
-- `agd_y` (def) in NesterovLean.Defs
-- `agd_y_succ` (lemma) in NesterovLean.Defs
-- `agd_x_succ` (lemma) in NesterovLean.Defs
-- `theta` (def) in NesterovLean.Defs
-- `v_seq` (def) in NesterovLean.Defs
-- `v_seq_succ` (lemma) in NesterovLean.Defs
-- `lyapunov` (def) in NesterovLean.Defs
-- `f_sub_fstar_nonneg` (lemma) in NesterovLean.Convergence
-- `x_eq_combo` (lemma) in NesterovLean.Convergence
-- `convex_interp_bound` (lemma) in NesterovLean.Convergence
-- `key_inequality` (lemma) in NesterovLean.Convergence
-- `v_norm_sq_expand` (lemma) in NesterovLean.Convergence
-- `lyapunov_nonincrease` (theorem) in NesterovLean.Convergence
-- `lyapunov_zero` (lemma) in NesterovLean.Convergence
-- `convergence_rate` (theorem) in NesterovLean.Convergence
-- `momentumCoeff_nonneg` (theorem) in NesterovLean.MomentumStep
-- `momentumCoeff_lt_one` (theorem) in NesterovLean.MomentumStep
-- `momentumCoeff_mem_Ico` (theorem) in NesterovLean.MomentumStep
-- `descent_lemma` (theorem) in NesterovLean.MomentumStep
+- `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.bridgeClosed` (def) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.gateClosed` (def) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.canonical` (theorem) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.FinalTheorem
+
+### nonlinear-spectral-theory-nonlinear-eigenvalue-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.bridgeClosed` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.gateClosed` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.canonical` (theorem) in nonlinear_spectral_theory_nonlinear_eigenvalue_foundation_canonical_lane_mathlib.FinalTheorem
+
+### nonlinear-spectral-theory-nonlinear-eigenvalue-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.bridgeClosed` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.gateClosed` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.canonical` (theorem) in nonlinear_spectral_theory_nonlinear_eigenvalue_lemma_canonical_lane_mathlib.FinalTheorem
+
+### nonlinear-spectral-theory-nonlinear-eigenvalue-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.bridgeClosed` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.gateClosed` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.canonical` (theorem) in nonlinear_spectral_theory_nonlinear_eigenvalue_theorem_canonical_lane_mathlib.FinalTheorem
+
+### nonstandard-measure-theory-28e10-fuzzy-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.bridgeClosed` (def) in nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.gateClosed` (def) in nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.canonical` (theorem) in nonstandard_measure_theory_28e10_fuzzy_foundation_canonical_lane_mathlib.FinalTheorem
+
+### nonstandard-measure-theory-28e10-fuzzy-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.bridgeClosed` (def) in nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.gateClosed` (def) in nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.canonical` (theorem) in nonstandard_measure_theory_28e10_fuzzy_lemma_canonical_lane_mathlib.FinalTheorem
+
+### nonstandard-measure-theory-28e10-fuzzy-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.bridgeClosed` (def) in nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.gateClosed` (def) in nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.canonical` (theorem) in nonstandard_measure_theory_28e10_fuzzy_theorem_canonical_lane_mathlib.FinalTheorem
+
+### numerical-approximation-eigenvalues-parts-spectrum-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.bridgeClosed` (def) in numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.gateClosed` (def) in numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.canonical` (theorem) in numerical_approximation_eigenvalues_parts_spectrum_foundation_canonical_lane_mathlib.FinalTheorem
+
+### numerical-approximation-eigenvalues-parts-spectrum-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.bridgeClosed` (def) in numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.gateClosed` (def) in numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.canonical` (theorem) in numerical_approximation_eigenvalues_parts_spectrum_lemma_canonical_lane_mathlib.FinalTheorem
+
+### numerical-approximation-eigenvalues-parts-spectrum-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.bridgeClosed` (def) in numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.gateClosed` (def) in numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.canonical` (theorem) in numerical_approximation_eigenvalues_parts_spectrum_theorem_canonical_lane_mathlib.FinalTheorem
 
 ### open-mapping-theorem-canonical-lane-mathlib (+2)
 
 - `HautevilleHouse.OpenMappingTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (def) in OpenMappingTheoremCanonicalLaneLean.FinalTheorem
 - `HautevilleHouse.OpenMappingTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in OpenMappingTheoremCanonicalLaneLean.FinalTheorem
-
-### ou-formal-system (+444)
-
-- `Continuum.list_replicate_succ'` (theorem) in Continuum
-- `Continuum.list_replicate_mem` (theorem) in Continuum
-- `Continuum.visible_both_of_neq` (theorem) in Continuum
-- `Continuum.visible_false_ext_discriminator` (theorem) in Continuum
-- `Continuum.visible_ext_contradiction` (theorem) in Continuum
-- `Continuum.observer_identity` (theorem) in Continuum
-- `Continuum.infinityWitness` (def) in Continuum
-- `Continuum.infinityWitness_injective` (theorem) in Continuum
-- `Continuum.infinityWitness_mem` (theorem) in Continuum
-- `Continuum.fin_pigeonhole` (theorem) in Continuum
-- `Continuum.observer_inexhaustibility` (theorem) in Continuum
-- `Continuum.observer_directionality` (theorem) in Continuum
-- `Continuum.observer_directionality_strong` (theorem) in Continuum
-- `Continuum.empty_set_across` (theorem) in Continuum
-- `Continuum.pairing_across` (theorem) in Continuum
-- `Continuum.union_across` (theorem) in Continuum
-- `Continuum.power_set_across` (theorem) in Continuum
-- `Continuum.separation_across` (theorem) in Continuum
-- `Continuum.replacement_across` (theorem) in Continuum
-- `Continuum.ContinuumAcross` (structure) in Continuum
-- `Continuum.ContinuumAcross.nullCollection` (def) in Continuum
-- `Continuum.ContinuumAcross.nullCollection_spec` (theorem) in Continuum
-- `Continuum.null` (theorem) in Continuum
-- `Continuum.empty_unique` (theorem) in Continuum
-- `Continuum.powerset_empty_spec` (theorem) in Continuum
-- `Continuum.singleton_exists` (theorem) in Continuum
-- `Continuum.two_element_set_exists` (theorem) in Continuum
-- `Continuum.separation` (theorem) in Continuum
-- `Continuum.pairing` (theorem) in Continuum
-- `Continuum.zfImage` (def) in Continuum
-- `Continuum.mem_zfImage` (theorem) in Continuum
-- `Continuum.zfsetModel` (def) in Continuum
-- `Continuum.Crossing` (structure) in Continuum
-- `Continuum.Crossing.cross` (def) in Continuum
-- `Continuum.Crossing.cross_length` (theorem) in Continuum
-- `Continuum.Crossing.cross_compatible` (theorem) in Continuum
-- `Continuum.zfsetCrossing` (def) in Continuum
-- `Continuum.membrane_not_injective` (theorem) in Continuum
-- `Continuum.membrane_no_inverse` (theorem) in Continuum
-- `Continuum.membrane_resolution_converges` (theorem) in Continuum
-- `Continuum.membrane_asymptotic_return` (theorem) in Continuum
-- `Continuum.six_across` (theorem) in Continuum
-- `Continuum.three_within` (theorem) in Continuum
-- `OU.Observer.locusAt_is_locus'` (theorem) in Continuum
-- `OU.Observer.obsMap` (def) in Continuum
-- `OU.Observer.locusAt_of_not_locus` (theorem) in Continuum
-- `OU.Observer.locusAt_append` (theorem) in Continuum
-- `OU.Observer.locusAt_is_locus` (theorem) in Continuum
-- `OU.Observer.locusAt_mem_subset` (theorem) in Continuum
-- `OU.Observer.locusAt_disjoint` (theorem) in Continuum
-- ... and 394 more
 
 ### partial-regularity (+263)
 
@@ -2979,7 +4480,7 @@
 - `Pphi2.EuclideanOS.OS4_Ergodicity` (def) in Pphi2.EuclideanOS
 - ... and 2537 more
 
-### probability (+295)
+### probability (+296)
 
 - `fancy` (theorem) in Main
 - `strTrim` (def) in Main
@@ -3031,61 +4532,67 @@
 - `MDPs.Histories` (def) in MDPLib.MDP.Histories
 - `MDPs.ℋ` (abbrev) in MDPLib.MDP.Histories
 - `MDPs.hist_foll_nonempty` (theorem) in MDPLib.MDP.Histories
-- ... and 245 more
+- ... and 246 more
 
-### qcal-formalization (+268)
+### probability-measures-groups-semigroups-fourier-foundation-canonical-lane-mathlib (+7)
 
-- `f₀` (def) in QCAL.NoesisConstant
-- `Ψ_val` (def) in QCAL_V3_FORMALIZACION_COMPLETA
-- `Φ_val` (def) in QCAL_V3_FORMALIZACION_COMPLETA
-- `LIMITE_ADELICO` (def) in QCAL_V3_FORMALIZACION_COMPLETA
-- `qcal_v3_certified` (theorem) in QCAL_V3_FORMALIZACION_COMPLETA
-- `equivalencia_qcal_rh` (theorem) in CIERRE_BRECHA_5
-- `SistemaQCAL` (structure) in CIERRE_BRECHA_5
-- `Đ_self_adjoint_completo` (theorem) in CIERRE_BRECHA_1
-- `weyl_law_completa` (theorem) in CIERRE_BRECHA_1
-- `heat_expansion_completa` (theorem) in CIERRE_BRECHA_1
-- `ArbolProfundidad` (def) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
-- `Πₙ` (def) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
-- `CeroAdelico` (structure) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
-- `structural_correspondence_complete` (theorem) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
-- `conj_constant` (lemma) in QCAL_V3.eliminacion_axiomas
-- `schwartz_boundary` (lemma) in QCAL_V3.eliminacion_axiomas
-- `archimedean_symmetric` (theorem) in QCAL_V3.eliminacion_axiomas
-- `padic_symmetric` (theorem) in QCAL_V3.eliminacion_axiomas
-- `H_Psi_symmetric` (theorem) in QCAL_V3.simetria_H_psi
-- `R_0` (def) in QCAL_V3.eliminacion_axiomas
-- `K_operator` (def) in QCAL_V3.cierre_completo
-- `K_trace_class` (theorem) in QCAL_V3.cierre_completo
-- `D_fredholm` (def) in QCAL_V3.cierre_completo
-- `log_deriv_D` (lemma) in QCAL_V3.eliminacion_axiomas
-- `log_deriv_Xi` (lemma) in QCAL_V3.eliminacion_axiomas
-- `log_deriv_eq` (theorem) in QCAL_V3.eliminacion_axiomas
-- `D_eq_Xi_Re_gt_1` (theorem) in QCAL_V3.eliminacion_axiomas
-- `D_eq_Xi` (theorem) in QCAL_V3.cierre_completo
-- `qcal_fredholm_resonance_theorem` (theorem) in QCAL_V3.cierre_completo
-- `riemann_hypothesis_proved` (theorem) in QCAL_V3.cierre_completo
-- `GaugeGroup` (structure) in QCAL_V3.extensiones_avanzadas
-- `CorrienteConservada` (def) in QCAL_V3.cuatro_extensiones_finales
-- `noether_p_adic` (theorem) in QCAL_V3.cuatro_extensiones_finales
-- `RadioAdelico` (def) in QCAL_V3.cuatro_extensiones_finales
-- `state_bounded` (theorem) in QCAL_V3.cuatro_extensiones_finales
-- `classical_limit` (theorem) in QCAL_V3.cuatro_extensiones_finales
-- `ExperimentoQCAL` (structure) in QCAL_V3.siete_extensiones_interdisciplinarias
-- `experimental_verifiability` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
-- `CosmologiaQCAL` (structure) in QCAL_V3.siete_extensiones_interdisciplinarias
-- `inflation_p_adic` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
-- `ConcienciaQCAL` (structure) in QCAL_V3.siete_extensiones_interdisciplinarias
-- `consciousness_as_coherence` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
-- `qcal_v3_ecosystem_complete` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
-- `DiscoClopen` (structure) in QCAL_V3.Medicion_NoClonacion
-- `ProyectorMedicion` (def) in QCAL_V3.Medicion_NoClonacion
-- `medicion_idempotente` (theorem) in QCAL_V3.Medicion_NoClonacion
-- `EsUnitario` (def) in QCAL_V3.Medicion_NoClonacion
-- `H_arch` (def) in QCAL_V3.simetria_H_psi
-- `conj_arch` (lemma) in QCAL_V3.simetria_H_psi
-- `deriv_expand` (lemma) in QCAL_V3.simetria_H_psi
-- ... and 218 more
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.bridgeClosed` (def) in probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.gateClosed` (def) in probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.canonical` (theorem) in probability_measures_groups_semigroups_fourier_foundation_canonical_lane_mathlib.FinalTheorem
+
+### probability-measures-groups-semigroups-fourier-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.bridgeClosed` (def) in probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.gateClosed` (def) in probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.canonical` (theorem) in probability_measures_groups_semigroups_fourier_lemma_canonical_lane_mathlib.FinalTheorem
+
+### probability-measures-groups-semigroups-fourier-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.bridgeClosed` (def) in probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.gateClosed` (def) in probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.canonical` (theorem) in probability_measures_groups_semigroups_fourier_theorem_canonical_lane_mathlib.FinalTheorem
+
+### probability-measures-topological-spaces-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.probability_measures_topological_spaces_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in probability_measures_topological_spaces_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_foundation_canonical_lane_mathlib.bridgeClosed` (def) in probability_measures_topological_spaces_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_foundation_canonical_lane_mathlib.gateClosed` (def) in probability_measures_topological_spaces_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in probability_measures_topological_spaces_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in probability_measures_topological_spaces_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in probability_measures_topological_spaces_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.probability_measures_topological_spaces_foundation_canonical_lane_mathlib.canonical` (theorem) in probability_measures_topological_spaces_foundation_canonical_lane_mathlib.FinalTheorem
+
+### probability-measures-topological-spaces-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.probability_measures_topological_spaces_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in probability_measures_topological_spaces_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_lemma_canonical_lane_mathlib.bridgeClosed` (def) in probability_measures_topological_spaces_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_lemma_canonical_lane_mathlib.gateClosed` (def) in probability_measures_topological_spaces_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in probability_measures_topological_spaces_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in probability_measures_topological_spaces_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in probability_measures_topological_spaces_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.probability_measures_topological_spaces_lemma_canonical_lane_mathlib.canonical` (theorem) in probability_measures_topological_spaces_lemma_canonical_lane_mathlib.FinalTheorem
+
+### probability-measures-topological-spaces-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.bridgeClosed` (def) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.gateClosed` (def) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.canonical` (theorem) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.FinalTheorem
 
 ### quasi-borel-spaces (+632)
 
@@ -3195,6 +4702,36 @@
 - `Super.exists_potential` (lemma) in Ray.Dynamics.Potential
 - ... and 801 more
 
+### representations-locally-compact-groups-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.representations_locally_compact_groups_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_foundation_canonical_lane_mathlib.bridgeClosed` (def) in representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_foundation_canonical_lane_mathlib.gateClosed` (def) in representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representations_locally_compact_groups_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.representations_locally_compact_groups_foundation_canonical_lane_mathlib.canonical` (theorem) in representations_locally_compact_groups_foundation_canonical_lane_mathlib.FinalTheorem
+
+### representations-locally-compact-groups-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.representations_locally_compact_groups_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_lemma_canonical_lane_mathlib.bridgeClosed` (def) in representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_lemma_canonical_lane_mathlib.gateClosed` (def) in representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representations_locally_compact_groups_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.representations_locally_compact_groups_lemma_canonical_lane_mathlib.canonical` (theorem) in representations_locally_compact_groups_lemma_canonical_lane_mathlib.FinalTheorem
+
+### representations-locally-compact-groups-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.representations_locally_compact_groups_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in representations_locally_compact_groups_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_theorem_canonical_lane_mathlib.bridgeClosed` (def) in representations_locally_compact_groups_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_theorem_canonical_lane_mathlib.gateClosed` (def) in representations_locally_compact_groups_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representations_locally_compact_groups_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in representations_locally_compact_groups_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.representations_locally_compact_groups_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representations_locally_compact_groups_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.representations_locally_compact_groups_theorem_canonical_lane_mathlib.canonical` (theorem) in representations_locally_compact_groups_theorem_canonical_lane_mathlib.FinalTheorem
+
 ### series (+182)
 
 - `Pi.instApprox` (instance) in Series.Misc.Pi
@@ -3258,7 +4795,7 @@
 - `adjointGraph` (def) in spectral.Main
 - `hello` (def) in spectral.Spectral.Basic
 
-### spectrum-topos (+4553)
+### spectrum-topos (+4560)
 
 - `Ruliology.Refinement` (structure) in RuleSys.TwoCategory
 - `Ruliology.Refinement.id` (def) in RuleSys.TwoCategory
@@ -3310,7 +4847,7 @@
 - `Ruliology.fork` (def) in RuleSys.FirstSeparation
 - `Ruliology.pathSys` (def) in RuleSys.FirstSeparation
 - `Ruliology.fork_imageFinite` (theorem) in RuleSys.FirstSeparation
-- ... and 4503 more
+- ... and 4510 more
 
 ### students-t-distribution-canonical-lane-mathlib (+10)
 
@@ -3324,40 +4861,6 @@
 - `HautevilleHouse.StudentsTDistributionCanonicalLaneLean.constrained_theorem_closure` (theorem) in StudentsTDistributionCanonicalLaneLean.FinalTheorem
 - `HautevilleHouse.StudentsTDistributionCanonicalLaneLean.sourceRepository` (def) in StudentsTDistributionCanonicalLaneLean.Basic
 - `HautevilleHouse.StudentsTDistributionCanonicalLaneLean.sourceUrl` (def) in StudentsTDistributionCanonicalLaneLean.Basic
-
-### sturm-liouville-comparator-run (+31)
-
-- `IsConfiningPotential` (def) in Solution
-- `IsSturmLiouvilleEigenfunction` (def) in Solution
-- `IsSimpleEigenvalue` (def) in Solution
-- `wronskian` (def) in Solution
-- `wronskian_constant_same_eigenvalue` (theorem) in Solution
-- `exists_seq_tendsto_zero_of_memLp` (lemma) in Solution
-- `not_memLp_of_tendsto_deriv_pos` (lemma) in Solution
-- `eventually_V_gt_eigenvalue` (lemma) in Solution
-- `not_memLp_of_zero_and_deriv_pos_and_confining` (lemma) in Solution
-- `constant_sign_of_no_zeros` (lemma) in Solution
-- `tendsto_deriv_zero_of_convex_nonneg_l2` (lemma) in Solution
-- `tendsto_zero_of_convex_nonneg_l2_and_deriv` (lemma) in Solution
-- `deriv_deriv_neg_eq_neg_deriv_deriv` (lemma) in Solution
-- `is_eigenfunction_neg` (lemma) in Solution
-- `zero_of_ode_zero_init` (lemma) in Solution
-- `tendsto_zero_and_deriv_zero_of_eigenfunction` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v2` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v3` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v4` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v5` (lemma) in Solution
-- `tendsto_zero_and_deriv_zero_of_eigenfunction_final` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v6` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v7` (lemma) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v8` (lemma) in Solution
-- `wronskian_zero_of_l2` (theorem) in Solution
-- `wronskian_zero_of_l2_final` (theorem) in Solution
-- `linearly_dependent_of_wronskian_zero` (theorem) in Solution
-- `eventually_nonzero_of_confining_eigenfunction_aux_v9` (lemma) in Solution
-- `tendsto_zero_and_deriv_zero_of_eigenfunction_fixed` (lemma) in Solution
-- `sturm_liouville_simple_eigenvalues` (theorem) in Solution
 
 ### theaetetus (+528)
 
@@ -3413,6 +4916,70 @@
 - `Theaetetus.defect_eq_zero_of_dvd` (theorem) in Theaetetus.Defect
 - ... and 478 more
 
+### variational-methods-eigenvalues-operators-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.AdmissibleClass` (def) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.bridgeClosed` (def) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.gateClosed` (def) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.bridge_from_admissible_class` (def) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.gate_from_admissible_class` (def) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.ConstrainedTheoremClosure` (def) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.constrained_theorem_closure` (theorem) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.FinalTheorem
+
+### variational-methods-eigenvalues-operators-should-canonical-lane-mathlib (+110)
+
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SpectralTheorem` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SpectralTheorem
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SpectralTheoremEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SpectralTheoremPackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SpectralTheoremClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SpectralTheoremPackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.spectral_theorem_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SpectralTheoremPackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AdmissibleClass` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.admittedClosure` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.OperatorCompactnessPackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.OperatorCompactness
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.OperatorCompactnessEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.OperatorCompactness
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.OperatorCompactnessClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.OperatorCompactness
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.operator_compactness_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.OperatorCompactness
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SturmLiouvillePackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SturmLiouvillePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SturmLiouvilleEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SturmLiouvillePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SturmLiouvilleClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SturmLiouvillePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.sturm_liouville_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.SturmLiouvillePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.LaplacianEigenvaluePackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.LaplacianEigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.LaplacianEigenvalueEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.LaplacianEigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.LaplacianEigenvalueClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.LaplacianEigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.laplacian_eigenvalue_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.LaplacianEigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.gateClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.gate_from_admissible_class` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.GateLemmas
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalSpace` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalAdmittedObject
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalAdmittedObject` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalWitnessClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalEigenvalueClosurePackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalEigenvalueClosurePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalEigenvalueClosureEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalEigenvalueClosurePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalEigenvalueClosureClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalEigenvalueClosurePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.variational_eigenvalue_closure_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.VariationalEigenvalueClosurePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AsymptoticDistributionPackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AsymptoticDistribution
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AsymptoticDistributionEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AsymptoticDistribution
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AsymptoticDistributionClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AsymptoticDistribution
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.asymptotic_distribution_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.AsymptoticDistribution
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.HilbertSpacePackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.HilbertSpace
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.HilbertSpaceEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.HilbertSpace
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.HilbertSpaceClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.HilbertSpace
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.hilbert_space_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.HilbertSpace
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.MinMaxPrinciplePackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.MinMaxPrinciple
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.MinMaxPrincipleEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.MinMaxPrinciple
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.MinMaxPrincipleClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.MinMaxPrinciple
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.min_max_principle_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.MinMaxPrinciple
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvaluePackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvalueEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvaluePackageClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.eigenvalue_package_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvaluePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EulerLagrangePackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EulerLagrangePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EulerLagrangeEvidence` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EulerLagrangePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EulerLagrangeClosed` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EulerLagrangePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.euler_lagrange_closed_from_evidence` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EulerLagrangePackage
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.ConstrainedVariationalClosure` (def) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.constrained_variational_endgame` (theorem) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvalueProblemPackage` (structure) in VariationalMethodsEigenvaluesOperatorsShouldCanonicalLaneLean.EigenvalueProblem
+- ... and 60 more
+
 ## Update History (1 runs)
 
-- **2026-07-27T08:47:30.527815+00:00**: Checked 92 repos, updated 93, +72845 -0 declarations, 1 errors
+- **2026-08-03T08:40:32.245628+00:00**: Checked 151 repos, updated 152, +75558 -0 declarations, 1 errors
