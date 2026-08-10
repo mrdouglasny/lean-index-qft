@@ -1,30 +1,30 @@
 # Lean Index Statistics
 
-**100,217 topic-matched declarations** across **132 repositories**
-(131,410 total declarations scanned from 151 repos)
+**100,446 topic-matched declarations** across **139 repositories**
+(131,602 total declarations scanned from 159 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| functional-analysis            |     31,114 |
-| measure-theory                 |     29,278 |
-| probability-theory             |     13,406 |
-| spectral-theory                |      6,788 |
-| topological-groups             |      6,577 |
-| quantum-field-theory           |      4,934 |
-| distributions-schwartz         |      4,606 |
-| operator-algebras              |      3,514 |
+| functional-analysis            |     31,263 |
+| measure-theory                 |     29,324 |
+| probability-theory             |     13,408 |
+| spectral-theory                |      6,833 |
+| topological-groups             |      6,586 |
+| quantum-field-theory           |      4,948 |
+| distributions-schwartz         |      4,569 |
+| operator-algebras              |      3,515 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     54,022 |
-| def             |     11,263 |
-| lemma           |      9,602 |
+| theorem         |     54,166 |
+| def             |     11,313 |
+| lemma           |      9,611 |
 | instance        |      4,762 |
-| structure       |      1,617 |
+| structure       |      1,619 |
 | ctor            |        535 |
 | abbrev          |        370 |
 | class           |        320 |
@@ -35,12 +35,12 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     55,852 |     55,852 |
-| PhysLean                            |      4,315 |     11,924 |
+| mathlib4                            |     56,016 |     56,016 |
+| PhysLean                            |      4,321 |     11,974 |
 | OSreconstruction                    |      3,026 |      8,865 |
 | Measure                             |      1,812 |      1,924 |
 | ProbabilityApproximation            |      1,750 |      1,770 |
-| gaussian-field                      |      1,745 |      1,878 |
+| gaussian-field                      |      1,747 |      1,880 |
 | BrownianMotion                      |      1,184 |      1,589 |
 | asymptotic-spectrum-distance        |      1,065 |      2,802 |
 | pphi2                               |        918 |      2,587 |
@@ -56,7 +56,7 @@
 | OSforGFF                            |        329 |        855 |
 | Lean-QuantumInfo                    |        297 |      2,283 |
 | fin-dep                             |        290 |      1,154 |
-| computable-analysis                 |        257 |      2,030 |
+| computable-analysis                 |        258 |      2,056 |
 | lean-bandits                        |        249 |        660 |
 | spectrum-topos                      |        184 |      2,277 |
 | spectrum-topos                      |        184 |      2,283 |
@@ -65,13 +65,13 @@
 | MCMC                                |        124 |        677 |
 | martingales-continuous-parameter-th |        110 |        110 |
 | variational-methods-eigenvalues-ope |        110 |        110 |
-| ... and 102 more |  |  |
+| ... and 109 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-08-03T08:40:32.245628+00:00
-- **Repos checked**: 151
-- **Repos updated**: 152
-- **New declarations**: 75558
+- **When**: 2026-08-10T07:54:34.273144+00:00
+- **Repos checked**: 159
+- **Repos updated**: 160
+- **New declarations**: 75586
 - **Removed declarations**: 0
-- **Summary**: Checked 151 repos, updated 152, +75558 -0 declarations, 1 errors
+- **Summary**: Checked 159 repos, updated 160, +75586 -0 declarations, 1 errors

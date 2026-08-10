@@ -1,6 +1,6 @@
-# Changelog (since 2026-07-27)
+# Changelog (since 2026-08-03)
 
-## New Declarations (131410)
+## New Declarations (131602)
 
 ### Algebraic-Measurement-Theory-AMT (+16)
 
@@ -790,7 +790,7 @@
 - `pow_mul_exp_neg_bounded_explicit_le` (theorem) in OSReconstruction.GeneralResults.SchwartzCutoffExp
 - ... and 8815 more
 
-### PhysLean (+11924)
+### PhysLean (+11974)
 
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
@@ -842,7 +842,37 @@
 - `printTODO` (def) in scripts.find_TODOs
 - `filePathToGitPath` (def) in scripts.find_TODOs
 - `docTODO` (def) in scripts.find_TODOs
-- ... and 11874 more
+- ... and 11924 more
+
+### PhysicsFormalization (+27)
+
+- `AdmissiblePath` (structure) in Physics.AnalyticalMechanics.Variation
+- `Variation` (structure) in Physics.AnalyticalMechanics.Variation
+- `dL_dq` (def) in Physics.AnalyticalMechanics.EulerLagrange
+- `dL_dqdot` (def) in Physics.AnalyticalMechanics.EulerLagrange
+- `euler_lagrange_equation` (theorem) in Physics.AnalyticalMechanics.EulerLagrange
+- `Lagrangian` (def) in Physics.AnalyticalMechanics.Action
+- `action` (def) in Physics.AnalyticalMechanics.Action
+- `actionVariation` (def) in Physics.AnalyticalMechanics.Action
+- `IsStationaryPath` (def) in Physics.AnalyticalMechanics.Action
+- `Physics.QuantumMechanics.QuantumState` (structure) in Physics.QuantumMechanics.basic
+- `Physics.QuantumMechanics.state_norm_sq_eq_one` (theorem) in Physics.QuantumMechanics.basic
+- `Physics.QuantumMechanics.Observable` (structure) in Physics.QuantumMechanics.basic
+- `Physics.QuantumMechanics.expectationValue` (def) in Physics.QuantumMechanics.basic
+- `Physics.QuantumMechanics.expectationValue_is_real` (theorem) in Physics.QuantumMechanics.basic
+- `Physics.GeneralRelativity.Dynamics.OrbitalElements` (structure) in Physics.GeneralRelativity.Dynamics.Orbital
+- `Physics.GeneralRelativity.Dynamics.LLI_node_precession` (def) in Physics.GeneralRelativity.Dynamics.Orbital
+- `Physics.GeneralRelativity.Dynamics.node_precession_zero_under_LLI` (theorem) in Physics.GeneralRelativity.Dynamics.Orbital
+- `Physics.GeneralRelativity.Dynamics.GR_has_no_anomalous_node_drift` (theorem) in Physics.GeneralRelativity.Dynamics.Orbital
+- `Physics.GeneralRelativity.Experiments.ExperimentalMeasurement` (structure) in Physics.GeneralRelativity.Experiments.SatorG
+- `Physics.GeneralRelativity.Experiments.SaToRG_α₁_Measurement` (def) in Physics.GeneralRelativity.Experiments.SatorG
+- `Physics.GeneralRelativity.Experiments.IsCompatibleWithExperiment` (def) in Physics.GeneralRelativity.Experiments.SatorG
+- `Physics.GeneralRelativity.Experiments.SaToRG_confirms_GeneralRelativity` (theorem) in Physics.GeneralRelativity.Experiments.SatorG
+- `Physics.GeneralRelativity.Experiments.SaToRG_excludes_theory` (theorem) in Physics.GeneralRelativity.Experiments.SatorG
+- `Physics.GeneralRelativity.PPN.PPNParameters` (structure) in Physics.GeneralRelativity.PPN.basic
+- `Physics.GeneralRelativity.PPN.gr` (def) in Physics.GeneralRelativity.PPN.basic
+- `Physics.GeneralRelativity.PPN.SatisfiesLLI` (def) in Physics.GeneralRelativity.PPN.basic
+- `Physics.GeneralRelativity.PPN.GR_satisfies_LLI` (theorem) in Physics.GeneralRelativity.PPN.basic
 
 ### ProbabilityApproximation (+1770)
 
@@ -898,10 +928,14 @@
 - `ProbabilityTheory.abs_mul_min_ge_sq_sub` (lemma) in ProbabilityApproximation.ChenShao.Concentration
 - ... and 1720 more
 
-### ProjectVD (+210)
+### ProjectVD (+187)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
+- `InnerProductSpace.HarmonicContOnCl.comp_CLM` (theorem) in VD.Test
+- `InnerProductSpace.HarmonicOnNhd.circleAverage_eq` (theorem) in VD.Test
+- `InnerProductSpace.HarmonicContOnCl.circleAverage_eq` (theorem) in VD.Test
+- `meromorphicAt_canonicalFactor` (lemma) in VD.LLD.PoissonJensenDeriv
 - `continuousOn_derivedKernel` (lemma) in VD.LLD.LogDerivTwoRadius
 - `circleIntegrable_derivedKernel_smul_log_norm` (lemma) in VD.LLD.PoissonJensenDeriv
 - `meromorphicOrderAt_id_sub_const_ne_top` (lemma) in VD.LLD.PoissonJensenDeriv
@@ -946,11 +980,7 @@
 - `ValueDistribution.characteristic_zero_top` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
 - `ValueDistribution.characteristic_polynomial_isBigO_log` (lemma) in VD.MathlibPending.CharacteristicIsBigOLog
 - `ValueDistribution.rational_iff_characteristic_isBigO_log` (theorem) in VD.MathlibPending.CharacteristicIsBigOLog
-- `ValueDistribution.polynomial_iff_characteristic_isBigO_log` (theorem) in VD.MathlibPending.CharacteristicIsBigOLog
-- `one_lt_norm_canonicalFactor` (theorem) in VD.MathlibPending.ProximityBounded
-- `Polynomial.norm_eval_le_of_one_le` (lemma) in VD.MathlibPending.ProximityBounded
-- `AnalyticOnNhd.dslope_zero` (lemma) in VD.MathlibPending.ProximityBounded
-- ... and 160 more
+- ... and 137 more
 
 ### QFTFramework (+50)
 
@@ -1275,7 +1305,7 @@
 - `ProbabilityTheory.memLp_id_semicircleReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
 - ... and 125 more
 
-### SpectralThm (+93)
+### SpectralThm (+96)
 
 - `toLinearFunctional` (def) in SpectralThm.SpectralTheorem
 - `toLinearFunctional_apply` (lemma) in SpectralThm.SpectralTheorem
@@ -1289,14 +1319,17 @@
 - `cfc_toComplexMeasure` (def) in SpectralThm.SpectralTheorem
 - `ResolutionOfIdentity` (structure) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.instFunLike` (instance) in SpectralThm.Resolutions
+- `OrthogonalProjection` (def) in SpectralThm.Resolutions
+- `OrthogonalProjection.norm_le_of_le` (lemma) in SpectralThm.Resolutions
+- `OrthogonalProjection.IsOrthogonalTo` (def) in SpectralThm.Resolutions
+- `OrthogonalProjection.IsOrthogonalTo.symm` (lemma) in SpectralThm.Resolutions
+- `OrthogonalProjection.add_isStarProjection_of_isOrthogonalTo` (lemma) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.apply` (lemma) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.m_Union` (lemma) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.subset_iff_le` (lemma) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.toComplexMeasure` (def) in SpectralThm.Resolutions
-- `ResolutionOfIdentity.ResolutionOfIdentity.apply` (lemma) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.toMeasure_apply` (lemma) in SpectralThm.Resolutions
-- `ResolutionOfIdentity.toOuterMeasure_apply` (lemma) in SpectralThm.Resolutions
-- `ResolutionOfIdentity.ResolutionOfIdentity.zero_iff` (lemma) in SpectralThm.Resolutions
+- `ResolutionOfIdentity.zero_iff` (lemma) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.SumOuterMeasure` (def) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.SumMeasure` (def) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.ofUnitBall` (def) in SpectralThm.Resolutions
@@ -1324,10 +1357,7 @@
 - `ComplexRMK.rieszMeasure_unique` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.toZeroAtInftyContinuousMap` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.toZeroAtInftyContinuousMap'` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- `ZeroAtInftyContinuousMap.ContinuousMap.liftZeroAtInftyNAGH` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- `ZeroAtInftyContinuousMap.liftZeroAtInftyNAGH_apply` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
-- `ZeroAtInftyContinuousMap.ContinuousMap.liftZeroAtInftyCLE` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- ... and 43 more
+- ... and 46 more
 
 ### SpinGlass (+1644)
 
@@ -1533,16 +1563,6 @@
 - `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.ConstrainedTheoremClosure` (def) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.FinalTheorem
 - `HautevilleHouse.ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.constrained_theorem_closure` (theorem) in ApproximationsStatisticalDistributionsNonasymptoticCanonicalLaneLean.FinalTheorem
 
-### asymptotic-distribution-eigenvalues-asymptotic-theory-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.AdmissibleClass` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.bridgeClosed` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.gateClosed` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.bridge_from_admissible_class` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.gate_from_admissible_class` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.ConstrainedTheoremClosure` (def) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.constrained_theorem_closure` (theorem) in AsymptoticDistributionEigenvaluesAsymptoticTheoryCanonicalLaneLean.FinalTheorem
-
 ### asymptotic-spectrum-distance (+2802)
 
 - `AsymptoticSpectrumDistance.main_asympSpecDistance_pseudometric` (theorem) in AsymptoticSpectrumDistance.Main
@@ -1705,60 +1725,6 @@
 - `HautevilleHouse.BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralDecompositionEvidence` (structure) in BoundaryEigenvalueProblemsOrdinaryDifferentialCanonicalLaneLean.SpectralDecomposition
 - ... and 3 more
 
-### canon (+399)
-
-- `p_adic_hodge_theory__tear_sigma_matching_vs_rho_rigidity` (theorem) in certificates.deep_tear.p_adic_hodge_theory__tear_sigma_matching_vs_rho_rigidity
-- `birational_geometry__tear_semiample_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.birational_geometry__tear_semiample_transfer_vs_rho_rigidity
-- `stable_borel_conjecture__tear_homeomorphism_transfer_vs_sigma_surgery` (theorem) in certificates.deep_tear.stable_borel_conjecture__tear_homeomorphism_transfer_vs_sigma_surgery
-- `motivic_architecture__tear_sigma_filtration_vs_rho_rigidity` (theorem) in certificates.deep_tear.motivic_architecture__tear_sigma_filtration_vs_rho_rigidity
-- `standard_conjectures_on_algebraic_cycles__tear_motivic_transfer_vs_sigma_kunneth` (theorem) in certificates.deep_tear.standard_conjectures_on_algebraic_cycles__tear_motivic_transfer_vs_sigma_kunneth
-- `birational_geometry__tear_birational_lock_vs_rho_rigidity` (theorem) in certificates.deep_tear.birational_geometry__tear_birational_lock_vs_rho_rigidity
-- `companion_forms__tear_weight_lock_vs_automorphic_transfer` (theorem) in certificates.deep_tear.companion_forms__tear_weight_lock_vs_automorphic_transfer
-- `anabelian_geometry__tear_birational_hyperbolicity_vs_hom_injectivity_factor` (theorem) in certificates.deep_tear.anabelian_geometry__tear_birational_hyperbolicity_vs_hom_injectivity_factor
-- `anabelian_hyperbolicity__tear_hyperbolic_gap_vs_fiber_capture` (theorem) in certificates.deep_tear.anabelian_hyperbolicity__tear_hyperbolic_gap_vs_fiber_capture
-- `birational_classification__collapse_sigma_model_eq_sigma_mori` (theorem) in certificates.deep_tear.birational_classification__collapse_sigma_model_eq_sigma_mori
-- `local_langlands_correspondence__tear_sigma_matching_vs_rho_rigidity` (theorem) in certificates.deep_tear.local_langlands_correspondence__tear_sigma_matching_vs_rho_rigidity
-- `schanuel_conjecture__tear_transcendence_transfer_vs_sigma_independence` (theorem) in certificates.deep_tear.schanuel_conjecture__tear_transcendence_transfer_vs_sigma_independence
-- `anabelian_reconstruction__tear_asset_pricing_geometrization_vs_pareto_optimal_sigma` (theorem) in certificates.deep_tear.anabelian_reconstruction__tear_asset_pricing_geometrization_vs_pareto_optimal_sigma
-- `grand_riemann_hypothesis__tear_spectral_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.grand_riemann_hypothesis__tear_spectral_transfer_vs_rho_rigidity
-- `anabelian_geometry__tear_eps_coh_an_vs_isomorphism_rigidity` (theorem) in certificates.deep_tear.anabelian_geometry__tear_eps_coh_an_vs_isomorphism_rigidity
-- `decorated_l_theory_assembly__tear_isomorphism_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.decorated_l_theory_assembly__tear_isomorphism_transfer_vs_rho_rigidity
-- `p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_matching` (theorem) in certificates.deep_tear.p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_matching
-- `section_conjecture__tear_sigma_fundamental_vs_rho_rigidity` (theorem) in certificates.deep_tear.section_conjecture__tear_sigma_fundamental_vs_rho_rigidity
-- `borel_conjecture__tear_homeomorphism_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.borel_conjecture__tear_homeomorphism_transfer_vs_rho_rigidity
-- `beilinson_conjectures__tear_value_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.beilinson_conjectures__tear_value_transfer_vs_rho_rigidity
-- `companion_forms__tear_weight_lock_vs_sigma_weight` (theorem) in certificates.deep_tear.companion_forms__tear_weight_lock_vs_sigma_weight
-- `trace_formula_endoscopy__tear_endoscopic_transfer_vs_packet_local` (theorem) in certificates.deep_tear.trace_formula_endoscopy__tear_endoscopic_transfer_vs_packet_local
-- `minimal_model_program__tear_semiample_transfer_vs_sigma_mori` (theorem) in certificates.deep_tear.minimal_model_program__tear_semiample_transfer_vs_sigma_mori
-- `p_vs_np__tear_mu_def_vs_lambda2_min_planted` (theorem) in certificates.deep_tear.p_vs_np__tear_mu_def_vs_lambda2_min_planted
-- `birational_classification__tear_sigma_model_vs_sigma_mori` (theorem) in certificates.deep_tear.birational_classification__tear_sigma_model_vs_sigma_mori
-- `p_vs_np__collapse_lambda_def_eq_mu_def` (theorem) in certificates.deep_tear.p_vs_np__collapse_lambda_def_eq_mu_def
-- `general_langlands_functoriality__tear_packet_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.general_langlands_functoriality__tear_packet_transfer_vs_rho_rigidity
-- `kaplansky_idempotent_conjecture__tear_idempotent_transfer_vs_sigma_trace` (theorem) in certificates.deep_tear.kaplansky_idempotent_conjecture__tear_idempotent_transfer_vs_sigma_trace
-- `jacobian_conjecture__tear_sigma_degree_vs_rho_rigidity` (theorem) in certificates.deep_tear.jacobian_conjecture__tear_sigma_degree_vs_rho_rigidity
-- `bombieri_lang_conjecture__tear_sigma_sparsity_vs_rho_rigidity` (theorem) in certificates.deep_tear.bombieri_lang_conjecture__tear_sigma_sparsity_vs_rho_rigidity
-- `jacobian_conjecture__tear_inverse_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.jacobian_conjecture__tear_inverse_transfer_vs_rho_rigidity
-- `baum_connes_conjecture__tear_sigma_equivariant_vs_rho_rigidity` (theorem) in certificates.deep_tear.baum_connes_conjecture__tear_sigma_equivariant_vs_rho_rigidity
-- `p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_comparison` (theorem) in certificates.deep_tear.p_adic_hodge_theory__tear_hodge_tate_transfer_vs_sigma_comparison
-- `decorated_l_theory_assembly__tear_decoration_lock_vs_rho_rigidity` (theorem) in certificates.deep_tear.decorated_l_theory_assembly__tear_decoration_lock_vs_rho_rigidity
-- `bateman_horn_conjecture__tear_sigma_pattern_vs_rho_rigidity` (theorem) in certificates.deep_tear.bateman_horn_conjecture__tear_sigma_pattern_vs_rho_rigidity
-- `anabelian_geometry__tear_isomorphism_rigidity_vs_tame_closure_index` (theorem) in certificates.deep_tear.anabelian_geometry__tear_isomorphism_rigidity_vs_tame_closure_index
-- `birch_swinnerton_dyer_conjecture__tear_bsd_floor_vs_alpha_lock` (theorem) in certificates.deep_tear.birch_swinnerton_dyer_conjecture__tear_bsd_floor_vs_alpha_lock
-- `minimal_model_program__tear_semiample_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.minimal_model_program__tear_semiample_transfer_vs_rho_rigidity
-- `kadison_kaplansky_conjecture__tear_sigma_trace_vs_rho_rigidity` (theorem) in certificates.deep_tear.kadison_kaplansky_conjecture__tear_sigma_trace_vs_rho_rigidity
-- `anabelian_geometry__tear_eps_coh_an_vs_birational_hyperbolicity` (theorem) in certificates.deep_tear.anabelian_geometry__tear_eps_coh_an_vs_birational_hyperbolicity
-- `anabelian_geometry__tear_eps_coh_an_vs_hom_injectivity_factor` (theorem) in certificates.deep_tear.anabelian_geometry__tear_eps_coh_an_vs_hom_injectivity_factor
-- `littlewood_conjecture__tear_exceptional_transfer_vs_sigma_nonescape` (theorem) in certificates.deep_tear.littlewood_conjecture__tear_exceptional_transfer_vs_sigma_nonescape
-- `bombieri_lang_conjecture__tear_lang_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.bombieri_lang_conjecture__tear_lang_transfer_vs_rho_rigidity
-- `anabelian_reconstruction__tear_asset_pricing_geometrization_vs_balanced_growth_rigidity` (theorem) in certificates.deep_tear.anabelian_reconstruction__tear_asset_pricing_geometrization_vs_balanced_growth_rigidity
-- `goldbach_conjecture__tear_sigma_minor_arc_vs_rho_rigidity` (theorem) in certificates.deep_tear.goldbach_conjecture__tear_sigma_minor_arc_vs_rho_rigidity
-- `p_adic_hodge_theory__collapse_sigma_comparison_eq_sigma_matching` (theorem) in certificates.deep_tear.p_adic_hodge_theory__collapse_sigma_comparison_eq_sigma_matching
-- `andre_oort_conjecture__tear_special_transfer_vs_rho_rigidity` (theorem) in certificates.deep_tear.andre_oort_conjecture__tear_special_transfer_vs_rho_rigidity
-- `trace_formula_architecture__tear_packet_local_vs_rho_rigidity` (theorem) in certificates.deep_tear.trace_formula_architecture__tear_packet_local_vs_rho_rigidity
-- `trace_formula_architecture__tear_sigma_matching_vs_rho_rigidity` (theorem) in certificates.deep_tear.trace_formula_architecture__tear_sigma_matching_vs_rho_rigidity
-- `green_griffiths_lang_conjecture__tear_jet_transfer_vs_sigma_hyperbolic` (theorem) in certificates.deep_tear.green_griffiths_lang_conjecture__tear_jet_transfer_vs_sigma_hyperbolic
-- ... and 349 more
-
 ### central-limit-theorem-canonical-lane-mathlib (+70)
 
 - `HautevilleHouse.CentralLimitTheoremCanonicalLaneLean.LindebergConditionPackage` (structure) in CentralLimitTheoremCanonicalLaneLean.LindebergCondition
@@ -1867,7 +1833,7 @@
 - `HautevilleHouse.ClosedGraphTheoremCanonicalLaneLean.GraphNormModel` (structure) in ClosedGraphTheoremCanonicalLaneLean.GraphNorm
 - ... and 14 more
 
-### computable-analysis (+2030)
+### computable-analysis (+2056)
 
 - `allowedAxioms` (def) in scripts.AxiomAudit
 - `headlineDecls` (def) in scripts.AxiomAudit
@@ -1919,7 +1885,7 @@
 - `ComputableAnalysis.discreteRep` (def) in ComputableAnalysis.RepresentedSpace.Basic
 - `ComputableAnalysis.baireRep_names_iff` (theorem) in ComputableAnalysis.RepresentedSpace.Basic
 - `ComputableAnalysis.cantorRep_names_iff` (theorem) in ComputableAnalysis.RepresentedSpace.Basic
-- ... and 1980 more
+- ... and 2006 more
 
 ### convergence-probability-measures-canonical-lane-mathlib (+10)
 
@@ -2551,6 +2517,32 @@
 - `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in eigenvalue_problems_theorem_canonical_lane_mathlib.FinalTheorem
 - `HautevilleHouse.eigenvalue_problems_theorem_canonical_lane_mathlib.canonical` (theorem) in eigenvalue_problems_theorem_canonical_lane_mathlib.FinalTheorem
 
+### eigenvalues-canonical-lane-mathlib (+23)
+
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.BridgeAssumption` (structure) in EigenvaluesCanonicalLaneLean.ReviewerBridge
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.reviewerBridgeAssumptions` (def) in EigenvaluesCanonicalLaneLean.ReviewerBridge
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.admissibleClassLabel` (def) in EigenvaluesCanonicalLaneLean.AdmissibleClass
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.theoremStatement` (def) in EigenvaluesCanonicalLaneLean.TheoremStatement
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.finalTheorem` (theorem) in EigenvaluesCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.sourceRepository` (def) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.sourceUrl` (def) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.sourceDescription` (def) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.sourceClassification` (def) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.sourceTopics` (def) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.AdmissibleObject` (structure) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.LocalCertificate` (structure) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.CarriedRemainder` (structure) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.SourceTheoremBoundary` (structure) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.sourceTheoremBoundary` (def) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.canonicalLaneBoundary` (def) in EigenvaluesCanonicalLaneLean.Basic
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.DependencyEntry` (structure) in EigenvaluesCanonicalLaneLean.SourceDependencies
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.sourceDependencies` (def) in EigenvaluesCanonicalLaneLean.SourceDependencies
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.SourcePackage` (structure) in EigenvaluesCanonicalLaneLean.SourcePackage
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.currentSourcePackage` (def) in EigenvaluesCanonicalLaneLean.SourcePackage
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.formalizationStatus` (def) in EigenvaluesCanonicalLaneLean.Formalization
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.formalizationDepth` (def) in EigenvaluesCanonicalLaneLean.Formalization
+- `HautevilleHouse.EigenvaluesCanonicalLaneLean.projectionGateCount` (def) in EigenvaluesCanonicalLaneLean.Projection
+
 ### eigenvalues-estimation-eigenvalues-upper-lower-canonical-lane-mathlib (+21)
 
 - `HautevilleHouse.EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.AdmissibleClass` (def) in EigenvaluesEstimationEigenvaluesUpperLowerCanonicalLaneLean.GateLemmas
@@ -2709,48 +2701,6 @@
 - `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.bridgeClosed` (def) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.BridgeLemmas
 - `HautevilleHouse.EstimativesEigenvaluesContextPdesCanonicalLaneLean.bridge_from_admissible_class` (theorem) in EstimatesEigenvaluesContextPdesCanonicalLaneLean.BridgeLemmas
 - ... and 6 more
-
-### exact-distribution-theory-statistics-canonical-lane-mathlib (+39)
-
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEPackage
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.mle_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEPackage
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.AdmissibleClass` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.AdmissibleClass
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.admittedClosure` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.AdmissibleClass
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.gateClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.gate_from_admissible_class` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.TheoremStatement` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.sourceTheoremStatement` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ConstrainedExactDistributionClosure` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.constrained_exact_distribution_endgame` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptoticsPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptoticsEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptoticsClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.mle_asymptotics_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEAsymptotics
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ParametricModel` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLE` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistencyEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistencyClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.mle_consistency_evidence_closed` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.MLEConsistency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.StatisticalModel` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.Sufficiency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficientStatistic` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.Sufficiency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.sufficiency_evidence_closed` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.Sufficiency
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.neyman_pearson_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.NeymanPearsonLemma
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAProp` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.anova_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ANOVAPackage
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyPackage` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.sufficiency_closed_from_evidence` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.SufficiencyExponentialFamily
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.bridgeClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.BridgeLemmas
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.bridge_from_admissible_class` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.BridgeLemmas
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamilyEvidence` (structure) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamilyClosed` (def) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
-- `HautevilleHouse.ExactDistributionTheoryStatisticsCanonicalLaneLean.exponential_family_evidence_closed` (theorem) in ExactDistributionTheoryStatisticsCanonicalLaneLean.ExponentialFamily
 
 ### exchangeability (+489)
 
@@ -2982,7 +2932,7 @@
 - `FormalMartingales.EProcess.sequential_test_typeI` (theorem) in FormalMartingales.Sequential.EProcess
 - `FormalMartingales.eprocess_sequential_test_typeI` (theorem) in FormalMartingales.Sequential.EProcess
 
-### gaussian-field (+1878)
+### gaussian-field (+1880)
 
 - `GaussianField.myBlockMI` (def) in Scratch
 - `GaussianField.myBlockMI_abs_le` (lemma) in Scratch
@@ -3034,7 +2984,7 @@
 - `GaussianField.AsymTorusTestFunction` (abbrev) in Torus.AsymmetricTorus
 - `GaussianField.asymTorus_eq_symmetric` (theorem) in Torus.AsymmetricTorus
 - `GaussianField.AsymLatticeSites` (abbrev) in Torus.AsymmetricTorus
-- ... and 1828 more
+- ... and 1830 more
 
 ### gaussian-hilbert (+151)
 
@@ -3336,16 +3286,6 @@
 - `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.ConstrainedTheoremClosure` (structure) in uinducedurepresentationsulocallyucompactugroupsulemma.FinalTheorem
 - `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsulemma.canonical` (theorem) in uinducedurepresentationsulocallyucompactugroupsulemma.FinalTheorem
 
-### induced-representations-locally-compact-groups-theorem-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.AdmissibleClass` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
-- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.bridgeClosed` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
-- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.gateClosed` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
-- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.bridge_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
-- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.gate_from_admissible_class` (def) in uinducedurepresentationsulocallyucompactugroupsutheorem.GateLemmas
-- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.ConstrainedTheoremClosure` (structure) in uinducedurepresentationsulocallyucompactugroupsutheorem.FinalTheorem
-- `HautevilleHouse.uinducedurepresentationsulocallyucompactugroupsutheorem.canonical` (theorem) in uinducedurepresentationsulocallyucompactugroupsutheorem.FinalTheorem
-
 ### inequalities-involving-eigenvalues-eigenvectors-foundation-canonical-lane-mathlib (+7)
 
 - `HautevilleHouse.inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in inequalities_involving_eigenvalues_eigenvectors_foundation_canonical_lane_mathlib.GateLemmas
@@ -3462,6 +3402,11 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
+### lax-milgram-theorem-canonical-lane-mathlib (+2)
+
+- `HautevilleHouse.LaxMilgramTheoremCanonicalLaneLean.ConstrainedTheoremClosure` (def) in LaxMilgramTheoremCanonicalLaneLean.FinalTheorem
+- `HautevilleHouse.LaxMilgramTheoremCanonicalLaneLean.constrained_theorem_closure` (theorem) in LaxMilgramTheoremCanonicalLaneLean.FinalTheorem
+
 ### lean-bandits (+660)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
@@ -3515,6 +3460,17 @@
 - `Learning.IT.adapted_feedback` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IT.filtrationAction` (def) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - ... and 610 more
+
+### lean-qkd (+8)
+
+- `vonNeumannEntropy` (def) in QKD
+- `SchurConvex` (def) in QKD
+- `slope_comparison_tlogt` (lemma) in QKD
+- `telescoping_identity` (lemma) in QKD
+- `schur_convex_reduction_to_distinct` (lemma) in QKD
+- `schur_convex_xlogx` (theorem) in QKD
+- `eigenvalue_bound_eigenbasis` (lemma) in QKD
+- `high_fidelity_implies_low_entropy_equivalent` (theorem) in QKD
 
 ### lean-stat-learning-theory (+2009)
 
@@ -3624,17 +3580,25 @@
 - `InformationTheory.pmf.support` (def) in InformationTheory.InformationTheory
 - ... and 36 more
 
-### loeb-measure (+82)
+### loeb-measure (+97)
 
 - `Loeb.Ultraproduct` (abbrev) in LoebMeasure.Basic
 - `Loeb.Ultrapower` (abbrev) in LoebMeasure.Basic
 - `LoebMeasure.AxiomAudit.acceptedAxioms` (def) in scripts.AxiomAudit
+- `Loeb.InternalSet` (abbrev) in LoebMeasure.Internal.Set
+- `Loeb.InternalSet.carrier` (def) in LoebMeasure.Internal.Set
+- `Loeb.InternalSet.mem_carrier_ofFun` (theorem) in LoebMeasure.Internal.Set
+- `Loeb.InternalSet.exists_ofFun_mem` (theorem) in LoebMeasure.Internal.Set
+- `Loeb.InternalSet.carrier_ofFun_nonempty_iff` (theorem) in LoebMeasure.Internal.Set
+- `Loeb.InternalSet.carrier_ofFun_ne` (theorem) in LoebMeasure.Internal.Set
+- `Loeb.InternalSet.carrier_injective` (theorem) in LoebMeasure.Internal.Set
 - `Filter.Product.reindex` (def) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.reindex_ofFun` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.eval_reindex` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.reindex_id` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.reindex_comp` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.finitePiEquiv_reindex` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_map` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.permute` (def) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.permute_ofFun` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.eval_permute` (theorem) in LoebMeasure.Ultraproduct.Permutation
@@ -3643,7 +3607,8 @@
 - `Filter.Product.permute_permute_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.permute_symm_permute` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.finitePiEquiv_permute` (theorem) in LoebMeasure.Ultraproduct.Permutation
-- `Filter.Product.reindex_finitePiMk` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.permute_map` (theorem) in LoebMeasure.Ultraproduct.Permutation
+- `Filter.Product.reindex_piMk` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.reindex_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.permute_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.Permutation
 - `Filter.Product.finPowerEquiv_reindex` (theorem) in LoebMeasure.Ultraproduct.Permutation
@@ -3656,9 +3621,9 @@
 - `Filter.Product.eventually_forall_of_forall` (theorem) in LoebMeasure.Ultraproduct.FinitePower
 - `Filter.Product.rep` (def) in LoebMeasure.Ultraproduct.FinitePower
 - `Filter.Product.ofFun_rep` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.finitePiMk` (def) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.eval_finitePiMk` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.finitePiMk_ofFun` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.piMk` (def) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.eval_piMk` (theorem) in LoebMeasure.Ultraproduct.FinitePower
+- `Filter.Product.piMk_ofFun` (theorem) in LoebMeasure.Ultraproduct.FinitePower
 - `Filter.Product.finitePiEquiv` (def) in LoebMeasure.Ultraproduct.FinitePower
 - `Filter.Product.finitePiEquiv_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
 - `Filter.Product.finitePiEquiv_symm_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
@@ -3667,16 +3632,7 @@
 - `Filter.Product.finPowerEquiv_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
 - `Filter.Product.finPowerEquiv_symm_apply` (theorem) in LoebMeasure.Ultraproduct.FinitePower
 - `Filter.Product.finitePiEquiv_symm_ofFun` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.eval_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.eval_finPowerEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.eval_map` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.map_finitePiMk` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.map_finitePiEquiv_symm` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.finPowerEquiv_zero` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.finPowerEquiv_one` (theorem) in LoebMeasure.Ultraproduct.FinitePower
-- `Filter.Product.ofFun` (def) in LoebMeasure.Ultraproduct.Basic
-- `Filter.Product.quot_mk_eq_ofFun` (theorem) in LoebMeasure.Ultraproduct.Basic
-- ... and 32 more
+- ... and 47 more
 
 ### martingales-classical-analysis-lemma-canonical-lane-mathlib (+73)
 
@@ -4056,7 +4012,7 @@
 - `HautevilleHouse.MartingalesDiscreteParameterTheoremCanonicalLaneLean.QuadraticVariationEvidence` (structure) in MartingalesDiscreteParameterTheoremCanonicalLaneLean.QuadraticVariation
 - ... and 38 more
 
-### mathlib4 (+55852)
+### mathlib4 (+56016)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -4108,7 +4064,37 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 55802 more
+- ... and 55966 more
+
+### metric-theory-algorithms-expansions-measure-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.bridgeClosed` (def) in metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.gateClosed` (def) in metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.canonical` (theorem) in metric_theory_algorithms_expansions_measure_foundation_canonical_lane_mathlib.FinalTheorem
+
+### metric-theory-algorithms-expansions-measure-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.bridgeClosed` (def) in metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.gateClosed` (def) in metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.canonical` (theorem) in metric_theory_algorithms_expansions_measure_lemma_canonical_lane_mathlib.FinalTheorem
+
+### metric-theory-algorithms-expansions-measure-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.bridgeClosed` (def) in metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.gateClosed` (def) in metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.canonical` (theorem) in metric_theory_algorithms_expansions_measure_theorem_canonical_lane_mathlib.FinalTheorem
 
 ### mini-measure-probability-integration (+1209)
 
@@ -4227,6 +4213,34 @@
 - `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.GateLemmas
 - `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.FinalTheorem
 - `HautevilleHouse.multivariate_distribution_statistics_lemma_canonical_lane_mathlib.canonical` (theorem) in multivariate_distribution_statistics_lemma_canonical_lane_mathlib.FinalTheorem
+
+### nesterov-lean (+25)
+
+- `LSmooth` (def) in NesterovLean.Defs
+- `ConvexFirstOrder` (def) in NesterovLean.Defs
+- `IsGlobalMin` (def) in NesterovLean.Defs
+- `momentumCoeff` (def) in NesterovLean.Defs
+- `agdState` (def) in NesterovLean.Defs
+- `agd_x` (def) in NesterovLean.Defs
+- `agd_y` (def) in NesterovLean.Defs
+- `agd_y_succ` (lemma) in NesterovLean.Defs
+- `agd_x_succ` (lemma) in NesterovLean.Defs
+- `theta` (def) in NesterovLean.Defs
+- `v_seq` (def) in NesterovLean.Defs
+- `v_seq_succ` (lemma) in NesterovLean.Defs
+- `lyapunov` (def) in NesterovLean.Defs
+- `f_sub_fstar_nonneg` (lemma) in NesterovLean.Convergence
+- `x_eq_combo` (lemma) in NesterovLean.Convergence
+- `convex_interp_bound` (lemma) in NesterovLean.Convergence
+- `key_inequality` (lemma) in NesterovLean.Convergence
+- `v_norm_sq_expand` (lemma) in NesterovLean.Convergence
+- `lyapunov_nonincrease` (theorem) in NesterovLean.Convergence
+- `lyapunov_zero` (lemma) in NesterovLean.Convergence
+- `convergence_rate` (theorem) in NesterovLean.Convergence
+- `momentumCoeff_nonneg` (theorem) in NesterovLean.MomentumStep
+- `momentumCoeff_lt_one` (theorem) in NesterovLean.MomentumStep
+- `momentumCoeff_mem_Ico` (theorem) in NesterovLean.MomentumStep
+- `descent_lemma` (theorem) in NesterovLean.MomentumStep
 
 ### nonlinear-spectral-theory-nonlinear-eigenvalue-foundation-canonical-lane-mathlib (+7)
 
@@ -4594,6 +4608,60 @@
 - `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.FinalTheorem
 - `HautevilleHouse.probability_measures_topological_spaces_theorem_canonical_lane_mathlib.canonical` (theorem) in probability_measures_topological_spaces_theorem_canonical_lane_mathlib.FinalTheorem
 
+### qcal-formalization (+273)
+
+- `f₀` (def) in QCAL.NoesisConstant
+- `Ψ_val` (def) in QCAL_V3_FORMALIZACION_COMPLETA
+- `Φ_val` (def) in QCAL_V3_FORMALIZACION_COMPLETA
+- `LIMITE_ADELICO` (def) in QCAL_V3_FORMALIZACION_COMPLETA
+- `qcal_v3_certified` (theorem) in QCAL_V3_FORMALIZACION_COMPLETA
+- `equivalencia_qcal_rh` (theorem) in CIERRE_BRECHA_5
+- `SistemaQCAL` (structure) in CIERRE_BRECHA_5
+- `Đ_self_adjoint_completo` (theorem) in CIERRE_BRECHA_1
+- `weyl_law_completa` (theorem) in CIERRE_BRECHA_1
+- `heat_expansion_completa` (theorem) in CIERRE_BRECHA_1
+- `ArbolProfundidad` (def) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
+- `Πₙ` (def) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
+- `CeroAdelico` (structure) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
+- `structural_correspondence_complete` (theorem) in QCAL_V3.Seccion_5_3_Correspondencia_Estructural
+- `conj_constant` (lemma) in QCAL_V3.eliminacion_axiomas
+- `schwartz_boundary` (lemma) in QCAL_V3.eliminacion_axiomas
+- `archimedean_symmetric` (theorem) in QCAL_V3.eliminacion_axiomas
+- `padic_symmetric` (theorem) in QCAL_V3.eliminacion_axiomas
+- `H_Psi_symmetric` (theorem) in QCAL_V3.simetria_H_psi
+- `R_0` (def) in QCAL_V3.eliminacion_axiomas
+- `K_operator` (def) in QCAL_V3.cierre_completo
+- `K_trace_class` (theorem) in QCAL_V3.cierre_completo
+- `D_fredholm` (def) in QCAL_V3.cierre_completo
+- `log_deriv_D` (lemma) in QCAL_V3.eliminacion_axiomas
+- `log_deriv_Xi` (lemma) in QCAL_V3.eliminacion_axiomas
+- `log_deriv_eq` (theorem) in QCAL_V3.eliminacion_axiomas
+- `D_eq_Xi_Re_gt_1` (theorem) in QCAL_V3.eliminacion_axiomas
+- `D_eq_Xi` (theorem) in QCAL_V3.cierre_completo
+- `qcal_fredholm_resonance_theorem` (theorem) in QCAL_V3.cierre_completo
+- `riemann_hypothesis_proved` (theorem) in QCAL_V3.cierre_completo
+- `GaugeGroup` (structure) in QCAL_V3.extensiones_avanzadas
+- `CorrienteConservada` (def) in QCAL_V3.cuatro_extensiones_finales
+- `noether_p_adic` (theorem) in QCAL_V3.cuatro_extensiones_finales
+- `RadioAdelico` (def) in QCAL_V3.cuatro_extensiones_finales
+- `state_bounded` (theorem) in QCAL_V3.cuatro_extensiones_finales
+- `classical_limit` (theorem) in QCAL_V3.cuatro_extensiones_finales
+- `ExperimentoQCAL` (structure) in QCAL_V3.siete_extensiones_interdisciplinarias
+- `experimental_verifiability` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
+- `CosmologiaQCAL` (structure) in QCAL_V3.siete_extensiones_interdisciplinarias
+- `inflation_p_adic` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
+- `ConcienciaQCAL` (structure) in QCAL_V3.siete_extensiones_interdisciplinarias
+- `consciousness_as_coherence` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
+- `qcal_v3_ecosystem_complete` (theorem) in QCAL_V3.siete_extensiones_interdisciplinarias
+- `DiscoClopen` (structure) in QCAL_V3.Medicion_NoClonacion
+- `ProyectorMedicion` (def) in QCAL_V3.Medicion_NoClonacion
+- `medicion_idempotente` (theorem) in QCAL_V3.Medicion_NoClonacion
+- `EsUnitario` (def) in QCAL_V3.Medicion_NoClonacion
+- `H_arch` (def) in QCAL_V3.simetria_H_psi
+- `conj_arch` (lemma) in QCAL_V3.simetria_H_psi
+- `deriv_expand` (lemma) in QCAL_V3.simetria_H_psi
+- ... and 223 more
+
 ### quasi-borel-spaces (+632)
 
 - `QuasiBorelSpace` (class) in QuasiBorelSpaces.Defs
@@ -4795,6 +4863,26 @@
 - `adjointGraph` (def) in spectral.Main
 - `hello` (def) in spectral.Spectral.Basic
 
+### spectrum-resolvent-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.spectrum_resolvent_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in spectrum_resolvent_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_lemma_canonical_lane_mathlib.bridgeClosed` (def) in spectrum_resolvent_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_lemma_canonical_lane_mathlib.gateClosed` (def) in spectrum_resolvent_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in spectrum_resolvent_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in spectrum_resolvent_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in spectrum_resolvent_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.spectrum_resolvent_lemma_canonical_lane_mathlib.canonical` (theorem) in spectrum_resolvent_lemma_canonical_lane_mathlib.FinalTheorem
+
+### spectrum-resolvent-theorem-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.spectrum_resolvent_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in spectrum_resolvent_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_theorem_canonical_lane_mathlib.bridgeClosed` (def) in spectrum_resolvent_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_theorem_canonical_lane_mathlib.gateClosed` (def) in spectrum_resolvent_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in spectrum_resolvent_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in spectrum_resolvent_theorem_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.spectrum_resolvent_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in spectrum_resolvent_theorem_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.spectrum_resolvent_theorem_canonical_lane_mathlib.canonical` (theorem) in spectrum_resolvent_theorem_canonical_lane_mathlib.FinalTheorem
+
 ### spectrum-topos (+4560)
 
 - `Ruliology.Refinement` (structure) in RuleSys.TwoCategory
@@ -4916,6 +5004,26 @@
 - `Theaetetus.defect_eq_zero_of_dvd` (theorem) in Theaetetus.Defect
 - ... and 478 more
 
+### unitary-representations-locally-compact-groups-foundation-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.bridgeClosed` (def) in unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.gateClosed` (def) in unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.canonical` (theorem) in unitary_representations_locally_compact_groups_foundation_canonical_lane_mathlib.FinalTheorem
+
+### unitary-representations-locally-compact-groups-lemma-canonical-lane-mathlib (+7)
+
+- `HautevilleHouse.unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.bridgeClosed` (def) in unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.gateClosed` (def) in unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.GateLemmas
+- `HautevilleHouse.unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.FinalTheorem
+- `HautevilleHouse.unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.canonical` (theorem) in unitary_representations_locally_compact_groups_lemma_canonical_lane_mathlib.FinalTheorem
+
 ### variational-methods-eigenvalues-operators-canonical-lane-mathlib (+7)
 
 - `HautevilleHouse.VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.AdmissibleClass` (def) in VariationalMethodsEigenvaluesOperatorsCanonicalLaneLean.GateLemmas
@@ -4982,4 +5090,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-03T08:40:32.245628+00:00**: Checked 151 repos, updated 152, +75558 -0 declarations, 1 errors
+- **2026-08-10T07:54:34.273144+00:00**: Checked 159 repos, updated 160, +75586 -0 declarations, 1 errors
