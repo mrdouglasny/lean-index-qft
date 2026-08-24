@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-10)
+# Changelog (since 2026-08-17)
 
-## New Declarations (132588)
+## New Declarations (139724)
 
 ### Algebraic-Measurement-Theory-AMT (+16)
 
@@ -816,9 +816,9 @@
 - `distributionPairingCLM_measurable` (lemma) in OSforGFF.Measure.Construct
 - `isCenteredGJ` (def) in OSforGFF.Measure.Construct
 - `isGaussianGJ` (def) in OSforGFF.Measure.Construct
-- `instIsHilbertNuclear_TestFunction` (instance) in OSforGFF.Measure.Construct
-- `instSeparableSpace_TestFunction` (instance) in OSforGFF.Measure.Construct
-- `instNonempty_TestFunction` (instance) in OSforGFF.Measure.Construct
+- `instIsHilbertNuclear_SchwartzTestFunction` (instance) in OSforGFF.Measure.Construct
+- `instSeparableSpace_SchwartzTestFunction` (instance) in OSforGFF.Measure.Construct
+- `instNonempty_SchwartzTestFunction` (instance) in OSforGFF.Measure.Construct
 - `constructGaussianMeasureMinlos_free` (def) in OSforGFF.Measure.Construct
 - `gaussianFreeField_free` (def) in OSforGFF.Measure.Construct
 - `gff_real_characteristic` (theorem) in OSforGFF.Measure.Construct
@@ -898,7 +898,7 @@
 - `fourierSupportInDualCone_of_tube_boundaryValue` (theorem) in OSReconstruction.SCV.FourierSupportCone
 - ... and 8815 more
 
-### PhysLean (+12107)
+### PhysLean (+12324)
 
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
@@ -950,7 +950,7 @@
 - `DocGen4.Output.baseHtmlGenerator` (def) in scripts.Template
 - `DocGen4.Output.baseHtml` (def) in scripts.Template
 - `IsUpperCamel` (def) in scripts.type_former_lint
-- ... and 12057 more
+- ... and 12274 more
 
 ### PhysicsFormalization (+27)
 
@@ -1036,7 +1036,7 @@
 - `ProbabilityTheory.bentkusWhiteningMatrix_mul_sqrt` (lemma) in ProbabilityApproximation.Bentkus.Whitening
 - ... and 1720 more
 
-### ProjectVD (+228)
+### ProjectVD (+220)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
@@ -1088,7 +1088,7 @@
 - `MeromorphicOn.GermRing.inv_zero` (theorem) in VD.Field.GermField
 - `MeromorphicOn.GermRing.nontrivial` (theorem) in VD.Field.GermField
 - `MeromorphicOn.GermRing.coe_eq_zero_iff` (theorem) in VD.Field.GermField
-- ... and 178 more
+- ... and 170 more
 
 ### QFTFramework (+50)
 
@@ -1250,6 +1250,60 @@
 - `TensorProduct.linner_conj_inner_symm` (lemma) in QHilbert.InnerTensorProduct
 - `TensorProduct.linner_nonneg` (lemma) in QHilbert.InnerTensorProduct
 - ... and 270 more
+
+### QICLean (+5462)
+
+- `toLeanOptions` (def) in scripts.LintStyle
+- `getWorkspaceRoot` (def) in scripts.LintStyle
+- `getLakefileLeanOptions` (def) in scripts.LintStyle
+- `getProjectLinterOptions` (def) in scripts.LintStyle
+- `readStyleExceptions` (def) in scripts.LintStyle
+- `collectLeanModules` (def) in scripts.LintStyle
+- `main` (def) in scripts.LintStyle
+- `Matrix.IsJointDistribution` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Matrix.rowMarginal` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Matrix.columnMarginal` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Matrix.nonzeroRows` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Matrix.scaleRows` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Matrix.rowPerturbation` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.classicalMutualInformation` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.exists_nontrivial_row_relation` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.row_relation_has_both_signs` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.rowMarginal_rowPerturbation` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.columnMarginal_rowPerturbation` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.isJointDistribution_rowPerturbation` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.rank_rowPerturbation_le` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.rowPerturbationSlope` (def) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.classicalMutualInformation_rowPerturbation` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.exists_row_elimination_at_endpoint` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.exists_row_elimination` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.row_eq_zero_iff_rowMarginal_eq_zero` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.negMulLog_columnMarginal_le` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.classicalMutualInformation_le_probabilityEntropy_rowMarginal` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.probabilityEntropy_rowMarginal_le_log_nonzeroRows` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.nonzeroRows_nonempty` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.exists_reduced_joint_distribution` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Entropy.classicalMutualInformation_le_log_rank` (theorem) in QICLean.Entropy.ClassicalMutualInformation
+- `Matrix.trace_eq_trace_traceA_ABC` (theorem) in QICLean.Entropy.TripartiteTrace
+- `Matrix.trace_eq_trace_traceC_ABC` (theorem) in QICLean.Entropy.TripartiteTrace
+- `Matrix.trace_eq_trace_traceAC_ABC` (theorem) in QICLean.Entropy.TripartiteTrace
+- `Entropy.QuantumMarkovDecomposition` (abbrev) in QICLean.Entropy.MarkovChain
+- `Entropy.ssaEquality_iff_exists_quantumMarkovDecomposition` (theorem) in QICLean.Entropy.MarkovChain
+- `Entropy.exists_quantumMarkovDecomposition_of_ssaEquality` (theorem) in QICLean.Entropy.MarkovChain
+- `Entropy.isSSAEquality_of_quantumMarkovDecomposition` (theorem) in QICLean.Entropy.MarkovChain
+- `Entropy.rightMarginalAlong` (def) in QICLean.Entropy.MarkovChain
+- `Entropy.exists_quantumMarkovDecomposition_rightMarginalAlong` (theorem) in QICLean.Entropy.MarkovChain
+- `Entropy.mutualInformation_ssa_trivial_B_nonneg` (theorem) in QICLean.Entropy.MutualInformation
+- `Entropy.traceLeft_traceC_ABC_eq_traceAC_ABC` (theorem) in QICLean.Entropy.MutualInformation
+- `Entropy.mutualInformation_monotone_tripartite` (theorem) in QICLean.Entropy.MutualInformation
+- `Entropy.mutualInformation_le_log_dim_add_log_dim` (theorem) in QICLean.Entropy.MutualInformation
+- `Entropy.mutualInformation_le_log_operatorSchmidtRank` (theorem) in QICLean.Entropy.MutualInformationOperatorSchmidt
+- `hayashi_ssa_equality_characterization` (theorem) in QICLean.Entropy.SSAEqualityCharacterization
+- `quantumRelativeEntropy_product_marginals` (theorem) in QICLean.Entropy.ProductMarginals
+- `vonNeumannEntropy_sandwich_isometry` (theorem) in QICLean.Entropy.MutualInformationDataProcessing
+- `traceC_stinespring_eq_tensorMapId_swap` (theorem) in QICLean.Entropy.MutualInformationDataProcessing
+- `traceA_localStinespring_eq_sandwich` (theorem) in QICLean.Entropy.MutualInformationDataProcessing
+- ... and 5412 more
 
 ### RMT4 (+151)
 
@@ -1712,7 +1766,7 @@
 
 - `ClosedSubspace` (structure) in Quantum_Lattice
 
-### analysis (+2274)
+### analysis (+2300)
 
 - `Chapter11.PiecewiseConstantOn.RS_integ_eq_integ_of_mul_deriv` (theorem) in Analysis.Section_11_10
 - `Chapter11.integ_of_comp` (theorem) in Analysis.Section_11_10
@@ -1764,7 +1818,7 @@
 - `Section_4_1.Int.instOfNat` (instance) in Analysis.Section_4_1
 - `Section_4_1.Int.instNatCast` (instance) in Analysis.Section_4_1
 - `Section_4_1.Int.ofNat_eq` (theorem) in Analysis.Section_4_1
-- ... and 2224 more
+- ... and 2250 more
 
 ### asymptotic-spectrum-distance (+2802)
 
@@ -1820,7 +1874,7 @@
 - `main_alpha3_2_3_3` (theorem) in AsymptoticSpectrumDistance.Main
 - ... and 2752 more
 
-### computable-analysis (+2056)
+### computable-analysis (+2083)
 
 - `allowedAxioms` (def) in scripts.AxiomAudit
 - `headlineDecls` (def) in scripts.AxiomAudit
@@ -1872,7 +1926,7 @@
 - `ComputableAnalysis.ratOfCode` (def) in ComputableAnalysis.Metric.Presentation
 - `ComputableAnalysis.ratOfCode_surjective` (theorem) in ComputableAnalysis.Metric.Presentation
 - `ComputableAnalysis.ComputableMetricPresentation` (structure) in ComputableAnalysis.Metric.Presentation
-- ... and 2006 more
+- ... and 2033 more
 
 ### debate (+297)
 
@@ -2011,6 +2065,60 @@
 - `Exchangeability.extendFinPerm` (def) in Exchangeability.Contractability
 - `Exchangeability.ExchangeableAt` (def) in Exchangeability.Contractability
 - ... and 439 more
+
+### exchangeable-hoeffding-lean (+704)
+
+- `SharpSerfling.ExchangeableHoeffding.gammaTerm_le_Gamma` (theorem) in ExchangeableHoeffding.GammaBasic
+- `SharpSerfling.ExchangeableHoeffding.inverseSquareTail_pos` (theorem) in ExchangeableHoeffding.GammaBasic
+- `SharpSerfling.ExchangeableHoeffding.inverseSquareTail_lower` (theorem) in ExchangeableHoeffding.GammaBasic
+- `SharpSerfling.ExchangeableHoeffding.gammaTerm_lower_variance` (theorem) in ExchangeableHoeffding.GammaBasic
+- `SharpSerfling.ExchangeableHoeffding.Gamma_lower_variance` (theorem) in ExchangeableHoeffding.GammaBasic
+- `SharpSerfling.ExchangeableHoeffding.Gamma_pos` (theorem) in ExchangeableHoeffding.GammaBasic
+- `SharpSerfling.ExchangeableHoeffding.harmonicNumber_lt_nat` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.one_add_barberEpsilon` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.harmonicNumber_mono` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.harmonicNumber_ge_five_halves` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.Gamma_le_even_rational` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.Gamma_le_odd_rational` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.lemma_5_large` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.lemma_5` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.lemma_5_eq_two` (theorem) in ExchangeableHoeffding.BarberComparison
+- `SharpSerfling.ExchangeableHoeffding.halfStep` (def) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.halfError` (def) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.halfError_bounds` (theorem) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.sum_halfStep` (theorem) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.telescoping_sub_tail_eq_sum_error` (theorem) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.telescoping_error_bound` (theorem) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.Gamma_even_expansion_bound` (theorem) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.Gamma_odd_expansion_bound` (theorem) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.Gamma_asymptotic` (theorem) in ExchangeableHoeffding.Asymptotics
+- `SharpSerfling.ExchangeableHoeffding.inverseSquareTail_upper_half` (theorem) in ExchangeableHoeffding.GammaClosedForm
+- `SharpSerfling.ExchangeableHoeffding.inverseSquareTail_upper_for_monotonicity` (theorem) in ExchangeableHoeffding.GammaClosedForm
+- `SharpSerfling.ExchangeableHoeffding.gammaTerm_mono_step` (theorem) in ExchangeableHoeffding.GammaClosedForm
+- `SharpSerfling.ExchangeableHoeffding.gammaTerm_mono` (theorem) in ExchangeableHoeffding.GammaClosedForm
+- `SharpSerfling.ExchangeableHoeffding.Gamma_eq_lastTerm` (theorem) in ExchangeableHoeffding.GammaClosedForm
+- `SharpSerfling.ExchangeableHoeffding.Gamma_closedForm_even` (theorem) in ExchangeableHoeffding.GammaClosedForm
+- `SharpSerfling.ExchangeableHoeffding.Gamma_closedForm_odd` (theorem) in ExchangeableHoeffding.GammaClosedForm
+- `SharpSerfling.ExchangeableHoeffding.kappa_le_one` (theorem) in ExchangeableHoeffding.Main
+- `SharpSerfling.ExchangeableHoeffding.sharpCoefficient_le_Gamma` (theorem) in ExchangeableHoeffding.Main
+- `SharpSerfling.ExchangeableHoeffding.theorem_1_mgf` (theorem) in ExchangeableHoeffding.Main
+- `SharpSerfling.ExchangeableHoeffding.theorem_1_upperTail` (theorem) in ExchangeableHoeffding.Main
+- `SharpSerfling.ExchangeableHoeffding.corollary_1` (theorem) in ExchangeableHoeffding.Main
+- `SharpSerfling.ExchangeableHoeffding.paperNormalizedLogMgf_eq` (theorem) in ExchangeableHoeffding.Variational
+- `SharpSerfling.ExchangeableHoeffding.paperVariationalValues_nonempty` (theorem) in ExchangeableHoeffding.Variational
+- `SharpSerfling.ExchangeableHoeffding.paperVariationalValues_bddAbove` (theorem) in ExchangeableHoeffding.Variational
+- `SharpSerfling.ExchangeableHoeffding.variationalConstant_le_exact` (theorem) in ExchangeableHoeffding.Variational
+- `SharpSerfling.ExchangeableHoeffding.variationalConstant_eq_exact_odd` (theorem) in ExchangeableHoeffding.Variational
+- `SharpSerfling.ExchangeableHoeffding.variationalConstant_eq_exact_even` (theorem) in ExchangeableHoeffding.Variational
+- `SharpSerfling.ExchangeableHoeffding.remark_1_variational` (theorem) in ExchangeableHoeffding.Variational
+- `SharpSerfling.ExchangeableHoeffding.inverseSquareTail` (def) in ExchangeableHoeffding.Definitions
+- `SharpSerfling.ExchangeableHoeffding.martingaleFactor` (def) in ExchangeableHoeffding.Definitions
+- `SharpSerfling.ExchangeableHoeffding.gammaTerm` (def) in ExchangeableHoeffding.Definitions
+- `SharpSerfling.ExchangeableHoeffding.Gamma` (def) in ExchangeableHoeffding.Definitions
+- `SharpSerfling.ExchangeableHoeffding.harmonicNumber` (def) in ExchangeableHoeffding.Definitions
+- `SharpSerfling.ExchangeableHoeffding.barberEpsilon` (def) in ExchangeableHoeffding.Definitions
+- `SharpSerfling.ExchangeableHoeffding.varianceLowerConstant` (def) in ExchangeableHoeffding.Definitions
+- ... and 654 more
 
 ### fin-dep (+1154)
 
@@ -2537,7 +2645,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+661)
+### lean-bandits (+804)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
 - `config` (def) in LMLTutorial.Tutorial
@@ -2589,7 +2697,7 @@
 - `Learning.IT.hasCondDistrib_feedback` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IT.condDistrib_feedback_zero` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IT.condDistrib_step` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- ... and 611 more
+- ... and 754 more
 
 ### lean-qkd (+8)
 
@@ -2792,61 +2900,61 @@
 - `LegionCore.MeritCore.allocation_cap_respected` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
 - `LegionCore.MeritCore.allocation_requires_proof` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
 
-### loeb-measure (+194)
+### loeb-measure (+252)
 
 - `Loeb.Ultraproduct` (abbrev) in LoebMeasure.Basic
 - `Loeb.Ultrapower` (abbrev) in LoebMeasure.Basic
 - `LoebMeasure.AxiomAudit.acceptedAxioms` (def) in scripts.AxiomAudit
+- `Loeb.internalEdgeRelation` (def) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.mem_carrier_internalEdgeRelation_ofFun` (theorem) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.finPowerEquiv_symm_pair` (theorem) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.edgeRel` (def) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.edgeRel_ofFun` (theorem) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.ultraproductGraph` (def) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.ultraproductGraph_adj_ofFun` (theorem) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.ultraproductGraph_adj_iff_mem` (theorem) in LoebMeasure.GraphLimit.InternalGraph
 - `Loeb.internalContent` (def) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_ofFun` (theorem) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_bot` (theorem) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_top` (theorem) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_le_one` (theorem) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_ne_top` (theorem) in LoebMeasure.Measure.Content
+- `Loeb.internalContent_mono` (theorem) in LoebMeasure.Measure.Content
+- `Loeb.internalContent_sup_le` (theorem) in LoebMeasure.Measure.Content
 - `Loeb.eventually_disjoint_of_disjoint` (theorem) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_sup_of_disjoint` (theorem) in LoebMeasure.Measure.Content
+- `Loeb.envelopeValue` (def) in LoebMeasure.Measure.Envelope
+- `Loeb.envelopeValue_le_one` (theorem) in LoebMeasure.Measure.Envelope
+- `Loeb.envelopeValue_ne_top` (theorem) in LoebMeasure.Measure.Envelope
+- `Loeb.GoodLevel` (def) in LoebMeasure.Measure.Envelope
+- `Loeb.eventually_coherent` (theorem) in LoebMeasure.Measure.Envelope
+- `Loeb.eventually_mass_le` (theorem) in LoebMeasure.Measure.Envelope
+- `Loeb.eventually_goodLevel_nonempty` (theorem) in LoebMeasure.Measure.Envelope
+- `Loeb.exists_internal_envelope` (theorem) in LoebMeasure.Measure.Envelope
+- `Loeb.exists_internal_envelope_of_monotone` (theorem) in LoebMeasure.Measure.Envelope
 - `provides,` (theorem) in LoebMeasure.Measure.Construction
 - `Loeb.internalAddContent_ne_top` (theorem) in LoebMeasure.Measure.Construction
 - `Loeb.le_of_carrier_subset` (theorem) in LoebMeasure.Measure.Construction
 - `Loeb.internalAddContent_tendsto_zero` (theorem) in LoebMeasure.Measure.Construction
 - `Loeb.internalAddContent_iUnion_eq_tsum` (theorem) in LoebMeasure.Measure.Construction
 - `Loeb.internalAddContent_isSigmaSubadditive` (theorem) in LoebMeasure.Measure.Construction
-- `Loeb.normalizedCounting` (def) in LoebMeasure.Measure.Counting
-- `Loeb.normalizedCounting_eq_uniformOn` (theorem) in LoebMeasure.Measure.Counting
-- `Loeb.normalizedCounting_apply` (theorem) in LoebMeasure.Measure.Counting
-- `Loeb.instIsProbabilityMeasureNormalizedCounting` (instance) in LoebMeasure.Measure.Counting
-- `Loeb.normalizedCounting_univ` (theorem) in LoebMeasure.Measure.Counting
-- `Loeb.normalizedCounting_le_one` (theorem) in LoebMeasure.Measure.Counting
-- `Loeb.normalizedCounting_apply_eq_sum` (theorem) in LoebMeasure.Measure.Counting
-- `Loeb.transported` (def) in LoebMeasure.Measure.Packaging
-- `Loeb.transported_carrier` (theorem) in LoebMeasure.Measure.Packaging
-- `Loeb.transported_empty` (theorem) in LoebMeasure.Measure.Packaging
-- `Loeb.internalAddContent` (def) in LoebMeasure.Measure.Packaging
-- `Loeb.internalAddContent_carrier` (theorem) in LoebMeasure.Measure.Packaging
-- `Loeb.ultralimit_zero` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.ultralimit_one` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.ultralimit_add` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.ultralimit_le_of_le` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.ultralimit_le_one` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.ultralimit_le_one'` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.ultralimit_ne_top_of_le` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.ultralimit_ne_top` (theorem) in LoebMeasure.Ultralimit.Probability
-- `Loeb.InternalRelation` (abbrev) in LoebMeasure.Internal.Relation
-- `Loeb.InternalRelation.tupleCarrier` (def) in LoebMeasure.Internal.Relation
-- `Loeb.InternalRelation.mem_tupleCarrier` (theorem) in LoebMeasure.Internal.Relation
-- `Loeb.InternalRelation.comap` (def) in LoebMeasure.Internal.Relation
-- `Loeb.InternalRelation.toFun_reindexMap` (theorem) in LoebMeasure.Internal.Relation
-- `Loeb.InternalRelation.carrier_comap` (theorem) in LoebMeasure.Internal.Relation
-- `Loeb.InternalRelation.tupleCarrier_comap` (theorem) in LoebMeasure.Internal.Relation
-- `itself.` (lemma) in LoebMeasure.Internal.Diagonal
-- `Filter.CountablyIncomplete` (def) in LoebMeasure.Internal.Diagonal
-- `Filter.CountablyIncomplete.exists_antitone` (theorem) in LoebMeasure.Internal.Diagonal
-- `Filter.countablyIncomplete_of_le_cofinite` (theorem) in LoebMeasure.Internal.Diagonal
-- `Filter.hyperfilter_countablyIncomplete` (theorem) in LoebMeasure.Internal.Diagonal
-- `Filter.subset_of_chain` (theorem) in LoebMeasure.Internal.Diagonal
-- ... and 144 more
+- `Loeb.internalContent_singleton` (theorem) in LoebMeasure.Measure.Points
+- `Loeb.loebMeasure_singleton` (theorem) in LoebMeasure.Measure.Points
+- `Loeb.nullSingletonClass_loebMeasure` (theorem) in LoebMeasure.Measure.Points
+- `Loeb.loebMeasure_singleton_eq_one_of_subsingleton` (theorem) in LoebMeasure.Measure.Points
+- `in` (instance) in LoebMeasure.Measure.Approximation
+- `Loeb.loebOuterMeasure_eq_iInf_cover` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.internalContent_partialSups_le_sum` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.loebMeasure_eq_iInf_internal` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.exists_internal_superset_content_lt` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.loebMeasure_eq_zero_iff` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.exists_internal_symmDiff_lt` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.exists_internal_subset_lt_content_add` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.carrier_partialSups_subset` (theorem) in LoebMeasure.Measure.Approximation
+- `Loeb.exists_internal_symmDiff_eq_zero` (theorem) in LoebMeasure.Measure.Approximation
+- ... and 202 more
 
-### mathlib4 (+56207)
+### mathlib4 (+56675)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -2898,7 +3006,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 56157 more
+- ... and 56625 more
 
 ### median-eigenvalues-lean (+537)
 
@@ -3355,7 +3463,7 @@
 - `MDPs.hist_foll_nonempty` (theorem) in MDPLib.MDP.Histories
 - ... and 246 more
 
-### qcal-formalization (+496)
+### qcal-formalization (+535)
 
 - `Đ_self_adjoint_completo` (theorem) in CIERRE_BRECHA_1
 - `weyl_law_completa` (theorem) in CIERRE_BRECHA_1
@@ -3407,7 +3515,7 @@
 - `F_plomada` (def) in QCAL_V3.AdelicStateSpace
 - `ecuacion_dinamica` (def) in QCAL_V3.AdelicStateSpace
 - `convergence_to_attractor` (theorem) in QCAL_V3.AdelicStateSpace
-- ... and 446 more
+- ... and 485 more
 
 ### quasi-borel-spaces (+632)
 
@@ -3724,4 +3832,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-17T07:58:36.303830+00:00**: Checked 92 repos, updated 93, +76381 -0 declarations, 1 errors
+- **2026-08-24T08:01:20.975824+00:00**: Checked 93 repos, updated 94, +83049 -0 declarations, 1 errors
