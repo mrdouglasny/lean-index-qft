@@ -1,6 +1,60 @@
-# Changelog (since 2026-08-17)
+# Changelog (since 2026-08-24)
 
-## New Declarations (139724)
+## New Declarations (139605)
+
+### A277223 (+206)
+
+- `A277223.digitSum10` (def) in A277223.Basic
+- `A277223.Good` (def) in A277223.Basic
+- `A277223.MaxGood` (def) in A277223.Basic
+- `A277223.digitSum10_of_lt_10` (theorem) in A277223.Basic
+- `A277223.digitSum10_rec` (theorem) in A277223.Basic
+- `A277223.digitSum10_pow_mul` (theorem) in A277223.Basic
+- `A277223.digitSum10_mul_pow` (theorem) in A277223.Basic
+- `A277223.digitSum10_append` (theorem) in A277223.Basic
+- `A277223.digitSum10_add_le` (theorem) in A277223.Basic
+- `A277223.digitSum10_list_sum_le` (theorem) in A277223.Basic
+- `A277223.good_pow_mul_iff` (theorem) in A277223.Basic
+- `A277223.maxGood_pow_mul_iff` (theorem) in A277223.Basic
+- `A277223.maxGood_of_unique_positive` (theorem) in A277223.Basic
+- `A277223.list_sum_le_nine_mul_length` (theorem) in A277223.Witnesses
+- `A277223.digitSum10_le_nine_mul_length` (theorem) in A277223.Witnesses
+- `A277223.digitSum10_lt_self_of_ten_le` (theorem) in A277223.Witnesses
+- `A277223.one_maxGood_nine` (theorem) in A277223.Witnesses
+- `A277223.five_fifty_eight_mul_lt_pow` (theorem) in A277223.Witnesses
+- `A277223.good_62_le_36` (theorem) in A277223.Witnesses
+- `A277223.nine_dvd_good_62` (theorem) in A277223.Witnesses
+- `A277223.no_positive_good_62` (theorem) in A277223.Witnesses
+- `A277223.sixtyTwo_maxGood_zero` (theorem) in A277223.Witnesses
+- `A277223.maxGood_lt_twelve_classification` (theorem) in A277223.Main
+- `A277223.small_values_realized` (theorem) in A277223.Main
+- `A277223.small_value_spectrum_iff` (theorem) in A277223.Main
+- `A277223.infinite_family_members_realized` (theorem) in A277223.Main
+- `A277223.infinitely_many_structural_values` (theorem) in A277223.Main
+- `A277223.scaled_small_values_realized` (theorem) in A277223.Main
+- `A277223.PeriodicCrossing.N7` (def) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.seven_mul_N7` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_good_seven` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_defect_fourteen` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.h7` (def) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.a7` (def) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.T7` (def) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_residue_block_sum` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_residue_digitSum` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_crossing_left` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_crossing_right` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_unique_good` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.N7_maxGood` (theorem) in A277223.PeriodicCrossing.Seven
+- `A277223.PeriodicCrossing.M11Family` (def) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.q11Family` (def) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.N11Family` (def) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.M11Family_balance` (theorem) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.M11Family_index_lt` (theorem) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.eleven_mul_N11Family` (theorem) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.N11Family_good` (theorem) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.N11Family_local_data` (theorem) in A277223.PeriodicCrossing.ElevenFamily
+- `A277223.PeriodicCrossing.N11Family_digitSum_right` (theorem) in A277223.PeriodicCrossing.ElevenFamily
+- ... and 156 more
 
 ### Algebraic-Measurement-Theory-AMT (+16)
 
@@ -295,7 +349,7 @@
 - `ExtremeValueDistr.limitCondition` (def) in ExtremeValueProject.ExtremeValueDistribution
 - ... and 237 more
 
-### FLT (+2941)
+### FLT (+2940)
 
 - `PNat.pow_add_pow_ne_pow` (theorem) in FermatsLastTheorem
 - `FLT.Bosses.B1` (def) in FLT.Proof
@@ -347,7 +401,7 @@
 - `PatchingModule.componentMapModule_surjective` (lemma) in FLT.Patching.Module
 - `PatchingModule.map` (def) in FLT.Patching.Module
 - `PatchingModule.map_apply` (lemma) in FLT.Patching.Module
-- ... and 2891 more
+- ... and 2890 more
 
 ### GFF (+6)
 
@@ -358,7 +412,7 @@
 - `CylinderTestFun` (abbrev) in GFF.SpacetimeInstances
 - `TorusTestFun` (abbrev) in GFF.SpacetimeInstances
 
-### GibbsMeasure (+66)
+### GibbsMeasure (+78)
 
 - `IsConsistent` (def) in GibbsMeasure.Specification
 - `isConsistentKernel_cylinderEventsCompl` (lemma) in GibbsMeasure.Specification
@@ -410,7 +464,7 @@
 - `juxt_apply_of_not_mem` (lemma) in GibbsMeasure.Prereqs.Juxt
 - `measurable_coordinate_projection_2` (lemma) in GibbsMeasure.Prereqs.Juxt
 - `Measurable.juxt` (lemma) in GibbsMeasure.Prereqs.Juxt
-- ... and 16 more
+- ... and 28 more
 
 ### HilbertSpacesLean4 (+60)
 
@@ -736,68 +790,13 @@
 - `MCMC.Finite.kernel_eval_singleton` (lemma) in MCMC.Finite.toKernel
 - ... and 627 more
 
-### Measure (+1924)
-
-- `TestPhysics.test_dim_force` (theorem) in test.TestPhysics
-- `TestPhysics.test_dim_energy` (theorem) in test.TestPhysics
-- `TestPhysics.test_dim_power` (theorem) in test.TestPhysics
-- `TestPhysics.test_dim_momentum` (theorem) in test.TestPhysics
-- `TestPhysics.test_dim_voltage` (theorem) in test.TestPhysics
-- `TestPhysics.test_dim_charge` (theorem) in test.TestPhysics
-- `TestPhysics.test_dim_pressure` (theorem) in test.TestPhysics
-- `TestProperties.testDims` (def) in test.TestProperties
-- `TestProperties.testQExps` (def) in test.TestProperties
-- `TestProperties.testFloats` (def) in test.TestProperties
-- `TestIntegration.integration_dim_force` (theorem) in test.TestIntegration
-- `TestIntegration.integration_dim_energy` (theorem) in test.TestIntegration
-- `TestIntegration.integration_dim_power` (theorem) in test.TestIntegration
-- `version` (def) in measure.src.Main
-- `leanVersion` (def) in measure.src.Main
-- `ConstantEntry` (structure) in measure.src.Main
-- `constantsTable` (def) in measure.src.Main
-- `printConstants` (def) in measure.src.Main
-- `TheoryEntry` (structure) in measure.src.Main
-- `theoriesTable` (def) in measure.src.Main
-- `CompatEntry` (structure) in measure.src.Main
-- `compatTable` (def) in measure.src.Main
-- `printTheories` (def) in measure.src.Main
-- `printInfo` (def) in measure.src.Main
-- `stripLeading` (def) in measure.src.Main
-- `CommentState` (structure) in measure.src.Main
-- `updateCommentState` (def) in measure.src.Main
-- `lineStartsWith` (def) in measure.src.Main
-- `FileStats` (structure) in measure.src.Main
-- `isDirectory` (def) in measure.src.Main
-- `collectLeanFiles` (def) in measure.src.Main
-- `resolveTarget` (def) in measure.src.Main
-- `mergeStats` (def) in measure.src.Main
-- `jsonEscape` (def) in measure.src.Main
-- `checkResultToJson` (def) in measure.src.Main
-- `runLakeBuild` (def) in measure.src.Main
-- `scanTheoryStats` (def) in measure.src.Main
-- `printTheoriesWithCounts` (def) in measure.src.Main
-- `theoryEntryToJson` (def) in measure.src.Main
-- `compatEntryToJson` (def) in measure.src.Main
-- `printTheoriesJson` (def) in measure.src.Main
-- `parseCheckArgs` (def) in measure.src.Main
-- `main` (def) in measure.src.Main
-- `Measure.Constants.c` (def) in measure.src.Measure.Constants
-- `Measure.Constants.h` (def) in measure.src.Measure.Constants
-- `Measure.Constants.k_B` (def) in measure.src.Measure.Constants
-- `Measure.Constants.N_A` (def) in measure.src.Measure.Constants
-- `Measure.Constants.e` (def) in measure.src.Measure.Constants
-- `Measure.Constants.ℏ` (def) in measure.src.Measure.Constants
-- `Measure.Constants.dimG` (def) in measure.src.Measure.Constants
-- ... and 1874 more
-
-### OSforGFF (+898)
+### OSforGFF (+897)
 
 - `gaussian_pairing_product_integrable_free_2point` (theorem) in OSforGFF.Schwinger.GaussianMoments
 - `covariance_bilinear_from_general` (theorem) in OSforGFF.Schwinger.GaussianMoments
 - `SchwingerFunction` (def) in OSforGFF.Schwinger.Defs
 - `SchwingerFunction₁` (def) in OSforGFF.Schwinger.Defs
 - `SchwingerFunction₂` (def) in OSforGFF.Schwinger.Defs
-- `schwinger_eq_mean` (lemma) in OSforGFF.Schwinger.Defs
 - `schwinger_eq_covariance` (lemma) in OSforGFF.Schwinger.Defs
 - `SchwingerFunctionℂ` (def) in OSforGFF.Schwinger.Defs
 - `SchwingerFunctionℂ₂` (def) in OSforGFF.Schwinger.Defs
@@ -833,16 +832,17 @@
 - `freeCovarianceForm` (def) in OSforGFF.Measure.Construct
 - `gaussianFreeField_free_centered` (theorem) in OSforGFF.Measure.Construct
 - `gaussianFreeField_pairing_expSq_integrable` (theorem) in OSforGFF.Measure.Construct
-- `gaussian_pairing_square_integrable_real` (lemma) in OSforGFF.Measure.Construct
 - `WithSeminorms.equiv` (theorem) in OSforGFF.Measure.NuclearSpace
 - `nuclearSpace_to_isNuclear` (theorem) in OSforGFF.Measure.NuclearSpace
 - `schwartz_isHilbertNuclear` (instance) in OSforGFF.Measure.NuclearSpace
 - `schwartz_separableSpace` (instance) in OSforGFF.Measure.NuclearSpace
-- `CovarianceEuclideanInvariant` (def) in OSforGFF.Measure.GaussianFreeField
 - `CovarianceEuclideanInvariantℂ` (def) in OSforGFF.Measure.GaussianFreeField
 - `gaussian_satisfies_OS2` (theorem) in OSforGFF.Measure.GaussianFreeField
-- `gaussian_rbf_pd_innerProduct` (theorem) in OSforGFF.Measure.Minlos
-- ... and 848 more
+- `gaussian_positive_definite_via_embedding` (lemma) in OSforGFF.Measure.Minlos
+- `gff_to_bochner_pd` (def) in OSforGFF.Measure.Minlos
+- `conj_cexp_real` (lemma) in OSforGFF.Legacy.UnusedMeasureSchwinger
+- `gaussian_positive_definite_bochner` (lemma) in OSforGFF.Measure.Minlos
+- ... and 847 more
 
 ### OSreconstruction (+8865)
 
@@ -898,7 +898,7 @@
 - `fourierSupportInDualCone_of_tube_boundaryValue` (theorem) in OSReconstruction.SCV.FourierSupportCone
 - ... and 8815 more
 
-### PhysLean (+12324)
+### PhysLean (+12569)
 
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
@@ -940,17 +940,17 @@
 - `APIMapRequirement.toYAML` (def) in scripts.APIMapIndex
 - `APIMapData.toYAML` (def) in scripts.APIMapIndex
 - `indexYAML` (def) in scripts.APIMapIndex
+- `helpText` (def) in scripts.get_cache
+- `say` (def) in scripts.get_cache
+- `runStreamed` (def) in scripts.get_cache
+- `knownFlags` (def) in scripts.get_cache
+- `toolchainTag` (def) in scripts.get_cache
+- `scopeFor` (def) in scripts.get_cache
 - `addModulesIn` (def) in scripts.check_file_imports
 - `expectedPhyslibImports` (def) in scripts.check_file_imports
 - `listDif` (def) in scripts.check_file_imports
 - `arrayImportSorted` (def) in scripts.check_file_imports
-- `checkMissingImports` (def) in scripts.check_file_imports
-- `getStats` (def) in scripts.MetaPrograms.local_stats
-- `Stats.toHtml` (def) in scripts.stats
-- `DocGen4.Output.baseHtmlGenerator` (def) in scripts.Template
-- `DocGen4.Output.baseHtml` (def) in scripts.Template
-- `IsUpperCamel` (def) in scripts.type_former_lint
-- ... and 12274 more
+- ... and 12519 more
 
 ### PhysicsFormalization (+27)
 
@@ -1251,7 +1251,7 @@
 - `TensorProduct.linner_nonneg` (lemma) in QHilbert.InnerTensorProduct
 - ... and 270 more
 
-### QICLean (+5462)
+### QICLean (+6331)
 
 - `toLeanOptions` (def) in scripts.LintStyle
 - `getWorkspaceRoot` (def) in scripts.LintStyle
@@ -1293,17 +1293,17 @@
 - `Entropy.isSSAEquality_of_quantumMarkovDecomposition` (theorem) in QICLean.Entropy.MarkovChain
 - `Entropy.rightMarginalAlong` (def) in QICLean.Entropy.MarkovChain
 - `Entropy.exists_quantumMarkovDecomposition_rightMarginalAlong` (theorem) in QICLean.Entropy.MarkovChain
+- `Matrix.overlappingSpatialBlockEquiv` (def) in QICLean.Entropy.PositiveOverlappingProduct
+- `Matrix.overlappingMiddleBlockEquiv` (def) in QICLean.Entropy.PositiveOverlappingProduct
+- `Matrix.reindex_abcEquiv_eq_reindex_sigmaAssoc_of_reindex_tripartite` (theorem) in QICLean.Entropy.PositiveOverlappingProduct
+- `Matrix.reindex_prodAssoc_symm_liftB` (theorem) in QICLean.Entropy.PositiveOverlappingProduct
+- `Matrix.reindex_prodAssoc_symm_liftB_conj` (theorem) in QICLean.Entropy.PositiveOverlappingProduct
+- `Matrix.exists_unitary_positive_blockProduct_of_overlappingLifts_commute` (theorem) in QICLean.Entropy.PositiveOverlappingProduct
+- `Matrix.nonempty_quantumMarkovDecomposition_of_positive_blockProduct` (theorem) in QICLean.Entropy.PositiveOverlappingProduct
+- `Matrix.exists_quantumMarkovDecomposition_of_positive_overlapping_product` (theorem) in QICLean.Entropy.PositiveOverlappingProduct
 - `Entropy.mutualInformation_ssa_trivial_B_nonneg` (theorem) in QICLean.Entropy.MutualInformation
 - `Entropy.traceLeft_traceC_ABC_eq_traceAC_ABC` (theorem) in QICLean.Entropy.MutualInformation
-- `Entropy.mutualInformation_monotone_tripartite` (theorem) in QICLean.Entropy.MutualInformation
-- `Entropy.mutualInformation_le_log_dim_add_log_dim` (theorem) in QICLean.Entropy.MutualInformation
-- `Entropy.mutualInformation_le_log_operatorSchmidtRank` (theorem) in QICLean.Entropy.MutualInformationOperatorSchmidt
-- `hayashi_ssa_equality_characterization` (theorem) in QICLean.Entropy.SSAEqualityCharacterization
-- `quantumRelativeEntropy_product_marginals` (theorem) in QICLean.Entropy.ProductMarginals
-- `vonNeumannEntropy_sandwich_isometry` (theorem) in QICLean.Entropy.MutualInformationDataProcessing
-- `traceC_stinespring_eq_tensorMapId_swap` (theorem) in QICLean.Entropy.MutualInformationDataProcessing
-- `traceA_localStinespring_eq_sandwich` (theorem) in QICLean.Entropy.MutualInformationDataProcessing
-- ... and 5412 more
+- ... and 6281 more
 
 ### RMT4 (+151)
 
@@ -1359,7 +1359,7 @@
 - `eventually_mem_uIoo_of_mem_uIoc` (lemma) in RMT4.to_mathlib
 - ... and 101 more
 
-### SampCert (+812)
+### SampCert (+818)
 
 - `combineConcentrated` (def) in SampCert
 - `combinePure` (def) in SampCert
@@ -1400,6 +1400,8 @@
 - `SLang.UniformPowerOfTwoSample` (def) in SampCert.SLang
 - `SLang.probWhileFunctional` (def) in SampCert.SLang
 - `SLang.probWhileCut` (def) in SampCert.SLang
+- `SLang.probWhileCut_zero` (theorem) in SampCert.SLang
+- `SLang.probWhileCut_succ` (theorem) in SampCert.SLang
 - `SLang.probWhile` (def) in SampCert.SLang
 - `SLang.probUntil` (def) in SampCert.SLang
 - `SLang.probPure_norm` (lemma) in SampCert.SLang
@@ -1409,9 +1411,7 @@
 - `PMF.run` (opaque) in SampCert.SLang
 - `tsum_shift₁` (theorem) in SampCert.Util.Shift
 - `tsum_shift₂` (theorem) in SampCert.Util.Shift
-- `tsum_shift` (theorem) in SampCert.Util.Shift
-- `exists_summable_bound_exp_mul_sq` (theorem) in SampCert.Util.UtilMathlib
-- ... and 762 more
+- ... and 768 more
 
 ### SemicircleLaw (+175)
 
@@ -1467,7 +1467,7 @@
 - `ProbabilityTheory.memLp_id_semicircleReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
 - ... and 125 more
 
-### SpectralThm (+96)
+### SpectralThm (+101)
 
 - `toLinearFunctional` (def) in SpectralThm.SpectralTheorem
 - `toLinearFunctional_apply` (lemma) in SpectralThm.SpectralTheorem
@@ -1497,6 +1497,10 @@
 - `ResolutionOfIdentity.ofUnitBall` (def) in SpectralThm.Resolutions
 - `ResolutionOfIdentity.Linfty` (def) in SpectralThm.Resolutions
 - `A` (lemma) in SpectralThm.Projections
+- `outerRegular_add` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
+- `innerRegular_add` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
+- `regular_add` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
+- `regular_finset_sum` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.edist_eq_variation_sub` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.ComplexMeasure.ext` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.ComplexMeasure.ext_iff` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
@@ -1509,17 +1513,13 @@
 - `ComplexRMK.MeasureTheory.ComplexMeasure.withDensityᵥ_rnDeriv_eq` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.absolutelyContinuous_variation` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.withDensityᵥ_variation_rnDeriv_eq` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
+- `ComplexRMK.exists_l1_eq_withDensity_variation` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.rieszMeasure_unique` (theorem) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.toZeroAtInftyContinuousMap` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ComplexRMK.toZeroAtInftyContinuousMap'` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ZeroAtInftyContinuousMap.ContinuousMap.liftZeroAtInftyNAGH` (def) in SpectralThm.RieszMarkovKakutani.Complex
 - `ZeroAtInftyContinuousMap.liftZeroAtInftyNAGH_apply` (lemma) in SpectralThm.RieszMarkovKakutani.Complex
-- `ZeroAtInftyContinuousMap.ContinuousMap.liftZeroAtInftyCLE` (def) in SpectralThm.RieszMarkovKakutani.Complex
-- `MeasureTheory.Measure.support` (def) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
-- `MeasureTheory.Measure.support_eq_forall_isOpen` (theorem) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
-- `MeasureTheory.Measure.isClosed_support` (lemma) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
-- `MeasureTheory.Measure.essRange` (def) in SpectralThm.WStarAlgebra.BorelFunctionalCalculus
-- ... and 46 more
+- ... and 51 more
 
 ### SpinGlass (+1644)
 
@@ -1874,7 +1874,7 @@
 - `main_alpha3_2_3_3` (theorem) in AsymptoticSpectrumDistance.Main
 - ... and 2752 more
 
-### computable-analysis (+2083)
+### computable-analysis (+2086)
 
 - `allowedAxioms` (def) in scripts.AxiomAudit
 - `headlineDecls` (def) in scripts.AxiomAudit
@@ -1926,7 +1926,7 @@
 - `ComputableAnalysis.ratOfCode` (def) in ComputableAnalysis.Metric.Presentation
 - `ComputableAnalysis.ratOfCode_surjective` (theorem) in ComputableAnalysis.Metric.Presentation
 - `ComputableAnalysis.ComputableMetricPresentation` (structure) in ComputableAnalysis.Metric.Presentation
-- ... and 2033 more
+- ... and 2036 more
 
 ### debate (+297)
 
@@ -2645,7 +2645,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+804)
+### lean-bandits (+863)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
 - `config` (def) in LMLTutorial.Tutorial
@@ -2653,6 +2653,18 @@
 - `Docs.degenne2025markov` (def) in LMLTutorial.References
 - `lattimore2020bandit` (def) in verso_blueprint.LMLBlueprint.References
 - `marion2025formalization` (def) in verso_blueprint.LMLBlueprint.References
+- `Learning.actionIndicator` (def) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.actionIndicator_eq_one_iff` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.actionIndicator_nonneg` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.actionIndicator_le_one` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.sum_actionIndicator` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.sum_actionIndicator_eq_pullCount` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.sum_actionIndicator_smul` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.sum_actionIndicator_mul` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.measurable_actionIndicator` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.integrable_actionIndicator` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.IsAlgEnvSeq.adapted_actionIndicator` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
+- `Learning.IsAlgEnvSeq.adapted_actionIndicator_filtrationAction` (lemma) in LeanMachineLearning.SequentialLearning.ActionIndicator
 - `Learning.trajMeasure` (def) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IsAlgEnvSeq.map_trajectory` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.eq_trajMeasure_map_frestrictLe_of_isAlgEnvSeqUntil` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
@@ -2685,19 +2697,7 @@
 - `Learning.IT.filtrationAction_zero_eq_comap` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IT.filtrationAction_eq_comap` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
 - `Learning.IT.filtration_le_filtrationAction_add_one` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.filtration_le_filtrationAction` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.filtrationAction_le_filtration_self` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.filtrationAction_le_filtration` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.measurable_action_filtrationAction` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.hasLaw_step_zero` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.hasLaw_action_zero` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.hasCondDistrib_feedback_zero` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.hasCondDistrib_step` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.hasCondDistrib_action` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.hasCondDistrib_feedback` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.condDistrib_feedback_zero` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- `Learning.IT.condDistrib_step` (lemma) in LeanMachineLearning.SequentialLearning.IonescuTulceaSpace
-- ... and 754 more
+- ... and 813 more
 
 ### lean-qkd (+8)
 
@@ -2900,7 +2900,7 @@
 - `LegionCore.MeritCore.allocation_cap_respected` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
 - `LegionCore.MeritCore.allocation_requires_proof` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
 
-### loeb-measure (+252)
+### loeb-measure (+272)
 
 - `Loeb.Ultraproduct` (abbrev) in LoebMeasure.Basic
 - `Loeb.Ultrapower` (abbrev) in LoebMeasure.Basic
@@ -2913,6 +2913,24 @@
 - `Loeb.ultraproductGraph` (def) in LoebMeasure.GraphLimit.InternalGraph
 - `Loeb.ultraproductGraph_adj_ofFun` (theorem) in LoebMeasure.GraphLimit.InternalGraph
 - `Loeb.ultraproductGraph_adj_iff_mem` (theorem) in LoebMeasure.GraphLimit.InternalGraph
+- `Loeb.homomorphismSet` (def) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.mem_homomorphismSet` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.homomorphismSet_bot` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.adjPairs` (def) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.mem_adjPairs` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.internalHomEvent` (def) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.finset_inf_ofFun` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.tupleCarrier_finset_inf` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.internalHomEvent_eq_ofFun` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.mem_carrier_internalHomEvent_ofFun` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.mem_tupleCarrier_internalHomEvent` (theorem) in LoebMeasure.GraphLimit.HomEvent
+- `Loeb.finiteHomDensity` (def) in LoebMeasure.GraphLimit.HomDensity
+- `Loeb.finiteHomDensity_bot` (theorem) in LoebMeasure.GraphLimit.HomDensity
+- `Loeb.finiteHomDensity_fin_zero` (theorem) in LoebMeasure.GraphLimit.HomDensity
+- `Loeb.finiteHomDensity_le_one` (theorem) in LoebMeasure.GraphLimit.HomDensity
+- `Loeb.normalizedCounting_homomorphismSet` (theorem) in LoebMeasure.GraphLimit.HomDensity
+- `Loeb.loebMeasure_internalHomEvent` (theorem) in LoebMeasure.GraphLimit.HomDensity
+- `Loeb.loebMeasure_internalHomEvent_of_nonempty` (theorem) in LoebMeasure.GraphLimit.HomDensity
 - `Loeb.internalContent` (def) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_ofFun` (theorem) in LoebMeasure.Measure.Content
 - `Loeb.internalContent_bot` (theorem) in LoebMeasure.Measure.Content
@@ -2934,27 +2952,9 @@
 - `Loeb.exists_internal_envelope_of_monotone` (theorem) in LoebMeasure.Measure.Envelope
 - `provides,` (theorem) in LoebMeasure.Measure.Construction
 - `Loeb.internalAddContent_ne_top` (theorem) in LoebMeasure.Measure.Construction
-- `Loeb.le_of_carrier_subset` (theorem) in LoebMeasure.Measure.Construction
-- `Loeb.internalAddContent_tendsto_zero` (theorem) in LoebMeasure.Measure.Construction
-- `Loeb.internalAddContent_iUnion_eq_tsum` (theorem) in LoebMeasure.Measure.Construction
-- `Loeb.internalAddContent_isSigmaSubadditive` (theorem) in LoebMeasure.Measure.Construction
-- `Loeb.internalContent_singleton` (theorem) in LoebMeasure.Measure.Points
-- `Loeb.loebMeasure_singleton` (theorem) in LoebMeasure.Measure.Points
-- `Loeb.nullSingletonClass_loebMeasure` (theorem) in LoebMeasure.Measure.Points
-- `Loeb.loebMeasure_singleton_eq_one_of_subsingleton` (theorem) in LoebMeasure.Measure.Points
-- `in` (instance) in LoebMeasure.Measure.Approximation
-- `Loeb.loebOuterMeasure_eq_iInf_cover` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.internalContent_partialSups_le_sum` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.loebMeasure_eq_iInf_internal` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.exists_internal_superset_content_lt` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.loebMeasure_eq_zero_iff` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.exists_internal_symmDiff_lt` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.exists_internal_subset_lt_content_add` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.carrier_partialSups_subset` (theorem) in LoebMeasure.Measure.Approximation
-- `Loeb.exists_internal_symmDiff_eq_zero` (theorem) in LoebMeasure.Measure.Approximation
-- ... and 202 more
+- ... and 222 more
 
-### mathlib4 (+56675)
+### mathlib4 (+57057)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -3006,7 +3006,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 56625 more
+- ... and 57007 more
 
 ### median-eigenvalues-lean (+537)
 
@@ -3256,7 +3256,7 @@
 
 - `IsRegularPrime` (def) in PartialRegularity.solution
 - `decidable_IsRegularPrime` (instance) in PartialRegularity.solution
-- `M_alpha` (def) in extension.ext-solution
+- `M_alpha` (def) in extension.ext_solution
 - `countNonRegularPrimes` (def) in PartialRegularity.solution
 - `K_max` (def) in PartialRegularity.solution
 - `sqrt_div_log_pow_nonneg` (lemma) in PartialRegularity.solution
@@ -3282,7 +3282,7 @@
 - `two_pow_mul_pi_pow_eq` (lemma) in PartialRegularity.solution
 - `bernoulli_eq_zeta_formula_aux` (lemma) in PartialRegularity.solution
 - `neg_one_pow_mul_self` (lemma) in PartialRegularity.solution
-- `bernoulli_eq_zeta_formula` (lemma) in extension.ext-solution
+- `bernoulli_eq_zeta_formula` (lemma) in extension.ext_solution
 - `bernoulli_abs_eq_zeta_aux` (lemma) in PartialRegularity.solution
 - `bernoulli_abs_eq_zeta` (lemma) in PartialRegularity.solution
 - `bernoulli_abs_bound` (lemma) in PartialRegularity.solution
@@ -3832,4 +3832,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-24T08:01:20.975824+00:00**: Checked 93 repos, updated 94, +83049 -0 declarations, 1 errors
+- **2026-08-31T07:49:47.580903+00:00**: Checked 93 repos, updated 94, +82548 -0 declarations, 1 errors

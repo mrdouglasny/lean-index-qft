@@ -1,77 +1,77 @@
 # Lean Index Statistics
 
-**99,868 topic-matched declarations** across **69 repositories**
-(139,724 total declarations scanned from 93 repos)
+**98,487 topic-matched declarations** across **69 repositories**
+(139,605 total declarations scanned from 93 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| functional-analysis            |     31,704 |
-| measure-theory                 |     29,082 |
-| probability-theory             |     12,743 |
-| topological-groups             |      6,802 |
-| spectral-theory                |      6,799 |
-| quantum-field-theory           |      5,129 |
-| distributions-schwartz         |      3,961 |
-| operator-algebras              |      3,648 |
+| functional-analysis            |     31,967 |
+| measure-theory                 |     27,436 |
+| probability-theory             |     12,754 |
+| spectral-theory                |      6,853 |
+| topological-groups             |      6,853 |
+| quantum-field-theory           |      5,000 |
+| distributions-schwartz         |      3,980 |
+| operator-algebras              |      3,644 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     55,008 |
-| def             |     10,629 |
-| lemma           |      9,822 |
-| instance        |      4,855 |
-| structure       |        838 |
-| ctor            |        536 |
-| abbrev          |        376 |
-| class           |        325 |
-| inductive       |         84 |
-| opaque          |         69 |
+| theorem         |     55,173 |
+| lemma           |      9,882 |
+| def             |      9,551 |
+| instance        |      4,883 |
+| structure       |        635 |
+| ctor            |        532 |
+| class           |        322 |
+| abbrev          |        269 |
+| inductive       |         21 |
+| opaque          |          1 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     56,675 |     56,675 |
-| PhysLean                            |      4,408 |     12,324 |
+| mathlib4                            |     57,057 |     57,057 |
+| PhysLean                            |      4,434 |     12,569 |
 | OSreconstruction                    |      3,026 |      8,865 |
-| Measure                             |      1,812 |      1,924 |
 | ProbabilityApproximation            |      1,750 |      1,770 |
 | gaussian-field                      |      1,747 |      1,880 |
 | BrownianMotion                      |      1,184 |      1,589 |
 | asymptotic-spectrum-distance        |      1,065 |      2,802 |
 | pphi2                               |        918 |      2,587 |
+| QICLean                             |        889 |      6,331 |
 | lean-stat-learning-theory           |        874 |      2,009 |
 | LeanLevy                            |        844 |        862 |
 | mini-measure-probability-integratio |        838 |      1,209 |
-| QICLean                             |        796 |      5,462 |
 | SpinGlass                           |        670 |      1,644 |
 | monlib4                             |        646 |      2,413 |
 | quasi-borel-spaces                  |        553 |        632 |
-| FLT                                 |        474 |      2,941 |
+| FLT                                 |        474 |      2,940 |
 | exchangeability                     |        468 |        489 |
 | analysis                            |        347 |      2,300 |
-| OSforGFF                            |        340 |        898 |
+| OSforGFF                            |        337 |        897 |
+| lean-bandits                        |        315 |        863 |
 | Lean-QuantumInfo                    |        297 |      2,283 |
-| lean-bandits                        |        295 |        804 |
 | fin-dep                             |        290 |      1,154 |
-| computable-analysis                 |        267 |      2,083 |
+| computable-analysis                 |        267 |      2,086 |
 | spectrum-topos                      |        185 |      2,283 |
 | spectrum-topos                      |        184 |      2,277 |
 | gaussian-hilbert                    |        151 |        151 |
 | gleason-theorem-lean                |        130 |      3,662 |
 | MCMC                                |        124 |        677 |
 | exchangeable-hoeffding-lean         |        116 |        704 |
+| ExtremeValueProject                 |         92 |        287 |
 | ... and 39 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-08-24T08:01:20.975824+00:00
+- **When**: 2026-08-31T07:49:47.580903+00:00
 - **Repos checked**: 93
 - **Repos updated**: 94
-- **New declarations**: 83049
+- **New declarations**: 82548
 - **Removed declarations**: 0
-- **Summary**: Checked 93 repos, updated 94, +83049 -0 declarations, 1 errors
+- **Summary**: Checked 93 repos, updated 94, +82548 -0 declarations, 1 errors
