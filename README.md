@@ -2,7 +2,7 @@
 
 Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**81,269 topic-matched declarations** across **69 repositories** (scanned 93 repos, 139,605 declarations).
+**81,419 topic-matched declarations** across **70 repositories** (scanned 95 repos, 139,919 declarations).
 
 Tracks Lean declarations related to:
 - **Functional analysis**: Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
@@ -20,29 +20,30 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 57,057 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 4,434 | Digitalized physics results in Lean (492 stars) |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 57,186 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 4,498 | Digitalized physics results in Lean (492 stars) |
 | [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 3,026 | Osterwalder-Schrader reconstruction theorem |
 | [Polarnova/ProbabilityApproximation](https://github.com/Polarnova/ProbabilityApproximation) | 1,750 | Lean 4 and Mathlib formalization of nonuniform Berry–Esseen bounds and... |
 | [mrdouglasny/gaussian-field](https://github.com/mrdouglasny/gaussian-field) | 1,747 | Gaussian free field formalization |
 | [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 1,184 | Construction of a Brownian Motion in Lean |
 | [jzuiddam/asymptotic-spectrum-distance](https://github.com/jzuiddam/asymptotic-spectrum-distance) | 1,065 | Lean 4 formalization of "The asymptotic spectrum distance, graph limits, and... |
 | [mrdouglasny/pphi2](https://github.com/mrdouglasny/pphi2) | 918 | Construction of phi^4_2 quantum field theory in Lean 4 |
-| [LionSR/QICLean](https://github.com/LionSR/QICLean) | 889 | Quantum information and channels, formalized in Lean 4: quantum states and... |
+| [LionSR/QICLean](https://github.com/LionSR/QICLean) | 896 | Quantum information and channels, formalized in Lean 4: quantum states and... |
 | [YuanheZ/lean-stat-learning-theory](https://github.com/YuanheZ/lean-stat-learning-theory) | 874 | Statistical learning theory, Gaussian concentration, Dudley's entropy |
 | [slink/LeanLevy](https://github.com/slink/LeanLevy) | 844 | Levy processes on Mathlib |
 | [rootkiller6788/mini-measure-probability-integration](https://github.com/rootkiller6788/mini-measure-probability-integration) | 838 | Measure theory, probability and integration built from scratch, learn analysis... |
-| [or4nge19/SpinGlass](https://github.com/or4nge19/SpinGlass) | 670 | Spin glass models, statistical mechanics |
 | [themathqueen/monlib4](https://github.com/themathqueen/monlib4) | 646 | Von Neumann algebras, quantum information theory |
 | [YellPika/quasi-borel-spaces](https://github.com/YellPika/quasi-borel-spaces) | 553 | Quasi-Borel spaces, categorical probability |
 | [ImperialCollegeLondon/FLT](https://github.com/ImperialCollegeLondon/FLT) | 474 | Fermat's Last Theorem (uses representation theory) |
 | [cameronfreer/exchangeability](https://github.com/cameronfreer/exchangeability) | 468 | Exchangeability, de Finetti's theorem |
-| [teorth/analysis](https://github.com/teorth/analysis) | 347 | Tao's analysis formalization |
-| [mrdouglasny/OSforGFF](https://github.com/mrdouglasny/OSforGFF) | 337 | Osterwalder-Schrader axioms for Gaussian free field |
-| [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 315 | Bandit algorithms, probability bounds |
+| [teorth/analysis](https://github.com/teorth/analysis) | 353 | Tao's analysis formalization |
+| [mrdouglasny/OSforGFF](https://github.com/mrdouglasny/OSforGFF) | 339 | Osterwalder-Schrader axioms for Gaussian free field |
+| [or4nge19/SpinGlass](https://github.com/or4nge19/SpinGlass) | 327 | Spin glass models, statistical mechanics |
+| [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 325 | Bandit algorithms, probability bounds |
 | [Timeroot/Lean-QuantumInfo](https://github.com/Timeroot/Lean-QuantumInfo) | 297 | Quantum information theory, quantum channels |
 | [suomela/fin-dep](https://github.com/suomela/fin-dep) | 290 | Finitely dependent distributions |
 | [cameronfreer/computable-analysis](https://github.com/cameronfreer/computable-analysis) | 267 | Computable analysis in Lean 4: represented spaces over a Type-2 oracle machine,... |
+| [hanyi162013-Yihan/ginibre-correlation-identities-lean](https://github.com/hanyi162013-Yihan/ginibre-correlation-identities-lean) | 259 | Lean 4 formalization of Ginibre projection identities, Gaussian matrix... |
 | [K-NANOG/spectrum-topos](https://github.com/K-NANOG/spectrum-topos) | 185 |  |
 | [MingMing42hours/spectrum-topos](https://github.com/MingMing42hours/spectrum-topos) | 184 |  |
 | [mrdouglasny/gaussian-hilbert](https://github.com/mrdouglasny/gaussian-hilbert) | 151 | Finite-dimensional Gaussian Hilbert space theory in Lean 4 — multivariate... |
@@ -55,15 +56,15 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [FredRaj3/SemicircleLaw](https://github.com/FredRaj3/SemicircleLaw) | 81 | Wigner semicircle law, random matrix theory |
 | [oliver-butterley/SpectralThm](https://github.com/oliver-butterley/SpectralThm) | 74 | Spectral theorem formalization |
 | [motanova84/qcal-formalization](https://github.com/motanova84/qcal-formalization) | 67 | QCAL — Quantum Coherence Algebraic Logic: Complete Lean 4 formalization.... |
-| [YaelDillies/gibbs-measure](https://github.com/YaelDillies/gibbs-measure) | 54 | ASCI Summer Research Lean |
+| [YaelDillies/gibbs-measure](https://github.com/YaelDillies/gibbs-measure) | 61 | ASCI Summer Research Lean |
 | [leanprover/SampCert](https://github.com/leanprover/SampCert) | 52 | Certified differential privacy sampling |
 | [umpolungfish/Imscribing_Grammar](https://github.com/umpolungfish/Imscribing_Grammar) | 48 | A 12-primitive measurement apparatus for the structural type of any system —... |
 | [girving/ray](https://github.com/girving/ray) | 47 | Analytic number theory, special functions |
+| [cameronfreer/loeb-measure](https://github.com/cameronfreer/loeb-measure) | 36 | Loeb measure, ultraproduct probability, and applications to exchangeability and... |
 | [SmaniaD/Burkholder](https://github.com/SmaniaD/Burkholder) | 33 | This repository formalizes in Lean the Burkholder martingale transform... |
 | [vbeffara/RMT4](https://github.com/vbeffara/RMT4) | 33 | Random matrix theory, complex analysis |
 | [kkytola/VirasoroProject](https://github.com/kkytola/VirasoroProject) | 29 | Virasoro algebra, Verma modules, conformal field theory |
 | [Robby955/formal-martingales](https://github.com/Robby955/formal-martingales) | 27 | Lean 4 library for martingale inequalities, anytime-valid inference, and... |
-| [cameronfreer/loeb-measure](https://github.com/cameronfreer/loeb-measure) | 26 | Loeb measure, ultraproduct probability, and applications to exchangeability and... |
 | [RileyBetts/lean-tee](https://github.com/RileyBetts/lean-tee) | 25 | Lean-specified zkTEE: measured guest execution, hashed receipts, lean-grpc APIs |
 | [alexjgreig/QHL-Lean](https://github.com/alexjgreig/QHL-Lean) | 24 | Quantum Hoare logic |
 | [Diudiutse/Lean-Formalization-of-an-Inequality-for-Strongly-Regular-Graphs](https://github.com/Diudiutse/Lean-Formalization-of-an-Inequality-for-Strongly-Regular-Graphs) | 22 | For a non-complete connected simple strongly regular graph G with parameters... |
@@ -80,7 +81,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [awodey/joyal](https://github.com/awodey/joyal) | 8 |  |
 | [sunoru/finite-groups](https://github.com/sunoru/finite-groups) | 7 | Finite group theory |
 | [girving/series](https://github.com/girving/series) | 4 | Power series, analytic functions |
-| [formalproofs/probability](https://github.com/formalproofs/probability) | 4 | Probability theory fundamentals |
+| [formalproofs/probability](https://github.com/formalproofs/probability) | 3 | Probability theory fundamentals |
 | [mrdouglasny/QFTFramework](https://github.com/mrdouglasny/QFTFramework) | 3 | QFT framework formalization |
 | [Axiomatic-AI/lean-qkd](https://github.com/Axiomatic-AI/lean-qkd) | 2 | Lean blueprint a result in quantum key distribution |
 | [jallen-gh/Algebraic-Measurement-Theory-AMT](https://github.com/jallen-gh/Algebraic-Measurement-Theory-AMT) | 2 | This repository contains the machine-verifiable logical dependency graph for... |
