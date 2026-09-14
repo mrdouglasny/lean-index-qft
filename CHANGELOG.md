@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-31)
+# Changelog (since 2026-09-07)
 
-## New Declarations (139919)
+## New Declarations (148130)
 
 ### A277223 (+206)
 
@@ -898,7 +898,7 @@
 - `BHW.reducedDiffMapRealCLM` (def) in OSReconstruction.ComplexLieGroups.DifferenceCoordinatesReduced
 - ... and 8815 more
 
-### PhysLean (+12734)
+### PhysLean (+14205)
 
 - `InfRegularized` (def) in QuantumInfo.Regularized
 - `SupRegularized` (def) in QuantumInfo.Regularized
@@ -950,7 +950,7 @@
 - `listDif` (def) in scripts.check_file_imports
 - `arrayImportSorted` (def) in scripts.check_file_imports
 - `checkMissingImports` (def) in scripts.check_file_imports
-- ... and 12684 more
+- ... and 14155 more
 
 ### PhysicsFormalization (+27)
 
@@ -1036,7 +1036,7 @@
 - `ProbabilityApproximationBlueprint.BibTeX.citableTerm` (def) in blueprint-verso.ProbabilityApproximationBlueprint.BibTeX
 - ... and 1720 more
 
-### ProjectVD (+220)
+### ProjectVD (+214)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
@@ -1088,7 +1088,38 @@
 - `MeromorphicOn.GermRing.divisor_inv` (theorem) in VD.Field.GermFieldAPI
 - `MeromorphicOn.GermRing.toNF` (def) in VD.Field.GermFieldAPI
 - `MeromorphicOn.GermRing.meromorphicNFOn_toNF` (theorem) in VD.Field.GermFieldAPI
-- ... and 170 more
+- ... and 164 more
+
+### QFT (+28)
+
+- `QuantumPhysicsLean.CorrelationInequalities.Monomial` (abbrev) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.spinPow` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.FerromagneticHamiltonian` (structure) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.FerromagneticHamiltonian.eval` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.partitionFunction` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.expectation` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.duplicateExpectation` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.SymmetricSpinMeasure` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.IsIsingMeasure` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.ising_correlation_le_one` (theorem) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.QuarticSpinMeasure` (structure) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.QuarticSpinMeasure.toMeasure` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.CorrelationInequalities.CoordinateMonotone` (def) in QuantumPhysicsLean.CorrelationInequalities
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HasMassGap` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.mass` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.IsVacuum` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.IsMassOperator` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.massOperator_vac_eq_zero` (theorem) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.SatisfiesSpectralCondition` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.vacuum_orthogonal_range` (theorem) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HaagKastlerNet` (structure) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HaagKastlerNet.CovariantRep` (structure) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HaagKastlerNet.HasMassGap` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HaagKastlerNet.CovariantRep.SatisfiesSpectralCondition` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HaagKastlerNet.CovariantRep.vacuum_orthogonal_range` (theorem) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HaagKastlerNet.CovariantRep.IsCyclicVacuumFor` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `QuantumPhysicsLean.YangMillsMillenniumProblem.HaagKastlerNet.CovariantRep.IsSeparatingVacuumFor` (def) in QuantumPhysicsLean.YangMillsMillenniumProblem
+- `hello` (def) in QuantumPhysicsLean.Basic
 
 ### QFTFramework (+50)
 
@@ -1413,7 +1444,7 @@
 - `SLang.probWhile_apply` (theorem) in SampCert.Foundations.While
 - ... and 768 more
 
-### SemicircleLaw (+175)
+### SemicircleLaw (+179)
 
 - `SimpleGraph.LoopWalk` (inductive) in SemicircleLaw.Moments.LoopWalk
 - `SimpleGraph.LoopWalk.instInhabited` (instance) in SemicircleLaw.Moments.LoopWalk
@@ -1465,7 +1496,7 @@
 - `SimpleGraph.LoopWalk.permMapWalk_loop` (lemma) in SemicircleLaw.Moments.LoopWalk
 - `SimpleGraph.LoopWalk.permMapWalk_refl` (lemma) in SemicircleLaw.Moments.LoopWalk
 - `SimpleGraph.LoopWalk.permMapWalk_comp` (lemma) in SemicircleLaw.Moments.LoopWalk
-- ... and 125 more
+- ... and 129 more
 
 ### SpectralThm (+101)
 
@@ -1521,59 +1552,59 @@
 - `MeasureTheory.ComplexMeasure.var` (def) in SpectralThm.ComplexMeasure.Integral
 - ... and 51 more
 
-### SpinGlass (+780)
+### SpinGlass (+3057)
 
 - `SpinGlass.memLp_free_energy_density` (theorem) in SpinGlass.Poincare
-- `SpinGlass.variance_free_energy_density_le_pi_sq_div_eight_mul_opNorm_covarianceOperator_div_N_sq` (theorem) in SpinGlass.Poincare
-- `SpinGlass.integral_sub_mean_sq_free_energy_density_le_pi_sq_div_eight_mul_opNorm_covarianceOperator_div_N_sq` (theorem) in SpinGlass.Poincare
+- `SpinGlass.variance_free_energy_density_le` (theorem) in SpinGlass.Poincare
 - `SpinGlass.meas_ge_le_free_energy_density_sub_mean_div_sq` (theorem) in SpinGlass.Poincare
-- `SpinGlass.guerra_derivative_bound_algebra_core` (theorem) in SpinGlass.GuerraBound
-- `SpinGlass.gibbsWeightNNReal` (def) in SpinGlass.GibbsBridge
-- `SpinGlass.gibbsMeasure` (def) in SpinGlass.GibbsBridge
-- `SpinGlass.lintegral_gibbsMeasure` (lemma) in SpinGlass.GibbsBridge
-- `SpinGlass.gibbsMeasure_univ` (lemma) in SpinGlass.GibbsBridge
-- `SpinGlass.integral_gibbsMeasure_eq_gibbs_average` (lemma) in SpinGlass.GibbsBridge
-- `SpinGlass.contDiff_Z` (lemma) in SpinGlass.Calculus
-- `SpinGlass.contDiff_gibbs_pmf` (lemma) in SpinGlass.Calculus
-- `SpinGlass.Z_pos_everywhere` (lemma) in SpinGlass.Calculus
-- `SpinGlass.contDiff_free_energy_density` (lemma) in SpinGlass.Calculus
-- `SpinGlass.fderiv_free_energy_apply` (lemma) in SpinGlass.Calculus
-- `SpinGlass.abs_free_energy_density_sub_le` (lemma) in SpinGlass.Calculus
-- `SpinGlass.hessian_free_energy_eq_variance` (lemma) in SpinGlass.Calculus
-- `SpinGlass.abs_apply_le_norm` (lemma) in SpinGlass.Calculus
-- `SpinGlass.Z_le_card_mul_exp_norm` (lemma) in SpinGlass.Calculus
-- `SpinGlass.Z_ge_exp_neg_norm` (lemma) in SpinGlass.Calculus
-- `SpinGlass.abs_free_energy_density_le` (lemma) in SpinGlass.Calculus
-- `SpinGlass.integrable_free_energy_density_of_isGaussian` (lemma) in SpinGlass.Calculus
-- `SpinGlass.hopfieldOverlapImageMeasure` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldOverlapImageMeasure_Icc_compl` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldOverlapKernel` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldOverlapKernel_Icc_compl` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldOverlapArray` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldOverlapArrayImageMeasure` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldOverlapArrayKernel` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.translateMeasure` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldConvolution` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldConvolutionKernel` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.lintegral_hopfieldConvolution` (theorem) in SpinGlass.HopfieldConvolution
-- `SpinGlass.lintegral_hopfieldConvolution_overlapImage` (theorem) in SpinGlass.HopfieldConvolution
-- `SpinGlass.lintegral_hopfieldConvolution_withDensity` (theorem) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldConvolution_withDensity_eq_withDensity` (theorem) in SpinGlass.HopfieldConvolution
-- `SpinGlass.talagrandW` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.talagrandGaussianDensity` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.measurable_talagrandGaussianDensity` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.talagrandGaussianMeasureDensity` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.talagrandGaussianDensity1` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.talagrandGaussianDensity_eq_prod_density1` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.talagrandGaussianDensity1_eq_gaussianPDF` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.lintegral_talagrandGaussianDensity1_eq_one` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.lintegral_talagrandGaussianDensity_eq_one` (theorem) in SpinGlass.HopfieldConvolution
-- `SpinGlass.isProbabilityMeasure_talagrandGaussianMeasureDensity` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.hopfieldConvolutionTalagrandKernel` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.isMarkovKernel_hopfieldConvolutionTalagrandKernel` (lemma) in SpinGlass.HopfieldConvolution
-- `SpinGlass.talagrandGaussianKernelDensity` (def) in SpinGlass.HopfieldConvolution
-- `SpinGlass.isMarkovKernel_talagrandGaussianKernelDensity` (lemma) in SpinGlass.HopfieldConvolution
-- ... and 730 more
+- `SpinGlass.variance_free_energy_density_le_gibbs_covariance` (theorem) in SpinGlass.Poincare
+- `SpinGlass.magnetization_split` (lemma) in SpinGlass.GuerraToninelli
+- `SpinGlass.H_field_eq_sumEnergy` (lemma) in SpinGlass.GuerraToninelli
+- `SpinGlass.mul_free_energy_density_sumEnergy` (lemma) in SpinGlass.GuerraToninelli
+- `SpinGlass.guerraTrace_splitCovKernel_nonpos_of_le` (theorem) in SpinGlass.GuerraToninelli
+- `SpinGlass.guerraTrace_splitCovKernel_nonpos` (theorem) in SpinGlass.GuerraToninelli
+- `SpinGlass.GaussianDisorder.integrable_free_energy_density_add` (lemma) in SpinGlass.GuerraToninelli
+- `SpinGlass.mul_integral_free_energy_density_add_le_of_kernel_le` (theorem) in SpinGlass.GuerraToninelli
+- `SpinGlass.mul_integral_free_energy_density_add_le` (theorem) in SpinGlass.GuerraToninelli
+- `SpinGlass.overlapCovKernel_comm` (lemma) in SpinGlass.GuerraToninelli
+- `SpinGlass.mul_integral_free_energy_density_add_le_overlapCovKernel` (theorem) in SpinGlass.GuerraToninelli
+- `SpinGlass.gaussField` (def) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.isProbabilityMeasure_gaussField` (instance) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.isGaussian_gaussField` (instance) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.integral_id_gaussField` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.integrable_norm_gaussField` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.integrable_norm_sq_gaussField` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.gaussField_map_smul` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.covarianceOperator_gaussField_apply` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.exists_directions_covKernel_eq` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.gaussFreeEnergy_eq_integral_smul` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.hasDerivAt_gaussFreeEnergy` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.differentiableAt_gaussFreeEnergy` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.gibbs_average_freshCov_gaussField` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.nonneg_of_abs_le_diag` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.abs_gibbs_average₂_kernel_le` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.measurable_gibbs_average₂_kernel` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.integrable_gibbs_average₂_kernel` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.deriv_gaussFreeEnergy_eq` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.abs_deriv_gaussFreeEnergy_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.variance_gaussFreeEnergy_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.integral_abs_gaussFreeEnergy_sub_mean_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.intervalIntegral_gaussEnergy_fluctuation_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.intervalIntegral_gaussMeanEnergy_fluctuation_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.intervalIntegral_gaussTotalEnergy_fluctuation_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.measureReal_setOf_gaussTotalEnergy_fluctuation_ge_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.gibbs_average_smul_right` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.integral_gibbs_average_one_energy_gaussField` (lemma) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.integral_gibbs_average_abs_sub_mean_gaussField_eq` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.abs_gaussGhirlandaGuerra_error_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.exists_beta_abs_gaussGhirlandaGuerra_error_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.measureReal_setOf_gaussGhirlandaGuerra_error_gt_le` (theorem) in SpinGlass.GaussFieldFluctuation
+- `SpinGlass.monomialPerturbationKernel` (def) in SpinGlass.MixedPSpinPerturbation
+- `SpinGlass.overlapCovMatrix_pow_eq` (lemma) in SpinGlass.MixedPSpinPerturbation
+- `SpinGlass.posSemidef_overlapCovMatrix_pow` (lemma) in SpinGlass.MixedPSpinPerturbation
+- `SpinGlass.posSemidef_monomialPerturbationKernel` (lemma) in SpinGlass.MixedPSpinPerturbation
+- `SpinGlass.monomialPerturbationKernel_zero_add_sum` (lemma) in SpinGlass.MixedPSpinPerturbation
+- ... and 3007 more
 
 ### TCSR-QFT-Lean4 (+80)
 
@@ -1820,6 +1851,60 @@
 - `Chapter3.SetTheory.Set.coe_of_fun_inj` (theorem) in Analysis.Section_3_4
 - ... and 2270 more
 
+### aqft-lean (+154)
+
+- `AQFT.IsotoneNet.IsCausal` (def) in AQFT.Net.Causality
+- `AQFT.IsotoneNet.IsCausal.le_commutant` (theorem) in AQFT.Net.Causality
+- `AQFT.IsotoneNet.isCausal_iff_le_commutant` (theorem) in AQFT.Net.Causality
+- `AQFT.IsotoneNet.isCausal_iff_commutator_eq_zero` (theorem) in AQFT.Net.Causality
+- `AQFT.IsotoneNet.IsCausal.empty_le_commutant` (theorem) in AQFT.Net.Causality
+- `AQFT.IsotoneNet.isCausal_minkowski_iff` (theorem) in AQFT.Net.Minkowski
+- `AQFT.IsotoneNet` (abbrev) in AQFT.Net.Basic
+- `AQFT.IsotoneNet.isotony` (theorem) in AQFT.Net.Basic
+- `AQFT.IsotoneNet.directed` (theorem) in AQFT.Net.Basic
+- `AQFT.CStarSubalgebra` (def) in AQFT.Algebra.CStarSubalgebra
+- `AQFT.CStarSubalgebra.le_iff_subset` (theorem) in AQFT.Algebra.CStarSubalgebra
+- `AQFT.CStarSubalgebra.isClosed` (instance) in AQFT.Algebra.CStarSubalgebra
+- `AQFT.CStarSubalgebra.cstarAlgebra` (instance) in AQFT.Algebra.CStarSubalgebra
+- `AQFT.CStarSubalgebra.commutant` (def) in AQFT.Algebra.CStarSubalgebra
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated` (def) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated.mono` (theorem) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated.not_of_nonpos` (theorem) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated.disjoint` (theorem) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated.not_unitTime` (theorem) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated.not_nullVector` (theorem) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated.unitSpace` (theorem) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace.SpacelikeSeparated.zero_spatial_iff` (theorem) in AQFT.Spacetime.Spacelike
+- `AQFT.Spacetime.MinkowskiSpace` (def) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm` (def) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_apply` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.continuous_bilinearForm` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_symm` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.eq_zero_of_forall_bilinearForm_eq_zero` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_nondegenerate` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_time_time` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_space_space` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_unitTime` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_unitSpace` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.nullVector` (def) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.nullVector_ne_zero` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.bilinearForm_nullVector` (theorem) in AQFT.Spacetime.Minkowski
+- `AQFT.Spacetime.MinkowskiSpace.fixed_sign` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.endpoint_norm_bound` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.space_norm_le_abs_time` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.time_ne_zero` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.causalCurve_endpoint_nonpos` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.lineMap_velocity` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.causalLine` (def) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.causallyRelated_of_bilinearForm_sub_nonpos` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.causallyRelated_iff` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.spacelikeSeparated_iff` (theorem) in AQFT.Spacetime.MinkowskiCausal
+- `AQFT.Spacetime.MinkowskiSpace.quadraticForm` (def) in AQFT.Spacetime.MinkowskiSignature
+- `AQFT.Spacetime.MinkowskiSpace.quadraticForm_apply` (theorem) in AQFT.Spacetime.MinkowskiSignature
+- `AQFT.Spacetime.MinkowskiSpace.timeSubspace` (abbrev) in AQFT.Spacetime.MinkowskiSignature
+- `AQFT.Spacetime.MinkowskiSpace.spaceSubspace` (abbrev) in AQFT.Spacetime.MinkowskiSignature
+- ... and 104 more
+
 ### asymptotic-spectrum-distance (+2802)
 
 - `AsymptoticSpectrumDistance.main_asympSpecDistance_pseudometric` (theorem) in AsymptoticSpectrumDistance.Main
@@ -1874,7 +1959,7 @@
 - `main_alpha3_2_3_3` (theorem) in AsymptoticSpectrumDistance.Main
 - ... and 2752 more
 
-### computable-analysis (+2086)
+### computable-analysis (+2670)
 
 - `allowedAxioms` (def) in scripts.AxiomAudit
 - `headlineDecls` (def) in scripts.AxiomAudit
@@ -1926,7 +2011,7 @@
 - `ComputableAnalysis.IsStrongReductionPair.parallelize` (theorem) in ComputableAnalysis.Weihrauch.Parallelize
 - `ComputableAnalysis.IsReductionPair.parallelize` (theorem) in ComputableAnalysis.Weihrauch.Parallelize
 - `ComputableAnalysis.StrongWeihrauchReduction.parallelize` (def) in ComputableAnalysis.Weihrauch.Parallelize
-- ... and 2036 more
+- ... and 2620 more
 
 ### debate (+297)
 
@@ -2255,7 +2340,7 @@
 - `FormalMartingales.doob_maximal_ineq_exists_le_of_integral_le_one` (theorem) in FormalMartingales.Martingale.Doob
 - `FormalMartingales.freedman_exponential_supermartingale_crossing` (theorem) in FormalMartingales.Martingale.Concentration
 
-### formal-qkd (+106)
+### formal-qkd (+104)
 
 - `parseStates` (def) in Main
 - `main_count_states` (def) in Main
@@ -2294,8 +2379,6 @@
 - `Sifting.one_lt_succ_nonzero` (lemma) in FormalQKD.Sifting
 - `min_eq_sum_sub_abs` (lemma) in FormalQKD.RuscaEqnApprox
 - `max_eq_sum_add_abs` (lemma) in FormalQKD.RuscaEqnApprox
-- `Interval.pown` (def) in FormalQKD.RuscaEqnApprox
-- `istHPowIntervalNat` (instance) in FormalQKD.RuscaEqnApprox
 - `MyComputable.Interval.max` (def) in FormalQKD.RuscaEqnApprox
 - `MyComputable.instMaxInterval` (instance) in FormalQKD.RuscaEqnApprox
 - `MyComputable.Interval.min` (def) in FormalQKD.RuscaEqnApprox
@@ -2307,7 +2390,9 @@
 - `MyComputable.γ` (def) in FormalQKD.RuscaEqnApprox
 - `MyComputable.δ` (def) in FormalQKD.RuscaEqnApprox
 - `MyComputable.τ0` (def) in FormalQKD.RuscaEqnApprox
-- ... and 56 more
+- `MyComputable.τ1` (def) in FormalQKD.RuscaEqnApprox
+- `MyComputable.n_Z_μ1_plus` (def) in FormalQKD.RuscaEqnApprox
+- ... and 54 more
 
 ### gaussian-field (+1880)
 
@@ -2416,6 +2501,60 @@
 - `GaussianHilbert.linearFunctionalPolynomial` (def) in GaussianHilbert.PolynomialDensity
 - `GaussianHilbert.linearFunctionalPolynomial_eval` (lemma) in GaussianHilbert.PolynomialDensity
 - ... and 101 more
+
+### generalized-Lambert-disjunctivity-and-nonnormality (+775)
+
+- `PowerLambert.entropy_labelBlock_le_labelBlock_error` (lemma) in lean.PowerLambert.EntropyBlocks
+- `PowerLambert.entropy_labelBlock_periodic_error_bound` (theorem) in lean.PowerLambert.EntropyBlocks
+- `PowerLambert.factorization_prod_distinct_prime_powers` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.mem_primeFactors_prod_prime_powers` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.card_primeFactors_prod_distinct_prime_powers` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.prime_not_dvd_exact_valuation_quotient` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.shifts_equal_of_prime_dvd` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.ControlIndex` (abbrev) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.controlIndices` (def) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.controlPrime` (def) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.controlShift` (def) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.controlExponent` (def) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.controlPrime_prime` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.controlPrime_some_large` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.controlPrime_injective` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.none_mem_controlIndices` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.some_mem_controlIndices_iff` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.card_controlIndices_le` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.ControlProgression` (structure) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.ControlProgression.target_coeff` (theorem) in lean.PowerLambert.ArithmeticControls
+- `PowerLambert.modelRotation` (def) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.modelCircle` (def) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.measurable_modelCircle` (theorem) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.modelTerm_rotation` (theorem) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.modelTerm_circle_factor` (theorem) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.circle_coe_sum` (theorem) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.modelCircle_factor_of_summable` (theorem) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.modelCircle_factor_ae` (theorem) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.limitingLaw` (def) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.limitingLaw_ergodic` (theorem) in lean.PowerLambert.DynamicsFactor
+- `PowerLambert.periodicMeasurableSets` (def) in lean.PowerLambert.DynamicsPeriodicApprox
+- `PowerLambert.periodicMeasurableSets_isSetRing` (theorem) in lean.PowerLambert.DynamicsPeriodicApprox
+- `PowerLambert.univ_mem_periodicMeasurableSets` (theorem) in lean.PowerLambert.DynamicsPeriodicApprox
+- `PowerLambert.coordinate_preimage_mem_periodicMeasurableSets` (theorem) in lean.PowerLambert.DynamicsPeriodicApprox
+- `PowerLambert.orbitGroup_measurable_eq_generate_periodic` (theorem) in lean.PowerLambert.DynamicsPeriodicApprox
+- `PowerLambert.exists_periodic_set_approximation` (theorem) in lean.PowerLambert.DynamicsPeriodicApprox
+- `PowerLambert.largePrime` (def) in lean.PowerLambert.Parameters
+- `PowerLambert.largePrime_prime` (theorem) in lean.PowerLambert.Parameters
+- `PowerLambert.largePrime_gt` (theorem) in lean.PowerLambert.Parameters
+- `PowerLambert.largePrime_injective` (theorem) in lean.PowerLambert.Parameters
+- `PowerLambert.cubic_dominates_control_count` (theorem) in lean.PowerLambert.Parameters
+- `PowerLambert.far_tail_factor_le` (theorem) in lean.PowerLambert.Parameters
+- `PowerLambert.exists_small_control_tail` (theorem) in lean.PowerLambert.Parameters
+- `PowerLambert.labelBlock` (def) in lean.PowerLambert.EntropyDefs
+- `PowerLambert.ZeroMeasureEntropy` (def) in lean.PowerLambert.EntropyDefs
+- `PowerLambert.measurable_labelBlock` (lemma) in lean.PowerLambert.EntropyDefs
+- `PowerLambert.periodic_of_singleton_measure_ne_zero` (theorem) in lean.PowerLambert.DynamicsMeasure
+- `PowerLambert.nullSingletonClass_of_ergodic_of_finite_compl_ne_zero` (theorem) in lean.PowerLambert.DynamicsMeasure
+- `PowerLambert.nullSingletonClass_of_ergodic_of_full_support` (theorem) in lean.PowerLambert.DynamicsMeasure
+- `PowerLambert.ergodic_map_of_ae_semiconj` (theorem) in lean.PowerLambert.DynamicsMeasure
+- ... and 725 more
 
 ### ginibre-correlation-identities-lean (+655)
 
@@ -2699,16 +2838,25 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-bandits (+870)
+### lean-bandits (+1281)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
 - `config` (def) in LMLTutorial.Tutorial
 - `main` (def) in LMLTutorial.Tutorial
 - `Docs.degenne2025markov` (def) in LMLTutorial.References
+- `Learning.klDiv_compProd_compProd_prodMkLeft_eq_klDiv_comp_compProd` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.klDiv_compProd_compProd_compProd_prodMkLeft_eq_klDiv_comp_compProd` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.IsAlgEnvSeq.klDiv_map_history_stepKernel` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.klDiv_map_trajectory_eq_iSup` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.IsAlgEnvSeq.klDiv_map_trajectory_stepKernel` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.IsAlgEnvSeq.klDiv_map_history_compProd` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.IsAlgEnvSeq.klDiv_map_history` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.IsAlgEnvSeq.klDiv_map_trajectory_compProd` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
+- `Learning.IsAlgEnvSeq.klDiv_map_trajectory` (lemma) in LeanMachineLearning.SequentialLearning.DivergenceDecomposition
 - `Learning.onlineEvalEnv` (def) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.feedbackCondAction_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
-- `Learning.feedbackFunZero_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.feedbackFun_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
+- `Learning.feedbackFunZero_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.hascondDistrib_feedback_onlineEvalEnv` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.feedback_onlineEvalEnv_ae_eq_eval_action` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
 - `Learning.forall_feedback_onlineEvalEnv_ae_eq_eval_action` (lemma) in LeanMachineLearning.SequentialLearning.EvaluationEnv
@@ -2732,7 +2880,6 @@
 - `Learning.IsAlgEnvSeq.adapted_means_filtrationAction` (lemma) in LeanMachineLearning.SequentialLearning.Means
 - `Learning.IsAlgEnvSeq.stronglyAdapted_means_filtrationAction` (lemma) in LeanMachineLearning.SequentialLearning.Means
 - `Learning.IsAlgEnvSeq.adapted_means` (lemma) in LeanMachineLearning.SequentialLearning.Means
-- `Learning.IsAlgEnvSeq.condExp_feedback_zero_comp` (lemma) in LeanMachineLearning.SequentialLearning.Means
 - `Learning.IsAlgEnvSeq.condExp_feedback_comp` (lemma) in LeanMachineLearning.SequentialLearning.Means
 - `Learning.IsAlgEnvSeq.condExp_feedback` (lemma) in LeanMachineLearning.SequentialLearning.Means
 - `Learning.IsAlgEnvSeq.memLp_means_action` (lemma) in LeanMachineLearning.SequentialLearning.Means
@@ -2743,15 +2890,7 @@
 - `Learning.pullCount_zero_apply` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
 - `Learning.pullCount_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
 - `Learning.monotone_pullCount` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_mono` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_action_eq_pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_eq_pullCount_of_action_ne` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_add_one` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount'_eq_sum` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_add_one_eq_pullCount'` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- `Learning.pullCount_eq_pullCount'` (lemma) in LeanMachineLearning.SequentialLearning.FiniteActions
-- ... and 820 more
+- ... and 1231 more
 
 ### lean-qkd (+8)
 
@@ -2763,6 +2902,60 @@
 - `schur_convex_xlogx` (theorem) in QKD
 - `eigenvalue_bound_eigenbasis` (lemma) in QKD
 - `high_fidelity_implies_low_entropy_equivalent` (theorem) in QKD
+
+### lean-ridgelet (+2723)
+
+- `main` (def) in LeanRidgeletBlueprint.PublicMain
+- `LeanRidgelet.l2_proposition_one_activation_hilbert_structure` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_theorem_one_bounded_synthesis` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_lemma_one_ridgelet_fiber_representation` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_theorem_two_reconstruction` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_lemma_two_adjoint` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_theorem_three_null_space_and_general_solution` (theorem) in LeanRidgelet.OverviewL2
+- ``AngularSharp`,` (class) in LeanRidgelet.Notation
+- `LeanRidgelet.AngularSharp` (class) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝓐` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝓗` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝓖` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝕐` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_schwartz_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_temperedDistribution_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_L2_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_fun_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.InputSpace` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgelet.L2` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgelet.BochnerL2` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgelet.TargetSpace` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgeletBlueprint.generatedParts` (opaque) in LeanRidgeletBlueprint.PublicAssembly
+- `LeanRidgeletBlueprint.assembledPublicBlueprint` (opaque) in LeanRidgeletBlueprint.PublicAssembly
+- `LeanRidgelet.Audit.permittedAxioms` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.permittedSorryDeclarations` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.permittedSorryDependents` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.permittedProofFields` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.isProjectModule` (def) in audit.Assumptions
+- `LeanRidgelet.tanhWeightedFn` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.continuous_tanhWeightedFn` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.memLp_tanhWeightedFn` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhWeightedCoordinate` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhWeightedCoordinate_coe_ae` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhWeightedCoordinate_ne_zero` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhActivation` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhActivation_ne_zero` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhTemperedDistribution` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhTemperedDistribution_eq_weight` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhTemperedDistribution_apply` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.memActivationSpace_tanhTemperedDistribution` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.gaussianFourierCoordinateFn` (def) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.memLp_gaussianFourierCoordinateFn` (theorem) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.gaussianActivation` (def) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.gaussianActivation_ne_zero` (theorem) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.activationDistribution_gaussianActivation` (theorem) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.relu` (def) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.relu_nonneg` (theorem) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.relu_le_norm` (theorem) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.reluWeightedFn` (def) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.continuous_reluWeightedFn` (theorem) in LeanRidgelet.Activation.ReLU
+- ... and 2673 more
 
 ### lean-stat-learning-theory (+2009)
 
@@ -2954,7 +3147,7 @@
 - `LegionCore.MeritCore.funds_move_to_authorized` (theorem) in docs.formal-models.merit-core.FundsSafety
 - `LegionCore.MeritCore.emergencyActionSafe` (def) in docs.formal-models.merit-core.FundsSafety
 
-### loeb-measure (+349)
+### loeb-measure (+360)
 
 - `Loeb.Ultraproduct` (abbrev) in LoebMeasure.Basic
 - `Loeb.Ultrapower` (abbrev) in LoebMeasure.Basic
@@ -3006,9 +3199,9 @@
 - `Loeb.InternalRelation.toFun_reindexMap` (theorem) in LoebMeasure.Internal.Relation
 - `Loeb.InternalRelation.carrier_comap` (theorem) in LoebMeasure.Internal.Relation
 - `Loeb.InternalRelation.tupleCarrier_comap` (theorem) in LoebMeasure.Internal.Relation
-- ... and 299 more
+- ... and 310 more
 
-### mathlib4 (+57186)
+### mathlib4 (+57372)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -3060,7 +3253,7 @@
 - `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
 - `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 57136 more
+- ... and 57322 more
 
 ### median-eigenvalues-lean (+537)
 
@@ -3517,60 +3710,6 @@
 - `jensen_abs_uniform` (theorem) in MDPLib.Probability.Prelude
 - ... and 236 more
 
-### qcal-formalization (+580)
-
-- `equivalencia_qcal_rh` (theorem) in CIERRE_BRECHA_5
-- `SistemaQCAL` (structure) in CIERRE_BRECHA_5
-- `f₀` (def) in QCAL.FrecuenciaEmergente
-- `Ψ_val` (def) in QCAL_V3_FORMALIZACION_COMPLETA
-- `Φ_val` (def) in QCAL_V3_FORMALIZACION_COMPLETA
-- `LIMITE_ADELICO` (def) in QCAL_V3_FORMALIZACION_COMPLETA
-- `qcal_v3_certified` (theorem) in QCAL_V3_FORMALIZACION_COMPLETA
-- `Đ_self_adjoint_completo` (theorem) in CIERRE_BRECHA_1
-- `weyl_law_completa` (theorem) in CIERRE_BRECHA_1
-- `heat_expansion_completa` (theorem) in CIERRE_BRECHA_1
-- `phiOrder` (def) in PhiLock.phi_lock_v1
-- `consensusReached` (def) in PhiLock.phi_lock_v1
-- `CouplingThreshold` (def) in PhiLock.phi_lock_v1
-- `honest_nonzero` (lemma) in PhiLock.phi_lock_v1
-- `phi_lock_tolerance` (theorem) in PhiLock.phi_lock_v1
-- `Templo.f0` (def) in Templo.Templo
-- `Templo.Ψ_global` (def) in Templo.Templo
-- `Templo.θ_B` (def) in Templo.Templo
-- `Templo.cov_threshold` (def) in Templo.Templo
-- `Templo.E_AB_threshold` (def) in Templo.Templo
-- `Templo.PhaseVector` (structure) in Templo.Templo
-- `Templo.coherence_nonneg` (theorem) in Templo.Templo
-- `Templo.coherence_bounded` (theorem) in Templo.Templo
-- `Templo.norm_sq` (def) in Templo.Templo
-- `Templo.norm` (def) in Templo.Templo
-- `Templo.dot` (def) in Templo.Templo
-- `Templo.covariance` (def) in Templo.Templo
-- `Templo.entanglement` (def) in Templo.Templo
-- `Templo.collective_coherence` (def) in Templo.Templo
-- `Templo.collective_identity` (def) in Templo.Templo
-- `Templo.PoPC_block_valid` (def) in Templo.Templo
-- `Templo.rotate` (def) in Templo.Templo
-- `Templo.rotate_I` (lemma) in Templo.Templo
-- `Templo.rotate_Q` (lemma) in Templo.Templo
-- `Templo.rotate_norm_sq` (lemma) in Templo.Templo
-- `Templo.rotate_norm` (lemma) in Templo.Templo
-- `Templo.rotate_dot` (lemma) in Templo.Templo
-- `Templo.PoPC_entanglement_stability` (theorem) in Templo.Templo
-- `Templo.covariance_symmetric` (theorem) in Templo.Templo
-- `Templo.covariance_rotation_invariant` (theorem) in Templo.Templo
-- `Templo.compute_event_hash` (def) in Templo.Templo
-- `Templo.NotarizationEvent` (structure) in Templo.Templo
-- `Templo.hash_injective` (theorem) in Templo.Templo
-- `Templo.notarization_immutable` (theorem) in Templo.Templo
-- `Resonancia.PhaseVector` (structure) in Templo.Templo
-- `Resonancia.dot` (def) in Templo.Templo
-- `Resonancia.in_resonance_cone` (def) in Templo.Templo
-- `Resonancia.project` (def) in Templo.Templo
-- `Resonancia.pairwise_covariances` (def) in Templo.Templo
-- `Resonancia.list_sum` (def) in Templo.Templo
-- ... and 530 more
-
 ### quasi-borel-spaces (+632)
 
 - `QuasiBorelSpace.Subtype.isHom_def` (lemma) in QuasiBorelSpaces.Subtype
@@ -3679,29 +3818,59 @@
 - `AnalyticOnNhd.integral_ball` (theorem) in Ray.Analytic.Integral
 - ... and 804 more
 
-### scale-space-lean (+21)
+### scale-space-lean (+117)
 
+- `ScaleSpace.squareWeightedAtoms` (def) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.isFiniteMeasure_squareWeightedAtoms` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.integral_squareWeightedAtoms` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.tsum_sq_mul_sin_eq_zero` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.squareWeightedAtoms_neg` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.squareWeightedAtoms_map_neg` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.summable_comp_of_abs_le_sq` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.summable_comp_max_of_abs_le_sq` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.tsum_eq_two_mul_tsum_posPart` (theorem) in ScaleSpaceCore.PowerSumSymmetry
+- `ScaleSpace.CausalAdmissible.driftDatum` (def) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.driftDatum_exponent` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.gammaCausalProfile` (def) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.gammaCausalProfile_nonneg` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.gammaCausalProfile_le` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.integrableOn_gammaCausalProfile` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.integrableOn_gammaCausalProfile_div` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.gammaCausalDatum` (def) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.gammaCausalDatum_k` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalProfile` (def) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalConst_pos` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalProfile_nonneg` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalProfile_antitoneOn` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.integrableOn_stableCausalProfile` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.integrableOn_stableCausalProfile_div` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalDatum` (def) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalDatum_dilate_k` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalDatum_exponent_mul` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalDatum_integral_one` (theorem) in ScaleSpaceCore.CausalData
+- `ScaleSpace.CausalAdmissible.stableCausalDatum_exponent` (theorem) in ScaleSpaceCore.CausalData
 - `ScaleSpace.BoostBracket.Lop` (def) in ScaleSpaceCore.BoostBracket
 - `ScaleSpace.BoostBracket.hasDerivAt_Lop` (theorem) in ScaleSpaceCore.BoostBracket
 - `ScaleSpace.BoostBracket.boost_comm_Lop` (theorem) in ScaleSpaceCore.BoostBracket
 - `ScaleSpace.BoostBracket.boost_bracket` (theorem) in ScaleSpaceCore.BoostBracket
 - `ScaleSpace.LieWedge` (structure) in ScaleSpaceCore.Wedge
 - `ScaleSpace.CovariantTensor` (structure) in ScaleSpaceCore.Wedge
-- `ScaleSpace.ReceptiveField.hasDerivAt_clm_comp` (theorem) in ScaleSpaceCore.ReceptiveField
-- `ScaleSpace.ReceptiveField.deriv_clm_comp` (theorem) in ScaleSpaceCore.ReceptiveField
-- `ScaleSpace.ReceptiveField.Solves` (def) in ScaleSpaceCore.ReceptiveField
-- `ScaleSpace.ReceptiveField.Solves.clm_comp` (theorem) in ScaleSpaceCore.ReceptiveField
-- `ScaleSpace.ReceptiveField.iteratedDeriv_solves` (theorem) in ScaleSpaceCore.ReceptiveField
-- `ScaleSpace.BoostBracket.Concrete.pderiv_comm` (theorem) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.M` (abbrev) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.Dt` (def) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.Dj` (def) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.Bmem` (def) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.Boost` (def) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.struct_Boost_Dt` (theorem) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.struct_Boost_Dj` (theorem) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.struct_Boost_Bmem` (theorem) in ScaleSpaceCore.BoostBracketConcrete
-- `ScaleSpace.BoostBracket.Concrete.boost_bracket_concrete` (theorem) in ScaleSpaceCore.BoostBracketConcrete
+- `ScaleSpace.lintegral_Ioi_split` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.map_mul_restrict_Ioi` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.setLIntegral_Ioi_comp_mul` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.lintegral_ofReal_ne_top_of_integrableOn` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible` (structure) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.exponentL` (def) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.exponent` (def) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.aemeasurable_k` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.aemeasurable_k_mono` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.integrableOn_k_Ioo` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.integrableOn_k_div_Ioi` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.mul_exp_neg_le` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.one_sub_exp_bounds` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.Ioi_zero_eq_union` (theorem) in ScaleSpaceCore.CausalCone
+- `ScaleSpace.CausalAdmissible.integrableOn_k_div_Ici` (theorem) in ScaleSpaceCore.CausalCone
+- ... and 67 more
 
 ### series (+182)
 
@@ -3820,6 +3989,60 @@
 - `Ruliology.morita_twovalued_transfer` (theorem) in RuleSys.Bisimulation
 - ... and 4510 more
 
+### srg-spectrum (+79)
+
+- `srgDisc` (def) in Challenge
+- `srgR` (def) in Challenge
+- `srgS` (def) in Challenge
+- `srgF` (def) in Challenge
+- `srgG` (def) in Challenge
+- `srgR_eq` (lemma) in Solution
+- `srgS_eq` (lemma) in Solution
+- `srgF_eq` (lemma) in Solution
+- `srgG_eq` (lemma) in Solution
+- `srg_matrix_eq_jacobi` (theorem) in Solution
+- `srg_restricted_spectrum` (theorem) in Solution
+- `srg_geom_mult_r` (theorem) in Solution
+- `srg_geom_mult_s` (theorem) in Solution
+- `SrgSpectrum.disc` (def) in SrgSpectrum.Params
+- `SrgSpectrum.r` (def) in SrgSpectrum.Params
+- `SrgSpectrum.s` (def) in SrgSpectrum.Params
+- `SrgSpectrum.f` (def) in SrgSpectrum.Params
+- `SrgSpectrum.g` (def) in SrgSpectrum.Params
+- `SrgSpectrum.disc_nonneg_of_mu_le_k` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.r_add_s` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.s_sub_r` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.r_sub_s` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.r_mul_s` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.r_ne_s_of_disc_pos` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.s_ne_r_of_disc_pos` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.quadratic_root_r` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.quadratic_root_s` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.disc_pos_of_ell_lt_k` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.eq_r_or_s_of_quadratic` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.f_add_g` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.weighted_trace` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.eq_f_g_of_linear_system` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.s_lt_degree` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.r_ne_degree_of_mu_pos` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.f_eq_closed` (lemma) in SrgSpectrum.Params
+- `SrgSpectrum.g_eq_closed` (lemma) in SrgSpectrum.Params
+- `SimpleGraph.IsSRGWith.mu_le_k` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.ell_lt_k` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.disc_nonneg` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.disc_pos` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.f_add_g` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.weighted_trace` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.allOnes_mulVec` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.adjMatrix_mulVec_one` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.exists_degree_eigenvector` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.compl_adjMatrix_eq_of_one_sub` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.matrix_eq_real` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.matrix_eq_jacobi` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.restricted_quadratic` (lemma) in SrgSpectrum.Adj
+- `SimpleGraph.IsSRGWith.restricted_eq_r_or_s` (lemma) in SrgSpectrum.Adj
+- ... and 29 more
+
 ### sturm-liouville-comparator-run (+31)
 
 - `IsConfiningPotential` (def) in Challenge
@@ -3910,4 +4133,4 @@
 
 ## Update History (1 runs)
 
-- **2026-09-07T07:43:26.183695+00:00**: Checked 95 repos, updated 96, +82733 -0 declarations, 1 errors
+- **2026-09-14T07:52:48.609871+00:00**: Checked 101 repos, updated 102, +90758 -0 declarations, 1 errors
