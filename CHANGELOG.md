@@ -1,6 +1,6 @@
-# Changelog (since 2026-09-21)
+# Changelog (since 2026-09-28)
 
-## New Declarations (164612)
+## New Declarations (178697)
 
 ### A277223 (+206)
 
@@ -960,7 +960,7 @@
 - `OpenGA.Grassmannian.projection` (def) in OpenGALib.GeometricMeasureTheory.Grassmannian
 - ... and 1051 more
 
-### PhysLean (+15496)
+### PhysLean (+16481)
 
 - `AutoLabel.MAX_LABELS` (def) in scripts.autolabel
 - `AutoLabel.Label` (inductive) in scripts.autolabel
@@ -976,6 +976,22 @@
 - `AutoLabel.findUncoveredPaths` (def) in scripts.autolabel
 - `AutoLabel.githubAnnotation` (def) in scripts.autolabel
 - `main` (def) in scripts.MetaPrograms.notes
+- `Check` (abbrev) in scripts.auxillary-script-test
+- `fail` (def) in scripts.auxillary-script-test
+- `ensure` (def) in scripts.auxillary-script-test
+- `tailLines` (def) in scripts.auxillary-script-test
+- `Ctx` (structure) in scripts.auxillary-script-test
+- `runLakeExe` (def) in scripts.auxillary-script-test
+- `sourceDirs` (def) in scripts.auxillary-script-test
+- `setUpWorkingDir` (def) in scripts.auxillary-script-test
+- `readOutput` (def) in scripts.auxillary-script-test
+- `String.containsStr` (def) in scripts.auxillary-script-test
+- `String.countStr` (def) in scripts.auxillary-script-test
+- `checkMakeTag` (def) in scripts.auxillary-script-test
+- `checkTODOToYml` (def) in scripts.auxillary-script-test
+- `checkStats` (def) in scripts.auxillary-script-test
+- `checkInformal` (def) in scripts.auxillary-script-test
+- `tests` (def) in scripts.auxillary-script-test
 - `lintStyleCli` (def) in scripts.mathlib_textLint_on_physlib
 - `physlib_lint_style` (def) in scripts.mathlib_textLint_on_physlib
 - `IsUpperCamel` (def) in scripts.type_former_lint
@@ -996,23 +1012,7 @@
 - `APIMapData.moduleContext` (def) in scripts.APIMapIndex
 - `APIMapData.githubLink` (def) in scripts.APIMapIndex
 - `stripQuotes` (def) in scripts.APIMapIndex
-- `afterKey` (def) in scripts.APIMapIndex
-- `leadingSpaces` (def) in scripts.APIMapIndex
-- `blockMarker` (def) in scripts.APIMapIndex
-- `finishBlock` (def) in scripts.APIMapIndex
-- `BlockTarget` (inductive) in scripts.APIMapIndex
-- `ListTarget` (inductive) in scripts.APIMapIndex
-- `parseAPIMap` (def) in scripts.APIMapIndex
-- `findAPIMaps` (def) in scripts.APIMapIndex
-- `yamlQuote` (def) in scripts.APIMapIndex
-- `yamlStringList` (def) in scripts.APIMapIndex
-- `yamlScalarOrBlock` (def) in scripts.APIMapIndex
-- `APIMapRequirement.toYAML` (def) in scripts.APIMapIndex
-- `APIMapData.toYAML` (def) in scripts.APIMapIndex
-- `indexYAML` (def) in scripts.APIMapIndex
-- `getDocString` (def) in scripts.openAI_doc_check
-- `header` (def) in scripts.openAI_doc_check
-- ... and 15446 more
+- ... and 16431 more
 
 ### PhysicsFormalization (+27)
 
@@ -1098,7 +1098,7 @@
 - `Citations.citet` (def) in blueprint-verso.ProbabilityApproximationBlueprint.Citations
 - ... and 1720 more
 
-### ProjectVD (+212)
+### ProjectVD (+194)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
@@ -1125,24 +1125,6 @@
 - `analyticOnNhd_herglotzRieszKernel_compl` (theorem) in VD.MathlibSubmitted.PoissonJensen
 - `continuousOn_re_herglotzRieszKernel_sphere` (theorem) in VD.MathlibSubmitted.PoissonJensen
 - `MeromorphicOn.log_norm_meromorphicTrailingCoeffAt₀` (theorem) in VD.MathlibSubmitted.PoissonJensen
-- `Function.locallyFinsuppWithin.support_trunc_priv` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.trunc` (def) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.trunc_le` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.trunc_nonneg` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.trunc_mono` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.support_trunc` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.truncOrderHom` (def) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.truncLatticeHom` (def) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.logCounting_trunc_le` (theorem) in VD.MathlibSubmitted.TruncatedCounting
-- `Function.locallyFinsuppWithin.logCounting_trunc_nonneg` (theorem) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting` (def) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting_top` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting_coe` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting_zero` (lemma) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting_le` (theorem) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting_nonneg` (theorem) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting_monotoneOn` (theorem) in VD.MathlibSubmitted.TruncatedCounting
-- `ValueDistribution.truncatedLogCounting_congr_codiscrete` (theorem) in VD.MathlibSubmitted.TruncatedCounting
 - `Complex.one_lt_norm_canonicalFactor` (theorem) in VD.MathlibSubmitted.CanonicalFactor
 - `Complex.logDeriv_canonicalFactor` (theorem) in VD.MathlibSubmitted.CanonicalFactor
 - `Complex.norm_logDeriv_canonicalFactor_le` (theorem) in VD.MathlibSubmitted.CanonicalFactor
@@ -1150,7 +1132,25 @@
 - `norm_circleMap_zero_sub_sq'` (theorem) in VD.MathlibSubmitted.ChordLength
 - `mul_abs_sin_le_norm_circleMap_zero_sub` (theorem) in VD.MathlibSubmitted.ChordLength
 - `Polynomial.isBigO_cobounded_pow_natDegree` (theorem) in VD.MathlibSubmitted.Liouville
-- ... and 162 more
+- `AnalyticWithinAt.dslope_of_ne` (theorem) in VD.MathlibSubmitted.Liouville
+- `AnalyticOn.dslope_of_notMem` (theorem) in VD.MathlibSubmitted.Liouville
+- `AnalyticOn.dslope` (theorem) in VD.MathlibSubmitted.Liouville
+- `Differentiable.exists_eq_polynomial_eval_of_isBigO_pow` (theorem) in VD.MathlibSubmitted.Liouville
+- `circleIntegrable_posLog_comp` (lemma) in VD.LLD.LogDerivEstimates
+- `circleIntegrable_log_one_add` (lemma) in VD.MathlibSubmitted.JensenInequality
+- `concaveOn_log_one_add` (lemma) in VD.MathlibSubmitted.JensenInequality
+- `Real.circleAverage_posLog_le_posLog_circleAverage` (theorem) in VD.MathlibSubmitted.JensenInequality
+- `NNReal.rpow_sum_le_sum_rpow` (theorem) in VD.LLD.LogDerivEstimates
+- `Real.rpow_sum_le_sum_rpow` (theorem) in VD.LLD.LogDerivEstimates
+- `CircleIntegrable.norm` (theorem) in VD.LLD.LogDerivEstimates
+- `circleAverage_mono_codiscreteWithin` (theorem) in VD.LLD.LogDerivEstimates
+- `ValueDistribution.proximity_add_proximity_inv_eq_circleAverage` (theorem) in VD.LLD.LogDerivEstimates
+- `ValueDistribution.proximity_le_characteristic` (theorem) in VD.LLD.LogDerivEstimates
+- `ValueDistribution.logCounting_le_characteristic` (theorem) in VD.LLD.LogDerivEstimates
+- `ValueDistribution.finsum_abs_divisor_ball_mul_log_le` (theorem) in VD.LLD.LogDerivEstimates
+- `circleAverage_posLog_norm_le_of_le_add_sum_inv_norm_sub` (theorem) in VD.LLD.LogDerivEstimates
+- `continuousOn_derivHerglotzRieszKernel` (lemma) in VD.LLD.PoissonJensenDeriv
+- ... and 144 more
 
 ### QFT (+28)
 
@@ -1344,7 +1344,7 @@
 - `Hadamard` (def) in QHilbert.Commons
 - ... and 270 more
 
-### QICLean (+6396)
+### QICLean (+6415)
 
 - `toLeanOptions` (def) in scripts.LintStyle
 - `getWorkspaceRoot` (def) in scripts.LintStyle
@@ -1394,9 +1394,9 @@
 - `Matrix.partialTraceRightPetzComplementMap_maximallyMixedTensor` (theorem) in QICLean.Channel.PetzProductReference
 - `Matrix.partialTraceRightPetzChannel_maximallyMixedTensor` (theorem) in QICLean.Channel.PetzProductReference
 - `Matrix.partialTraceRightPetzChannel_maximallyMixedTensor_isKrausCPTP` (theorem) in QICLean.Channel.PetzProductReference
-- `kraus_sum_conjTranspose_mul_of_tp` (theorem) in QICLean.Channel.KrausRepresentation
-- `kraus_tp_of_sum_conjTranspose_mul` (theorem) in QICLean.Channel.KrausRepresentation
-- ... and 6346 more
+- `Matrix.freshEnvironmentInput` (def) in QICLean.Channel.EnvironmentDilation
+- `Matrix.freshEnvironmentInput_eq_kronecker` (theorem) in QICLean.Channel.EnvironmentDilation
+- ... and 6365 more
 
 ### RMT4 (+151)
 
@@ -1451,6 +1451,60 @@
 - `uIoo_eq_union` (lemma) in RMT4.to_mathlib
 - `mem_uIoo` (lemma) in RMT4.to_mathlib
 - ... and 101 more
+
+### RegisterDimension (+165)
+
+- `Register.Vertex.alphabet` (abbrev) in RegisterDimension.Vertex
+- `Register.Vertex.cells` (abbrev) in RegisterDimension.Vertex
+- `Register.Vertex.alphabet_card` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.alphabet_card_zero` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.cells_card` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.span_of_postulate` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.finrank_span_le_of_sum_zero` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.finrank_span_eq_of_sum_zero` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.dimension_eq_legs` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.three` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.orientation_not_counted` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.coincidence` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.coincidence_two_cells` (theorem) in RegisterDimension.Vertex
+- `Register.Vertex.eigenspace_preserved` (theorem) in RegisterDimension.Vertex
+- `Register.Planes.two_planes_meet` (theorem) in RegisterDimension.Planes
+- `Register.Offsets.coboundary` (def) in RegisterDimension.Offsets
+- `Register.Offsets.pathSum` (def) in RegisterDimension.Offsets
+- `Register.Offsets.pathSum_coboundary` (theorem) in RegisterDimension.Offsets
+- `Register.Offsets.closed_coboundary` (theorem) in RegisterDimension.Offsets
+- `Register.Offsets.add` (def) in RegisterDimension.Offsets
+- `Register.Offsets.pathSum_add` (theorem) in RegisterDimension.Offsets
+- `Register.Offsets.closed_sum_invariant` (theorem) in RegisterDimension.Offsets
+- `Register.Offsets.no_single_offset` (theorem) in RegisterDimension.Offsets
+- `Register.Offsets.bump` (def) in RegisterDimension.Offsets
+- `Register.Offsets.avoids` (def) in RegisterDimension.Offsets
+- `Register.Offsets.pathSum_bump_of_avoids` (theorem) in RegisterDimension.Offsets
+- `Register.Offsets.quantum_changes_closed_sum` (theorem) in RegisterDimension.Offsets
+- `Register.Offsets.ring_offsets` (theorem) in RegisterDimension.Offsets
+- `Register.Derivation.Emission` (structure) in RegisterDimension.Derivation
+- `Register.Derivation.Emission.legs` (def) in RegisterDimension.Derivation
+- `Register.Derivation.Emission.conserve` (theorem) in RegisterDimension.Derivation
+- `Register.Derivation.Emission.finrank_legs` (theorem) in RegisterDimension.Derivation
+- `Register.Derivation.three_from_postulates` (theorem) in RegisterDimension.Derivation
+- `Register.Derivation.model_vertex` (theorem) in RegisterDimension.Derivation
+- `Register.Derivation.model` (def) in RegisterDimension.Derivation
+- `Register.Derivation.model_consistent` (theorem) in RegisterDimension.Derivation
+- `Register.DimensionNumerics.pi_lo` (lemma) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.pi_hi` (lemma) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.inv_pi_val` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.pi_val` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.log_pi_bounds` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.log_ten_bounds` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.log_L_range` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.four_pi_lt` (lemma) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.leading_term_range` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.bound_value_range` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.pixel_choice_range` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.root_range` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.uniqueness_range` (theorem) in RegisterDimension.Numerics
+- `Register.DimensionNumerics.slope_correction_range` (lemma) in RegisterDimension.Numerics
+- ... and 115 more
 
 ### SampCert (+818)
 
@@ -1859,7 +1913,7 @@
 
 - `ClosedSubspace` (structure) in Quantum_Lattice
 
-### ai4math-results (+1671)
+### ai4math-results (+12200)
 
 - `ICGEqualParityB.Cert.cert_FD1_Asame_R0_m_mu0_big_0` (theorem) in lean.Research.ICGEqualParityBCert1
 - `ICGEqualParityB.Cert.cert_FD1_Asame_R1_mu_L_big_0` (theorem) in lean.Research.ICGEqualParityBCert1
@@ -1911,7 +1965,7 @@
 - `ICGEqualParityB.Cert.cert_FD2_ii_k_1_Asame_mu_one_p3_0` (theorem) in lean.Research.ICGEqualParityBCert1
 - `ICGEqualParityB.Cert.cert_FD2_ii_k_1_Bsame_mu_mu1_p3_0` (theorem) in lean.Research.ICGEqualParityBCert1
 - `ICGEqualParityB.Cert.cert_FD2_ii_k_1_Csame_mu_one_p3_0` (theorem) in lean.Research.ICGEqualParityBCert1
-- ... and 1621 more
+- ... and 12150 more
 
 ### analysis (+2383)
 
@@ -2245,6 +2299,60 @@
 - `sum_two_points` (theorem) in DistributionFactors.Helper
 - `matrix_mul_vec_assoc` (theorem) in DistributionFactors.Helper
 - `dc_equations` (theorem) in DistributionFactors.Doesntwork
+
+### enveloping-cstar-lean (+125)
+
+- `AlgState` (structure) in Collatz.State_A
+- `AlgState.map_zero` (lemma) in Collatz.State_A
+- `AlgState.map_neg` (lemma) in Collatz.State_A
+- `AlgState.map_sub` (lemma) in Collatz.State_A
+- `AlgState.coe_star` (lemma) in Collatz.State_A
+- `AlgState.coe_star_mul_comm` (lemma) in Collatz.State_A
+- `AlgState.quadratic_expand` (lemma) in Collatz.State_A
+- `AlgState.omega_selfadjoint_real` (lemma) in Collatz.State_A
+- `AlgState.omega_selfadjoint_re_nonneg` (lemma) in Collatz.State_A
+- `AlgState.re_mul` (lemma) in Collatz.State_A
+- `AlgState.re_star_mul` (lemma) in Collatz.State_A
+- `AlgState.re_star_mul_self` (lemma) in Collatz.State_A
+- `AlgState.im_star_mul_self` (lemma) in Collatz.State_A
+- `AlgState.quadratic_nonneg` (lemma) in Collatz.State_A
+- `AlgState.cauchy_schwarz_pos` (lemma) in Collatz.State_A
+- `AlgState.cauchy_schwarz` (lemma) in Collatz.State_A
+- `AlgState.radical` (abbrev) in Collatz.State_A
+- `AlgState.mem_radical_zero` (lemma) in Collatz.State_A
+- `AlgState.omega_star_mul_eq_zero` (lemma) in Collatz.State_A
+- `AlgState.radical_add` (lemma) in Collatz.State_A
+- `AlgState.radical_neg` (lemma) in Collatz.State_A
+- `AlgState.radical_smul` (lemma) in Collatz.State_A
+- `AlgState.radicalSubmodule` (abbrev) in Collatz.State_A
+- `AlgState.omega_mul_star_eq_zero` (lemma) in Collatz.State_A
+- `AlgState.inner_well_defined` (lemma) in Collatz.State_A
+- `AlgState.GNSPreSpace` (abbrev) in Collatz.State_A
+- `AlgState.gnsInner` (def) in Collatz.State_A
+- `AlgState.gnsInner_self_nonneg` (lemma) in Collatz.State_A
+- `AlgState.gnsInner_conj_symm` (lemma) in Collatz.State_A
+- `AlgState.gnsInner_add_left` (lemma) in Collatz.State_A
+- `AlgState.gnsInner_smul_left` (lemma) in Collatz.State_A
+- `AlgState.gnsInner_smul_right` (lemma) in Collatz.State_A
+- `AlgState.gnsNorm` (def) in Collatz.State_A
+- `AlgState.gnsNorm_nonneg` (lemma) in Collatz.State_A
+- `AlgState.gnsNorm_eq_zero_iff` (lemma) in Collatz.State_A
+- `AlgState.gnsInner_add_right` (lemma) in Collatz.State_A
+- `AlgState.gnsInner_re_le_norm` (lemma) in Collatz.State_A
+- `AlgState.gnsNorm_triangle` (lemma) in Collatz.State_A
+- `AlgState.gnsNorm_smul` (lemma) in Collatz.State_A
+- `AlgState.gnsSeminormedCore` (def) in Collatz.State_A
+- `AlgState.GNS` (abbrev) in Collatz.State_A
+- `AlgState.radical_mul` (lemma) in Collatz.State_A
+- `AlgState.gnsRepLinear` (def) in Collatz.State_A
+- `AlgState.gnsRepLinear_mul` (lemma) in Collatz.State_A
+- `AlgState.gnsRepLinear_star_adjoint` (lemma) in Collatz.State_A
+- `AlgState.gnsCyclic` (def) in Collatz.State_A
+- `AlgState.gns_cyclic_inner` (lemma) in Collatz.State_A
+- `AlgState.opNorm` (def) in Collatz.State_A
+- `AlgState.gnsNorm_zero` (lemma) in Collatz.State_A
+- `AlgState.maximalSeminorm` (def) in Collatz.State_A
+- ... and 75 more
 
 ### erdos208-coprime-gaps (+1)
 
@@ -3326,6 +3434,60 @@
 - `LeanTee.Guest.inputsAsString` (def) in LeanTee.Guest
 - ... and 188 more
 
+### lean4-adr11 (+1477)
+
+- `ADR11.Challenge.unrootedDist_nonneg` (theorem) in Solution
+- `ADR11.Challenge.unrootedDist_sum` (theorem) in Solution
+- `ADR11.Challenge.fourTaxa_balanced` (theorem) in Solution
+- `ADR11.Challenge.fourTaxa_caterpillar` (theorem) in Solution
+- `ADR11.Challenge.theorem9` (theorem) in Solution
+- `ADR11.Challenge.theorem9_four` (theorem) in Solution
+- `ADR11.Challenge.proposition3` (theorem) in Solution
+- `ADR11.Challenge.corollary10` (theorem) in Solution
+- `ADR11.Challenge.proposition11_theorem9` (theorem) in Solution
+- `ADR11.Challenge.proposition11_theorem9_four` (theorem) in Solution
+- `ADR11.Challenge.proposition11_corollary10` (theorem) in Solution
+- `ADR11.roots` (def) in ADR11.Defs
+- `ADR11.kingmanGenerator` (def) in ADR11.Defs
+- `ADR11.kingmanTransition` (def) in ADR11.Defs
+- `ADR11.kingmanAbsorption` (def) in ADR11.Defs
+- `ADR11.childClusters` (def) in ADR11.Defs
+- `ADR11.sampledForest` (def) in ADR11.Defs
+- `ADR11.populationKernel` (def) in ADR11.Defs
+- `ADR11.forestDist` (def) in ADR11.Defs
+- `ADR11.SpeciesTree` (structure) in ADR11.Defs
+- `ADR11.unroot` (def) in ADR11.Defs
+- `ADR11.SpeciesTree.IsBinary` (def) in ADR11.Defs
+- `ADR11.SpeciesTree.rootedDist` (def) in ADR11.Defs
+- `ADR11.SpeciesTree.unrootedDist` (def) in ADR11.Defs
+- `ADR11.SpeciesTree.unrootedLength` (def) in ADR11.Defs
+- `ADR11.SpeciesTree.SameUnrootedMetricTree` (def) in ADR11.Defs
+- `ADR11.SpeciesTree.SameRootedMetricTree` (def) in ADR11.Defs
+- `ADR11.section5_limit` (theorem) in ADR11.Nonbinary
+- `ADR11.lim_exists_resolution` (theorem) in ADR11.Nonbinary
+- `ADR11.lim_continuous_length` (theorem) in ADR11.Nonbinary
+- `ADR11.lim_rootedDist_eq` (theorem) in ADR11.Nonbinary
+- `ADR11.lim_unrootedDist_eq` (theorem) in ADR11.Nonbinary
+- `ADR11.lim_threeTaxa_unresolved` (theorem) in ADR11.Nonbinary
+- `ADR11.section5_threeTaxa` (theorem) in ADR11.Nonbinary
+- `ADR11.lim_fourTaxa_quartets` (theorem) in ADR11.Nonbinary
+- `ADR11.lim_four_eq_zero` (theorem) in ADR11.Nonbinary
+- `ADR11.section5_fourTaxa` (theorem) in ADR11.Nonbinary
+- `ADR11.rootedDist_nonneg` (theorem) in ADR11.Model
+- `ADR11.rootedDist_sum` (theorem) in ADR11.Model
+- `ADR11.unrootedDist_nonneg` (theorem) in ADR11.Model
+- `ADR11.unrootedDist_sum` (theorem) in ADR11.Model
+- `ADR11.equation2` (theorem) in ADR11.Model
+- `ADR11.coalescenceProb_nonneg` (theorem) in ADR11.Model
+- `ADR11.coalescenceProb_sum` (theorem) in ADR11.Model
+- `ADR11.tendsto_coalescenceProb_one` (theorem) in ADR11.Model
+- `ADR11.tendsto_coalescenceProb_self` (theorem) in ADR11.Model
+- `ADR11.coalescenceProb_self` (theorem) in ADR11.Model
+- `ADR11.section3_example1` (theorem) in ADR11.Model
+- `ADR11.section3_example2` (theorem) in ADR11.Model
+- `ADR11.equation3` (theorem) in ADR11.Model
+- ... and 1427 more
+
 ### lean4_information_theory (+86)
 
 - `InformationTheory.pmf` (structure) in InformationTheory.InformationTheory
@@ -3462,7 +3624,7 @@
 - `Loeb.InternalMap.internalMean_constMul_ofFun` (theorem) in LoebMeasure.Integral.Mean
 - ... and 345 more
 
-### mathlib4 (+57630)
+### mathlib4 (+57992)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -3478,6 +3640,7 @@
 - `AEMeasurable.ae_of_bind` (theorem) in Mathlib.MeasureTheory.Measure.GiryMonad
 - `AEMeasurable.ae_of_join` (theorem) in Mathlib.MeasureTheory.Measure.GiryMonad
 - `AEMeasurable.aestronglyMeasurable` (theorem) in Mathlib.MeasureTheory.Function.StronglyMeasurable.AEStronglyMeasurable
+- `AEMeasurable.and` (theorem) in Mathlib.MeasureTheory.Measure.AEMeasurable
 - `AEMeasurable.apply_continuousLinearMap` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.ContinuousLinearMap
 - `AEMeasurable.biInf` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Order
 - `AEMeasurable.biSup` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Order
@@ -3496,10 +3659,12 @@
 - `AEMeasurable.comp_measurable` (theorem) in Mathlib.MeasureTheory.Measure.AEMeasurable
 - `AEMeasurable.comp_quasiMeasurePreserving` (theorem) in Mathlib.MeasureTheory.Measure.QuasiMeasurePreserving
 - `AEMeasurable.comp_snd` (theorem) in Mathlib.MeasureTheory.Measure.Prod
+- `AEMeasurable.compl` (theorem) in Mathlib.MeasureTheory.Measure.AEMeasurable
 - `AEMeasurable.complex_ofReal` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.congr` (theorem) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.const_add` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
 - `AEMeasurable.const_div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
+- `AEMeasurable.const_eq` (theorem) in Mathlib.MeasureTheory.Measure.AEMeasurable
 - `AEMeasurable.const_inf` (theorem) in Mathlib.MeasureTheory.Order.Lattice
 - `AEMeasurable.const_inner` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Inner
 - `AEMeasurable.const_mul` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
@@ -3511,10 +3676,7 @@
 - `AEMeasurable.cos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.cosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.csin` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-- `AEMeasurable.csinh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-- `AEMeasurable.dist` (theorem) in Mathlib.MeasureTheory.Constructions.BorelSpace.Metric
-- `AEMeasurable.div` (theorem) in Mathlib.MeasureTheory.Group.Arithmetic
-- ... and 57580 more
+- ... and 57942 more
 
 ### median-eigenvalues-lean (+537)
 
@@ -3624,7 +3786,7 @@
 - `MiniMeasurableFunctions.measurableEquivalent` (def) in mini-measurable-functions.MiniMeasurableFunctions.Constructions.Quotients
 - ... and 1159 more
 
-### mixed-elastic-eigenvalues-lean (+128)
+### mixed-elastic-eigenvalues-lean (+257)
 
 - `MixedElasticEigenvalues.MaterialOperator` (structure) in MixedElasticEigenvalues.EigenvalueIdentities
 - `MixedElasticEigenvalues.MaterialOperator.Cinv_symm` (theorem) in MixedElasticEigenvalues.EigenvalueIdentities
@@ -3676,7 +3838,7 @@
 - `MixedElasticEigenvalues.frobSq_dev_le` (theorem) in MixedElasticEigenvalues.Material
 - `MixedElasticEigenvalues.trace_sq_le_two_mul_frobSq` (theorem) in MixedElasticEigenvalues.Material
 - `MixedElasticEigenvalues.sqrt_frobSq_dev_le` (theorem) in MixedElasticEigenvalues.Material
-- ... and 78 more
+- ... and 207 more
 
 ### monlib4 (+2413)
 
@@ -4187,7 +4349,7 @@
 - `QuasiBorelSpace.Rose.isHom_label` (lemma) in QuasiBorelSpaces.Rose
 - ... and 582 more
 
-### ray (+854)
+### ray (+889)
 
 - `ChartedSpace.regularSpace` (theorem) in Ray.Misc.ChartedSpace
 - `Real.convexOn_rpow_of_neg` (lemma) in Ray.Misc.Pow
@@ -4203,7 +4365,7 @@
 - `IsPreconnected.sUnion_of_pairwise_exists_isPreconnected` (lemma) in Ray.Misc.Topology
 - `IsPreconnected.iUnion_of_pairwise_exists_isPreconnected` (lemma) in Ray.Misc.Topology
 - `local_connected_nhdsSet` (theorem) in Ray.Misc.Topology
-- `nhdsWithin_eq_iff_eventuallyEq'` (lemma) in Ray.Misc.Topology
+- `nhdsWithin_eq_iff_eventuallyEqSet'` (lemma) in Ray.Misc.Topology
 - `ContinuousWithinAt.congr_set''` (lemma) in Ray.Misc.Topology
 - `eventuallyEq_inter` (lemma) in Ray.Misc.Topology
 - `eventually_nhdsGT_zero_ball_iff_nhds` (lemma) in Ray.Misc.Topology
@@ -4239,9 +4401,9 @@
 - `Circle.neg_def` (lemma) in Ray.Misc.Circle
 - `Circle.arg_neg_one` (lemma) in Ray.Misc.Circle
 - `AddCircle.isConnected_compl_singleton` (lemma) in Ray.Misc.Circle
-- ... and 804 more
+- ... and 839 more
 
-### scale-space-lean (+117)
+### scale-space-lean (+394)
 
 - `ScaleSpace.bilateralLaplace` (def) in ScaleSpaceCore.PolyaFrequencyClass
 - `ScaleSpace.bilateralLaplace_eq_complexMGF` (theorem) in ScaleSpaceCore.PolyaFrequencyClass
@@ -4278,22 +4440,22 @@
 - `ScaleSpace.ReceptiveField.Solves` (def) in ScaleSpaceCore.ReceptiveField
 - `ScaleSpace.ReceptiveField.Solves.clm_comp` (theorem) in ScaleSpaceCore.ReceptiveField
 - `ScaleSpace.ReceptiveField.iteratedDeriv_solves` (theorem) in ScaleSpaceCore.ReceptiveField
-- `ScaleSpace.CausalAdmissible.driftDatum` (def) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.driftDatum_exponent` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.gammaCausalProfile` (def) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.gammaCausalProfile_nonneg` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.gammaCausalProfile_le` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.integrableOn_gammaCausalProfile` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.integrableOn_gammaCausalProfile_div` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.gammaCausalDatum` (def) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.gammaCausalDatum_k` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.stableCausalProfile` (def) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.stableCausalConst_pos` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.stableCausalProfile_nonneg` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.stableCausalProfile_antitoneOn` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.integrableOn_stableCausalProfile` (theorem) in ScaleSpaceCore.CausalData
-- `ScaleSpace.CausalAdmissible.integrableOn_stableCausalProfile_div` (theorem) in ScaleSpaceCore.CausalData
-- ... and 67 more
+- `ScaleSpace.SDProfile.aemeasurable_k` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.aemeasurable_k_mono` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.add` (def) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.smul` (def) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.exponentL_ne_top` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.exponentL_neg` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.exponent_neg` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.exponentL_add` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.exponentL_smul` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.exponent_add` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SDProfile.exponent_smul` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.admissible_cone` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SymLevyPair.one_sub_cos_mul_le` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SymLevyPair.measurable_one_sub_cos` (theorem) in ScaleSpaceCore.SDProfileCone
+- `ScaleSpace.SymLevyPair.continuous_jump` (theorem) in ScaleSpaceCore.SDProfileCone
+- ... and 344 more
 
 ### series (+182)
 
@@ -4610,4 +4772,4 @@
 
 ## Update History (1 runs)
 
-- **2026-09-28T07:54:50.061177+00:00**: Checked 111 repos, updated 112, +106982 -0 declarations, 1 errors
+- **2026-10-05T07:59:43.012611+00:00**: Checked 114 repos, updated 115, +120705 -0 declarations, 1 errors
