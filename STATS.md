@@ -1,52 +1,55 @@
 # Lean Index Statistics
 
-**112,449 topic-matched declarations** across **86 repositories**
-(178,697 total declarations scanned from 114 repos)
+**132,383 topic-matched declarations** across **93 repositories**
+(252,141 total declarations scanned from 123 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| measure-theory                 |     33,575 |
-| functional-analysis            |     33,176 |
-| probability-theory             |     15,344 |
-| spectral-theory                |      7,811 |
-| topological-groups             |      7,396 |
-| quantum-field-theory           |      6,155 |
-| distributions-schwartz         |      5,186 |
-| operator-algebras              |      3,806 |
+| measure-theory                 |     40,743 |
+| functional-analysis            |     33,708 |
+| probability-theory             |     19,012 |
+| spectral-theory                |     14,153 |
+| topological-groups             |      8,531 |
+| quantum-field-theory           |      6,865 |
+| distributions-schwartz         |      5,536 |
+| operator-algebras              |      3,835 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     61,507 |
-| lemma           |     12,342 |
-| def             |     11,176 |
-| instance        |      5,080 |
-| structure       |        760 |
+| theorem         |     70,429 |
+| lemma           |     16,186 |
+| def             |     13,421 |
+| instance        |      5,236 |
+| structure       |        844 |
 | ctor            |        540 |
-| abbrev          |        336 |
-| class           |        327 |
-| inductive       |         27 |
+| abbrev          |        475 |
+| class           |        329 |
+| inductive       |         38 |
 | opaque          |          1 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     57,992 |     57,992 |
-| PhysLean                            |      6,021 |     16,481 |
+| mathlib4                            |     57,958 |     57,958 |
+| PhysLean                            |      6,613 |     18,107 |
+| spectral-radius-upper-tail-lean     |      5,380 |      5,380 |
 | OSreconstruction                    |      4,405 |     16,014 |
-| problib                             |      1,755 |      2,616 |
+| KLS15                               |      4,044 |     11,322 |
+| problib                             |      3,074 |      5,041 |
+| QICLean                             |      2,209 |     11,845 |
+| banach-space-thesis.github.io       |      1,829 |     16,608 |
 | ProbabilityApproximation            |      1,750 |      1,770 |
 | gaussian-field                      |      1,747 |      1,880 |
 | SpinGlass                           |      1,511 |      3,057 |
 | lean-ridgelet                       |      1,446 |      2,723 |
 | BrownianMotion                      |      1,332 |      1,799 |
 | asymptotic-spectrum-distance        |      1,065 |      2,802 |
-| pphi2                               |        918 |      2,587 |
-| QICLean                             |        902 |      6,415 |
+| pphi2                               |        917 |      2,583 |
 | lean-stat-learning-theory           |        874 |      2,009 |
 | LeanLevy                            |        844 |        862 |
 | lean-geometric-measure-theory       |        839 |        890 |
@@ -57,21 +60,18 @@
 | FLT                                 |        474 |      2,939 |
 | exchangeability                     |        468 |        489 |
 | generalized-Lambert-disjunctivity-a |        454 |        775 |
+| scale-space-lean                    |        396 |        888 |
 | analysis                            |        389 |      2,383 |
 | OSforGFF                            |        339 |        901 |
 | computable-analysis                 |        330 |      2,670 |
-| Lean-QuantumInfo                    |        297 |      2,283 |
-| fin-dep                             |        290 |      1,154 |
-| ginibre-correlation-identities-lean |        259 |        655 |
-| mixed-elastic-eigenvalues-lean      |        257 |        257 |
-| spectrum-topos                      |        185 |      2,283 |
-| ... and 56 more |  |  |
+| casual-spectrum                     |        303 |        303 |
+| ... and 63 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-10-05T07:59:43.012611+00:00
-- **Repos checked**: 114
-- **Repos updated**: 115
-- **New declarations**: 120705
+- **When**: 2026-10-12T08:06:47.487634+00:00
+- **Repos checked**: 123
+- **Repos updated**: 124
+- **New declarations**: 194183
 - **Removed declarations**: 0
-- **Summary**: Checked 114 repos, updated 115, +120705 -0 declarations, 1 errors
+- **Summary**: Checked 123 repos, updated 124, +194183 -0 declarations, 1 errors
