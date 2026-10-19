@@ -1,6 +1,6 @@
-# Changelog (since 2026-10-05)
+# Changelog (since 2026-10-12)
 
-## New Declarations (252141)
+## New Declarations (265523)
 
 ### A277223 (+206)
 
@@ -798,7 +798,61 @@
 - `ProbabilityTheory.levyTruncationAux_lt_succ` (lemma) in LeanLevy.RandomMeasure.LevyJumpPath
 - ... and 812 more
 
-### MCMC (+674)
+### LinearAQFT (+893)
+
+- `Sealed.causalIndex_iff` (theorem) in verify.Solution
+- `Sealed.causalIndex_iso_iff` (theorem) in verify.Solution
+- `Sealed.causalIndex_aut_mul` (theorem) in verify.Solution
+- `Sealed.net_iff` (theorem) in verify.Solution
+- `Sealed.net_axioms_iff` (theorem) in verify.Solution
+- `Sealed.net_covariance_iff` (theorem) in verify.Solution
+- `Sealed.generated_net` (theorem) in verify.Solution
+- `Sealed.weyl_and_CCR` (theorem) in verify.Solution
+- `Sealed.weyl_relations` (theorem) in verify.Solution
+- `Sealed.irreducible_primitive_iff` (theorem) in verify.Solution
+- `Sealed.CCR_simple_primitive` (theorem) in verify.Solution
+- `Sealed.phaseSpace_iff` (theorem) in verify.Solution
+- `Sealed.phaseSpace_iso_iff` (theorem) in verify.Solution
+- `Sealed.ccrNet_eq` (theorem) in verify.Solution
+- `Sealed.ccrNet_axioms` (theorem) in verify.Solution
+- `Sealed.ccrNet_weyl` (theorem) in verify.Solution
+- `Sealed.ccrNet_covariance` (theorem) in verify.Solution
+- `Sealed.ccrNet_isCovariantUnder` (theorem) in verify.Solution
+- `Sealed.weylSystem_iff` (theorem) in verify.Solution
+- `Sealed.weylNet_axioms` (theorem) in verify.Solution
+- `Sealed.greenData_iff` (theorem) in verify.Solution
+- `Sealed.greenData_phaseSpace` (theorem) in verify.Solution
+- `Sealed.greenData_axioms` (theorem) in verify.Solution
+- `Sealed.greenData_symmetry_iff` (theorem) in verify.Solution
+- `Sealed.greenData_isCovariantUnder` (theorem) in verify.Solution
+- `Sealed.lattice_causal_index` (theorem) in verify.Solution
+- `Sealed.lattice_kg_operator` (theorem) in verify.Solution
+- `Sealed.lattice_uniqueness` (theorem) in verify.Solution
+- `Sealed.lattice_green_operators` (theorem) in verify.Solution
+- `Sealed.lattice_commutator` (theorem) in verify.Solution
+- `Sealed.lattice_time_slice` (theorem) in verify.Solution
+- `Sealed.lattice_phase_space` (theorem) in verify.Solution
+- `Sealed.lattice_translations` (theorem) in verify.Solution
+- `Sealed.lattice_ccrNet_axioms` (theorem) in verify.Solution
+- `Sealed.lattice_cauchy_map` (theorem) in verify.Solution
+- `Sealed.lattice_cauchyNet_isomorphic` (theorem) in verify.Solution
+- `Sealed.lattice_leapfrog` (theorem) in verify.Solution
+- `Sealed.lattice_greenData` (theorem) in verify.Solution
+- `Sealed.minkowski_point_causalLE` (theorem) in verify.Solution
+- `Sealed.minkowski_testFun_fn` (theorem) in verify.Solution
+- `Sealed.minkowski_supp_pairing` (theorem) in verify.Solution
+- `Sealed.minkowski_wave` (theorem) in verify.Solution
+- `Sealed.minkowski_kirchhoff` (theorem) in verify.Solution
+- `Sealed.minkowski_green_operators` (theorem) in verify.Solution
+- `Sealed.minkowski_green_unique` (theorem) in verify.Solution
+- `Sealed.minkowski_greenData_fields` (theorem) in verify.Solution
+- `Sealed.minkowski_greenData_cutoffs` (theorem) in verify.Solution
+- `Sealed.minkowski_ccrNet_axioms` (theorem) in verify.Solution
+- `Sealed.minkowski_poincare_group` (theorem) in verify.Solution
+- `Sealed.minkowski_poincare_covariance` (theorem) in verify.Solution
+- ... and 843 more
+
+### MCMC (+993)
 
 - `MCMC.Countable.infMatMulVec` (def) in MCMC.Countable.MartinBoundary
 - `MCMC.Countable.GreenFunction` (def) in MCMC.Countable.MartinBoundary
@@ -850,7 +904,7 @@
 - `Matrix.tvDist_nonneg` (lemma) in MCMC.Finite.TotalVariation
 - `Matrix.coord_abs_le_tvDist_of_eq_sum` (lemma) in MCMC.Finite.TotalVariation
 - `Matrix.rowDist` (def) in MCMC.Finite.TotalVariation
-- ... and 624 more
+- ... and 943 more
 
 ### OSforGFF (+901)
 
@@ -1014,7 +1068,7 @@
 - `OpenGA.Grassmannian.projection` (def) in OpenGALib.GeometricMeasureTheory.Grassmannian
 - ... and 1051 more
 
-### PhysLean (+18107)
+### PhysLean (+19048)
 
 - `a` (def) in PhyslibAlpha.QuantumMechanics.QuantumHarmonicOscillator
 - `aLin` (def) in PhyslibAlpha.QuantumMechanics.QuantumHarmonicOscillator
@@ -1066,7 +1120,7 @@
 - `dilation` (def) in PhyslibAlpha.QuantumMechanics.StinespringDilation
 - `Ud_orthonormal₁` (theorem) in PhyslibAlpha.QuantumMechanics.StinespringDilation
 - `Ud_orthonormal₂` (theorem) in PhyslibAlpha.QuantumMechanics.StinespringDilation
-- ... and 18057 more
+- ... and 18998 more
 
 ### PhysicsFormalization (+27)
 
@@ -1152,7 +1206,7 @@
 - `Citations.citet` (def) in blueprint-verso.ProbabilityApproximationBlueprint.Citations
 - ... and 1720 more
 
-### ProjectVD (+303)
+### ProjectVD (+298)
 
 - `mathlibOnlyLinters` (abbrev) in lakefile
 - `mathlibLeanOptions` (abbrev) in lakefile
@@ -1199,12 +1253,12 @@
 - `norm_circleMap_zero_sub_sq` (theorem) in VD.MathlibSubmitted.ChordLength
 - `norm_circleMap_zero_sub_sq'` (theorem) in VD.MathlibSubmitted.ChordLength
 - `mul_abs_sin_le_norm_circleMap_zero_sub` (theorem) in VD.MathlibSubmitted.ChordLength
-- `Polynomial.isBigO_cobounded_pow_natDegree` (theorem) in VD.MathlibSubmitted.Liouville
-- `AnalyticWithinAt.dslope_of_ne` (theorem) in VD.MathlibSubmitted.Liouville
-- `AnalyticOn.dslope_of_notMem` (theorem) in VD.MathlibSubmitted.Liouville
-- `AnalyticOn.dslope` (theorem) in VD.MathlibSubmitted.Liouville
-- `Differentiable.exists_eq_polynomial_eval_of_isBigO_pow` (theorem) in VD.MathlibSubmitted.Liouville
-- ... and 253 more
+- `circleIntegrable_posLog_comp` (lemma) in VD.LLD.LogDerivEstimates
+- `circleIntegrable_log_one_add` (lemma) in VD.MathlibSubmitted.JensenInequality
+- `concaveOn_log_one_add` (lemma) in VD.MathlibSubmitted.JensenInequality
+- `Real.circleAverage_posLog_le_posLog_circleAverage` (theorem) in VD.MathlibSubmitted.JensenInequality
+- `NNReal.rpow_sum_le_sum_rpow` (theorem) in VD.LLD.LogDerivEstimates
+- ... and 248 more
 
 ### QFT (+19)
 
@@ -1389,7 +1443,7 @@
 - `Hadamard` (def) in QHilbert.Commons
 - ... and 270 more
 
-### QICLean (+11845)
+### QICLean (+12124)
 
 - `toLeanOptions` (def) in scripts.LintStyle
 - `getWorkspaceRoot` (def) in scripts.LintStyle
@@ -1441,7 +1495,7 @@
 - `GaussianContractionRegression.hmu` (theorem) in QICLeanTest.GaussianContraction
 - `singularDensity` (def) in QICLeanTest.ShiftedDensityPowers
 - `singularDensity_psd` (theorem) in QICLeanTest.ShiftedDensityPowers
-- ... and 11795 more
+- ... and 12074 more
 
 ### RMT4 (+151)
 
@@ -1551,7 +1605,7 @@
 - `Register.DimensionNumerics.slope_correction_range` (lemma) in RegisterDimension.Numerics
 - ... and 115 more
 
-### RegisterRAR (+158)
+### RegisterRAR (+165)
 
 - `Register.Horizon.exists_half` (lemma) in RegisterRAR.Positions
 - `Register.Horizon.exists_loop_through` (lemma) in RegisterRAR.Positions
@@ -1603,7 +1657,7 @@
 - `Register.Numerics.elastic_bound` (theorem) in RegisterRAR.Numerics
 - `Register.Numerics.thermal_values` (theorem) in RegisterRAR.Numerics
 - `Register.Numerics.string_energy_check` (theorem) in RegisterRAR.Numerics
-- ... and 108 more
+- ... and 115 more
 
 ### SampCert (+818)
 
@@ -1659,7 +1713,7 @@
 - `Lean.ToDafny.writeLn` (def) in SampCert.Extractor.VMC
 - ... and 768 more
 
-### SemicircleLaw (+282)
+### SemicircleLaw (+280)
 
 - `ProbabilityTheory.semicirclePDFReal` (def) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
 - `ProbabilityTheory.semicirclePDFReal_def` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
@@ -1711,7 +1765,7 @@
 - `ProbabilityTheory.variance_fun_id_semicircleReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
 - `ProbabilityTheory.variance_id_semicircleReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
 - `ProbabilityTheory.memLp_id_semicircleReal` (lemma) in SemicircleLaw.SemicircleDistribution.SemicircleDistribution
-- ... and 232 more
+- ... and 230 more
 
 ### SpectralThm (+101)
 
@@ -2066,7 +2120,7 @@
 - `ICGEqualParityB.Cert.cert_FD2_ii_k_1_Csame_mu_one_p3_0` (theorem) in lean.Research.ICGEqualParityBCert1
 - ... and 37591 more
 
-### analysis (+2383)
+### analysis (+2401)
 
 - `Chapter3.axiom_of_universal_specification` (abbrev) in Analysis.Section_3_2
 - `Chapter3.Russells_paradox` (theorem) in Analysis.Section_3_2
@@ -2118,7 +2172,61 @@
 - `Chapter11.lt_of_gt_upper_integral` (lemma) in Analysis.Section_11_3
 - `Chapter11.gt_of_lt_lower_integral` (lemma) in Analysis.Section_11_3
 - `Chapter11.integ` (abbrev) in Analysis.Section_11_3
-- ... and 2333 more
+- ... and 2351 more
+
+### anderson-ac-lean4 (+8933)
+
+- `AndersonChallenge.IsAndersonOperator` (def) in AndersonAC.Challenge
+- `AndersonChallenge.IsSpectralMeasure` (def) in AndersonAC.Challenge
+- `AndersonChallenge.Statement` (def) in AndersonAC.Challenge
+- `AndersonNonVacuity.hypotheses_satisfiable` (theorem) in Verification.NonVacuity
+- `AndersonNonVacuity.conclusion_witnessed` (theorem) in Verification.NonVacuity
+- `AndersonAC.SolS2.signCylinder_measurable` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.slice_eq_measurable` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.slice_eq_measurable_ambient` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.stopped_slice_measurable` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.query_measurable_ambient` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.orderEval_measurable` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.prefixMatch_measurable` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.weightFactor_measurable` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.completionWeight_measurable` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.completionWeight_nonneg` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.weightFactor_nonneg` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.weightFactor_le_one` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.completionWeight_le_one` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.completionWeight_norm_le_one` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.natTime_aux` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.aeTime_aux` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS2.StoppedFreshnessLift_proof` (theorem) in AndersonAC.S2Fresh.Lift
+- `AndersonAC.SolS9.averaging_of_measure_inputs` (theorem) in AndersonAC.S9.AveragingPackage
+- `AndersonAC.Blueprint.Packages.averaging` (theorem) in AndersonAC.S9.AveragingPackage
+- `AndersonAC.SolS9.rank_one_interval_kernel` (theorem) in AndersonAC.S9.RankOneKernel
+- `AndersonAC.SolS9.zeroSite` (def) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.cavityOperator` (def) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.siteCavity` (def) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.restoreSite_update` (theorem) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.siteVector_norm` (theorem) in AndersonAC.S9Basis.Join
+- `AndersonAC.SolS9.cavity_hamiltonian` (theorem) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.siteCavity_im_pos` (theorem) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.siteCavity_identity` (theorem) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.siteCavity_finite_ae` (theorem) in AndersonAC.S9.SiteCavity
+- `AndersonAC.SolS9.IntervalSample` (abbrev) in AndersonAC.S9.IntervalSample
+- `AndersonAC.SolS9.intervalSampleLaw` (def) in AndersonAC.S9.IntervalSample
+- `AndersonAC.SolS9.intervalSampleLaw_probability` (theorem) in AndersonAC.S9.IntervalSample
+- `AndersonAC.SolS9.intervalSampleLaw_map` (theorem) in AndersonAC.S9.IntervalSample
+- `AndersonAC.SolS9.scalar_rank_one_resolvent` (theorem) in AndersonAC.S9.RankOne
+- `AndersonAC.SolS9.uniformInterval_cauchy_bound` (theorem) in AndersonAC.S9.IntervalAveraging
+- `AndersonAC.SolS9.imaginary_cavity_kernel` (theorem) in AndersonAC.S9.IntervalAveraging
+- `AndersonAC.SolS9.ResolutionTransformInput_proof` (theorem) in AndersonAC.S9.Resolution
+- `AndersonAC.SolS9.measurable_restoreSite` (theorem) in AndersonAC.S9.CavityMeasurable
+- `AndersonAC.SolS9.siteCavity_boundary_measurable` (theorem) in AndersonAC.S9.CavityMeasurable
+- `AndersonAC.SolS9.measurable_varying_mass` (theorem) in AndersonAC.S9.CavityMeasurable
+- `AndersonAC.SolS9.ComplementConfiguration` (abbrev) in AndersonAC.S9.OwnSite
+- `AndersonAC.SolS9.complementLaw` (def) in AndersonAC.S9.OwnSite
+- `AndersonAC.SolS9.restoreSite` (def) in AndersonAC.S9.OwnSite
+- `AndersonAC.SolS9.restoreSiteEquiv` (def) in AndersonAC.S9.OwnSite
+- `AndersonAC.SolS9.ae_restoreSite_iff` (theorem) in AndersonAC.S9.OwnSite
+- ... and 8883 more
 
 ### aqft-lean (+154)
 
@@ -2423,7 +2531,7 @@
 - `ComputableAnalysis.primrec_searchValPost` (theorem) in ComputableAnalysis.Measure.ConditionPositive
 - ... and 2620 more
 
-### crg-growth-and-zero-distribution (+2362)
+### crg-growth-and-zero-distribution (+2382)
 
 - `WasowPencilSimilarity.minorGCD_map_associated` (theorem) in WasowPencilSimilarity
 - `WasowPencilSimilarity.natDegree_translate` (theorem) in WasowPencilSimilarity
@@ -2454,6 +2562,15 @@
 - `CRGLinearKernelLinePackets.packet_zero_of_no_cells` (theorem) in CRGLinearKernelLinePackets
 - `CRGLinearKernelLinePackets.packet_upper_endpoint` (theorem) in CRGLinearKernelLinePackets
 - `CRGLinearKernelLinePackets.packet_lower_endpoint` (theorem) in CRGLinearKernelLinePackets
+- `WasowConstantLinearGauge.linear_phase` (theorem) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.linear_phase_hasDerivAt` (theorem) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.residue_rayGauge` (theorem) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.residue` (def) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.residue_commute` (theorem) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.shearing_identity` (theorem) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.jordan_linear_rayGauge` (theorem) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.constantConjugate_eq` (theorem) in WasowConstantLinearGauge
+- `WasowConstantLinearGauge.constant_linear_normal_form` (theorem) in WasowConstantLinearGauge
 - `WasowShearingGauge.shearedCoefficient` (def) in WasowShearingGauge
 - `WasowShearingGauge.shear_ray_hasDerivAt` (theorem) in WasowShearingGauge
 - `WasowShearingGauge.shear_ray_bounds` (theorem) in WasowShearingGauge
@@ -2466,16 +2583,7 @@
 - `CRGPolynomialKernel.inversePhaseRoot` (def) in CRGPolynomialKernelPuiseux
 - `CRGPolynomialKernel.analyticAt_inversePhaseRoot` (theorem) in CRGPolynomialKernelPuiseux
 - `CRGPolynomialKernel.inversePhaseRoot_pow` (theorem) in CRGPolynomialKernelPuiseux
-- `CRGPolynomialKernel.inversePhaseRoot_zero` (theorem) in CRGPolynomialKernelPuiseux
-- `CRGPolynomialKernel.principal_inverse_root_eq` (theorem) in CRGPolynomialKernelPuiseux
-- `WasowMinorEquivalence.dvd_minor_left_product` (theorem) in WasowMinorEquivalence
-- `WasowMinorEquivalence.dvd_minor_right_product` (theorem) in WasowMinorEquivalence
-- `WasowMinorEquivalence.minorGCD_dvd_two_sided` (theorem) in WasowMinorEquivalence
-- `WasowMinorEquivalence.minorGCD_equivalent` (theorem) in WasowMinorEquivalence
-- `WasowMinorEquivalence.minorGCD_reindex` (theorem) in WasowMinorEquivalence
-- `LevinAssembly.outsideFilter` (def) in LevinAssembly
-- `LevinAssembly.exists_ge_outside` (theorem) in LevinAssembly
-- ... and 2312 more
+- ... and 2332 more
 
 ### debate (+297)
 
@@ -3398,7 +3506,7 @@
 - `RequestProject.ev0RR_surjective` (theorem) in SpectrumFormalization.PrimesOutside
 - ... and 364 more
 
-### interval (+844)
+### interval (+878)
 
 - `UInt64.size_eq_pow` (lemma) in Interval.UInt64
 - `UInt64.max` (def) in Interval.UInt64
@@ -3450,7 +3558,7 @@
 - `Int64.eq_zero_iff_n_eq_zero` (lemma) in Interval.Int64
 - `Int64.ne_zero_iff_n_ne_zero` (lemma) in Interval.Int64
 - `Int64.coe_add` (lemma) in Interval.Int64
-- ... and 794 more
+- ... and 828 more
 
 ### joyalRepresentationTheorem (+9)
 
@@ -3463,6 +3571,60 @@
 - `joyalRepresentation.injective` (theorem) in JoyalRepresentationTheorem
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
+
+### kkp-localized-spectral-bound (+1076)
+
+- `BN.adjacencyEigenvalues` (def) in BN.Definition
+- `BN.adjacencyEigenvalues₀` (def) in BN.Definition
+- `BN.lambda1` (def) in BN.Definition
+- `BN.lambda2` (def) in BN.Definition
+- `LocalBN.edgeCliqueNum` (def) in LocalCliques
+- `LocalBN.edgeCliqueBudget` (def) in Concrete
+- `LocalBN.edgeEnergy` (def) in Concrete
+- `LocalBN.edgeWeight_pos` (lemma) in Concrete
+- `LocalBN.reciprocal_sum_eq_energy` (lemma) in Concrete
+- `LocalBN.edgeLocalizedWeighted` (theorem) in Concrete
+- `LocalBN.edgeLocalizedNoncomplete` (theorem) in Concrete
+- `LocalBN.edgeEnergyUnordered` (def) in Concrete
+- `LocalBN.sum_symmetric_eq_twice_upper` (lemma) in Concrete
+- `LocalBN.edgeEnergy_eq_twice_unordered` (lemma) in Concrete
+- `LocalBN.edgeLocalizedWeightedUnordered` (theorem) in Concrete
+- `LocalBN.edgeLocalizedNoncompleteUnordered` (theorem) in Concrete
+- `LocalBN.exists_weighted_maximizer_clique` (lemma) in ScalarCertificate
+- `LocalBN.quadratic_double_sum` (lemma) in ScalarCertificate
+- `LocalBN.edgeWeight_le_clique_ratio` (lemma) in ScalarCertificate
+- `LocalBN.edge_quadratic_le_one_clique` (lemma) in ScalarCertificate
+- `LocalBN.edge_quadratic_simplex` (lemma) in ScalarCertificate
+- `LocalBN.edgeCliqueScalar` (theorem) in ScalarCertificate
+- `LocalBN.cpPairing` (theorem) in Transfer
+- `LocalBN.weightedCauchy` (theorem) in Transfer
+- `LocalBN.spectralTransfer` (theorem) in Transfer
+- `LocalBN.spectralTransferAll` (theorem) in Transfer
+- `LocalBN.card_le_edgeCliqueNum` (lemma) in LocalCliques
+- `LocalBN.two_le_edgeCliqueNum` (lemma) in LocalCliques
+- `LocalBN.edgeCliqueNum_symm` (lemma) in LocalCliques
+- `LocalBN.edgeWeight` (def) in LocalCliques
+- `LocalBN.edgeWeight_diag` (lemma) in LocalCliques
+- `LocalBN.edgeWeight_nonedge` (lemma) in LocalCliques
+- `LocalBN.edgeWeight_symm` (lemma) in LocalCliques
+- `LocalBN.edgeWeight_nonneg` (lemma) in LocalCliques
+- `LocalBN.weightedQuadratic_transfer` (lemma) in LocalCliques
+- `LocalBN.edgeCliqueNum_attained` (lemma) in LocalCliques
+- `BN.adjacencyEigenvalues₀_antitone` (lemma) in BN.Definition
+- `BN.nonnegativeUnitSphere` (def) in BN.CP.Closed
+- `BN.rankOneGenerators` (def) in BN.CP.Closed
+- `BN.continuous_vecMulVec_self` (lemma) in BN.CP.Closed
+- `BN.isClosed_nonnegativeUnitSphere` (lemma) in BN.CP.Closed
+- `BN.isCompact_nonnegativeUnitSphere` (lemma) in BN.CP.Closed
+- `BN.isCompact_rankOneGenerators` (lemma) in BN.CP.Closed
+- `BN.trace_eq_one_of_mem_rankOneGenerators` (lemma) in BN.CP.Closed
+- `BN.zero_notMem_rankOneGenerators` (lemma) in BN.CP.Closed
+- `BN.isCompletelyPositive_zero` (lemma) in BN.CP.Closed
+- `BN.trace_sum_vecMulVec` (lemma) in BN.CP.Closed
+- `BN.exists_sum_vecMulVec_card_le` (lemma) in BN.CP.Closed
+- `BN.IsCompletelyPositive.exists_repr_card_le` (lemma) in BN.CP.Closed
+- `BN.IsCompletelyPositive.exists_repr_of_card` (lemma) in BN.CP.Closed
+- ... and 1026 more
 
 ### lean-bandits (+1344)
 
@@ -3853,34 +4015,6 @@
 - `InformationTheory.kldiv_is_fdivergence` (theorem) in InformationTheory.FDivergence
 - ... and 36 more
 
-### legion-core-specification (+25)
-
-- `LegionCore.ParticipantId` (def) in docs.formal-models.shared.Types
-- `LegionCore.TokenAmount` (def) in docs.formal-models.shared.Types
-- `LegionCore.MerkleRoot` (def) in docs.formal-models.shared.Types
-- `LegionCore.Proof` (def) in docs.formal-models.shared.Types
-- `LegionCore.AllocationPolicy` (structure) in docs.formal-models.shared.Types
-- `LegionCore.AllocationRecord` (structure) in docs.formal-models.shared.Types
-- `LegionCore.SessionId` (def) in docs.formal-models.shared.Types
-- `LegionCore.MessageFrame` (structure) in docs.formal-models.shared.Types
-- `LegionCore.MeritCore.decisionAuditable` (def) in docs.formal-models.merit-core.AuditabilityModel
-- `LegionCore.MeritCore.auditable_is_reproducible` (theorem) in docs.formal-models.merit-core.AuditabilityModel
-- `LegionCore.MeritCore.allocationValid` (def) in docs.formal-models.merit-core.AllocationIntegrity
-- `LegionCore.MeritCore.allocation_cap_respected` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
-- `LegionCore.MeritCore.allocation_requires_proof` (theorem) in docs.formal-models.merit-core.AllocationIntegrity
-- `LegionCore.MeritCore.transferAuthorized` (def) in docs.formal-models.merit-core.FundsSafety
-- `LegionCore.MeritCore.funds_move_to_authorized` (theorem) in docs.formal-models.merit-core.FundsSafety
-- `LegionCore.MeritCore.emergencyActionSafe` (def) in docs.formal-models.merit-core.FundsSafety
-- `LegionCore.PrivacyCore.isDecentralized` (def) in docs.formal-models.privacy-core.CensorshipResistance
-- `LegionCore.PrivacyCore.censorshipResistant` (def) in docs.formal-models.privacy-core.CensorshipResistance
-- `LegionCore.PrivacyCore.decentralized_survives_removal` (theorem) in docs.formal-models.privacy-core.CensorshipResistance
-- `LegionCore.PrivacyCore.metadataFree` (def) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
-- `LegionCore.PrivacyCore.satisfiesZeroMetadata` (def) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
-- `LegionCore.PrivacyCore.zero_metadata_preserved` (theorem) in docs.formal-models.privacy-core.ZeroMetadataGuarantee
-- `LegionCore.PrivacyCore.sessionsIsolated` (def) in docs.formal-models.privacy-core.SessionIsolation
-- `LegionCore.PrivacyCore.isolationPreserving` (def) in docs.formal-models.privacy-core.SessionIsolation
-- `LegionCore.PrivacyCore.fresh_sessions_isolated` (theorem) in docs.formal-models.privacy-core.SessionIsolation
-
 ### loeb-measure (+395)
 
 - `LoebMeasure.AxiomAudit.acceptedAxioms` (def) in scripts.AxiomAudit
@@ -3989,7 +4123,7 @@
 - `LowLogitRank.Approximation.cheb_error_eq_tsum` (theorem) in formalization.LowLogitRank.Approximation
 - ... and 1389 more
 
-### mathlib4 (+57958)
+### mathlib4 (+58168)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -4041,7 +4175,7 @@
 - `AEMeasurable.cos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.cosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.csin` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-- ... and 57908 more
+- ... and 58118 more
 
 ### median-eigenvalues-lean (+537)
 
@@ -4529,11 +4663,11 @@
 - `Risk.isVaRQuantile_iff_isVaR` (theorem) in MDPLib.Risk.VaR
 - `Risk.isVaRQuantile_iff` (theorem) in MDPLib.Risk.VaR
 - `Risk.IsVaR.le_of_le` (theorem) in MDPLib.Risk.VaR
+- `Risk.IsVaR.comp_of_strictMono` (theorem) in MDPLib.Risk.VaR
+- `Risk.finVaR_comp_of_strictMono` (theorem) in MDPLib.Risk.VaR
 - `Risk.const_monotone_univ` (theorem) in MDPLib.Risk.VaR
 - `Risk.IsVaR.add_const` (theorem) in MDPLib.Risk.VaR
 - `Risk.finVaR_add_const` (theorem) in MDPLib.Risk.VaR
-- `Risk.IsVaR.comp_of_strictMono` (theorem) in MDPLib.Risk.VaR
-- `Risk.finVaR_comp_of_strictMono` (theorem) in MDPLib.Risk.VaR
 - `Risk.finVaR_const_mul` (theorem) in MDPLib.Risk.VaR
 - `exists_pos_of_dotProduct_pos` (theorem) in MDPLib.Probability.Basic
 - `Findist.probability_nonneg` (theorem) in MDPLib.Probability.Basic
@@ -4552,7 +4686,7 @@
 - `FinRV.succQuark_nogap_ind'` (theorem) in MDPLib.Probability.Basic
 - ... and 218 more
 
-### problib (+5041)
+### problib (+5119)
 
 - `Trust.ClaimGroup` (structure) in Trust.Registry
 - `Trust.addImportedGroups` (def) in Trust.Registry
@@ -4604,7 +4738,7 @@
 - `Problib.Power.map` (def) in Problib.Power
 - `Problib.Power.split` (def) in Problib.Power
 - `Problib.Power.combine` (def) in Problib.Power
-- ... and 4991 more
+- ... and 5069 more
 
 ### q1-lean-verification (+351)
 
@@ -4714,17 +4848,13 @@
 - `QuasiBorelSpace.Rose.isHom_label` (lemma) in QuasiBorelSpaces.Rose
 - ... and 582 more
 
-### ray (+907)
+### ray (+1018)
 
 - `ChartedSpace.regularSpace` (theorem) in Ray.Misc.ChartedSpace
 - `Real.convexOn_rpow_of_neg` (lemma) in Ray.Misc.Pow
 - `Real.analyticAt_tanh` (lemma) in Ray.Misc.Real
-- `Real.tanh_lt_one` (lemma) in Ray.Misc.Tanh
-- `Real.neg_one_lt_tanh` (lemma) in Ray.Misc.Tanh
-- `Real.abs_tanh_lt_one` (lemma) in Ray.Misc.Tanh
 - `Real.hasDerivAt_tanh` (lemma) in Ray.Misc.Tanh
 - `Real.strictMono_tanh` (lemma) in Ray.Misc.Tanh
-- `Real.injective_tanh` (lemma) in Ray.Misc.Tanh
 - `tendsto_inv_iff_tendsto` (theorem) in Ray.Misc.Topology
 - `IsClosed.Icc_subset_of_forall_mem_nhds_within'` (theorem) in Ray.Misc.Topology
 - `IsPreconnected.sUnion_of_pairwise_exists_isPreconnected` (lemma) in Ray.Misc.Topology
@@ -4766,7 +4896,11 @@
 - `Circle.neg_def` (lemma) in Ray.Misc.Circle
 - `Circle.arg_neg_one` (lemma) in Ray.Misc.Circle
 - `AddCircle.isConnected_compl_singleton` (lemma) in Ray.Misc.Circle
-- ... and 857 more
+- `Circle.isConnected_compl_singleton` (lemma) in Ray.Misc.Circle
+- `Circle.not_continuous_or_not_injective` (lemma) in Ray.Misc.Circle
+- `Circle.surjective_of_injective` (lemma) in Ray.Misc.Circle
+- `HasDerivAt.circleMap_radius` (lemma) in Ray.Misc.Circle
+- ... and 968 more
 
 ### scale-space-lean (+888)
 
@@ -5135,6 +5269,60 @@
 - `Theaetetus.QuadLatticeAction.gram` (def) in Theaetetus.LatticeAction
 - ... and 478 more
 
+### thet-logos (+301)
+
+- `ThetLogos.ModularData` (structure) in lean.ThetLogos.ThermalKMS
+- `ThetLogos.spectralGap` (def) in lean.ThetLogos.ThermalKMS
+- `ThetLogos.spectralGap_pos` (theorem) in lean.ThetLogos.ThermalKMS
+- `ThetLogos.blockedQ1_trivialAtMaxIgnorance` (theorem) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.modularFreqDiff` (def) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.ContinuumLimitData` (structure) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.HasThreefoldHierarchy` (def) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.ClosedForm` (inductive) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.ClosedForm.eval` (def) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.spectrumGap` (def) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.blockedQ4_gapPositive` (theorem) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.LabRealization` (structure) in lean.ThetLogos.BlockedQuestions
+- `ThetLogos.ternary` (def) in lean.ThetLogos.TRO
+- `ThetLogos.ternaryMat` (def) in lean.ThetLogos.TRO
+- `ThetLogos.ternary_assoc_scalar` (theorem) in lean.ThetLogos.TRO
+- `ThetLogos.ternary_assoc_scalar'` (theorem) in lean.ThetLogos.TRO
+- `ThetLogos.ternaryMat_assoc` (theorem) in lean.ThetLogos.TRO
+- `ThetLogos.IsTRO` (class) in lean.ThetLogos.TRO
+- `ThetLogos.ThetPair` (structure) in lean.ThetLogos.Axioms
+- `ThetLogos.DivisionAlg` (inductive) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.RepFactor` (structure) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.factorComplexDim` (def) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.totalRepDim` (def) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.IsFaithful` (def) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.HasComplexUnit` (def) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.smFactors` (def) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.smFactors_dim_ok` (theorem) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.smFactors_faithful` (theorem) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.smFactors_orientable` (theorem) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.altFactors` (def) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.filters_do_not_classify` (theorem) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.minimalBlocks` (def) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.minimalBlock_sum` (theorem) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.singlet_remainder` (theorem) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.AdmitsClassifyingDirac` (opaque) in lean.ThetLogos.CCMAlgebraClassification
+- `ThetLogos.ThermalTriple` (structure) in lean.ThetLogos.ModularTime
+- `ThetLogos.modularEigenvalue` (def) in lean.ThetLogos.ModularTime
+- `ThetLogos.modularEigenvalue_diff` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.cpowI` (def) in lean.ThetLogos.ModularTime
+- `ThetLogos.cpowI_neg` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.diagFlow` (def) in lean.ThetLogos.ModularTime
+- `ThetLogos.diag_const_conj` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.smul_one_eq_diagonal` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.scalar_conj_trivial` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.diagFlow_const_eq_scalarConj` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.diagFlow_trivial_of_commute` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.diagFlow_trivial_of_const` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.maximallyMixed_flow_trivial` (theorem) in lean.ThetLogos.ModularTime
+- `ThetLogos.diagState` (def) in lean.ThetLogos.ModularTime
+- `ThetLogos.diagModularK` (def) in lean.ThetLogos.ModularTime
+- ... and 251 more
+
 ### tree-reconstruction-analysis (+586)
 
 - `MakinenAnalysis.finalH` (def) in lean.MakinenAnalysis.BallotCount
@@ -5189,6 +5377,60 @@
 - `MakinenAnalysis.stdGaussianPM` (def) in lean.MakinenAnalysis.WeakConvergence
 - ... and 536 more
 
+### yang-mills-millennium-problem (+194)
+
+- `YangMills.FunctionalAnalysis.WilsonLoopAlgebra` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.ReflectionPositiveForm` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.NullSpaceIdeal` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.GnsPhysicalHilbertSpace` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.LatticeTransferMatrix` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.HasConstructiveMassGap` (def) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.contractivity_hypothesis_implies_gap` (theorem) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.gns_vacuum_and_excited_orthogonal` (theorem) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.HilbertPreSpace` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.SymmetricHamiltonianOperator` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.FriedrichsExtension` (structure) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.SpectralGapCondition` (def) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.friedrichs_extension_preserves_spectral_bound` (theorem) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.IsSelfAdjointExtension` (def) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.FunctionalAnalysis.vanishing_deficiency_indices_imply_self_adjoint` (theorem) in proofs.YangMills.FunctionalAnalysis
+- `YangMills.Axioms.CompactSimpleLieGroup` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.SU3` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.SU2` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.G2Group` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su3_dimension_exact` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su3_rank_exact` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su3_casimir_positive` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su3_rank_positive` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su2_dimension_exact` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su2_casimir_positive` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.g2_dimension_exact` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.g2_casimir_positive` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.HasDimensionAndCasimirLowerBounds` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su3_has_dimension_and_casimir_bounds` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.su2_has_dimension_and_casimir_bounds` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.g2_has_dimension_and_casimir_bounds` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.makeenko_migdal_su3_relation` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.makeenko_migdal_su2_relation` (theorem) in proofs.YangMills.Axioms
+- `YangMills.Axioms.IntegerApproximationSequence` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.EuclideanSpacetimePoint` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.origin_point` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.SchwartzMultiIndex` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.schwartz_seminorm_scale` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.SchwartzTestFunction` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.EuclideanIsometry` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.apply_isometry` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.transform_test_function` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.time_reflection` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.reflect_test_function` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.HasPositiveTimeSupport` (def) in proofs.YangMills.Axioms
+- `YangMills.Axioms.SchwingerFunctional` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.OsterwalderSchraderAxioms` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.OsterwalderSchraderQuantumFieldTheory` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.PhysicalHilbertSpace` (structure) in proofs.YangMills.Axioms
+- `YangMills.Axioms.DenseOperatorDomain` (structure) in proofs.YangMills.Axioms
+- ... and 144 more
+
 ## Update History (1 runs)
 
-- **2026-10-12T08:06:47.487634+00:00**: Checked 123 repos, updated 124, +194183 -0 declarations, 1 errors
+- **2026-10-19T08:02:24.876470+00:00**: Checked 126 repos, updated 127, +207355 -0 declarations, 1 errors
