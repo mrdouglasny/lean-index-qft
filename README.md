@@ -2,15 +2,15 @@
 
 Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**109,272 topic-matched declarations** across **98 repositories** (scanned 126 repos, 265,523 declarations).
+**147,563 topic-matched declarations** across **104 repositories** (scanned 132 repos, 522,292 declarations).
 
 Tracks Lean declarations related to:
 - **Measure theory**: measure spaces, integration, Lebesgue/Borel measures, Radon-Nikodym
 - **Functional analysis**: Hilbert/Banach spaces, bounded/compact operators, Frechet derivatives
-- **Probability theory**: martingales, conditional expectation, Brownian motion, exchangeability
-- **Spectral theory**: spectrum, eigenvalues, resolvent, spectral measures
-- **Topological groups**: Haar measure, unitary groups, representations, locally compact groups
 - **Quantum field theory**: Wick's theorem, perturbation theory, Feynman diagrams, Standard Model, Lorentz group
+- **Spectral theory**: spectrum, eigenvalues, resolvent, spectral measures
+- **Probability theory**: martingales, conditional expectation, Brownian motion, exchangeability
+- **Topological groups**: Haar measure, unitary groups, representations, locally compact groups
 - **Distributions & Schwartz**: Schwartz space, Fourier transforms, Sobolev spaces
 - **Operator algebras**: C*-algebras, von Neumann algebras, star algebras
 
@@ -20,21 +20,22 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 58,168 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 6,729 | Digitalized physics results in Lean (492 stars) |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 58,206 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [nickgou-nuke/info-geometry-lean](https://github.com/nickgou-nuke/info-geometry-lean) | 34,861 | Lean 4 (v4.34.1 / Mathlib) formalization of noncommutative information... |
+| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 12,244 | Digitalized physics results in Lean (492 stars) |
 | [hanyi162013-Yihan/spectral-radius-upper-tail-lean](https://github.com/hanyi162013-Yihan/spectral-radius-upper-tail-lean) | 5,380 | Lean 4 formalization of upper-tail and local eigenvalue deviations for... |
 | [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 4,405 | Osterwalder-Schrader reconstruction theorem |
-| [HongruZhao/KLS15](https://github.com/HongruZhao/KLS15) | 4,044 | Lean 4 formalization of a dimension-free Poincaré bound 15 for isotropic... |
 | [a-tiny-project/problib](https://github.com/a-tiny-project/problib) | 3,111 | Formalization library for measure-theoretic probability and probabilistic... |
-| [LionSR/QICLean](https://github.com/LionSR/QICLean) | 2,234 | Quantum information and channels, formalized in Lean 4: quantum states and... |
+| [LionSR/QICLean](https://github.com/LionSR/QICLean) | 2,323 | Quantum information and channels, formalized in Lean 4: quantum states and... |
 | [banach-space-thesis/banach-space-thesis.github.io](https://github.com/banach-space-thesis/banach-space-thesis.github.io) | 1,829 | An interactive thesis in Banach space theory, with mathematical papers, Lean... |
 | [Polarnova/ProbabilityApproximation](https://github.com/Polarnova/ProbabilityApproximation) | 1,750 | Lean 4 and Mathlib formalization of nonuniform Berry–Esseen bounds and... |
 | [mrdouglasny/gaussian-field](https://github.com/mrdouglasny/gaussian-field) | 1,747 | Gaussian free field formalization |
 | [or4nge19/SpinGlass](https://github.com/or4nge19/SpinGlass) | 1,511 | Spin glass models, statistical mechanics |
 | [shosonoda/lean-ridgelet](https://github.com/shosonoda/lean-ridgelet) | 1,446 | Lean formalization and Blueprint for integral-representation neural networks... |
-| [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 1,332 | Construction of a Brownian Motion in Lean |
+| [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 1,287 | Construction of a Brownian Motion in Lean |
 | [jzuiddam/asymptotic-spectrum-distance](https://github.com/jzuiddam/asymptotic-spectrum-distance) | 1,065 | Lean 4 formalization of "The asymptotic spectrum distance, graph limits, and... |
 | [cadamcat/anderson-ac-lean4](https://github.com/cadamcat/anderson-ac-lean4) | 1,059 | Lean 4 proof of absolutely continuous spectrum for the Anderson model in... |
+| [chenle02/rmt-foundations-lean](https://github.com/chenle02/rmt-foundations-lean) | 973 | Kernel-checked random-matrix and analytic foundations in Lean 4: Airy and... |
 | [mrdouglasny/pphi2](https://github.com/mrdouglasny/pphi2) | 917 | Construction of phi^4_2 quantum field theory in Lean 4 |
 | [YuanheZ/lean-stat-learning-theory](https://github.com/YuanheZ/lean-stat-learning-theory) | 874 | Statistical learning theory, Gaussian concentration, Dudley's entropy |
 | [slink/LeanLevy](https://github.com/slink/LeanLevy) | 844 | Levy processes on Mathlib |
@@ -49,6 +50,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [teorth/analysis](https://github.com/teorth/analysis) | 406 | Tao's analysis formalization |
 | [danielfagerstrom/scale-space-lean](https://github.com/danielfagerstrom/scale-space-lean) | 396 | Shared Lean 4 core for the scale-space article repos: the article-independent... |
 | [mrdouglasny/OSforGFF](https://github.com/mrdouglasny/OSforGFF) | 339 | Osterwalder-Schrader axioms for Gaussian free field |
+| [RGConj/fourth-consecutive-ratio-palomar](https://github.com/RGConj/fourth-consecutive-ratio-palomar) | 333 | Lean formalization of the strict fourth consecutive Dirichlet eigenvalue ratio,... |
 | [cameronfreer/computable-analysis](https://github.com/cameronfreer/computable-analysis) | 330 | Computable analysis in Lean 4: represented spaces over a Type-2 oracle machine,... |
 | [xyli9596/crg-growth-and-zero-distribution](https://github.com/xyli9596/crg-growth-and-zero-distribution) | 309 | Lean 4 formalizations, recorded verification, and frozen manuscript for... |
 | [jendamikulik/casual-spectrum](https://github.com/jendamikulik/casual-spectrum) | 303 |  |
@@ -57,9 +59,12 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [hanyi162013-Yihan/ginibre-correlation-identities-lean](https://github.com/hanyi162013-Yihan/ginibre-correlation-identities-lean) | 259 | Lean 4 formalization of Ginibre projection identities, Gaussian matrix... |
 | [or4nge19/MCMC](https://github.com/or4nge19/MCMC) | 258 | Markov chain Monte Carlo |
 | [petersenmalte/mixed-elastic-eigenvalues-lean](https://github.com/petersenmalte/mixed-elastic-eigenvalues-lean) | 257 | Master thesis "Postprocessing of mixed elastic eigenvalues" (Uni Bonn, 2022)... |
+| [yuytkuy-eng/fd56-jordan-kronecker-lean](https://github.com/yuytkuy-eng/fd56-jordan-kronecker-lean) | 228 | Lean 4 proofs of a low-degree kernel obstruction and spectrum arithmetic for... |
+| [MasaakiFukasawa/ftdap-lean](https://github.com/MasaakiFukasawa/ftdap-lean) | 209 | Lean 4 formalization of Fundamental Theorem of Discrete Asset Pricing: NA,... |
 | [K-NANOG/spectrum-topos](https://github.com/K-NANOG/spectrum-topos) | 185 |  |
 | [MingMing42hours/spectrum-topos](https://github.com/MingMing42hours/spectrum-topos) | 184 |  |
-| [CloK-Lab/OpenGA](https://github.com/CloK-Lab/OpenGA) | 176 | Geometric analysis and geometric measure theory in Lean 4, built on Mathlib. |
+| [CloK-Lab/OpenGA](https://github.com/CloK-Lab/OpenGA) | 175 | Geometric analysis and geometric measure theory in Lean 4, built on Mathlib. |
+| [garygitton/yang-mills-millennium-problem](https://github.com/garygitton/yang-mills-millennium-problem) | 154 | Resolution of the 4D Yang-Mills Millennium Problem: Constructive existence of... |
 | [mrdouglasny/gaussian-hilbert](https://github.com/mrdouglasny/gaussian-hilbert) | 151 | Finite-dimensional Gaussian Hilbert space theory in Lean 4 — multivariate... |
 | [FredRaj3/SemicircleLaw](https://github.com/FredRaj3/SemicircleLaw) | 148 | Wigner semicircle law, random matrix theory |
 | [markkasaurus/gleason-theorem-lean](https://github.com/markkasaurus/gleason-theorem-lean) | 130 | A Lean 4 formalization of Gleason’s theorem for separable real and complex... |
@@ -77,7 +82,6 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [mattppal/srg-spectrum](https://github.com/mattppal/srg-spectrum) | 49 | Lean formalization of SRG spectrum and multiplicities |
 | [umpolungfish/Imscribing_Grammar](https://github.com/umpolungfish/Imscribing_Grammar) | 48 | A 12-primitive measurement apparatus for the structural type of any system —... |
 | [girving/ray](https://github.com/girving/ray) | 48 | Analytic number theory, special functions |
-| [garygitton/yang-mills-millennium-problem](https://github.com/garygitton/yang-mills-millennium-problem) | 39 | Resolution of the 4D Yang-Mills Millennium Problem: Constructive existence of... |
 | [Deicyde/aqft-lean](https://github.com/Deicyde/aqft-lean) | 37 | Lean 4 foundations for algebraic quantum field theory, beginning with... |
 | [ZhengyangZhang06/gmt-formalize](https://github.com/ZhengyangZhang06/gmt-formalize) | 34 | Lean 4 formalization of Simon's Introduction to Geometric Measure Theory, one... |
 | [SmaniaD/Burkholder](https://github.com/SmaniaD/Burkholder) | 33 | This repository formalizes in Lean the Burkholder martingale transform... |
@@ -93,6 +97,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [girving/interval](https://github.com/girving/interval) | 22 | Interval arithmetic, rigorous numerics |
 | [Joeyxyxyz/sturm-liouville-comparator-run](https://github.com/Joeyxyxyz/sturm-liouville-comparator-run) | 19 | Sturm–Liouville eigenvalue simplicity for confining potentials, formalized in... |
 | [lua-vr/pointwise-birkhoff](https://github.com/lua-vr/pointwise-birkhoff) | 19 | Birkhoff ergodic theorem |
+| [HongruZhao/MaxwellMGF](https://github.com/HongruZhao/MaxwellMGF) | 18 | STAT 4052: Maxwell distribution in Lean 4, with the exact theorem, definitions,... |
 | [Deicyde/QFT](https://github.com/Deicyde/QFT) | 18 | Lean 4 formalization  Quantum Physics and Quantum Field Theory, built with... |
 | [DavidVFeldman/integer-power-series-spectrum](https://github.com/DavidVFeldman/integer-power-series-spectrum) | 17 |  |
 | [barnettcaleb1/q1-lean-verification](https://github.com/barnettcaleb1/q1-lean-verification) | 17 | Lean verification of the separate Q1-SRD and Q1-RD implications for reduced... |
@@ -106,13 +111,14 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [SamMausberg/low-logit-rank-distillation](https://github.com/SamMausberg/low-logit-rank-distillation) | 8 | Learning low-logit-rank distributions from conditional samples: paper, Lean 4... |
 | [awodey/joyal](https://github.com/awodey/joyal) | 8 |  |
 | [sunoru/finite-groups](https://github.com/sunoru/finite-groups) | 7 | Finite group theory |
-| [jeffgurd888/thet-logos](https://github.com/jeffgurd888/thet-logos) | 5 | Machine-verified foundations for quantum field theory in Lean 4 (ACMD) — 3,315... |
+| [jeffgurd888/thet-logos](https://github.com/jeffgurd888/thet-logos) | 5 | Machine-verified foundations for quantum field theory in Lean 4 (ACMD) — 3,323... |
 | [AlphaLatitude/RegisterDimension](https://github.com/AlphaLatitude/RegisterDimension) | 4 | Lean 4 check of The Dimension of Space from the Granularity of Hilbert Space... |
 | [girving/series](https://github.com/girving/series) | 4 | Power series, analytic functions |
 | [mrdouglasny/QFTFramework](https://github.com/mrdouglasny/QFTFramework) | 3 | QFT framework formalization |
 | [Axiomatic-AI/lean-qkd](https://github.com/Axiomatic-AI/lean-qkd) | 2 | Lean blueprint a result in quantum key distribution |
 | [jallen-gh/Algebraic-Measurement-Theory-AMT](https://github.com/jallen-gh/Algebraic-Measurement-Theory-AMT) | 2 | This repository contains the machine-verifiable logical dependency graph for... |
 | [nicomele1/spectral-thm-lean](https://github.com/nicomele1/spectral-thm-lean) | 2 | We carry out a complete formalization of the spectral theorem in Lean, for both... |
+| [akifoltu-ui/cvs-index-law-lean](https://github.com/akifoltu-ui/cvs-index-law-lean) | 2 | Lean 4 / Mathlib formalization, fully proved and axiom-audited, of the index... |
 | [google-deepmind/debate](https://github.com/google-deepmind/debate) | 2 | Stochastic doubly-efficient debate |
 | [vltanh/lean4-adr11](https://github.com/vltanh/lean4-adr11) | 1 | Lean 4 formalization of Allman, Degnan, Rhodes (2011): the distribution of... |
 | [JamesSquires0/Von_Neumann_Quantum_Logic_Formalization](https://github.com/JamesSquires0/Von_Neumann_Quantum_Logic_Formalization) | 1 | We formalize Von Neumann's quantum logic (non-distributive lattice of Hilbert... |

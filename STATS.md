@@ -1,55 +1,56 @@
 # Lean Index Statistics
 
-**134,234 topic-matched declarations** across **98 repositories**
-(265,523 total declarations scanned from 126 repos)
+**174,076 topic-matched declarations** across **104 repositories**
+(522,292 total declarations scanned from 132 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| measure-theory                 |     41,727 |
-| functional-analysis            |     33,994 |
-| probability-theory             |     19,058 |
-| spectral-theory                |     14,445 |
-| topological-groups             |      8,622 |
-| quantum-field-theory           |      6,952 |
-| distributions-schwartz         |      5,594 |
-| operator-algebras              |      3,842 |
+| measure-theory                 |     42,193 |
+| functional-analysis            |     35,860 |
+| quantum-field-theory           |     29,267 |
+| spectral-theory                |     21,923 |
+| probability-theory             |     19,977 |
+| topological-groups             |     13,001 |
+| distributions-schwartz         |      6,506 |
+| operator-algebras              |      5,349 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     71,418 |
-| lemma           |     16,695 |
-| def             |     13,625 |
-| instance        |      5,258 |
-| structure       |        888 |
+| theorem         |     89,840 |
+| def             |     25,716 |
+| lemma           |     21,014 |
+| instance        |      5,448 |
+| structure       |      2,397 |
+| abbrev          |      2,112 |
 | ctor            |        540 |
-| abbrev          |        480 |
-| class           |        329 |
-| inductive       |         38 |
+| class           |        352 |
+| inductive       |        143 |
 | opaque          |          1 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     58,168 |     58,168 |
-| PhysLean                            |      6,729 |     19,048 |
+| mathlib4                            |     58,206 |     58,206 |
+| info-geometry-lean                  |     34,861 |    249,617 |
+| PhysLean                            |     12,244 |     26,133 |
 | spectral-radius-upper-tail-lean     |      5,380 |      5,380 |
 | OSreconstruction                    |      4,405 |     16,014 |
-| KLS15                               |      4,044 |     11,322 |
 | problib                             |      3,111 |      5,119 |
-| QICLean                             |      2,234 |     12,124 |
+| QICLean                             |      2,323 |     12,730 |
 | banach-space-thesis.github.io       |      1,829 |     16,608 |
 | ProbabilityApproximation            |      1,750 |      1,770 |
 | gaussian-field                      |      1,747 |      1,880 |
 | SpinGlass                           |      1,511 |      3,057 |
 | lean-ridgelet                       |      1,446 |      2,723 |
-| BrownianMotion                      |      1,332 |      1,799 |
+| BrownianMotion                      |      1,287 |      1,720 |
 | asymptotic-spectrum-distance        |      1,065 |      2,802 |
 | anderson-ac-lean4                   |      1,059 |      8,933 |
+| rmt-foundations-lean                |        973 |      5,893 |
 | pphi2                               |        917 |      2,583 |
 | lean-stat-learning-theory           |        874 |      2,009 |
 | LeanLevy                            |        844 |        862 |
@@ -64,14 +65,13 @@
 | analysis                            |        406 |      2,401 |
 | scale-space-lean                    |        396 |        888 |
 | OSforGFF                            |        339 |        901 |
-| computable-analysis                 |        330 |      2,670 |
-| ... and 68 more |  |  |
+| ... and 74 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-10-19T08:02:24.876470+00:00
-- **Repos checked**: 126
-- **Repos updated**: 127
-- **New declarations**: 207355
+- **When**: 2026-10-26T07:54:51.282221+00:00
+- **Repos checked**: 132
+- **Repos updated**: 133
+- **New declarations**: 464086
 - **Removed declarations**: 0
-- **Summary**: Checked 126 repos, updated 127, +207355 -0 declarations, 1 errors
+- **Summary**: Checked 132 repos, updated 133, +464086 -0 declarations, 1 errors
