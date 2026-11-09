@@ -2,7 +2,7 @@
 
 Topical index for constructive QFT and mathematical physics formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**151,691 topic-matched declarations** across **113 repositories** (scanned 139 repos, 557,363 declarations).
+**158,297 topic-matched declarations** across **117 repositories** (scanned 143 repos, 693,127 declarations).
 
 Tracks Lean declarations related to:
 - **Measure theory**: measure spaces, integration, Lebesgue/Borel measures, Radon-Nikodym
@@ -20,20 +20,20 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 58,323 | The math library for Lean 4 (indexed via cache, not cloned) |
-| [nickgou-nuke/info-geometry-lean](https://github.com/nickgou-nuke/info-geometry-lean) | 36,037 | Lean 4 (v4.34.1 / Mathlib) formalization of noncommutative information... |
-| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 12,283 | Digitalized physics results in Lean (492 stars) |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 59,217 | The math library for Lean 4 (indexed via cache, not cloned) |
+| [nickgou-nuke/info-geometry-lean](https://github.com/nickgou-nuke/info-geometry-lean) | 39,042 | Lean 4 (v4.34.1 / Mathlib) formalization of noncommutative information... |
+| [lean-phys-community/PhysLean](https://github.com/lean-phys-community/PhysLean) | 12,587 | Digitalized physics results in Lean (492 stars) |
 | [hanyi162013-Yihan/spectral-radius-upper-tail-lean](https://github.com/hanyi162013-Yihan/spectral-radius-upper-tail-lean) | 5,380 | Lean 4 formalization of upper-tail and local eigenvalue deviations for... |
 | [a-tiny-project/problib](https://github.com/a-tiny-project/problib) | 3,111 | Formalization library for measure-theoretic probability and probabilistic... |
-| [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 2,761 | Osterwalder-Schrader reconstruction theorem |
-| [LionSR/QICLean](https://github.com/LionSR/QICLean) | 2,496 | Quantum information and channels, formalized in Lean 4: quantum states and... |
-| [davidiach/adaptive-threshold-estimation](https://github.com/davidiach/adaptive-threshold-estimation) | 1,956 | Adaptive estimation of a threshold probability from noisy coins: a... |
+| [davidiach/adaptive-threshold-estimation](https://github.com/davidiach/adaptive-threshold-estimation) | 2,814 | Adaptive estimation of a threshold probability from noisy coins: a... |
+| [xiyin137/OSreconstruction](https://github.com/xiyin137/OSreconstruction) | 2,776 | Osterwalder-Schrader reconstruction theorem |
+| [LionSR/QICLean](https://github.com/LionSR/QICLean) | 2,637 | Quantum information and channels, formalized in Lean 4: quantum states and... |
 | [banach-space-thesis/banach-space-thesis.github.io](https://github.com/banach-space-thesis/banach-space-thesis.github.io) | 1,829 | An interactive thesis in Banach space theory, with mathematical papers, Lean... |
 | [Polarnova/ProbabilityApproximation](https://github.com/Polarnova/ProbabilityApproximation) | 1,750 | Lean 4 and Mathlib formalization of nonuniform Berry–Esseen bounds and... |
 | [mrdouglasny/gaussian-field](https://github.com/mrdouglasny/gaussian-field) | 1,747 | Gaussian free field formalization |
 | [or4nge19/SpinGlass](https://github.com/or4nge19/SpinGlass) | 1,511 | Spin glass models, statistical mechanics |
 | [shosonoda/lean-ridgelet](https://github.com/shosonoda/lean-ridgelet) | 1,446 | Lean formalization and Blueprint for integral-representation neural networks... |
-| [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 1,313 | Construction of a Brownian Motion in Lean |
+| [RemyDegenne/brownian-motion](https://github.com/RemyDegenne/brownian-motion) | 1,300 | Construction of a Brownian Motion in Lean |
 | [arterialist/proofs](https://github.com/arterialist/proofs) | 1,272 | Lean 4 formalizations and research notes on prime distribution, error bounds,... |
 | [jzuiddam/asymptotic-spectrum-distance](https://github.com/jzuiddam/asymptotic-spectrum-distance) | 1,065 | Lean 4 formalization of "The asymptotic spectrum distance, graph limits, and... |
 | [cadamcat/anderson-ac-lean4](https://github.com/cadamcat/anderson-ac-lean4) | 1,059 | Lean 4 proof of absolutely continuous spectrum for the Anderson model in... |
@@ -43,12 +43,15 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [slink/LeanLevy](https://github.com/slink/LeanLevy) | 844 | Levy processes on Mathlib |
 | [sascha2718/lean-geometric-measure-theory](https://github.com/sascha2718/lean-geometric-measure-theory) | 839 | A Lean formalisation of my Geometric Measure Theory Lecture Notes and possible... |
 | [rootkiller6788/mini-measure-probability-integration](https://github.com/rootkiller6788/mini-measure-probability-integration) | 838 | Measure theory, probability and integration built from scratch, learn analysis... |
+| [GiovanniC137z/uv-lean](https://github.com/GiovanniC137z/uv-lean) | 794 | A Lean 4 and Mathlib formalization of the all-orders UV finiteness theorem in... |
 | [themathqueen/monlib4](https://github.com/themathqueen/monlib4) | 646 | Von Neumann algebras, quantum information theory |
-| [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 596 | Bandit algorithms, probability bounds |
+| [RemyDegenne/lean-bandits](https://github.com/RemyDegenne/lean-bandits) | 601 | Bandit algorithms, probability bounds |
 | [YellPika/quasi-borel-spaces](https://github.com/YellPika/quasi-borel-spaces) | 553 | Quasi-Borel spaces, categorical probability |
 | [ImperialCollegeLondon/FLT](https://github.com/ImperialCollegeLondon/FLT) | 474 | Fermat's Last Theorem (uses representation theory) |
 | [cameronfreer/exchangeability](https://github.com/cameronfreer/exchangeability) | 468 | Exchangeability, de Finetti's theorem |
+| [Horace-Maxwell/ai4math-results](https://github.com/Horace-Maxwell/ai4math-results) | 464 | Research papers formalized in Lean 4 (all ten papers, against frozen statement... |
 | [HamedMousaviMath/lean4-paper-On-Distribution-of-Prime-Squares-formalization](https://github.com/HamedMousaviMath/lean4-paper-On-Distribution-of-Prime-Squares-formalization) | 445 | Lean 4 formalization of results on the distribution of prime squares, with... |
+| [kguo-sagecode/least-eig-minus-2](https://github.com/kguo-sagecode/least-eig-minus-2) | 430 | A Lean 4 formalization of Cameron-Goethals-Seidel-Shult (1976) and a database... |
 | [teorth/analysis](https://github.com/teorth/analysis) | 406 | Tao's analysis formalization |
 | [danielfagerstrom/scale-space-lean](https://github.com/danielfagerstrom/scale-space-lean) | 396 | Shared Lean 4 core for the scale-space article repos: the article-independent... |
 | [fg12345678901/noise-response-lean](https://github.com/fg12345678901/noise-response-lean) | 395 | Lean 4 proofs of the universal matrix-spectrum potential classification and its... |
@@ -59,7 +62,6 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [jendamikulik/casual-spectrum](https://github.com/jendamikulik/casual-spectrum) | 303 |  |
 | [Timeroot/Lean-QuantumInfo](https://github.com/Timeroot/Lean-QuantumInfo) | 297 | Quantum information theory, quantum channels |
 | [suomela/fin-dep](https://github.com/suomela/fin-dep) | 290 | Finitely dependent distributions |
-| [yuytkuy-eng/fd56-jordan-kronecker-lean](https://github.com/yuytkuy-eng/fd56-jordan-kronecker-lean) | 279 | Lean 4 proofs of a low-degree kernel obstruction and spectrum arithmetic for... |
 | [oliver-butterley/SpectralThm](https://github.com/oliver-butterley/SpectralThm) | 275 | Spectral theorem formalization |
 | [hanyi162013-Yihan/ginibre-correlation-identities-lean](https://github.com/hanyi162013-Yihan/ginibre-correlation-identities-lean) | 259 | Lean 4 formalization of Ginibre projection identities, Gaussian matrix... |
 | [or4nge19/MCMC](https://github.com/or4nge19/MCMC) | 258 | Markov chain Monte Carlo |
@@ -68,7 +70,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [garygitton/yang-mills-millennium-problem](https://github.com/garygitton/yang-mills-millennium-problem) | 203 | Resolution of the 4D Yang-Mills Millennium Problem: Constructive existence of... |
 | [K-NANOG/spectrum-topos](https://github.com/K-NANOG/spectrum-topos) | 185 |  |
 | [MingMing42hours/spectrum-topos](https://github.com/MingMing42hours/spectrum-topos) | 184 |  |
-| [CloK-Lab/OpenGA](https://github.com/CloK-Lab/OpenGA) | 175 | Geometric analysis and geometric measure theory in Lean 4, built on Mathlib. |
+| [CloK-Lab/OpenGA](https://github.com/CloK-Lab/OpenGA) | 176 | Geometric analysis and geometric measure theory in Lean 4, built on Mathlib. |
 | [mrdouglasny/gaussian-hilbert](https://github.com/mrdouglasny/gaussian-hilbert) | 151 | Finite-dimensional Gaussian Hilbert space theory in Lean 4 — multivariate... |
 | [FredRaj3/SemicircleLaw](https://github.com/FredRaj3/SemicircleLaw) | 148 | Wigner semicircle law, random matrix theory |
 | [markkasaurus/gleason-theorem-lean](https://github.com/markkasaurus/gleason-theorem-lean) | 130 | A Lean 4 formalization of Gleason’s theorem for separable real and complex... |
@@ -81,7 +83,6 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [cameronfreer/loeb-measure](https://github.com/cameronfreer/loeb-measure) | 62 | Loeb measure, ultraproduct probability, and applications to exchangeability and... |
 | [dicipler-pixel/spectral-stability-lean](https://github.com/dicipler-pixel/spectral-stability-lean) | 59 | Lean 4 proofs for 'Spectral Stability Across Obstruction Interfaces': the... |
 | [YaelDillies/gibbs-measure](https://github.com/YaelDillies/gibbs-measure) | 57 | ASCI Summer Research Lean |
-| [Horace-Maxwell/ai4math-results](https://github.com/Horace-Maxwell/ai4math-results) | 53 | Research papers with Lean 4 formalizations (complete for Papers 3, 4, 5, 6, 8,... |
 | [leanprover/SampCert](https://github.com/leanprover/SampCert) | 52 | Certified differential privacy sampling |
 | [formalproofs/probability](https://github.com/formalproofs/probability) | 52 | Probability theory fundamentals |
 | [mattppal/srg-spectrum](https://github.com/mattppal/srg-spectrum) | 49 | Lean formalization of SRG spectrum and multiplicities |
@@ -97,13 +98,13 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [vbeffara/RMT4](https://github.com/vbeffara/RMT4) | 33 | Random matrix theory, complex analysis |
 | [Robby955/formal-martingales](https://github.com/Robby955/formal-martingales) | 27 | Lean 4 library for martingale inequalities, anytime-valid inference, and... |
 | [kkytola/VirasoroProject](https://github.com/kkytola/VirasoroProject) | 26 | Virasoro algebra, Verma modules, conformal field theory |
+| [jtraverso/cdr-palomar-kernel](https://github.com/jtraverso/cdr-palomar-kernel) | 25 | Shared Lean verification of the Colbourn–Dinitz–Rosa conjecture and exact... |
 | [RileyBetts/lean-tee](https://github.com/RileyBetts/lean-tee) | 25 | Lean-specified zkTEE: measured guest execution, hashed receipts, lean-grpc APIs |
 | [alexjgreig/QHL-Lean](https://github.com/alexjgreig/QHL-Lean) | 24 | Quantum Hoare logic |
 | [jaredhuling/mcdiarmid-lean](https://github.com/jaredhuling/mcdiarmid-lean) | 22 | A Lean 4 / mathlib formalization of McDiarmid's bounded-differences inequality... |
 | [Diudiutse/Lean-Formalization-of-an-Inequality-for-Strongly-Regular-Graphs](https://github.com/Diudiutse/Lean-Formalization-of-an-Inequality-for-Strongly-Regular-Graphs) | 22 | For a non-complete connected simple strongly regular graph G with parameters... |
 | [typhdotcom/theaetetus](https://github.com/typhdotcom/theaetetus) | 22 | A Lean 4 study of the defect: an invariant of a positive-definite quadratic... |
 | [girving/interval](https://github.com/girving/interval) | 22 | Interval arithmetic, rigorous numerics |
-| [Joeyxyxyz/sturm-liouville-comparator-run](https://github.com/Joeyxyxyz/sturm-liouville-comparator-run) | 19 | Sturm–Liouville eigenvalue simplicity for confining potentials, formalized in... |
 | [dicipler-pixel/upg-lean](https://github.com/dicipler-pixel/upg-lean) | 19 | Lean 4 proofs of the finite feedback algebra behind 'Universal Projector... |
 | [lua-vr/pointwise-birkhoff](https://github.com/lua-vr/pointwise-birkhoff) | 19 | Birkhoff ergodic theorem |
 | [HongruZhao/MaxwellMGF](https://github.com/HongruZhao/MaxwellMGF) | 18 | STAT 4052: Maxwell distribution in Lean 4, with the exact theorem, definitions,... |
@@ -112,15 +113,18 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [barnettcaleb1/q1-lean-verification](https://github.com/barnettcaleb1/q1-lean-verification) | 17 | Lean verification of the separate Q1-SRD and Q1-RD implications for reduced... |
 | [Andresankis/enveloping-cstar-lean](https://github.com/Andresankis/enveloping-cstar-lean) | 16 | Formalization of the enveloping C*-algebra in Lean 4 |
 | [verified-optimization/CvxLean](https://github.com/verified-optimization/CvxLean) | 16 | Convex optimization, functional analysis |
+| [kk2004007/Formalising-Discrete-Time-Martingales-on-Lean](https://github.com/kk2004007/Formalising-Discrete-Time-Martingales-on-Lean) | 15 | A project formalising the theory of discrete-time martingales on Lean from... |
 | [AdrianGR517/HilbertSpacesLean4](https://github.com/AdrianGR517/HilbertSpacesLean4) | 14 | Formalization of Hilbert Spaces and the Riesz Representation Theorem in Lean 4 |
 | [firesh/erdos994-lean](https://github.com/firesh/erdos994-lean) | 11 | Lean 4 formalization of the negative answer to Erdős Problem 994 (Khinchin's... |
+| [boisgera/conditioning](https://github.com/boisgera/conditioning) | 11 | Reification of conditioned random variables |
 | [YuanXian-Theory/TCSR-QFT-Lean4](https://github.com/YuanXian-Theory/TCSR-QFT-Lean4) | 9 | Complete formalization in Lean 4 of the quantum field theory of the True-Circle... |
 | [toshiro881967-coder/PhysicsFormalization](https://github.com/toshiro881967-coder/PhysicsFormalization) | 9 | Lean 4 formalization of fundamental physics: PPN metric, LLI satellite bounds... |
 | [jam-khan/QHilbert](https://github.com/jam-khan/QHilbert) | 9 | Quantum Hilbert space operator formalization in Lean 4 / Mathlib |
 | [SamMausberg/low-logit-rank-distillation](https://github.com/SamMausberg/low-logit-rank-distillation) | 8 | Learning low-logit-rank distributions from conditional samples: paper, Lean 4... |
+| [Joeyxyxyz/sturm-liouville-comparator-run](https://github.com/Joeyxyxyz/sturm-liouville-comparator-run) | 8 | Sturm–Liouville eigenvalue simplicity for confining potentials, formalized in... |
 | [awodey/joyal](https://github.com/awodey/joyal) | 8 |  |
 | [sunoru/finite-groups](https://github.com/sunoru/finite-groups) | 7 | Finite group theory |
-| [jeffgurd888/thet-logos](https://github.com/jeffgurd888/thet-logos) | 5 | Machine-verified foundations for quantum field theory in Lean 4 (ACMD) — 3,323... |
+| [jeffgurd888/thet-logos](https://github.com/jeffgurd888/thet-logos) | 5 | Machine-verified foundations for quantum field theory in Lean 4 (ACMD) — 14,130... |
 | [AlphaLatitude/RegisterDimension](https://github.com/AlphaLatitude/RegisterDimension) | 4 | Lean 4 check of The Dimension of Space from the Granularity of Hilbert Space... |
 | [girving/series](https://github.com/girving/series) | 4 | Power series, analytic functions |
 | [mrdouglasny/QFTFramework](https://github.com/mrdouglasny/QFTFramework) | 3 | QFT framework formalization |

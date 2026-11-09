@@ -1,54 +1,54 @@
 # Lean Index Statistics
 
-**178,622 topic-matched declarations** across **113 repositories**
-(557,363 total declarations scanned from 139 repos)
+**185,900 topic-matched declarations** across **117 repositories**
+(693,127 total declarations scanned from 143 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| measure-theory                 |     44,823 |
-| functional-analysis            |     35,947 |
-| quantum-field-theory           |     29,489 |
-| spectral-theory                |     23,013 |
-| probability-theory             |     20,375 |
-| topological-groups             |     13,157 |
-| distributions-schwartz         |      6,388 |
-| operator-algebras              |      5,430 |
+| measure-theory                 |     47,058 |
+| functional-analysis            |     36,631 |
+| quantum-field-theory           |     31,105 |
+| spectral-theory                |     24,287 |
+| probability-theory             |     20,944 |
+| topological-groups             |     13,420 |
+| distributions-schwartz         |      6,791 |
+| operator-algebras              |      5,664 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     93,305 |
-| def             |     26,435 |
-| lemma           |     20,858 |
-| instance        |      5,532 |
-| structure       |      2,392 |
-| abbrev          |      2,133 |
-| ctor            |        541 |
-| class           |        351 |
-| inductive       |        143 |
+| theorem         |     98,127 |
+| def             |     27,601 |
+| lemma           |     21,300 |
+| instance        |      5,602 |
+| structure       |      2,432 |
+| abbrev          |      2,165 |
+| ctor            |        542 |
+| class           |        353 |
+| inductive       |        174 |
 | opaque          |          1 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |     58,323 |     58,323 |
-| info-geometry-lean                  |     36,037 |    261,137 |
-| PhysLean                            |     12,283 |     26,575 |
+| mathlib4                            |     59,217 |     59,217 |
+| info-geometry-lean                  |     39,042 |    278,353 |
+| PhysLean                            |     12,587 |     27,779 |
 | spectral-radius-upper-tail-lean     |      5,380 |      5,380 |
 | problib                             |      3,111 |      5,119 |
-| OSreconstruction                    |      2,761 |     10,801 |
-| QICLean                             |      2,496 |     13,364 |
-| adaptive-threshold-estimation       |      1,956 |      4,666 |
+| adaptive-threshold-estimation       |      2,814 |      6,801 |
+| OSreconstruction                    |      2,776 |     10,817 |
+| QICLean                             |      2,637 |     13,926 |
 | banach-space-thesis.github.io       |      1,829 |     16,608 |
 | ProbabilityApproximation            |      1,750 |      1,770 |
 | gaussian-field                      |      1,747 |      1,880 |
 | SpinGlass                           |      1,511 |      3,057 |
 | lean-ridgelet                       |      1,446 |      2,723 |
-| BrownianMotion                      |      1,313 |      1,743 |
+| BrownianMotion                      |      1,300 |      1,719 |
 | proofs                              |      1,272 |     10,089 |
 | asymptotic-spectrum-distance        |      1,065 |      2,802 |
 | anderson-ac-lean4                   |      1,059 |      8,933 |
@@ -58,20 +58,20 @@
 | LeanLevy                            |        844 |        862 |
 | lean-geometric-measure-theory       |        839 |        890 |
 | mini-measure-probability-integratio |        838 |      1,209 |
+| uv-lean                             |        794 |      2,691 |
 | monlib4                             |        646 |      2,413 |
-| lean-bandits                        |        596 |      1,436 |
+| lean-bandits                        |        601 |      1,435 |
 | quasi-borel-spaces                  |        553 |        632 |
 | FLT                                 |        474 |      2,939 |
 | exchangeability                     |        468 |        489 |
-| lean4-paper-On-Distribution-of-Prim |        445 |      5,574 |
-| analysis                            |        406 |      2,401 |
-| ... and 83 more |  |  |
+| ai4math-results                     |        464 |    124,856 |
+| ... and 87 more |  |  |
 
 ## Last Update
 
-- **When**: 2026-11-02T07:49:34.051275+00:00
-- **Repos checked**: 139
-- **Repos updated**: 140
-- **New declarations**: 499040
+- **When**: 2026-11-09T07:55:04.766897+00:00
+- **Repos checked**: 143
+- **Repos updated**: 144
+- **New declarations**: 633910
 - **Removed declarations**: 0
-- **Summary**: Checked 139 repos, updated 140, +499040 -0 declarations, 1 errors
+- **Summary**: Checked 143 repos, updated 144, +633910 -0 declarations, 1 errors
