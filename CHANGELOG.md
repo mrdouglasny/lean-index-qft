@@ -1,6 +1,6 @@
-# Changelog (since 2026-11-02)
+# Changelog (since 2026-11-09)
 
-## New Declarations (693127)
+## New Declarations (731092)
 
 ### A277223 (+206)
 
@@ -542,6 +542,60 @@
 - `lema_dcs` (lemma) in EspaciosHilbert.lemas
 - ... and 10 more
 
+### L (+7315)
+
+- `QFT.MassShellModeData` (structure) in src.FreeFieldFock
+- `QFT.kgModeData` (def) in src.FreeFieldFock
+- `QFT.diracModeRaw` (def) in src.FreeFieldFock
+- `QFT.continuous_diracModeRaw` (lemma) in src.FreeFieldFock
+- `QFT.diracModeScale` (def) in src.FreeFieldFock
+- `QFT.diracModeDenom_pos` (lemma) in src.FreeFieldFock
+- `QFT.continuous_diracModeScale` (lemma) in src.FreeFieldFock
+- `QFT.normSq_diracModeRaw_le` (lemma) in src.FreeFieldFock
+- `QFT.diracModeRaw_sos` (lemma) in src.FreeFieldFock
+- `QFT.diracModeData` (def) in src.FreeFieldFock
+- `QFT.FockSectorDom` (abbrev) in src.FreeFieldFock
+- `QFT.fockSectorMeasure` (def) in src.FreeFieldFock
+- `QFT.instSigmaFiniteFockSectorMeasure` (instance) in src.FreeFieldFock
+- `QFT.FockOmega` (abbrev) in src.FreeFieldFock
+- `QFT.measurable_fockSigmaMk` (lemma) in src.FreeFieldFock
+- `QFT.measurableSet_fockOmega_iff` (lemma) in src.FreeFieldFock
+- `QFT.fockMeasure` (def) in src.FreeFieldFock
+- `QFT.FockHilbert` (abbrev) in src.FreeFieldFock
+- `QFT.sectorToOmega` (def) in src.FreeFieldFock
+- `QFT.sectorToOmega_sigmaMk_eq` (lemma) in src.FreeFieldFock
+- `QFT.sectorToOmega_sigmaMk_ne` (lemma) in src.FreeFieldFock
+- `QFT.sectorToOmega_mul_ne` (lemma) in src.FreeFieldFock
+- `QFT.measurable_sectorToOmega` (lemma) in src.FreeFieldFock
+- `QFT.memLp_sectorToOmega` (lemma) in src.FreeFieldFock
+- `QFT.liftSectorToFock` (def) in src.FreeFieldFock
+- `QFT.integral_fockMeasure_mul_sectorToOmega_eq` (lemma) in src.FreeFieldFock
+- `QFT.inner_liftSectorToFock_eq` (theorem) in src.FreeFieldFock
+- `QFT.inner_liftSectorToFock_ne` (theorem) in src.FreeFieldFock
+- `QFT.fockSectorPermEquiv` (def) in src.FreeFieldFock
+- `QFT.fockSectorPermEquiv_apply` (lemma) in src.FreeFieldFock
+- `QFT.measurePreserving_fockSectorPermEquiv` (lemma) in src.FreeFieldFock
+- `QFT.symmSector` (def) in src.FreeFieldFock
+- `QFT.measurable_symmSector` (lemma) in src.FreeFieldFock
+- `QFT.memLp_symmSector` (lemma) in src.FreeFieldFock
+- `QFT.inner_symmSector_eq` (theorem) in src.FreeFieldFock
+- `QFT.PartialPairing.partialMomentum` (def) in src.FreeFieldFock
+- `QFT.PartialPairing.partialMomentum_unpaired` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.partialMomentum_fst` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.partialMomentum_mate` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.continuous_partialMomentum_uncurry` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.measurable_partialMomentum_uncurry` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.one_add_norm_internal_le_momentumToEuclid` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.one_add_norm_unpaired_le_momentumToEuclid` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.norm_schwartz_momentumToEuclid_partial_le` (theorem) in src.FreeFieldFock
+- `QFT.PartialPairing.concatRevParamEquiv` (def) in src.FreeFieldFock
+- `QFT.PartialPairing.measurePreserving_concatRevParamEquiv` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.concatRevParamEquiv_apply_inl_inl` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.concatRevParamEquiv_apply_inl_inr` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.concatRevParamEquiv_apply_inr` (lemma) in src.FreeFieldFock
+- `QFT.PartialPairing.concatRev_momentum_left` (lemma) in src.FreeFieldFock
+- ... and 7265 more
+
 ### LGT (+396)
 
 - `EKRCertificate` (structure) in LGT.Bridge.O3MassGap
@@ -1082,7 +1136,7 @@
 - `Riemannian.RiemannianMetric.ballVolume_ratio_le` (theorem) in OpenGALib.Interoperability.BishopGromov
 - ... and 1051 more
 
-### PhysLean (+27779)
+### PhysLean (+28121)
 
 - `Representation.prodMap` (def) in PhyslibAlpha.Mathematics.RepresentationProdMap
 - `Representation.prodMap_apply` (lemma) in PhyslibAlpha.Mathematics.RepresentationProdMap
@@ -1134,7 +1188,7 @@
 - `IsStableUnder.mul` (lemma) in PhyslibAlpha.Mathematics.InvariantReduction
 - `ReducesInvariantsTo` (def) in PhyslibAlpha.Mathematics.InvariantReduction
 - `reducesInvariantsTo_of_le` (lemma) in PhyslibAlpha.Mathematics.InvariantReduction
-- ... and 27729 more
+- ... and 28071 more
 
 ### PhysicsFormalization (+27)
 
@@ -1457,7 +1511,7 @@
 - `Submodule.span_singleton_eq_orthogonal_of_inner_eq_zero` (lemma) in QHilbert.Projection
 - ... and 270 more
 
-### QICLean (+13926)
+### QICLean (+14118)
 
 - `PoissonWordOccupationTest.sample` (def) in QICLeanTest.PoissonWordOccupation
 - `PoissonWordOccupationTest.sample_prefix_count` (theorem) in QICLeanTest.PoissonWordOccupation
@@ -1509,7 +1563,7 @@
 - `Matrix.euclidean_inner_eq_raw` (theorem) in QICLean.Channel.ProductOverlapBootstrap
 - `Matrix.norm_one_of_raw_unit` (theorem) in QICLean.Channel.ProductOverlapBootstrap
 - `Matrix.negative_shrinking_fin_one_pair_entropy_boundary` (theorem) in QICLeanTest.AGSPFavorableEntropyAxioms
-- ... and 13876 more
+- ... and 14068 more
 
 ### RMT4 (+151)
 
@@ -1889,6 +1943,60 @@
 - `SpinGlass.hopfieldPsi_eq_neg_mul_finVecNormSq_add_sum` (lemma) in SpinGlass.HopfieldPsiDeriv
 - ... and 3007 more
 
+### SquareDaugavetLean (+73)
+
+- `SquareDaugavet.isGood_of_norm_sub_lt_half` (lemma) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.exists_norm_eq_one_apply_pos` (lemma) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.isDaugavetPoint_of_forall_isPositiveSquarePoint` (theorem) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.hasSquareDaugavetProperty_one_iff_hasDaugavetProperty` (theorem) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.IsExtremelyNonComplex` (def) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.IsExtremelyNonComplex.hasSquareDaugavetProperty_one` (lemma) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.real_isExtremelyNonComplex_not_hasDaugavetProperty` (theorem) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.hasDaugavetProperty_of_isExtremelyNonComplex` (theorem) in SquareDaugavet.PositiveGlobal
+- `SquareDaugavet.isPositiveSquarePoint_of_isNablaPoint` (theorem) in SquareDaugavet.NablaPoint
+- `SquareDaugavet.hasDaugavetProperty_of_forall_isNablaPoint` (theorem) in SquareDaugavet.NablaPoint
+- `SquareDaugavet.convergentSeq` (def) in SquareDaugavet.CSumExample
+- `SquareDaugavet.oneSeq` (def) in SquareDaugavet.CSumExample
+- `SquareDaugavet.CSum` (abbrev) in SquareDaugavet.CSumExample
+- `SquareDaugavet.coe_add_apply` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.coe_sub_apply` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.coe_smul_apply` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.oneSeq_apply` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.mkC` (def) in SquareDaugavet.CSumExample
+- `SquareDaugavet.mkC_apply` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.norm_mkC_le` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.e` (def) in SquareDaugavet.CSumExample
+- `SquareDaugavet.e_apply` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.norm_e` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.norm_oneSeq` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.norm_oneSeq_sub_le` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.partialSeq` (def) in SquareDaugavet.CSumExample
+- `SquareDaugavet.partialSeq_apply` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.partialSeq_zero` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.partialSeq_succ` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.inl` (def) in SquareDaugavet.CSumExample
+- `SquareDaugavet.inl_zero` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.inl_add` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.inl_sub` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.inl_smul` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.norm_inl` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.tendsto_apply_inl_e` (lemma) in SquareDaugavet.CSumExample
+- `SquareDaugavet.ex_c_sum_real` (theorem) in SquareDaugavet.CSumExample
+- `SquareDaugavet.isNegativeSquarePoint_iff_isDaugavetPoint` (theorem) in SquareDaugavet.NegativeSquarePoint
+- `SquareDaugavet.hasSquareDaugavetProperty_neg_one_iff_hasDaugavetProperty` (theorem) in SquareDaugavet.NegativeSquarePoint
+- `SquareDaugavet.main_theorem` (theorem) in SquareDaugavet.MainTheorem
+- `SquareDaugavet.sSup_ne_two` (lemma) in SquareDaugavet.LinftyExample
+- `SquareDaugavet.apply_prod` (lemma) in SquareDaugavet.LinftyExample
+- `SquareDaugavet.norm_le_abs_add_abs` (lemma) in SquareDaugavet.LinftyExample
+- `SquareDaugavet.abs_le_one_of_norm_le_one` (lemma) in SquareDaugavet.LinftyExample
+- `SquareDaugavet.norm_one_zero_sub_le` (lemma) in SquareDaugavet.LinftyExample
+- `SquareDaugavet.ex_linfty` (theorem) in SquareDaugavet.LinftyExample
+- `SquareDaugavet.HasDaugavetProperty` (def) in SquareDaugavet.KMM
+- `SquareDaugavet.HasSquareDaugavetProperty` (def) in SquareDaugavet.KMM
+- `SquareDaugavet.norm_inv_norm_smul` (lemma) in SquareDaugavet.KMM
+- `SquareDaugavet.norm_one_le` (lemma) in SquareDaugavet.KMM
+- ... and 23 more
+
 ### TCSR-QFT-Lean4 (+80)
 
 - `TrueCircleSelfReferon.TCSR_full_action` (def) in TCSR
@@ -2080,61 +2188,7 @@
 
 - `ClosedSubspace` (structure) in Quantum_Lattice
 
-### adaptive-threshold-estimation (+6801)
-
-- `ThresholdHC.klFT` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.tvFT` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.histBefore` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.pathProb` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.transcriptLaw` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.workOf` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.succCount` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.thrK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.checkpointK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.classifyK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.streamProb` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.coinP` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.errProbK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.workK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.mN` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.zK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.deltaK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.levelWork` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.pLevel` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.secondMomentK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.workMomentK` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.kl_data_processing_finite` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.pinsker_finite` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.two_point_rms_lower` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.transcript_law_total` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.stopped_transcript_kl` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.stopped_transcript_testing` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.bounded_ratio_log` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.lemma6_error` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.lemma6_work` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.lemma7_telescoping` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.lemma7_second_moment` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.lemma7_work` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.Targets.psi_optimizer_atomic` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements2
-- `ThresholdHC.klB` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.rhoPlus` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.rhoMinus` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.pred` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.etaHard` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.rLevel` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.hell2` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.klFin` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.meanFin` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.varFin` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.Targets.posterior_identity` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.Targets.posterior_diff_le` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.Targets.posterior_mem` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.Targets.pred_variance_ge` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.Targets.ratio_bound` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- `ThresholdHC.Targets.kl_taylor_bound` (def) in research.2026-10-27-population-step.audit.tier5-sources.lean.ThresholdHC.Statements
-- ... and 6751 more
-
-### ai4math-results (+124856)
+### ai4math-results (+125163)
 
 - `RM714Timing.monoVal` (def) in certificates.rm714.code.RM714Timing
 - `RM714Timing.polyVal` (def) in certificates.rm714.code.RM714Timing
@@ -2186,7 +2240,7 @@
 - `HKOTriameter.G1_triDist` (theorem) in lean.Research.HKOTriameter
 - `HKOTriameter.G1_triameter` (theorem) in lean.Research.HKOTriameter
 - `HKOTriameter.G1_triametral_156` (theorem) in lean.Research.HKOTriameter
-- ... and 124806 more
+- ... and 125113 more
 
 ### analysis (+2401)
 
@@ -2458,59 +2512,59 @@
 - `main_alpha3_2_3_3` (theorem) in AsymptoticSpectrumDistance.Main
 - ... and 2752 more
 
-### banach-space-thesis.github.io (+16608)
+### banach-space-thesis.github.io (+32870)
 
-- `ThesisCommon.lpCut` (def) in sources.lean.common.ThesisCommon.LpCut
-- `ThesisCommon.lpCut_coe` (theorem) in sources.lean.common.ThesisCommon.LpCut
-- `ThesisCommon.lpCut_add` (theorem) in sources.lean.common.ThesisCommon.LpCut
-- `ThesisCommon.lpCut_smul` (theorem) in sources.lean.common.ThesisCommon.LpCut
-- `ThesisCommon.norm_lpCut_le` (theorem) in sources.lean.common.ThesisCommon.LpCut
-- `ThesisCommon.lpCutL` (def) in sources.lean.common.ThesisCommon.LpCut
-- `ThesisCommon.norm_lpCutL_le` (theorem) in sources.lean.common.ThesisCommon.LpCut
-- `ThesisCommon.FactorizationRing.FactorsOne` (def) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.HasDichotomy` (def) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.factorsOne_one` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.FactorsOne.of_compression` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.not_factorsOne_zero` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.nonfactor_add` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.nonfactorIdeal` (def) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.nonfactorIdeal_ne_top` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.proper_ideal_nonfactor` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.nonfactorIdeal_largest` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.nonfactorIdeal_isCoatom` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.nonfactorIdeal_unique` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.dichotomy_of_nonfactor_ideal` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.FactorizationRing.dichotomy_iff_maximal_nonfactor` (theorem) in sources.lean.common.ThesisCommon.FactorizationIdeal
-- `ThesisCommon.WeakCalkin` (abbrev) in sources.lean.common.ThesisCommon.WeakCalkin
-- `ThesisCommon.weakCalkinMk` (def) in sources.lean.common.ThesisCommon.WeakCalkin
-- `ThesisCommon.IsWeakCalkinAlgebraNorm` (def) in sources.lean.common.ThesisCommon.WeakCalkin
-- `ThesisCommon.IsMinimalWeakCalkinNorm` (def) in sources.lean.common.ThesisCommon.WeakCalkin
-- `ThesisCommon.HasUniqueWeakCalkinAlgebraNorm` (def) in sources.lean.common.ThesisCommon.WeakCalkin
-- `ThesisCommon.HasBonsallWeakCalkinMinimality` (def) in sources.lean.common.ThesisCommon.WeakCalkin
-- `ThesisCommon.IsWeaklyCompactOperator` (def) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.weaklyCompact_zero` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.IsWeaklyCompactOperator.add` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.IsWeaklyCompactOperator.smul` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.IsWeaklyCompactOperator.comp_left` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.IsWeaklyCompactOperator.comp_right` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.weaklyCompactSubmodule` (def) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.weakEssentialNorm` (def) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.weakEssentialNorm_nonneg` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.weakEssentialNorm_le` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.weakEssentialNorm_le_norm` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.IsWeaklyCompactOperator.weakEssentialNorm_eq_zero` (theorem) in sources.lean.common.ThesisCommon.WeakCompact
-- `ThesisCommon.BanachLatticeModel` (structure) in sources.lean.common.ThesisCommon.ALSpace
-- `ThesisCommon.IsALSpace` (def) in sources.lean.common.ThesisCommon.ALSpace
-- `ThesisCommon.RealBanachLattice.IsAL` (def) in sources.lean.common.ThesisCommon.ALSpace
-- `ThesisCommon.weakNoncompactness_sub_eq` (theorem) in sources.lean.common.ThesisCommon.WeakNoncompactnessBound
-- `ThesisCommon.weakNoncompactness_le_weakEssentialNorm` (theorem) in sources.lean.common.ThesisCommon.WeakNoncompactnessBound
-- `ThesisCommon.quotientOperator` (def) in sources.lean.common.ThesisCommon.QuotientOperator
-- `ThesisCommon.quotientOperatorNorm` (def) in sources.lean.common.ThesisCommon.QuotientOperator
-- `ThesisCommon.banachAdjoint` (def) in sources.lean.common.ThesisCommon.Residuum
-- `ThesisCommon.bidualMap` (def) in sources.lean.common.ThesisCommon.Residuum
-- `ThesisCommon.bidualImage` (def) in sources.lean.common.ThesisCommon.Residuum
-- `ThesisCommon.ResiduumSpace` (abbrev) in sources.lean.common.ThesisCommon.Residuum
-- ... and 16558 more
+- `LindenstraussRetraction.c0SumFiniteInsertion` (def) in sources.lean.research-retraction.LindenstraussRetraction.C0SumSeparability
+- `LindenstraussRetraction.c0SumFiniteInsertion_continuous` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.C0SumSeparability
+- `LindenstraussRetraction.c0SumFiniteInsertion_coordinates` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.C0SumSeparability
+- `LindenstraussRetraction.c0Sum_separable` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.C0SumSeparability
+- `LindenstraussRetraction.C0` (abbrev) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.finiteCoordinateSubmodule` (def) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.FiniteCoordinateSpace` (abbrev) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.finiteCoordinateRestriction` (def) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.finiteCoordinateRestriction_injective` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.finiteCoordinateSpace_finiteDimensional` (instance) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.finiteCoordinateSpace_complete` (instance) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.SummationSpace` (abbrev) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.summationSpace_hasSum_norm` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.summationSpace_summable` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.summationLinear` (def) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.summationLinear_norm_le` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.summationOperator` (def) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.norm_summationOperator_le` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.SummationSpace
+- `LindenstraussRetraction.norm_renormedBidualLift_le` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.RenormedRetractionObstruction
+- `LindenstraussRetraction.sphereRenormedBidualLift` (def) in sources.lean.research-retraction.LindenstraussRetraction.RenormedRetractionObstruction
+- `LindenstraussRetraction.sphereRenormedBidualLift_uniformContinuous` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.RenormedRetractionObstruction
+- `LindenstraussRetraction.renormedBidualLift_close` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.RenormedRetractionObstruction
+- `LindenstraussRetraction.exists_sphereApproximation_of_renormedRetraction` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.RenormedRetractionObstruction
+- `LindenstraussRetraction.no_commonRenormedBallRetractions` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.RenormedRetractionObstruction
+- `LindenstraussRetraction.summationBlockEvaluation` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationBlockEmbedding` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationBlockCoordinate` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationApproximation_single_fix` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationApproximation_blockEmbedding` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationBlockEmbedding_top` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationBlockEmbedding_difference` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationBlockCoordinate_embedding` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinateTruncation` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.norm_finiteCoordinateTruncation_le` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationHead_single_zero` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationBlockEmbedding_succ` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.norm_single_sub_single` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.norm_summationBlockEmbedding` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationOperator_blockEmbedding` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.norm_summationBlockEmbedding_truncation_le` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.norm_summationOperator_blockTruncation_le` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinateUnit` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinateEvaluation` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinateEvaluation_unit` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinateTruncation_zero` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinateTruncation_full` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinateTruncation_step` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.finiteCoordinate_sum_units` (theorem) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationScalarVector` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- `LindenstraussRetraction.summationScalarCoordinate` (def) in sources.lean.research-retraction.LindenstraussRetraction.BlockDecomposition
+- ... and 32820 more
 
 ### bernstein-lean (+63)
 
@@ -3447,6 +3501,43 @@
 - `FourthRatio.eigCount_eq_of_gap` (lemma) in RequestProject.Components
 - ... and 1619 more
 
+### frohmanian-strain-eigenvalue (+34)
+
+- `StrainEigenvalue.StrainTensor` (structure) in provenance.zenodo-24083478.StrainEigenvalue
+- `StrainEigenvalue.StrainTensor.isHermitian` (lemma) in StrainEigenvalue
+- `StrainEigenvalue.fin3cardIso` (def) in StrainEigenvalue
+- `StrainEigenvalue.mathlibEigenindexEquiv` (def) in StrainEigenvalue
+- `StrainEigenvalue.eigenvalueSortPerm` (def) in StrainEigenvalue
+- `StrainEigenvalue.eigenvalues` (def) in provenance.zenodo-24083478.StrainEigenvalue
+- `StrainEigenvalue.eigenvaluesUnsorted` (def) in StrainEigenvalue
+- `StrainEigenvalue.eigenvalues_eq_unsorted` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.eigenvalues_monotone` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.eigenvalues_ordered` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.eigenvalues_sum_zero` (theorem) in provenance.zenodo-24083478.StrainEigenvalue
+- `StrainEigenvalue.eigenvalues_min_nonpos_max_nonneg` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.stretching` (def) in provenance.zenodo-24083478.StrainEigenvalue
+- `StrainEigenvalue.intermediate_representation` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.sum_sq_eq_one_not_imp_norm_eq_one` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.eigvecsUnsorted` (def) in StrainEigenvalue
+- `StrainEigenvalue.eigvecs` (def) in StrainEigenvalue
+- `StrainEigenvalue.eigenCoordsUnsorted` (def) in StrainEigenvalue
+- `StrainEigenvalue.eigenCoords` (def) in StrainEigenvalue
+- `StrainEigenvalue.eigenCoords_eq_unsorted` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.quadratic_form_eq_sum_unsorted` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.quadratic_form_eq_sum` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.sum_sq_eigenCoordsUnsorted` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.sum_sq_eigenCoords` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.quadratic_form_intermediate` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain` (def) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_charpoly` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_charpoly_roots` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_eigenvalues₀_multiset` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_eigenvalues₀_multiset_iso` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_eigenvalues₀_eq` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_eigenvalues_eq` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_eigenvalues_ne_zero` (theorem) in StrainEigenvalue
+- `StrainEigenvalue.exampleStrain_intermediate_nontrivial` (theorem) in StrainEigenvalue
+
 ### ftdap-lean (+556)
 
 - `FTDAP.preJumpGain` (def) in src.PreJumpWealth
@@ -3825,7 +3916,7 @@
 - `ImscribingGrammar.PrimitiveMismatch.activatedTemporalPrimitives` (def) in ImscribingGrammar.PrimitiveMismatch
 - ... and 639 more
 
-### info-geometry-lean (+278353)
+### info-geometry-lean (+287078)
 
 - `InfoGeometry.MetaCompiler.Phase` (inductive) in src.InfoGeometry.Meta.EpistemicCompilerChain
 - `InfoGeometry.MetaCompiler.Status` (inductive) in src.InfoGeometry.Meta.ArchetypePipeline
@@ -3877,7 +3968,7 @@
 - `InfoGeometry.Canonical.AlgebraicKMSStateColimit.finiteSeedStageState` (def) in src.InfoGeometry.Canonical.FiniteSeedGibbsCStarStates
 - `InfoGeometry.Canonical.AlgebraicKMSStateColimit.finiteSeedStageState_transition` (theorem) in src.InfoGeometry.Canonical.FiniteSeedGibbsCStarStates
 - `InfoGeometry.Canonical.AlgebraicKMSStateColimit.finiteSeedCompatibleStageStates` (def) in src.InfoGeometry.Canonical.FiniteSeedGibbsCStarStates
-- ... and 278303 more
+- ... and 287028 more
 
 ### integer-power-series-spectrum (+414)
 
@@ -4053,7 +4144,7 @@
 - `BN.configIdxEmbed_z` (lemma) in BN.M.GammaZero
 - ... and 1026 more
 
-### lean-bandits (+1435)
+### lean-bandits (+1417)
 
 - `extraHead` (def) in LMLTutorial.Tutorial
 - `config` (def) in LMLTutorial.Tutorial
@@ -4105,7 +4196,7 @@
 - `Learning.IsBayesAlgEnvSeq.hasCondDistrib_IT_action` (lemma) in LeanMachineLearning.SequentialLearning.BayesStationaryEnv
 - `Learning.IsBayesAlgEnvSeq.hasCondDistrib_IT_feedback` (lemma) in LeanMachineLearning.SequentialLearning.BayesStationaryEnv
 - `Learning.IsBayesAlgEnvSeq.hasLaw_IT_hist` (lemma) in LeanMachineLearning.SequentialLearning.BayesStationaryEnv
-- ... and 1385 more
+- ... and 1367 more
 
 ### lean-geometric-measure-theory (+890)
 
@@ -4658,7 +4749,7 @@
 - `LowLogitRank.Scalar.CappedAlgo.emptyCount_le` (theorem) in formalization.LowLogitRank.Scalar
 - ... and 1389 more
 
-### mathlib4 (+59217)
+### mathlib4 (+59484)
 
 - `AEMeasurable` (def) in Mathlib.MeasureTheory.Measure.MeasureSpaceDef
 - `AEMeasurable.abs` (theorem) in Mathlib.MeasureTheory.Order.Group.Lattice
@@ -4710,7 +4801,7 @@
 - `AEMeasurable.cos` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.cosh` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
 - `AEMeasurable.csin` (theorem) in Mathlib.MeasureTheory.Function.SpecialFunctions.Basic
-- ... and 59167 more
+- ... and 59434 more
 
 ### mcdiarmid-lean (+32)
 
@@ -5310,8 +5401,21 @@
 - `Problib.Power.map` (def) in Problib.Power
 - ... and 5069 more
 
-### project-boltzmann-distribution (+35)
+### project-boltzmann-distribution (+53)
 
+- `CanonicalEnsemble.mathematicalPartitionFunction_eq_partitionFn` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.partitionFunction_eq_partitionFn` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.probability_eq_boltzmann` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.probability_eq_boltzmann_fun` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.isProbDist_probability` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.meanEnergy_eq_maxEnt_meanEnergy` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.shannonEntropy_eq_kB_mul_entropy` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.freeEnergy_eq_meanEnergy_sub` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.helmholtzFreeEnergy_eq_freeEnergy_boltzmann` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.helmholtzFreeEnergy_le` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.helmholtzFreeEnergy_eq_iff` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.kB_mul_entropy_le_shannonEntropy` (theorem) in BoltmannEntropy.Physlib
+- `CanonicalEnsemble.shannonEntropy_le_kB_mul_log_card` (theorem) in BoltmannEntropy.Physlib
 - `MaxEnt.IsProbDist` (def) in BoltmannEntropy.Defs
 - `MaxEnt.entropy` (def) in BoltmannEntropy.Defs
 - `MaxEnt.meanEnergy` (def) in BoltmannEntropy.Defs
@@ -5334,6 +5438,12 @@
 - `MaxEnt.boltzmann_zero` (lemma) in BoltmannEntropy.Limits
 - `MaxEnt.continuous_boltzmann` (lemma) in BoltmannEntropy.Limits
 - `MaxEnt.tendsto_boltzmann_zero` (theorem) in BoltmannEntropy.Limits
+- `MaxEnt.groundEnergy` (def) in BoltmannEntropy.Limits
+- `MaxEnt.groundStates` (def) in BoltmannEntropy.Limits
+- `MaxEnt.groundEnergy_le` (lemma) in BoltmannEntropy.Limits
+- `MaxEnt.groundStates_nonempty` (lemma) in BoltmannEntropy.Limits
+- `MaxEnt.boltzmann_sub_const` (lemma) in BoltmannEntropy.Limits
+- `MaxEnt.tendsto_exp_neg_mul_atTop` (lemma) in BoltmannEntropy.Limits
 - `MaxEnt.mul_freeEnergy_add_log_partitionFn` (lemma) in BoltmannEntropy.Variational
 - `MaxEnt.freeEnergy_boltzmann` (lemma) in BoltmannEntropy.Variational
 - `MaxEnt.freeEnergy_boltzmann_le` (theorem) in BoltmannEntropy.Variational
@@ -5343,12 +5453,9 @@
 - `MaxEnt.entropy_le_log_card` (theorem) in BoltmannEntropy.Variational
 - `MaxEnt.sub_le_mul_log_div` (lemma) in BoltmannEntropy.Gibbs
 - `MaxEnt.mul_log_div_eq_sub_iff` (lemma) in BoltmannEntropy.Gibbs
-- `MaxEnt.relEntropy_nonneg` (theorem) in BoltmannEntropy.Gibbs
-- `MaxEnt.relEntropy_eq_zero_iff` (theorem) in BoltmannEntropy.Gibbs
-- `MaxEnt.relEntropy_pos` (theorem) in BoltmannEntropy.Gibbs
-- `hello` (def) in BoltmannEntropy.Basic
+- ... and 3 more
 
-### proofs (+10089)
+### proofs (+10198)
 
 - `WeightedPrimitiveSign.weighted_integral_neg` (theorem) in formalization.WeightedPrimitiveSign
 - `WeightedPrimitiveSign.first_cell_prefix_neg` (theorem) in formalization.WeightedPrimitiveSign
@@ -5400,7 +5507,7 @@
 - `BuildingBlocks.FactorialBinaryIntegrability.response_abs_linear` (theorem) in formalization.BuildingBlocks.FactorialBinaryIntegrability
 - `BuildingBlocks.FactorialBinaryIntegrability.response_abs_bounded` (theorem) in formalization.BuildingBlocks.FactorialBinaryIntegrability
 - `BuildingBlocks.FactorialBinaryIntegrability.weight_le_inverse_square` (theorem) in formalization.BuildingBlocks.FactorialBinaryIntegrability
-- ... and 10039 more
+- ... and 10148 more
 
 ### q1-lean-verification (+351)
 
@@ -5563,6 +5670,60 @@
 - `exp_half` (lemma) in Ray.Dynamics.FlipPetal
 - `gr` (def) in Ray.Dynamics.FlipPetal
 - ... and 968 more
+
+### regular-graph-local-laws (+6519)
+
+- `SpectralConsequences.correctedFiniteStieltjes` (def) in SpectralConsequences.FiniteGridExclusion
+- `SpectralConsequences.correctedFiniteStieltjes_eq_sub` (theorem) in SpectralConsequences.FiniteGridExclusion
+- `SpectralConsequences.correctedFiniteStieltjes_im` (theorem) in SpectralConsequences.FiniteGridExclusion
+- `SpectralConsequences.poisson_term_lower_of_abs_sub_le` (theorem) in SpectralConsequences.FiniteGridExclusion
+- `SpectralConsequences.correctedFiniteStieltjes_im_lower_of_near` (theorem) in SpectralConsequences.FiniteGridExclusion
+- `SpectralConsequences.finite_grid_exclusion` (theorem) in SpectralConsequences.FiniteGridExclusion
+- `SpectralConsequences.finite_grid_confinement` (theorem) in SpectralConsequences.FiniteGridExclusion
+- `SpectralConsequences.switchedSelectedGreen` (def) in SpectralConsequences.SelectedPhysicalInverse
+- `SpectralConsequences.eventually_switched_selected_inverse_rows` (theorem) in SpectralConsequences.SelectedPhysicalInverse
+- `SpectralConsequences.AllCoreGraph.paddedSlotEmbedding` (def) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.AllCoreGraph.paddedEmbedding` (def) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.AllCoreGraph.paddedSlot_active` (theorem) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.AllCoreGraph.paddedEmbedding_adj` (theorem) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.AllCoreGraph.paddedEmbedding_closed` (theorem) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.AllCoreGraph.paddedGreen_eq` (theorem) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.AllCoreGraph.padded_neighbors_eventually` (theorem) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.AllCoreGraph.green_tendsto_of_core_agreement` (theorem) in SpectralConsequences.AllCorePaddedEmbedding
+- `SpectralConsequences.RegularGraph.cavityBoundaryWeight` (def) in SpectralConsequences.CavityBoundaryWeights
+- `SpectralConsequences.RegularGraph.cavityBoundaryWeight_eq_radial` (theorem) in SpectralConsequences.CavityBoundaryWeights
+- `SpectralConsequences.RegularGraph.cavityBoundaryWeight_active_physical` (theorem) in SpectralConsequences.CavityBoundaryWeights
+- `SpectralConsequences.RegularGraph.cavity_boundary_offdiag_correction` (theorem) in SpectralConsequences.CavityBoundaryWeights
+- `SpectralConsequences.CompactCDF` (structure) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.clip` (def) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.clip_mem` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.clip_eq` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.cdf_clip` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.cdf_nonnegative` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.cdf_le_one` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.exists_value` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.sourceQuantileLevel_mem` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.quantile` (def) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.quantile_mem` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.cdf_quantile` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.CompactCDF.sub_clip_abs_le` (theorem) in SpectralConsequences.ReferenceCDF
+- `SpectralConsequences.retainedBallSampleComplementEquiv` (def) in SpectralConsequences.SelectedCommonTransport
+- `SpectralConsequences.sample_own_ambient_mem_iff` (theorem) in SpectralConsequences.SelectedCommonTransport
+- `SpectralConsequences.oldCommonSampleEntry_eq_outside_common` (theorem) in SpectralConsequences.SelectedCommonTransport
+- `SpectralConsequences.RegularGraph.correctedSourceTrace` (def) in SpectralConsequences.SourceCorrectedTrace
+- `SpectralConsequences.RegularGraph.correctedSourceTrace_eq_positive_sum` (theorem) in SpectralConsequences.SourceCorrectedTrace
+- `SpectralConsequences.RegularGraph.correctedSourceTrace_im` (theorem) in SpectralConsequences.SourceCorrectedTrace
+- `SpectralConsequences.source_actual_high_moment_bounds` (theorem) in SpectralConsequences.SourceActualHighMoments
+- `SpectralConsequences.vertexPairSet_card_le_two` (theorem) in SpectralConsequences.SourceSampledMinorComparison
+- `SpectralConsequences.RegularGraph.oldOwnSampleMinorEntry_eq_sampledDoubleMinor` (theorem) in SpectralConsequences.SourceSampledMinorComparison
+- `SpectralConsequences.RegularGraph.eventually_source_sampled_minor_comparison` (theorem) in SpectralConsequences.SourceSampledMinorComparison
+- `SpectralConsequences.RegularGraph.tree_boundary_dominates_vertices` (theorem) in SpectralConsequences.TreeBoundaryCount
+- `SpectralConsequences.RegularGraph.eventually_source_tree_sampled_minor_comparison` (theorem) in SpectralConsequences.TreeBoundaryCount
+- `SpectralConsequences.fractional_floor_three_halves` (theorem) in SpectralConsequences.PoleScaleAbsorption
+- `SpectralConsequences.fractional_floor_inverse` (theorem) in SpectralConsequences.PoleScaleAbsorption
+- `SpectralConsequences.poleScaleConstant` (def) in SpectralConsequences.PoleScaleAbsorption
+- `SpectralConsequences.pole_scale_quadratic` (theorem) in SpectralConsequences.PoleScaleAbsorption
+- ... and 6469 more
 
 ### rmt-foundations-lean (+5893)
 
@@ -6026,13 +6187,33 @@
 - `linearly_dependent_of_wronskian_zero` (theorem) in SturmLiouville.SimpleEigenvalues
 - `sturm_liouville_simple_eigenvalues` (theorem) in SturmLiouville.SimpleEigenvalues
 
-### theaetetus (+528)
+### theaetetus (+1078)
 
+- `Theaetetus.zmodProdEquiv` (def) in Theaetetus.ShiftedMass
+- `Theaetetus.parityPairEquiv` (def) in Theaetetus.ShiftedMass
+- `Theaetetus.piZmodProdEquiv` (def) in Theaetetus.ShiftedMass
+- `Theaetetus.piZmodProdEquiv_apply` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.piParityEquiv` (def) in Theaetetus.ShiftedMass
+- `Theaetetus.piParityEquiv_apply_fst` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.piParityEquiv_apply_snd` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass` (def) in Theaetetus.ShiftedMass
+- `Theaetetus.sq_add_ge` (lemma) in Theaetetus.ShiftedMass
+- `Theaetetus.summable_gramMass` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass_eq_periodization` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass_pos` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass_zero` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass_int_shift` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.quad_smul` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.quad_parallelogram` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass_coset` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass_mul_gramMass` (theorem) in Theaetetus.ShiftedMass
+- `Theaetetus.gramMass_neg` (theorem) in Theaetetus.ShiftedMass
 - `Theaetetus.exp_neg_le_half` (theorem) in Theaetetus.Flattening
 - `Theaetetus.log_theta_sq_prod_le` (theorem) in Theaetetus.Flattening
 - `Theaetetus.q5_diag_lower` (theorem) in Theaetetus.Flattening
 - `Theaetetus.tail_sq_le` (theorem) in Theaetetus.Flattening
 - `Theaetetus.pairing_cnd_large` (theorem) in Theaetetus.Flattening
+- `Theaetetus.zsmul_id_apply` (theorem) in Theaetetus.Tower
 - `Theaetetus.IncidenceGraph.cyclesQ` (def) in Theaetetus.Tower
 - `Theaetetus.IncidenceGraph.cast_val_int` (lemma) in Theaetetus.Tower
 - `Theaetetus.IncidenceGraph.dot_cast_eq` (lemma) in Theaetetus.Tower
@@ -6058,27 +6239,7 @@
 - `Theaetetus.IncidenceGraph.card_H1Reduction` (theorem) in Theaetetus.Tower
 - `Theaetetus.IncidenceGraph.residueMass` (def) in Theaetetus.Tower
 - `Theaetetus.IncidenceGraph.residueMass_chart` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueMass_mk_eq_periodization` (lemma) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueMass_lt_residueMass_zero` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueMass_le_residueMass_zero` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueWeight` (def) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueWeight_pos` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueMass_eq_residueWeight_div` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueWeight_le_residueWeight_zero` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.residueAction` (def) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.classPartFn_eq_residueWeight_mul` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.classComplexity_residue_split` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.range_qsmul_le` (lemma) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.h1TowerMap` (def) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.h1TowerMap_surjective` (theorem) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.towerFiberEquivKer` (def) in Theaetetus.Tower
-- `Theaetetus.IncidenceGraph.card_h1TowerMap_fiber` (theorem) in Theaetetus.Tower
-- `Theaetetus.hasDerivAt_scaleLogDeriv` (theorem) in Theaetetus.LogConvexity
-- `Theaetetus.theta_logDeriv_strictMonoOn` (theorem) in Theaetetus.LogConvexity
-- `Theaetetus.theta_rect_strict` (theorem) in Theaetetus.LogConvexity
-- `Theaetetus.theta_sq_lt` (theorem) in Theaetetus.LogConvexity
-- `Theaetetus.quadFormOn` (def) in Theaetetus.Kernel
-- ... and 478 more
+- ... and 1028 more
 
 ### thet-logos (+301)
 
@@ -6187,6 +6348,60 @@
 - `MakinenAnalysis.rlen_le_numNodes` (lemma) in lean.MakinenAnalysis.BstModel
 - `MakinenAnalysis.bstPge` (def) in lean.MakinenAnalysis.BstModel
 - ... and 1063 more
+
+### unity-theory (+56)
+
+- `couplingOp` (def) in CGurd.Ternary
+- `evolvedXY` (def) in CGurd.Ternary
+- `ternaryChain` (def) in CGurd.Ternary
+- `ternary_trace_theorem` (theorem) in CGurd.Ternary
+- `CGurd.I32` (abbrev) in CGurd.Spectral
+- `CGurd.I16` (abbrev) in CGurd.Spectral
+- `CGurd.I8` (abbrev) in CGurd.Spectral
+- `CGurd.I3` (abbrev) in CGurd.Spectral
+- `CGurd.I2` (abbrev) in CGurd.Spectral
+- `CGurd.Block8` (abbrev) in CGurd.Spectral
+- `CGurd.SMAlgebra` (structure) in CGurd.Spectral
+- `CGurd.AF` (abbrev) in CGurd.Spectral
+- `CGurd.partner` (def) in CGurd.Spectral
+- `CGurd.partner_involutive` (theorem) in CGurd.Spectral
+- `CGurd.UJ_matrix` (def) in CGurd.Spectral
+- `CGurd.gammaF` (def) in CGurd.Spectral
+- `CGurd.buildDirac` (def) in CGurd.Spectral
+- `CGurd.embedSM` (def) in CGurd.Spectral
+- `CGurd.pi` (def) in CGurd.Spectral
+- `CGurd.piOp` (def) in CGurd.Spectral
+- `CGurd.piOp_def_check` (theorem) in CGurd.Spectral
+- `CGurd.pi_zero_of_ge_16` (theorem) in CGurd.Spectral
+- `CGurd.piOp_zero_of_lt_16` (theorem) in CGurd.Spectral
+- `CGurd.gammaF_self_adjoint` (theorem) in CGurd.Spectral
+- `CGurd.gammaF_involutive` (theorem) in CGurd.Spectral
+- `CGurd.gammaF_mul_apply` (theorem) in CGurd.Spectral
+- `CGurd.mul_gammaF_apply` (theorem) in CGurd.Spectral
+- `CGurd.buildDirac_nonzero_opp_grading` (theorem) in CGurd.Spectral
+- `CGurd.buildDirac_gamma_odd` (theorem) in CGurd.Spectral
+- `CGurd.buildDirac_self_adjoint` (theorem) in CGurd.Spectral
+- `CGurd.UJ_mul_self` (theorem) in CGurd.Spectral
+- `CGurd.order_zero_condition` (theorem) in CGurd.Spectral
+- `CGurd.UJ_gamma_anticomm` (theorem) in CGurd.Spectral
+- `CGurd.DF_oneGen` (def) in CGurd.Spectral
+- `CGurd.SMFiniteSpectralTriple` (structure) in CGurd.Spectral
+- `C2Mat` (abbrev) in CGurd.Spectral
+- `UY` (def) in CGurd.Spectral
+- `CGurd.ThermalClock` (structure) in CGurd.Basic
+- `CGurd.evolutionOperator` (def) in CGurd.Basic
+- `Unity.UnitySystem` (structure) in Unity.Main
+- `Unity.mkUnitySystem` (def) in Unity.Main
+- `Unity.Thet.Op` (abbrev) in Unity.Thet.Main
+- `Unity.Thet.Commutator` (def) in Unity.Thet.Main
+- `Unity.Thet.Commutes` (def) in Unity.Thet.Main
+- `Unity.Thet.id` (def) in Unity.Thet.Main
+- `Unity.Thet.comp` (def) in Unity.Thet.Main
+- `Unity.Thet.commutator_anticomm` (lemma) in Unity.Thet.Main
+- `Unity.Thet.commutator_bilinear` (lemma) in Unity.Thet.Main
+- `Unity.Spectral.SpectralDatum` (structure) in Unity.Spectral.Functor
+- `Unity.Spectral.colourOfEigenvalue` (def) in Unity.Spectral.Functor
+- ... and 6 more
 
 ### upg-lean (+124)
 
@@ -6350,6 +6565,60 @@
 - `YangMills.Evaluation.su3_clay_millennium_solution_certificate` (def) in proofs.YangMills.Evaluation
 - ... and 679 more
 
+### zero-density-lean-supplement (+4015)
+
+- `LevinAssembly.outsideFilter` (def) in support.LevinAssembly
+- `LevinAssembly.exists_ge_outside` (theorem) in support.LevinAssembly
+- `LevinAssembly.outsideFilter_neBot` (theorem) in support.LevinAssembly
+- `LevinAssembly.outsideFilter_le_of_eventually_contains` (theorem) in support.LevinAssembly
+- `LevinAssembly.asymptoticUniformEquicontinuous_mono` (theorem) in support.LevinAssembly
+- `LevinAssembly.exists_common_exceptional_uniform_limit` (theorem) in support.LevinAssembly
+- `LevinAssembly.exists_uniform_limit_from_separate_exceptional_sets` (theorem) in support.LevinAssembly
+- `VolterraCalculus.tail_hasDerivAt` (theorem) in support.VolterraCalculus
+- `VolterraCalculus.forward_hasDerivAt` (theorem) in support.VolterraCalculus
+- `VolterraCalculus.backward_hasDerivAt` (theorem) in support.VolterraCalculus
+- `WasowLaurentFiniteRealization.Mat` (abbrev) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.LMat` (abbrev) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.truncationOrder` (def) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.gauge` (def) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.actualCoefficient` (def) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.target` (def) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.residual` (def) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.gauge_differentiableAt` (theorem) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.transformed_equation` (theorem) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.residual_isBigO` (theorem) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.finite_realization` (theorem) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.residual_small_ray_tail` (theorem) in support.WasowLaurentFiniteRealization
+- `WasowLaurentFiniteRealization.finite_realization_common` (theorem) in support.WasowLaurentFiniteRealization
+- `WasowRegularTail.matrix_norm_le_of_mulVec_bound` (theorem) in support.WasowRegularTail
+- `WasowRegularTail.regular_norm_bounds` (theorem) in support.WasowRegularTail
+- `WasowRegularTail.conjugatedRemainder` (def) in support.WasowRegularTail
+- `WasowRegularTail.conjugation_norm_bound` (theorem) in support.WasowRegularTail
+- `WasowRegularTail.conjugated_remainder_control` (theorem) in support.WasowRegularTail
+- `WasowRegularTail.exists_small_conjugated_tail` (theorem) in support.WasowRegularTail
+- `WasowShiftReduction.shift` (def) in support.WasowShiftReduction
+- `WasowShiftReduction.shift_mul_apply` (theorem) in support.WasowShiftReduction
+- `WasowShiftReduction.rows` (def) in support.WasowShiftReduction
+- `WasowShiftReduction.exists_rectangular_step` (theorem) in support.WasowShiftReduction
+- `WasowShiftReduction.exists_formal_shift_reduction` (theorem) in support.WasowShiftReduction
+- `CRGCompanionComparison.scalar_ray_comparison` (theorem) in support.CRGCompanionComparison
+- `WasowFuchsianFundamental.leftAction` (def) in support.WasowFuchsianFundamental
+- `WasowFuchsianFundamental.rightAction` (def) in support.WasowFuchsianFundamental
+- `WasowFuchsianFundamental.exists_matrix_solutions` (theorem) in support.WasowFuchsianFundamental
+- `WasowLaurentGaugeControl.rayGauge` (def) in support.WasowLaurentGaugeControl
+- `WasowLaurentGaugeControl.rayInverse` (def) in support.WasowLaurentGaugeControl
+- `WasowLaurentGaugeControl.exists_control` (theorem) in support.WasowLaurentGaugeControl
+- `WasowLaurentGaugeControl.exists_finiteGauge` (theorem) in support.WasowLaurentGaugeControl
+- `WasowFormalSeries.exists_block_powerSeries` (theorem) in support.WasowFormalSeries
+- `WasowFormalSeries.exists_multiblock_powerSeries` (theorem) in support.WasowFormalSeries
+- `WasowFormalSeries.exists_multishift_powerSeries` (theorem) in support.WasowFormalSeries
+- `CRGPolynomialGrowth.derivative_growth` (theorem) in support.CRGPolynomialGrowth
+- `CRGPolynomialGrowth.exists_polynomial_of_growth` (theorem) in support.CRGPolynomialGrowth
+- `LevinDiskAssembly.flatten` (def) in support.LevinDiskAssembly
+- `LevinDiskAssembly.mem_disks_flatten` (theorem) in support.LevinDiskAssembly
+- `LevinDiskAssembly.radiusMass_flatten` (theorem) in support.LevinDiskAssembly
+- ... and 3965 more
+
 ## Update History (1 runs)
 
-- **2026-11-09T07:55:04.766897+00:00**: Checked 143 repos, updated 144, +633910 -0 declarations, 1 errors
+- **2026-11-16T07:58:59.840169+00:00**: Checked 148 repos, updated 149, +671608 -0 declarations, 1 errors
